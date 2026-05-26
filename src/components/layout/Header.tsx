@@ -1,4 +1,4 @@
-import { LogOut, Route, UserRound } from 'lucide-react';
+import { LogOut, UserRound } from 'lucide-react';
 import { memo, useCallback } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
@@ -29,12 +29,17 @@ export const Header = memo(function Header() {
 
     if (isHeroHeaderPage) {
         return (
-            <header className="absolute left-0 right-0 top-0 z-30 flex items-start justify-between px-[16px] pt-[25px]">
+            <header className="absolute left-0 right-0 top-0 z-30 flex items-center justify-between px-[16px] pt-[25px]">
                 <Link
                     to="/"
-                    className="grid h-[97px] w-[158px] place-items-center bg-[#d9d9d9] text-[32px] font-semibold text-black"
+                    className="grid h-[51px] w-[158px] place-items-center"
+                    aria-label="PlanP 홈"
                 >
-                    LOGO
+                    <img
+                        src="/images/logo_white.png"
+                        alt="PlanP"
+                        className="h-[120px] w-auto object-contain"
+                    />
                 </Link>
                 {isAuthenticated ? (
                     <button
@@ -60,10 +65,13 @@ export const Header = memo(function Header() {
         <header className="sticky top-0 z-20 border-b border-stone-200 bg-[#fbfbf7]/95 backdrop-blur">
             <div className="mx-auto flex max-w-[1520px] items-center justify-between gap-4 px-4 py-3 sm:px-6">
                 <Link to="/" className="flex items-center gap-2 font-black">
-                    <span className="grid size-9 place-items-center rounded-md bg-emerald-700 text-white">
-                        <Route size={20} aria-hidden="true" />
+                    <span className="grid h-[40px] w-[72px] place-items-center">
+                        <img
+                            src="/images/logo_white.png"
+                            alt="PlanP"
+                            className="h-full w-full object-contain"
+                        />
                     </span>
-                    <span>Plan P</span>
                 </Link>
 
                 <nav className="hidden items-center gap-1 rounded-md border border-stone-200 bg-white p-1 sm:flex">
