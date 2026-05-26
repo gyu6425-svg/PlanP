@@ -1,0 +1,10 @@
+<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(62 36)">
+    <path d="M34 33C23 20 27 6 46 5C54 5 58 10 55 18L47 42C45 49 38 48 34 33Z" fill="#5A45D6"/>
+    <path d="M78 31C86 14 104 18 113 37C118 47 113 55 102 53L77 48C69 46 71 39 78 31Z" fill="#FF5B00"/>
+    <path d="M58 74C48 91 30 87 22 68C18 58 23 51 33 53L58 58C66 60 64 67 58 74Z" fill="#FF5B00"/>
+    <path d="M85 78C98 90 93 105 74 107C64 108 59 102 62 93L71 70C73 63 80 65 85 78Z" fill="#FFC400"/>
+    <path d="M9 50C4 32 17 23 31 35C39 42 37 50 29 54L16 60C10 62 6 58 9 50Z" fill="#20C6D2"/>
+  </g>
+  <text x="200" y="117" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" fill="#FF5B00">klook</text>
+</svg>

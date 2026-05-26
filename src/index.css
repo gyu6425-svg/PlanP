@@ -1,0 +1,214 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+  color: #17211d;
+  background: #fbfbf7;
+  font-family:
+    Pretendard, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+  overflow-x: auto;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.landing-search-input {
+  color: #333333;
+  caret-color: #333333;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 32px !important;
+  padding: 0;
+}
+
+.landing-search-input::placeholder {
+  color: #333333;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 32px;
+  opacity: 1;
+}
+
+.landing-chip {
+  color: #333333;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1;
+}
+
+.landing-auth-link {
+  color: #ffffff !important;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 1;
+}
+
+.survey-chip {
+  display: inline-flex;
+  width: 140px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #6b8a59;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease;
+}
+
+.survey-chip:hover {
+  background: #6b8a59;
+  color: #ffffff;
+}
+
+.survey-chip-selected {
+  border-color: #6b8a59 !important;
+  background: #6b8a59 !important;
+  color: #ffffff;
+}
+
+.survey-next-button,
+.survey-previous-button {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 10px;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1;
+  transition: opacity 160ms ease;
+}
+
+.survey-next-button {
+  background: #6b8a59;
+  color: #ffffff;
+}
+
+.survey-previous-button {
+  background: rgba(255, 255, 255, 0.88);
+  color: #6b8a59;
+}
+
+.result-nav-item {
+  position: relative;
+  color: #000000;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 1;
+  transition: color 160ms ease;
+}
+
+.result-nav-item:hover,
+.result-nav-item-active {
+  color: #6b8a59;
+}
+
+.result-nav-item-active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -11px;
+  left: 0;
+  height: 2px;
+  background: #6b8a59;
+}
+
+.result-filter-chip {
+  display: inline-flex;
+  min-width: 96px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 10px 14px;
+  background: #ffffff;
+  color: #6b8a59;
+  font-family: Pretendard, ui-sans-serif, system-ui, sans-serif;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 1;
+}
+
+.result-filter-chip-active {
+  background: #6b8a59;
+  color: #ffffff;
+}
+
+.transport-card {
+  width: 493px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 50px;
+  background: #ffffff;
+}
+
+.result-image-card {
+  width: 493px;
+  height: 600px;
+  background: #d9d9d9;
+}
+
+.card-slider-row {
+  scrollbar-width: none;
+}
+
+.card-slider-row::-webkit-scrollbar {
+  display: none;
+}
+
+.card-slider-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  display: grid;
+  width: 68px;
+  height: 96px;
+  place-items: center;
+  transform: translateY(-50%);
+}
+
+.card-slider-arrow:disabled {
+  cursor: default;
+}
+
+.card-image-text-shadow {
+  text-shadow: 4px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: inherit;
+}
+
+.ReactVirtualized__List {
+  outline: none;
+}
