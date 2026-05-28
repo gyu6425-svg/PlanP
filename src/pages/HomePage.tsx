@@ -5,6 +5,27 @@ import { routes } from '../lib/routes';
 
 const chips = ['도쿄', '타이베이', '오사카', '후쿠오카'];
 
+const rankingDestinations = [
+    {
+        rank: '1',
+        title: '시원한 바다와 열대과일',
+        image: '/images/landing/landing_danang.png',
+        alt: '다낭 여행지',
+    },
+    {
+        rank: '2',
+        title: '실내투어와 미식여행',
+        image: '/images/landing/landing_taipai.png',
+        alt: '타이베이 여행지',
+    },
+    {
+        rank: '3',
+        title: '가성비와 신선한 먹거리',
+        image: '/images/landing/landing_kamaqura.png',
+        alt: '가마쿠라 여행지',
+    },
+];
+
 const SearchIcon = memo(function SearchIcon() {
     return (
         <svg
@@ -108,21 +129,34 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className="-mt-[82px] min-h-[680px] bg-[#f5f5f5] pb-[96px] pt-[164px]">
-                <div className="mx-auto grid w-[1520px] grid-cols-3 gap-[24px] px-[64px]">
-                    {[
-                        [
-                            '즉흥 여행 탐색',
-                            '정해진 일정 없이도 바로 고를 수 있는 여행지를 보여줍니다.',
-                        ],
-                        ['느슨한 계획 생성', '꼭 필요한 이동과 예약만 먼저 정리합니다.'],
-                        ['대용량 추천 리스트', '많은 후보를 빠르게 스크롤하며 비교합니다.'],
-                    ].map(([title, description]) => (
-                        <article key={title} className="rounded-[24px] bg-white p-[32px]">
-                            <h2 className="text-[28px] font-bold text-[#222222]">{title}</h2>
-                            <p className="mt-[14px] text-[18px] font-medium leading-[1.6] text-[#555555]">
-                                {description}
-                            </p>
+            <section className="bg-[#f5f5f5] pb-[130px] pt-[280px]">
+                <div className="mx-auto grid w-[1520px] grid-cols-3 gap-[20px]">
+                    {rankingDestinations.map((destination) => (
+                        <article
+                            key={destination.rank}
+                            className="relative h-[838px] overflow-hidden rounded-t-[50px] bg-[#f5f5f5]"
+                        >
+                            <div
+                                className="group absolute left-0 top-0 h-[698px] w-full overflow-hidden rounded-t-[50px]"
+                                style={{
+                                    clipPath:
+                                        'path("M 0 0 H 493 V 0 V 468 C 493 560 418 610 286 644 C 185 670 98 681 62 681 C 22 681 0 655 0 612 Z")',
+                                }}
+                            >
+                                <img
+                                    src={destination.image}
+                                    alt={destination.alt}
+                                    className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+                                />
+                            </div>
+                            <div className="absolute bottom-[44px] left-0 right-0 z-10 flex flex-col items-center">
+                                <p className="self-end pr-[24px] text-[140px] font-bold leading-[0.72] text-black">
+                                    {destination.rank}
+                                </p>
+                                <p className="mt-[20px] max-w-[455px] text-center text-[40px] font-bold leading-[1.16] text-black">
+                                    {destination.title}
+                                </p>
+                            </div>
                         </article>
                     ))}
                 </div>

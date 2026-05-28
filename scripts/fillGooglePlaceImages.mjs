@@ -3,18 +3,21 @@ import path from 'node:path';
 
 const SEARCH_URL = 'https://places.googleapis.com/v1/places:searchText';
 const DEFAULT_MAX_WIDTH = 1200;
+const DEFAULT_PHOTO_COUNT = 6;
 const REQUEST_DELAY_MS = 150;
 
 function parseArgs(argv) {
-    const [city] = argv;
+    const city = argv.find((arg) => !arg.startsWith('--'));
+    const all = argv.includes('--all');
 
-    if (!city) {
-        console.error('Usage: node scripts/fillGooglePlaceImages.mjs <city-slug>');
+    if (!city && !all) {
+        console.error('Usage: node scripts/fillGooglePlaceImages.mjs <city-slug|--all>');
         console.error('Example: node scripts/fillGooglePlaceImages.mjs osaka');
+        console.error('Example: node scripts/fillGooglePlaceImages.mjs --all');
         process.exit(1);
     }
 
-    return { city };
+    return { city, all };
 }
 
 async function loadEnv() {
@@ -65,7 +68,7 @@ function buildSearchText(place, cityName) {
     return [name, place.area, cityName].filter(Boolean).join(' ');
 }
 
-async function searchPlacePhoto({ apiKey, searchText, languageCode }) {
+async function searchPlacePhotos({ apiKey, searchText, languageCode }) {
     const response = await fetch(SEARCH_URL, {
         method: 'POST',
         headers: {
@@ -90,7 +93,7 @@ async function searchPlacePhoto({ apiKey, searchText, languageCode }) {
         throw error;
     }
 
-    return responseJson.places?.[0]?.photos?.[0]?.name;
+    return responseJson.places?.[0]?.photos?.map((photo) => photo.name).filter(Boolean) ?? [];
 }
 
 async function getPhotoUri({ apiKey, photoName, maxWidthPx }) {
@@ -113,6 +116,10 @@ async function getPhotoUri({ apiKey, photoName, maxWidthPx }) {
     return responseJson.photoUri;
 }
 
+function unique(values) {
+    return [...new Set(values.filter(Boolean))];
+}
+
 function getAllPlaces(cityData) {
     return ['food', 'tour', 'stay'].flatMap((sectionName) =>
         (cityData[sectionName] ?? []).flatMap((group) =>
@@ -125,30 +132,18 @@ function getAllPlaces(cityData) {
     );
 }
 
-async function main() {
-    const { city } = parseArgs(process.argv.slice(2));
-    await loadEnv();
-
-    const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-
-    if (!apiKey) {
-        console.error('Missing GOOGLE_MAPS_API_KEY. Add it to .env first.');
-        process.exit(1);
-    }
-
+async function fillCity({ city, apiKey, languageCode, maxWidthPx, photoCount }) {
     const dataPath = path.join(process.cwd(), 'generated', `${city}.json`);
     const cityData = JSON.parse(await readFile(dataPath, 'utf8'));
     const places = getAllPlaces(cityData);
     const cityName = cityData.destination || cityData.city || city;
-    const languageCode = process.env.GOOGLE_PLACES_LANGUAGE || 'ko';
-    const maxWidthPx = Number(process.env.GOOGLE_PLACE_PHOTO_MAX_WIDTH || DEFAULT_MAX_WIDTH);
 
     let filled = 0;
     let skipped = 0;
     let failed = 0;
 
     for (const { sectionName, place } of places) {
-        if (isExternalImage(place.image)) {
+        if (Array.isArray(place.images) && place.images.length >= photoCount) {
             skipped += 1;
             continue;
         }
@@ -156,29 +151,51 @@ async function main() {
         const searchText = buildSearchText(place, cityName);
 
         try {
-            const photoName = await searchPlacePhoto({ apiKey, searchText, languageCode });
+            const photoNames = await searchPlacePhotos({ apiKey, searchText, languageCode });
+            const targetPhotoNames = unique([
+                ...(Array.isArray(place.googlePhotoNames) ? place.googlePhotoNames : []),
+                place.googlePhotoName,
+                ...photoNames,
+            ]).slice(0, photoCount);
 
-            if (!photoName) {
+            if (targetPhotoNames.length === 0) {
                 failed += 1;
-                console.warn(`No photo: ${place.name} (${searchText})`);
+                console.warn(`No photos: ${place.name} (${searchText})`);
                 await wait(REQUEST_DELAY_MS);
                 continue;
             }
 
-            const photoUri = await getPhotoUri({ apiKey, photoName, maxWidthPx });
+            const photoUris = [];
 
-            if (!photoUri) {
+            for (const photoName of targetPhotoNames) {
+                const photoUri = await getPhotoUri({ apiKey, photoName, maxWidthPx });
+
+                if (photoUri) {
+                    photoUris.push(photoUri);
+                }
+
+                await wait(REQUEST_DELAY_MS);
+            }
+
+            const images = unique([
+                ...(Array.isArray(place.images) ? place.images : []),
+                ...photoUris,
+            ]).slice(0, photoCount);
+
+            if (images.length === 0) {
                 failed += 1;
                 console.warn(`No photoUri: ${place.name}`);
                 await wait(REQUEST_DELAY_MS);
                 continue;
             }
 
-            place.image = photoUri;
-            place.googlePhotoName = photoName;
+            place.image = images[0];
+            place.images = images;
+            place.googlePhotoName = targetPhotoNames[0];
+            place.googlePhotoNames = targetPhotoNames;
             place.imageSource = 'google_places';
             filled += 1;
-            console.log(`Filled ${sectionName}: ${place.name}`);
+            console.log(`Filled ${sectionName}: ${place.name} (${images.length} photos)`);
         } catch (error) {
             if (error.reason === 'SERVICE_DISABLED' || error.status === 403 || error.code === 403) {
                 console.error(error.message);
@@ -196,8 +213,31 @@ async function main() {
 
     await writeFile(dataPath, `${JSON.stringify(cityData, null, 2)}\n`);
 
-    console.log(`Done. filled=${filled}, skipped=${skipped}, failed=${failed}`);
+    console.log(`${city}: filled=${filled}, skipped=${skipped}, failed=${failed}`);
     console.log(`Updated ${dataPath}`);
+}
+
+async function main() {
+    const { city, all } = parseArgs(process.argv.slice(2));
+    await loadEnv();
+
+    const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+
+    if (!apiKey) {
+        console.error('Missing GOOGLE_MAPS_API_KEY. Add it to .env first.');
+        process.exit(1);
+    }
+
+    const languageCode = process.env.GOOGLE_PLACES_LANGUAGE || 'ko';
+    const maxWidthPx = Number(process.env.GOOGLE_PLACE_PHOTO_MAX_WIDTH || DEFAULT_MAX_WIDTH);
+    const photoCount = Number(process.env.GOOGLE_PLACE_PHOTO_COUNT || DEFAULT_PHOTO_COUNT);
+    const cities = all
+        ? ['bangkok', 'fukuoka', 'osaka', 'taipei']
+        : [city];
+
+    for (const citySlug of cities) {
+        await fillCity({ city: citySlug, apiKey, languageCode, maxWidthPx, photoCount });
+    }
 }
 
 main().catch((error) => {

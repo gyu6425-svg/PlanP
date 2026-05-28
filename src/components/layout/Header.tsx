@@ -21,6 +21,13 @@ export const Header = memo(function Header() {
         /^\/[^/]+\/food\//.test(location.pathname) ||
         /^\/[^/]+\/stay\//.test(location.pathname) ||
         /^\/[^/]+\/tour\//.test(location.pathname);
+    const usesGreenLogo =
+        location.pathname === '/survey/result' ||
+        /^\/[^/]+\/survey\/result$/.test(location.pathname) ||
+        /^\/[^/]+\/food\//.test(location.pathname) ||
+        /^\/[^/]+\/stay\//.test(location.pathname) ||
+        /^\/[^/]+\/tour\//.test(location.pathname);
+    const logoSrc = usesGreenLogo ? '/images/logo_green.png' : '/images/logo_white.png';
     const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
 
     const handleLogout = useCallback(() => {
@@ -32,14 +39,10 @@ export const Header = memo(function Header() {
             <header className="absolute left-0 right-0 top-0 z-30 flex items-center justify-between px-[16px] pt-[25px]">
                 <Link
                     to="/"
-                    className="grid h-[51px] w-[158px] place-items-center"
+                    className="grid h-[51px] w-[84px] place-items-center"
                     aria-label="PlanP 홈"
                 >
-                    <img
-                        src="/images/logo_white.png"
-                        alt="PlanP"
-                        className="h-[120px] w-auto object-contain"
-                    />
+                    <img src={logoSrc} alt="PlanP" className="h-[120px] w-[84px] object-contain" />
                 </Link>
                 {isAuthenticated ? (
                     <button
@@ -65,11 +68,11 @@ export const Header = memo(function Header() {
         <header className="sticky top-0 z-20 border-b border-stone-200 bg-[#fbfbf7]/95 backdrop-blur">
             <div className="mx-auto flex max-w-[1520px] items-center justify-between gap-4 px-4 py-3 sm:px-6">
                 <Link to="/" className="flex items-center gap-2 font-black">
-                    <span className="grid h-[40px] w-[72px] place-items-center">
+                    <span className="grid h-[12px] w-[84px] place-items-center">
                         <img
-                            src="/images/logo_white.png"
+                            src={logoSrc}
                             alt="PlanP"
-                            className="h-full w-full object-contain"
+                            className="h-[12px] w-[84px] object-contain"
                         />
                     </span>
                 </Link>

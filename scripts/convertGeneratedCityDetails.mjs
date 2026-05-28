@@ -77,12 +77,33 @@ function detailImages(image) {
     );
 }
 
-function mapImages(image) {
-    const baseImage = image || fallbackImage;
+function detailImagesForPlace(place) {
+    const images = Array.isArray(place.images) ? place.images.filter(Boolean) : [];
+
+    if (images.length > 0) {
+        const fallback = images[0];
+        return Array.from({ length: 5 }, (_, index) => images[index] || fallback);
+    }
+
+    return detailImages(place.image);
+}
+
+function mapImagesForPlace(place) {
+    if (Array.isArray(place.mapImages) && place.mapImages.length >= 2) {
+        return {
+            main: place.mapImages[0],
+            sub1: place.mapImages[0],
+            sub2: place.mapImages[1],
+        };
+    }
+
+    const images = Array.isArray(place.images) ? place.images.filter(Boolean) : [];
+    const baseImage = place.image || images[0] || fallbackImage;
+
     return {
         main: baseImage,
-        sub1: addUrlParam(baseImage, 'planpMap', '1'),
-        sub2: addUrlParam(baseImage, 'planpMap', '2'),
+        sub1: images[4] || images[1] || addUrlParam(baseImage, 'planpMap', '1'),
+        sub2: images[5] || images[2] || addUrlParam(baseImage, 'planpMap', '2'),
     };
 }
 
@@ -175,8 +196,8 @@ function generatedFoodDetail(place, cityName) {
             reservationNotes: foodTips(place, cityName, category),
             access: category.includes('카페') ? '카페 좌석, 테이블석' : '카운터석, 테이블석',
             description: `${cityName} ${place.area} 권역에서 ${category} 일정에 넣기 좋은 ${place.name}입니다. 카드 데이터 기준 가격대는 ${place.price}이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.`,
-            images: detailImages(place.image),
-            mapImages: mapImages(place.image),
+            images: detailImagesForPlace(place),
+            mapImages: mapImagesForPlace(place),
             nearbyGroups: baseNearbyGroups(place, cityName),
             transitDirections: baseTransitDirections(place, cityName),
             hours: foodHours,
@@ -234,8 +255,8 @@ function generatedTourDetail(place, cityName) {
             reservationNotes: tourTips(place, cityName, category),
             access: `${category} 명소, 도보 관광`,
             description: `${cityName} ${place.area} 권역에서 ${category} 일정에 넣기 좋은 ${place.name}입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.`,
-            images: detailImages(place.image),
-            mapImages: mapImages(place.image),
+            images: detailImagesForPlace(place),
+            mapImages: mapImagesForPlace(place),
             nearbyGroups: baseNearbyGroups(place, cityName),
             transitDirections: baseTransitDirections(place, cityName),
             hours: tourHours,
@@ -307,8 +328,8 @@ function generatedStayDetail(place, cityName) {
             reservationNotes: stayTips(place, cityName, category),
             access: `${category} 객실, 예약 조건별 상이`,
             description: `${cityName} ${place.area} 권역에서 ${category} 숙소를 찾을 때 검토하기 좋은 ${place.name}입니다. 카드 데이터 기준 가격대는 ${place.price}이며, 실제 객실 조건은 예약 전 확인이 필요합니다.`,
-            images: detailImages(place.image),
-            mapImages: mapImages(place.image),
+            images: detailImagesForPlace(place),
+            mapImages: mapImagesForPlace(place),
             nearbyGroups: baseNearbyGroups(place, cityName),
             transitDirections: baseTransitDirections(place, cityName),
             hours: stayHours,

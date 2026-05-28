@@ -31,10 +31,10 @@ export const ResultImageCard = memo(function ResultImageCard({ card }: { card: R
             <img src={card.image} alt="" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/0 to-black/40" />
 
-            <p className="card-image-text-shadow absolute left-[38px] top-[47px] text-[36px] font-[700] leading-none text-white">
+            <p className="card-image-text-shadow absolute left-[32px] top-[42px] max-w-[165px] truncate text-[28px] font-[700] leading-none text-white">
                 {card.area}
             </p>
-            <p className="card-image-text-shadow absolute right-[38px] top-[47px] text-[36px] font-[700] leading-none text-white">
+            <p className="card-image-text-shadow absolute right-[32px] top-[42px] max-w-[205px] truncate text-right text-[28px] font-[700] leading-none text-white">
                 {card.price}
             </p>
             <h2 className="card-image-text-shadow absolute bottom-[47px] left-[38px] max-w-[330px] text-[36px] font-[700] leading-[1.1] text-white">

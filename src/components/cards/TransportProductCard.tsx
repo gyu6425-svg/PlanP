@@ -39,19 +39,87 @@ function StarIcon() {
 }
 
 function getBrandLogoImage(brand: string) {
-    if (brand === 'Klook') {
-        return '/images/airport/logo_klook.svg';
+    const brandLogoByName: Record<string, string> = {
+        Agoda: '/images/coalition_logo/Agoda_logo.png',
+        'Trip.com': '/images/coalition_logo/Trip.com_logo.png',
+        'Hotels.com': '/images/coalition_logo/Hotels.com_logo.png',
+        Klook: '/images/coalition_logo/klook_logo.png',
+        KKday: '/images/coalition_logo/KKday_logo.png',
+        마이리얼트립: '/images/coalition_logo/myrealtrip_logo.png',
+        하나투어: '/images/coalition_logo/hanatour_logo.png',
+    };
+
+    return brandLogoByName[brand];
+}
+
+function getPlatformSearchHref(card: TransportCard) {
+    const query = encodeURIComponent(card.title);
+
+    if (card.brand === 'Agoda') {
+        return `https://www.agoda.com/search?text=${query}`;
     }
 
-    if (brand === 'KKday') {
-        return '/images/airport/logo_kkday.svg';
+    if (card.brand === 'Booking.com') {
+        return `https://www.booking.com/searchresults.html?ss=${query}`;
     }
 
-    if (brand === '마이리얼트립') {
-        return '/images/airport/logo_myrealtrip.svg';
+    if (card.brand === 'Trip.com') {
+        return `https://kr.trip.com/search?keyword=${query}`;
+    }
+
+    if (card.brand === 'Hotels.com') {
+        return `https://kr.hotels.com/Hotel-Search?destination=${query}`;
+    }
+
+    if (card.brand === 'Klook') {
+        return `https://www.klook.com/ko/search/result/?query=${query}`;
+    }
+
+    if (card.brand === 'KKday') {
+        return `https://www.kkday.com/ko/product/productlist?keyword=${query}`;
+    }
+
+    if (card.brand === '마이리얼트립') {
+        return `https://www.myrealtrip.com/offers?keyword=${query}`;
+    }
+
+    if (card.brand === '하나투어') {
+        return `https://www.hanatour.com/search?keyword=${query}`;
     }
 
     return undefined;
+}
+
+function isGenericProviderHref(href: string) {
+    const genericProviderHrefs = [
+        'https://www.agoda.com/',
+        'https://kr.trip.com/',
+        'https://www.trip.com/',
+        'https://kr.hotels.com/',
+        'https://www.booking.com/',
+        'https://www.klook.com/',
+        'https://www.kkday.com/',
+        'https://www.myrealtrip.com/',
+        'https://www.hanatour.com/',
+    ];
+
+    return genericProviderHrefs.includes(href);
+}
+
+function getProductHref(card: TransportCard) {
+    if (!card.href) {
+        return getPlatformSearchHref(card);
+    }
+
+    if (isGenericProviderHref(card.href)) {
+        return getPlatformSearchHref(card) ?? card.href;
+    }
+
+    return card.href;
+}
+
+function isBookingPlatformCard(option: string) {
+    return option === 'hotel-booking' || option === 'tour-booking';
 }
 
 export function TransportProductCard({
@@ -63,20 +131,18 @@ export function TransportProductCard({
     liked: boolean;
     onToggleLike: (card: TransportCard) => void;
 }) {
-    const hasProductLink = Boolean(card.href);
+    const productHref = getProductHref(card);
+    const hasProductLink = Boolean(productHref);
     const brandLogoImage = getBrandLogoImage(card.brand);
     const usesBrandLogoLayout =
-        Boolean(brandLogoImage) &&
-        card.option !== '패키지' &&
-        card.option !== 'hotel-booking' &&
-        card.option !== 'tour-booking';
+        (Boolean(brandLogoImage) || isBookingPlatformCard(card.option)) && card.option !== '패키지';
 
     const openProduct = () => {
-        if (!card.href) {
+        if (!productHref) {
             return;
         }
 
-        window.open(card.href, '_blank', 'noopener,noreferrer');
+        window.open(productHref, '_blank', 'noopener,noreferrer');
     };
 
     const openProductFromKeyboard = (event: KeyboardEvent<HTMLElement>) => {
@@ -108,8 +174,12 @@ export function TransportProductCard({
                     <img
                         src={brandLogoImage}
                         alt={`${card.brand} 로고`}
-                        className="absolute left-1/2 top-1/2 h-[132px] w-[360px] -translate-x-1/2 -translate-y-1/2 object-contain"
+                        className="absolute left-1/2 top-1/2 h-[132px] w-[360px] -translate-x-1/2 -translate-y-1/2 object-contain px-[36px]"
                     />
+                ) : usesBrandLogoLayout ? (
+                    <p className="absolute left-1/2 top-1/2 w-[320px] -translate-x-1/2 -translate-y-1/2 text-center text-[38px] font-[800] leading-tight text-[#202020]">
+                        {card.brand}
+                    </p>
                 ) : (
                     <>
                         <img src={card.image} alt="" className="h-full w-full object-cover" />
