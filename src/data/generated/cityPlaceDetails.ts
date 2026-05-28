@@ -62,14 +62,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "왕궁 근처(랏타나코신) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 왕궁 근처(랏타나코신) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -163,14 +163,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -264,14 +264,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "수쿰윗 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 수쿰윗 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -365,14 +365,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "차이나타운(야오와랏) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 차이나타운(야오와랏) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -466,14 +466,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "라차다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 라차다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -567,14 +567,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "카오산 로드 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 카오산 로드 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -668,14 +668,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -769,14 +769,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -870,14 +870,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -971,14 +971,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "실롬 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 실롬 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -1072,14 +1072,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암/수쿰윗 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암/수쿰윗 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -1173,14 +1173,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "수쿰윗(고급) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 수쿰윗(고급) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -1274,14 +1274,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "실롬(차오프라야 리버사이드 인근) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 실롬(차오프라야 리버사이드 인근) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -1375,14 +1375,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "사톤 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 사톤 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -1476,14 +1476,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "수쿰윗 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 수쿰윗 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -1577,14 +1577,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -1678,14 +1678,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -1779,14 +1779,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -1880,14 +1880,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타(기타 상점가) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타(기타 상점가) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -1981,14 +1981,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2082,14 +2082,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "야시장/시장가 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 야시장/시장가 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -2183,14 +2183,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "나카스 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 나카스 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2284,14 +2284,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2385,14 +2385,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "나가하마 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 나가하마 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -2486,14 +2486,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2587,14 +2587,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2688,14 +2688,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "야나기바시(어시장) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 야나기바시(어시장) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -2789,14 +2789,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "나카스/하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 나카스/하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2890,14 +2890,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -2991,14 +2991,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -3092,14 +3092,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -3193,14 +3193,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/캐널시티 인근 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/캐널시티 인근 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -3294,14 +3294,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -3395,14 +3395,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -3496,14 +3496,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -3597,14 +3597,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "센니치마에/난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 센니치마에/난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -3698,14 +3698,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -3799,14 +3799,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -3900,14 +3900,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "우메다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 우메다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 우메다역",
+                "color": "#E5171F",
+                "description": "우메다역과 JR 오사카역을 기준으로 잡으면 쇼핑몰, 전망대, 호텔 접근이 편합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "JR 오사카역을 함께 확인하면 교토, 고베, 간사이공항 방면 환승도 수월합니다."
             }
         ],
         "hours": [
@@ -4001,14 +4001,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -4102,14 +4102,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -4203,14 +4203,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "우메다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 우메다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 우메다역",
+                "color": "#E5171F",
+                "description": "우메다역과 JR 오사카역을 기준으로 잡으면 쇼핑몰, 전망대, 호텔 접근이 편합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "JR 오사카역을 함께 확인하면 교토, 고베, 간사이공항 방면 환승도 수월합니다."
             }
         ],
         "hours": [
@@ -4304,14 +4304,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "오사카 중앙도매시장 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 오사카 중앙도매시장 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -4405,14 +4405,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -4506,14 +4506,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "덴진바시스지 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 덴진바시스지 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -4607,14 +4607,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신세카이/텐노지 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신세카이/텐노지 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -4708,14 +4708,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신사이바시 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신사이바시 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -4809,14 +4809,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신세카이 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신세카이 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -4910,14 +4910,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "구로몬 시장/난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 구로몬 시장/난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -5011,14 +5011,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -5112,14 +5112,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신세카이 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신세카이 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -5213,14 +5213,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "스린구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 스린구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -5314,14 +5314,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "송산구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 송산구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -5415,14 +5415,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "대동구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 대동구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -5516,14 +5516,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "스린구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 스린구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -5617,14 +5617,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "대안구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 대안구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -5718,14 +5718,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신이구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 신이구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "타이베이 101/세계무역센터역이나 샹산역을 기준으로 잡으면 신이구 관광 동선이 짧습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시청역, 국부기념관역을 함께 확인하면 쇼핑몰과 호텔 접근이 편합니다."
             }
         ],
         "hours": [
@@ -5819,14 +5819,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중산구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중산구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -5920,14 +5920,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시먼딩 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 시먼딩 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -6021,14 +6021,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중산구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중산구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -6122,14 +6122,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "대안구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 대안구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -6223,14 +6223,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중정구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중정구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -6324,14 +6324,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "여러지역 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 여러지역 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -6425,14 +6425,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "대동구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 대동구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -6526,14 +6526,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중산구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중산구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -6627,14 +6627,14 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "대안구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 대안구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -6728,14 +6728,3044 @@ export const generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "여러지역 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 여러지역 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/스시/sushi-dai": {
+        "id": "tokyo-sushi-dai",
+        "city": "tokyo",
+        "slug": "sushi-dai",
+        "name": "스시 다이",
+        "category": "스시",
+        "area": "도요스",
+        "address": "도요스, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EC%8B%9C%20%EB%8B%A4%EC%9D%B4%20%EB%8F%84%EC%9A%94%EC%8A%A4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%8A%A4%EC%8B%9C%20%EB%8B%A4%EC%9D%B4%20%EB%8F%84%EC%9A%94%EC%8A%A4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "도요스 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "스시 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 도요스 권역에서 스시 일정에 넣기 좋은 스시 다이입니다. 카드 데이터 기준 가격대는 ¥5,000~8,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPGSmaY5shE13PEnZyut7Y8IwhAQyeQkeZo5g2yhgQ3B3kNx1dUzphMw0IRltO8kv-Yj6AWtwDWhkAjpzy1nKtNaZdM5tGojPm6ixGzOS4sSZ3nOGkVbPczLi29mqKLPsZpvvY3_z1IDApOdg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPsoIEKUVQwFFrCv3Ocis3I-X9Llv0s75FqU0quMjoo4WTuMu1tQlg3gf9l4v_z8sXQ_2iGFzqxogKDy9zhWwEbKqm8Qo7wwAhJx7rqDmlSWEmTbSP1c4LDIXnY_3KmhAUv8Dy42IkLLkw-J9U=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMflwWJWmVRcLb4ZQiuNRgQ5u67CNgo09XKE60NMEGKS3ydazMOE6toEoyl59Lu4p8uFRSBdqMBOncthXBSAPJNbPtZ3YVcZLiWJcrG4UEp3Ga8GAa0Wco1zB00Z4SCLc4KNsLQ1W2QKJLE7Ytyjm-nqg=s4800-w1179",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMUErvJDqxG3ZNKbOCQhwWYFidk_PeYXx4dOcCOlpcM3ct8B8B9tVDgRWYymtaW38bq0gFVH1XOn_lxAAlj_i4_NHXXr2pZcyH6vzRr9Nn1ZO5ZHgBAdCQ8_cw-3NDv1sZMtY_Q1XJw5H_ZWWiN-SKK=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMdu-nvyQb09WlEBy_QfmrVk0hQ_1qOUky_eNFdSkVr_Xd_isjf1oYwaK-JVjvSsQ6q35ljtKsFAh95B1jfwgFfd8mVotd_svg4s-IKxIdqMN8LJZCX5u3VWmpRjfslgFscrwwDSZRU9rR_q_WqiZ5BWw=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPGSmaY5shE13PEnZyut7Y8IwhAQyeQkeZo5g2yhgQ3B3kNx1dUzphMw0IRltO8kv-Yj6AWtwDWhkAjpzy1nKtNaZdM5tGojPm6ixGzOS4sSZ3nOGkVbPczLi29mqKLPsZpvvY3_z1IDApOdg=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMdu-nvyQb09WlEBy_QfmrVk0hQ_1qOUky_eNFdSkVr_Xd_isjf1oYwaK-JVjvSsQ6q35ljtKsFAh95B1jfwgFfd8mVotd_svg4s-IKxIdqMN8LJZCX5u3VWmpRjfslgFscrwwDSZRU9rR_q_WqiZ5BWw=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPkKtMQt2HTzMTULUbvonhdiCMD_ZfHIXKeBaVTW3MKlFFIjaNTB718K0w66UHff_FBFP_u-7WqhoEwegEZX1ujNLfU5kfkaU7bZN4SXwarnUoKITuVl4K6kQylV3g6MvyfHmW0cH2WZ9120V1emVZP=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "도요스 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "도요스 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/스시/nemuro-hanamaru-ginza": {
+        "id": "tokyo-sushi-nemuro-hanamaru-ginza",
+        "city": "tokyo",
+        "slug": "nemuro-hanamaru-ginza",
+        "name": "네무로 하나마루",
+        "category": "스시",
+        "area": "긴자",
+        "address": "긴자, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%84%A4%EB%AC%B4%EB%A1%9C%20%ED%95%98%EB%82%98%EB%A7%88%EB%A3%A8%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%84%A4%EB%AC%B4%EB%A1%9C%20%ED%95%98%EB%82%98%EB%A7%88%EB%A3%A8%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "긴자 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "스시 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 긴자 권역에서 스시 일정에 넣기 좋은 네무로 하나마루입니다. 카드 데이터 기준 가격대는 ¥2,000~4,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqGRTRQbfksPQaJs0emzQ41kfHtsdjXa4WoD9svJlnA3EXXYr3Pb5R0HDceCfUILvO7is3ht70qh4ayJroDdQkMSsRd4D6k9Svw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOqK2jtpdBR4lx3rrjt5SU57urzKeV2cTOqMOUe3x7c83uxP94XgAXTFuB_RHaQ2-CzVYbLpnnUYUt58koOo8WE3_SGFFzEcfBrxA0C3hB2ctI2T3K6v3unds6F9qC5tZbvquRYggLIzJj4IJjwNzFoUw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPtFDPZ3ZySgJmBqjV4UeQFK8uQY7BYP7fasRftY6l7HlyNX1z4p82TZyJYg-u0icipO6us_q70uHIsaRouZ8M-yPPgB-0L6MNtELXCLM1peELlaho8ImF6BgCkGmYW03Ax8uK7dlrMFlgoK5qmCoN15w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOw4LVJ4IYN0xVeebdKTSnQPLJiHHvLOkVSHX3N2d79fqK8UuUT4mpn7zZflTOmbHwgiBGsSoc_b4PiZiSgb-LUgx0I0yH9QFAZJq20eiH83Ik4So1sozDshAd8skoMxOBlUiMeHa2tcMUXikn9dpenSA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOw2xwHFRO4un2xz0kJh6gdZU4vv8z3JdHap6dUsDK5js_6cGWHZ5uY940Cqr6yhG7iqgN1Ei8b4_36Yt_1m6Mb4No0W8Sk44aksTOuGhsb9zYLQtCnPeIRqQwv1Hb7AZYSJE4FaSCb7ijILKsEuAuc6w=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqGRTRQbfksPQaJs0emzQ41kfHtsdjXa4WoD9svJlnA3EXXYr3Pb5R0HDceCfUILvO7is3ht70qh4ayJroDdQkMSsRd4D6k9Svw=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOw2xwHFRO4un2xz0kJh6gdZU4vv8z3JdHap6dUsDK5js_6cGWHZ5uY940Cqr6yhG7iqgN1Ei8b4_36Yt_1m6Mb4No0W8Sk44aksTOuGhsb9zYLQtCnPeIRqQwv1Hb7AZYSJE4FaSCb7ijILKsEuAuc6w=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMOhVO4jTekENNXwtgEN-NUt0Mtty2Q8wZPO2ktV-17OhOhcHoRRh00Vqr_9W_7MDGLTu-csdG6mZUw32RIWTNuJkzK2lgyeT2IiVBP5wiqBF_xesI09ywfALOl6guMK7KBldzdsgEy31zl4Hpaf3EU6A=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "긴자 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "긴자 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/스시/kinka-sushi-shibuya": {
+        "id": "tokyo-sushi-kinka-shibuya",
+        "city": "tokyo",
+        "slug": "kinka-sushi-shibuya",
+        "name": "KINKA 스시 바",
+        "category": "스시",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=KINKA%20%EC%8A%A4%EC%8B%9C%20%EB%B0%94%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=KINKA%20%EC%8A%A4%EC%8B%9C%20%EB%B0%94%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "스시 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시부야 권역에서 스시 일정에 넣기 좋은 KINKA 스시 바입니다. 카드 데이터 기준 가격대는 ¥3,000~5,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqFSNg367g9HjE5GE5I7bA1cxYu7nZG7qwUXPolDSWGPi3mR7RbF-F51y-DLM199PKOKVQyHZL8sJsV9TzW5wFQRlYVAEgHnq80=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqH0MIodBo7s5gmmD0z0dF_mCtxYdGP-WlNN3Dhm31k3V0ZGu4FhU4zPqxnqPESGEq3k1NjLfyodWvVsPWTGNrSigKIR7L6ee6g=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPNaZ91VUKRXd71kUCszWjMUPfYIrOUBklJfx5eX8o0BJcVTlvTugutKfBAZrizq__OPwOb9cpnRSP-aQAs_aChRFGtmJ1cVO8LT_RRdHm4E8Hvxs0-84aUoKtwkkk2PMUks_hrpWaZAKdO0fPeh44S=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPE5EkPfcRQsnAqAgNshtrzz9xAvhPmO0WrRa10aXByKXV3MVYeTWSOgddIHGG0Lo4OE2RnxbuOW6SEsdXdkKv9Gjzp-C-KsnACaFthkOgMtqk7mfQMb3Fh0um_JEsJxV3eqHMFe4_TQFkdwh9FHEN_Fw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMcCMOxJUizj1J_6X1cuwS_6gO2q40XjgTEho3vtH88AugeKPpKHVJShioJQPbEqI6wgGIgPmtkvMadTJRlnFPQo0eqBdz_wVzwVGcFo83Epy1gRGS3Ypp-r1uTrG9EvHXf_B6z5uJ6r6iPTSpEi9zyIg=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqFSNg367g9HjE5GE5I7bA1cxYu7nZG7qwUXPolDSWGPi3mR7RbF-F51y-DLM199PKOKVQyHZL8sJsV9TzW5wFQRlYVAEgHnq80=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMcCMOxJUizj1J_6X1cuwS_6gO2q40XjgTEho3vtH88AugeKPpKHVJShioJQPbEqI6wgGIgPmtkvMadTJRlnFPQo0eqBdz_wVzwVGcFo83Epy1gRGS3Ypp-r1uTrG9EvHXf_B6z5uJ6r6iPTSpEi9zyIg=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqE0HhwxjrP2AHNdbXpEeJ2j1gAjMH2vqs3KacHMsna-7KEb64tuVZktKnb-p2r_I7Ne_DgLMfT0qKhQ3egciVlBSWK75fXSX6s=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/우동/godaime-hanayama-udon-ginza": {
+        "id": "tokyo-udon-hanayama-ginza",
+        "city": "tokyo",
+        "slug": "godaime-hanayama-udon-ginza",
+        "name": "하나야마 우동",
+        "category": "우동",
+        "area": "긴자",
+        "address": "긴자, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EB%82%98%EC%95%BC%EB%A7%88%20%EC%9A%B0%EB%8F%99%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%95%98%EB%82%98%EC%95%BC%EB%A7%88%20%EC%9A%B0%EB%8F%99%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "긴자 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "우동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 긴자 권역에서 우동 일정에 넣기 좋은 하나야마 우동입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPNmWbuVCbQlGzFAjbgRCCO5pACxv1Q7RPZ0rCnSmNfinW97UecUGCTwMPhjiRFw2treEjeLOwjbCqGHN6RDvTl_0ugFkYoDs-cms6AIwPEy1gGJi6rsz6iNGbpB3noLpYMUeSwSBp7AJRzTDhr6iqh9w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN5j_6YGKgFZPEQD8vlr9ZrMqQxmqUvpYqPgenuMb7DU3fSUz3Pl9BKRpuZCB93I-x3PDKCZpxHxv2hnudB_Jd8l0gQVQJOxHDJ3uEYFoPGvKV-nEth-YuNistZ1ZhGLmruCM7pOnWvzXQaYOUP90PNww=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNTxv54RvVgjqiaBYSpqXO07TtZ5Ws3Lbqjh-MUFUj-o3Dgf8pJWvT_8tXzBUOJ5iZ1wR0il4khO5rikaagpQRfDWvpCQjkqUOvPPyfemJ0KQxL6OW9y-d2mquU_ex_qxlH0JpiuimOmz02z3rhgVEg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOFwMBzRQiPujvelX_2WqvgIjHnW1VwVqMoX0WMt5dn5cKK1L8UgLjwoqzuEXVdOS4_nu5PY3ofxwQvbCgH5MxyanSKlkekw6UkpGD-622q0qkdm81Y0-2F2Suj8MEuuWCZWOIdXIGeeY0iDpgeJyqd_Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPu8ufkP-C1ba9uwncBkdComijWBdtJ-OAZdFIeg0QK4y2XjzP7H24geghwUW7tYdIERR_-H4MJYoEv-zYpFgpyLfeuXn_ceYTCxt2N4-ku2wD4fD-5ABHXzknhphLxoF60daJ3guE3LX0Lg2aMdQWXSA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPNmWbuVCbQlGzFAjbgRCCO5pACxv1Q7RPZ0rCnSmNfinW97UecUGCTwMPhjiRFw2treEjeLOwjbCqGHN6RDvTl_0ugFkYoDs-cms6AIwPEy1gGJi6rsz6iNGbpB3noLpYMUeSwSBp7AJRzTDhr6iqh9w=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPu8ufkP-C1ba9uwncBkdComijWBdtJ-OAZdFIeg0QK4y2XjzP7H24geghwUW7tYdIERR_-H4MJYoEv-zYpFgpyLfeuXn_ceYTCxt2N4-ku2wD4fD-5ABHXzknhphLxoF60daJ3guE3LX0Lg2aMdQWXSA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNDF6TaQ9oTmqcEtW_BZavl2ceFzI8pIKZR-CVLn54PAMYoGQalKkLYwVs73MTbYA9e-pnfqs-05AysTwt1GV9BjfOiPQYe08sQallROeg1BgxtU04e69MdYv4-oYaVGlIMkYGlYRHkJI5jLRdnPa4v=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "긴자 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "긴자 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/우동/udon-shin": {
+        "id": "tokyo-udon-shin",
+        "city": "tokyo",
+        "slug": "udon-shin",
+        "name": "우동 신",
+        "category": "우동",
+        "area": "요요기",
+        "address": "요요기, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B0%EB%8F%99%20%EC%8B%A0%20%EC%9A%94%EC%9A%94%EA%B8%B0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%9A%B0%EB%8F%99%20%EC%8B%A0%20%EC%9A%94%EC%9A%94%EA%B8%B0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "요요기 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "우동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 요요기 권역에서 우동 일정에 넣기 좋은 우동 신입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMaBojNrfaUbxOjDgZdlq7EeNMtkwiOgYUWdm7nnXtpsu9T3sVKxtaGdAfmLlOwi_pGft3oAMid5FYiDq8Uvb4uD3o-FqxLk-bqBu3fNzICp8gjuTFlxyXAsL9AaujnT4Yp0E9Ee1jMYvEq7w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMdrndrfvQJWIL6xBvHOodllE3mR0_JujDSfGkeTGaSaq1jFofVH0MLxnDOawFthHTqT_c-sjA8AuxkvYoxtXRXPuN1Ejkn6FsUpdZig5bioIrCu0yLWJ9a-PC64eAuGodf0snDALZwzleO=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOfMapws2ce6G1Wz8toOHDhXw4TKhaR9BsTQEXdzw2ZC0CFZ1XI4tYymVcTNMSloaJSRco_njW3oT4f6wLGvD4Rs9FEgB72xiKaCa3ITYlINKX1s3UuVIVXTqA0qxdV5heEYEfQXJaIf2DZiOgiSVfndw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPtf1jXrFNELw_KNV-2AMN0QVaf0H3Ze2gPf97yRCKS5KMrxJma9gUQMapguR1iGSPqCvDUZ6A85uxx4gE-OYnCxOEZw3aaT5UDsi5Mx2ObPyCNIgHFVacf8JTrn5jwwXrCmflKpUlPC2EVenI_CbgutA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOGY2E_h64_A3K5rXCQi7l4rXnlFLOWNYAZUBi2jjLqWCNnQLTl_0Vz87VQAZ4ob_cDAxTF1mZJVyV6uoQAVvghL3O3QDWB8eJ6qpISC-O8gbFL6vD7dR6Y3ZxJ2l2Z-5f2tJvSLk5Y6hEqjJwrdG6Vew=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZMaBojNrfaUbxOjDgZdlq7EeNMtkwiOgYUWdm7nnXtpsu9T3sVKxtaGdAfmLlOwi_pGft3oAMid5FYiDq8Uvb4uD3o-FqxLk-bqBu3fNzICp8gjuTFlxyXAsL9AaujnT4Yp0E9Ee1jMYvEq7w=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOGY2E_h64_A3K5rXCQi7l4rXnlFLOWNYAZUBi2jjLqWCNnQLTl_0Vz87VQAZ4ob_cDAxTF1mZJVyV6uoQAVvghL3O3QDWB8eJ6qpISC-O8gbFL6vD7dR6Y3ZxJ2l2Z-5f2tJvSLk5Y6hEqjJwrdG6Vew=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPpJQBgMSBIGpn61UTH_CCebhOu_7ZIGcIj_36koXqlg4q01m8OvNUDXPP2vI7rw1Zws_v32Lrcz8JcoL_C8iBbemp5KcwZG8bscPjN5CNef2ZbyONQTFKXx3aWdCAVJFmeaEM7iVo14AhJnAaIWZMl=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "요요기 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "요요기 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/우동/tsurutontan-shibuya": {
+        "id": "tokyo-udon-tsurutontan-shibuya",
+        "city": "tokyo",
+        "slug": "tsurutontan-shibuya",
+        "name": "츠루톤탄",
+        "category": "우동",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B8%A0%EB%A3%A8%ED%86%A4%ED%83%84%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%B8%A0%EB%A3%A8%ED%86%A4%ED%83%84%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "우동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시부야 권역에서 우동 일정에 넣기 좋은 츠루톤탄입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqErrB7m840ykHFBfWro6YaZ2rMRz1zhzxsioaCG-6V1YI9fwqBc_d90gdufuqHsvlesqO9n8xTsLaTZkwXLwh0AAFI1QzLCqxQ=s4800-w720",
+            "https://lh3.googleusercontent.com/places/ANXAkqG-nqokvKC3FgNje1x8wC8DHYqh4FOoEELwmV_jP6RAZx6FpIb75iq4zb8lbJ_-B2fW75-85exgXf3JIXuDopVDPSrcJ_Ud3hU=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPcy-IoOeoaOgA4wBBmhdkP5taAhtngAISnMqFzSwY1s9kLF0RnX7vPrT5GCjng2JJdYYpsj9ahVpFA0i2bFgTC9AJ9sehaw1HrPfLh-Xdavo0j0gIybqtU6r36U_-QXzeKeDGlelUVful_2iEMQ0ia2Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZO4_arJNfAvykpIiMdv6T3btzII_5KIuo1aaJeY1j5RVgy-RoCJ-rIEjB7GFSiLxpnRZaBYAoSYvWwcSRfobyUCJSpbivXkCtQJmumBd7pgd1wiDlKk3s7w90gYVnCclLDY2nhDAiXKg3A1yw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOIeVAXhkWHlTJoJLrQWm3JvugkGy6oH2c3-NpiLNx5JoMyAbjv3RiKEWBivXBfygpRc79m2ymdLnGHM4-dT-ZjaYSW0Qa7bCIkn4DRkixwGzAeRYsvx852PDSOwt45ArqZwwPjuXMJXOq17AECe0z0uA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqErrB7m840ykHFBfWro6YaZ2rMRz1zhzxsioaCG-6V1YI9fwqBc_d90gdufuqHsvlesqO9n8xTsLaTZkwXLwh0AAFI1QzLCqxQ=s4800-w720",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOIeVAXhkWHlTJoJLrQWm3JvugkGy6oH2c3-NpiLNx5JoMyAbjv3RiKEWBivXBfygpRc79m2ymdLnGHM4-dT-ZjaYSW0Qa7bCIkn4DRkixwGzAeRYsvx852PDSOwt45ArqZwwPjuXMJXOq17AECe0z0uA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMW7uLn4K6s2lKbJfFjpJH6XcBwxIkC2l2ft8cXPpoSzO7GKJx35Ydsdsx69ulONv3mu634LYBBlqNjgGL-RZNHfg6T8zYNGZeww7yUDV7Ei-94Q3aqopwGc5UATTVc4kjYycq2mAdnpY8v-ekSglOefQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/우동/yamashita-honki-udon": {
+        "id": "tokyo-udon-yamashita-honki",
+        "city": "tokyo",
+        "slug": "yamashita-honki-udon",
+        "name": "야마시타 혼키 우동",
+        "category": "우동",
+        "area": "도겐자카",
+        "address": "도겐자카, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EB%A7%88%EC%8B%9C%ED%83%80%20%ED%98%BC%ED%82%A4%20%EC%9A%B0%EB%8F%99%20%EB%8F%84%EA%B2%90%EC%9E%90%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%95%BC%EB%A7%88%EC%8B%9C%ED%83%80%20%ED%98%BC%ED%82%A4%20%EC%9A%B0%EB%8F%99%20%EB%8F%84%EA%B2%90%EC%9E%90%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "도겐자카 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "우동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 도겐자카 권역에서 우동 일정에 넣기 좋은 야마시타 혼키 우동입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZM3kt2iGncLQiIhChUKhSMRpKVPMbUms6QdoScd01ZUqRKATa85eLUn3a05YS648lZmqCCi9r-PsQeaj5VfxBMC-kncW29NLfim6wKLdTp60t0-LrSbxrwOS_EEh52Irt8m9UD5S8HOMSOeGkh42ARS=s4800-w402",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNibvuxSfGx-CXh-eq8TshUS2wlr4LzGILGCgRNSUdx5kIYioUwOgzep8VONl7-nSWhlbUFnNnBw5kSTxCzjjR1B25FFDZVW1QMODtf2b1ITcQqVbS8VkjpaAbb5KnlawnIBbe-jbh8yQXxXyVplk47-A=s4800-w526",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPVHe4GBTG_oy-is42TYPkQCbJf7sb2RvosP0j81wDtODrE3_MUSUZAgDzNlPJ6sVI5VQKsMNQpBINacuHqQzwSpzSfJqemGcinvjGxTB2Z3Qkzz12tFBmQhnctkoAP6pFvYDI48ucH7_cCRW-5Z7GBag=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNEygIu_NrVJ0t2f-PtFe_uat8EKxBgBu5izceogoI2VtBX72eIurQsabCproyFEev0flCyDy9kA9xVXt9taMBDO3qGyKski3J9AbR3mvsM_Ah3-hY2qoqusNV91hnhos3xEkxa2O8jLt-3GHO7O59pzg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMvKYAjcv9aaBkmRWXGoZSQNebccRLCTwTiOUs2E2OK5JPr2CUBLV3lWOpTv7M6vl-2Xqg6qV9QP8HxyadO2TSUCFMUBNQPjiSV56HsqwQfAjaLR6IGycEduKw8I1owEOR2cHCfS1_VKW03iaTGl-OG=s4800-w526"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZM3kt2iGncLQiIhChUKhSMRpKVPMbUms6QdoScd01ZUqRKATa85eLUn3a05YS648lZmqCCi9r-PsQeaj5VfxBMC-kncW29NLfim6wKLdTp60t0-LrSbxrwOS_EEh52Irt8m9UD5S8HOMSOeGkh42ARS=s4800-w402",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMvKYAjcv9aaBkmRWXGoZSQNebccRLCTwTiOUs2E2OK5JPr2CUBLV3lWOpTv7M6vl-2Xqg6qV9QP8HxyadO2TSUCFMUBNQPjiSV56HsqwQfAjaLR6IGycEduKw8I1owEOR2cHCfS1_VKW03iaTGl-OG=s4800-w526",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMmV8VB4rMZHugIoBL2-cAwar4kIwbIddRzkt5XX7bPu4VCj0DlrLfz6aNgwRZOIZ7XI2BYT4_mA9h-VA46tbB8FVbtdZS0FIjfD0fTOuMEkAFcXdRE7mx9MM0DQOnFC_3yDpRPbz_bGqbIexLiw7tZ=s4800-w1170"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "도겐자카 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "도겐자카 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/ramen/motenashi-kuroki": {
+        "id": "tokyo-ramen-motenashi-kuroki",
+        "city": "tokyo",
+        "slug": "motenashi-kuroki",
+        "name": "모테나시 쿠로키",
+        "category": "라멘",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%ED%85%8C%EB%82%98%EC%8B%9C%20%EC%BF%A0%EB%A1%9C%ED%82%A4%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%AA%A8%ED%85%8C%EB%82%98%EC%8B%9C%20%EC%BF%A0%EB%A1%9C%ED%82%A4%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아사쿠사 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "라멘 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 아사쿠사 권역에서 라멘 일정에 넣기 좋은 모테나시 쿠로키입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZObUlMu8sRpPcu3UfwRyxfJxmMqdUEWiCCMhoHdPhAcqGLwrU2fIoyfytkZyz0OdZNRBob770rj4h3n-cebGjtJVCN93mivf5rDxtiXI7V4lungwlR_n_pOvhphmz9sa5FpyXRLydEDzHuk97PwmwmT=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMYOeUBMwduaWzLNJgGf06L1InGPiLS6Qri0uGrsQ1aCre0KCvIRfc4THTqeFwbgwuZVf31S7Vy4IccTF0mfrslPndkE3_6bIDFznz1T7ea3FNOfkkIQQJVohcTFFPd1Oc41lDpT39svnX_=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMhKW49eViOUjphw5IVtbFxLTWJFhfCeiFE646fqJc8JdyA598JvDqPkT6eObWEYNSyd2IyYOWbMDEQNJL4OyDIRxG48noe_VinwBjZSBHRpQLwgDhjzCfXKoSKhfOnkHy4aRU5XfxNYk2K-9InUz8-=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOf8FHNQsAo8TmRWlCGUWGHPu7NzCGgcR2prntiWiQ8_XAmee6lVt_MTdmKzkrsS5JNPtN1kpvrXl0Xdw9JlvLRUtbTDjZH954jy65ncD-ctdT8xpTKQ7XMKQou7Z0N6flqukBbIKGbJGlhf_jHm0YPHw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNlFZ7zXBrPvPUNIMu6hoAFfNkwjJwEKZtRuI-cMh9se4EgnccixoK0bNxG54nxKMOamMjaVwgEK3LZWmNBllBHf94gX4tsQRGPvTKX2xPUaTZ0Kqb4xKpUPCSHiZQSz6YcoOxWbrsxiSgdw7_Ts5phcw=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZObUlMu8sRpPcu3UfwRyxfJxmMqdUEWiCCMhoHdPhAcqGLwrU2fIoyfytkZyz0OdZNRBob770rj4h3n-cebGjtJVCN93mivf5rDxtiXI7V4lungwlR_n_pOvhphmz9sa5FpyXRLydEDzHuk97PwmwmT=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNlFZ7zXBrPvPUNIMu6hoAFfNkwjJwEKZtRuI-cMh9se4EgnccixoK0bNxG54nxKMOamMjaVwgEK3LZWmNBllBHf94gX4tsQRGPvTKX2xPUaTZ0Kqb4xKpUPCSHiZQSz6YcoOxWbrsxiSgdw7_Ts5phcw=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZOW-XKcTe-rx5v8yBEy4NarjF63VUWTgIOFTKVAe3c46FZK6WOnnR1YoCpgc89u3AkB7GLsmQNNW-6cT8xl-o69PKvodPFLkIGjq9-iIlrR_64ft5HjmPw0tfeMHsSqEiutAZNDIIBIFqCWOM7LlMLN=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/ramen/muginae": {
+        "id": "tokyo-ramen-muginae",
+        "city": "tokyo",
+        "slug": "muginae",
+        "name": "무기나에",
+        "category": "라멘",
+        "area": "오모리",
+        "address": "오모리, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AC%B4%EA%B8%B0%EB%82%98%EC%97%90%20%EC%98%A4%EB%AA%A8%EB%A6%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%AC%B4%EA%B8%B0%EB%82%98%EC%97%90%20%EC%98%A4%EB%AA%A8%EB%A6%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "오모리 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "라멘 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 오모리 권역에서 라멘 일정에 넣기 좋은 무기나에입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZO5q3xuJsHsjd-2gMaTDYlFBk4AocSi69QWdDsCikwkXfRNhIeQUSdX7ixznkEv-GnefIBYGs8BDxSon696fWWiWY8RmX50Ab4SMBbffGqEVSnWvCTTFCxjqE7NcWucp065dxCM_4Y76mLXbGE8p3PVRA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNRpr1gzpf_QOdtyzD7VyE8RQXamVG1JpFl63-KR_aQMa8KaNH77ktlXkPVEnDalDbRH_nUc5TX3Ssk-3G6rbGkRVScX7YvXSUmJxPxXLvkYTWTxNrPqBARTl7FIdR9_FeZxYhw2YPX9Wzf=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZM5wNcOTltSG6p6IBCQv6thydLWPc1owQ1uh9KTxK8odQoD_vob3lxdVXPyrcAdBmpzHR--qt-k8EYr7EDoYdnTbM0vhjPN5KXKrKmF-DJYHsEpQKZwA8QAAJMCSm5RJeYddTr4pNSzmdFI2w928h8M=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNu-66pfiB5Zl_j9SVXwU-WPjmJiM-mfFRmoEEGB0Ngp5N5fYrFd_ZufhMVtuvO7i2L80b8jWqGUVoaOoxy-6bkFPdc-a59Kw3ZHZ-5iVVSQPDCzHhButRsR96fOF6oN7eckNWkI6gW7NyjUQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOcEloeg-iuoHNgKEKcZJLgFzvfU7QNG7b3Y9vOqN_z5_i9xbJJcyvyzOJZUvrOEZLUmIjnrunfx8beBmIT_cNtp-G1JX_KChgSVCg3rlUsAXyMIjjeXZCVG09qfvM3KCliKIunXktcTimtUN_JAfa0QA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZO5q3xuJsHsjd-2gMaTDYlFBk4AocSi69QWdDsCikwkXfRNhIeQUSdX7ixznkEv-GnefIBYGs8BDxSon696fWWiWY8RmX50Ab4SMBbffGqEVSnWvCTTFCxjqE7NcWucp065dxCM_4Y76mLXbGE8p3PVRA=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOcEloeg-iuoHNgKEKcZJLgFzvfU7QNG7b3Y9vOqN_z5_i9xbJJcyvyzOJZUvrOEZLUmIjnrunfx8beBmIT_cNtp-G1JX_KChgSVCg3rlUsAXyMIjjeXZCVG09qfvM3KCliKIunXktcTimtUN_JAfa0QA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZP16jD1_Ljz0LGW0koajoeLrtUk1z14aGwNMoGUj6DV_TTa5qTBRrhiAzVIS9FBadujOCLU1OdJpRQc-5csPD2RiWObNcdClo0i4nqS4L6O0jmnihuQ9RCTBlEDqwJ7Pd9n5qaf7H2zTUynaWQ2QfSVXw=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "오모리 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "오모리 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/ramen/kumon-halal": {
+        "id": "tokyo-ramen-kumon-halal",
+        "city": "tokyo",
+        "slug": "kumon-halal",
+        "name": "규몬 할랄 라멘",
+        "category": "라멘",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B7%9C%EB%AA%AC%20%ED%95%A0%EB%9E%84%20%EB%9D%BC%EB%A9%98%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B7%9C%EB%AA%AC%20%ED%95%A0%EB%9E%84%20%EB%9D%BC%EB%A9%98%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "라멘 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시부야 권역에서 라멘 일정에 넣기 좋은 규몬 할랄 라멘입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPzVlrf5hp58s6u3r7lSGfzb4lsNQh4F8IVcGwJEusimhpMwDot1-OusNPbbmy1caw4wmSwg48CPt1t03OSKJRnV5xjVg_bFlbvhfT1wSNJP1ohZr0ZNooRmvJrrcAraNXI8lrPrh9x_7_NBQ6pz5vI=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNXUGjyjFntG4R7MGW0BuY1s7Mzv6SoGvsQmQDnbJ5oa2UFifFyNssorqGad1CVTKlO_Ei7PH4nPbr0fR9iawd5zJFckAJNzy3x8Pyh-hg_eD6Nh14TD4SRf1hdowroH6ZSQeCfgZObgddiTcK5wrTR=s4800-w480",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNdz3ZGK7_nDJvI1cPfDgH9ffgM5V2iGqgAop2i8XmdNKH1w0v4DDMnoIzC0NptOo8v4NkPkh3snynrZIcwp3jv_0oczptQi95t3VgbTpeFZAjQ5rfQ9YVp6Ep48Ox1MjGu81mPXe7J45p_tBF0I_bvrQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPX6TYEsBbhDKPjwJKaeVEio7LVH5fvWKCrHPKYiMrNcXKwUFxkItGkTh0pdFz8h8QT72QW-UZ0r1MdCHdIgwkvDWLO5wGbeQS33_ixD_Sgn57Pm8_KkRXyR_rAkIMUxqaEq_fw4PVmAOFK8kP5ROQDXw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOILSkmtRfgfl60H0aIpvXhem39cemoG7SlLH4TY1_7rFmjUiITdHVmu4ru9wQNSS47YuM_nlgiT6GfCVT0K0jVvCGkLM__em78WrzkOZ_-ZmceC8gFsaPFtNAQSnJ_IEB9KHDO6MN1a5jaTLxob4w78w=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPzVlrf5hp58s6u3r7lSGfzb4lsNQh4F8IVcGwJEusimhpMwDot1-OusNPbbmy1caw4wmSwg48CPt1t03OSKJRnV5xjVg_bFlbvhfT1wSNJP1ohZr0ZNooRmvJrrcAraNXI8lrPrh9x_7_NBQ6pz5vI=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOILSkmtRfgfl60H0aIpvXhem39cemoG7SlLH4TY1_7rFmjUiITdHVmu4ru9wQNSS47YuM_nlgiT6GfCVT0K0jVvCGkLM__em78WrzkOZ_-ZmceC8gFsaPFtNAQSnJ_IEB9KHDO6MN1a5jaTLxob4w78w=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZN-sfodRIJDTXes8RYPK5KwJtLfKDZOT2ychLpvFhQqZEWVUcx9KfcUIQfpNPxJH2CKjI6OmJOpn0xFFjP681Qi_UzAndFEthgmmKDoCj8JBXDPZTredC8azSBEW_ZIX-lLe0NtNkvji7tgZMfH9Kn7GA=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/돈코츠/ichiran-shibuya": {
+        "id": "tokyo-tonkotsu-ichiran-shibuya",
+        "city": "tokyo",
+        "slug": "ichiran-shibuya",
+        "name": "이치란",
+        "category": "돈코츠",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EC%B9%98%EB%9E%80%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%9D%B4%EC%B9%98%EB%9E%80%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "돈코츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시부야 권역에서 돈코츠 일정에 넣기 좋은 이치란입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqFyG_fSBEi3BgwDUW3mIiqkDZRAQL1MhWppVb4YP6qWZajRt8DgZWYEQXyrKBu45u0eP1x8i7AwZdS56JTexfPh7fmlFzThNQ=s4800-w960",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPUk5vKPkfRvK2uDfXURMjJDHx6jkT_qj-6XgHLGkb2UbM5Jx3Ybv8KDpRCsV8pPR62ju51_ZqEGFWAgjBNQQFHLfeXJOc8V5pHK6VWav5uQfR7fz7CWGnEmKNuk5UpnVrme-An1ONNLhB-6w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPOImqmsuCu-AW7GH5XZSTVW4VrTycpabFt0WFq0YE7h1qXcIZQObU-9sksKn_bV0aXkjQJfTyLXimxnICvRjAy_Gw0pa4V7YRVTZGs22N2DHJ8d24XCRhlW3pZyCRkQRTqotQxE8IT84YdFQdstDH35w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPRnrBeCCyW25kzx6TmPOPhM4m-OgD6_jb-0VjhRFH8a6lLMJfqzBZolyBd79om3620ZWeVUK48BfstM9PHW0CPGlnVO-AF0R4XhNUr6vbOvhUy4HWTmU9QkJ0oMmc3X9rTdShY1oTn1fnSoRK8Hot-EQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOPbWbeZuU7Ibc-dyCHw2h4W_i43lsTRaTjBerwzkfIrG8Qy8kGJSF-SHjmmjPcBnb3BHBq_2FyTvFpo4fG37v-IMRUnGDTklt2ajZTMD2U2poh3lxhj_NPOsIfzZGkiqV59qH-GmZnD_5zYM5BMrAezQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqFyG_fSBEi3BgwDUW3mIiqkDZRAQL1MhWppVb4YP6qWZajRt8DgZWYEQXyrKBu45u0eP1x8i7AwZdS56JTexfPh7fmlFzThNQ=s4800-w960",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPbWbeZuU7Ibc-dyCHw2h4W_i43lsTRaTjBerwzkfIrG8Qy8kGJSF-SHjmmjPcBnb3BHBq_2FyTvFpo4fG37v-IMRUnGDTklt2ajZTMD2U2poh3lxhj_NPOsIfzZGkiqV59qH-GmZnD_5zYM5BMrAezQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMAHUUuUBRevxPFQL_vbuqHMeNInCQdc7iL4w_jT2YHYeF26NtnZD98IaBiqAbULhx9sYmUvhV5xl9qoENGZxj2imUPA8sryNpjAQ1xPDMADEGsFnuuIG0wfRwhkyzdzQyAdnHliSYwflrIW9taHDT1=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/돈코츠/ippudo-ginza": {
+        "id": "tokyo-tonkotsu-ippudo-ginza",
+        "city": "tokyo",
+        "slug": "ippudo-ginza",
+        "name": "잇푸도",
+        "category": "돈코츠",
+        "area": "긴자",
+        "address": "긴자, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9E%87%ED%91%B8%EB%8F%84%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%9E%87%ED%91%B8%EB%8F%84%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "긴자 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "돈코츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 긴자 권역에서 돈코츠 일정에 넣기 좋은 잇푸도입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZObI9yxSVYORXtNvWAlIMvMg_5qC4b7tV_5dLyuzN4gIPr_aVNXSIZ258Q_3irtaazHcBBuN3023_nk2uyx7PAkTThpcUitr38da_rxzeuH40mKUdIgHXtbRpAtNeetT_3UvmxuIZd4okuqlZ29OKBO=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHT1vYQsj-dWPVdz7qa7dEdjO5e31LCpWuST2BeHWeL__Hhm_PfZxEqsXy4wSzCBmje0Xcksn38HPWeGm98AlH1UnXSIVl_ETI=s4800-w960",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPsAlVrY1MVo4dooVEEIFesLpX2r_5qtH7NGgve3J1MCCV6bo1rXbP_YgIIu-Fz85yUa2KJApXCd1paxWhDLSv_wLMfXwhUucvD-fxzXwshBlZNFGCMzKgfcVOEbm35-iUXXx0JHZWrQ-MtCrSit1JPQQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNjASSJzrIOi_k-A7jQxifNvKsrGPKs3jZCTgubKCPSss4J-7CnjrRoGQraf0I5JBeG31_ozUA9VZ4KkagNaJbACdCM2rM4woxrOt8pucfTA1TXIowrbrw3CY2Jfouj6piXTwR6UOGleKWHdGGA5Luywg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMGtSKa3WNDbHm6Wonta52mPWRbtRL4gk8M6Ots0dIRtvMvL32mZX_zrp1775YcOl7-TcOzFK2HFB9MRDaet12D7OhYLXUt01d5WsOqdVfJrL2J95CwQtLp9aTxHzeXuc2BPlyzHMlr8o7SBRlaieP9_g=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZObI9yxSVYORXtNvWAlIMvMg_5qC4b7tV_5dLyuzN4gIPr_aVNXSIZ258Q_3irtaazHcBBuN3023_nk2uyx7PAkTThpcUitr38da_rxzeuH40mKUdIgHXtbRpAtNeetT_3UvmxuIZd4okuqlZ29OKBO=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMGtSKa3WNDbHm6Wonta52mPWRbtRL4gk8M6Ots0dIRtvMvL32mZX_zrp1775YcOl7-TcOzFK2HFB9MRDaet12D7OhYLXUt01d5WsOqdVfJrL2J95CwQtLp9aTxHzeXuc2BPlyzHMlr8o7SBRlaieP9_g=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNUJnNAtregHFXOHlGelyehDO4JuPRUXrgOV2iWFT_z2StP11tM3-90c4rf0WbYukCG20tEqubKlK8n7aq2xnh9ed26KlhdZatRLgOPYsn-hbzOUfRkq3OhSXVo0RMYb2REPCX7KMOvrBah5Q=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "긴자 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "긴자 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/돈코츠/ramen-nagi-butao-shibuya": {
+        "id": "tokyo-tonkotsu-ramen-nagi-butao",
+        "city": "tokyo",
+        "slug": "ramen-nagi-butao-shibuya",
+        "name": "라멘 나기 BUTAO",
+        "category": "돈코츠",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%9D%BC%EB%A9%98%20%EB%82%98%EA%B8%B0%20BUTAO%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%9D%BC%EB%A9%98%20%EB%82%98%EA%B8%B0%20BUTAO%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "돈코츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시부야 권역에서 돈코츠 일정에 넣기 좋은 라멘 나기 BUTAO입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqFTrQ5AERV7zGLT5OBr9ebwoggfgbE7eWbw8MR5YQsyYEbZLTXk6tnMJRkgcrCK0_ZF4z3YPQtQtQ9DO4vZO4u4aKQf0bwiJr8=s4800-w804",
+            "https://lh3.googleusercontent.com/places/ANXAkqG9L59FeuKAylEpEgvvCYqvMxPud3D5mt6r8TLBBTNtEQ6XYv9TQLG8agT-Mykj5EOps3Y9BuSqlDsYYxoDzBSPc5ieFBWPGAM=s4800-w660",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMM7oPSMQVId2nAwfCj5JMkKxMZm_uFbVWRVYwbiGxwBqVhKRcbHSoZRLEUHqW8YhfSgEZbOJZUp10q9oDLC5wSI0XYyJj5vjUfyicFO5Bvv0WGGJyNoD-pGy0-W80x-D3fJnbhA9-lq1yngAu0XFIdNg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNBSf2CAak3mbrOufhiROylFTHKalMthIM6yE6memiKGJJufJO1FGL-WRyQ2dSusI6nv-Ny9N5i_KNLxw2ROByCyA0VfInLIYDFjxR3FgSZOqI2nqEpgF8DbttgVzKeNr952MUzZVqH512rB6hSneVH8A=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMVTteQiXRcqAhReaDfs1vC0VNHecBISQv08w2kejMfWcWOHJqOTqtk2c7FqXACWu36fVxWl0kiPXJ_Gs8inRcUzrrpU-IZmXA4OScXWzA0TwfSLiyXA0VkUBxF9WpsVuw9C6CZBUsVdYNftEoJf6SRWQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqFTrQ5AERV7zGLT5OBr9ebwoggfgbE7eWbw8MR5YQsyYEbZLTXk6tnMJRkgcrCK0_ZF4z3YPQtQtQ9DO4vZO4u4aKQf0bwiJr8=s4800-w804",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMVTteQiXRcqAhReaDfs1vC0VNHecBISQv08w2kejMfWcWOHJqOTqtk2c7FqXACWu36fVxWl0kiPXJ_Gs8inRcUzrrpU-IZmXA4OScXWzA0TwfSLiyXA0VkUBxF9WpsVuw9C6CZBUsVdYNftEoJf6SRWQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNQaqSR33Glnv9RPdcDxAd03w_yvEadKQpg2Afu0kXQmWMLP9JchncKu8xCJc1mrW1v_Z4LCAeS9DmGrf7-yylhSMEdmsNYr0apgHx1W4dhPOuVhGOPapLBqnqXjyebaOyOBkbhepjMZDEzxk96I2Bv3w=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/돈코츠/hakata-furyu-shinjuku": {
+        "id": "tokyo-tonkotsu-hakata-furyu",
+        "city": "tokyo",
+        "slug": "hakata-furyu-shinjuku",
+        "name": "하카타 후류",
+        "category": "돈코츠",
+        "area": "신주쿠",
+        "address": "신주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EC%B9%B4%ED%83%80%20%ED%9B%84%EB%A5%98%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%95%98%EC%B9%B4%ED%83%80%20%ED%9B%84%EB%A5%98%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "신주쿠 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "돈코츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 신주쿠 권역에서 돈코츠 일정에 넣기 좋은 하카타 후류입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqF7E7lqqkBLuxXNlTIdh4QselV_rLI_eIjOTTvc8gv-p7mpb3RsZvIFEPhFHDg2CPolVhrbOy0gWRdsrN37zabeAxv5rkZF0EM=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqFakBFgCVBP6TgsbbpFVj7d6Wz926O-qTNW8DZieIEK_aNm5LEmcHaJR5nBzBjxTofDjfCxy2MCYkyLquCofOEK-zFLjyWGZD0=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMxUs70rzdRdEQMA5Nwm4aFK3aMt4guxRKEjX6ZCvqufqm06V_g_V7QrEWEcD55oG-A6ueQ293TElJdX8NNfOfT5wg86LLfaEHxacAqbqShY3IIZJiqfKVv-yql6DkA280ndwg9uPwQusDxjQff98K2=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNCP2daCIYYGFU6tNh6uuJD3qPJ1j5rU0s-59ONpRYbtftLskDzj3SQ76NMPQCGzTGOuYQlNZ9F_NpcNY3iKDccljwEcw4wjIFqtM1gounfSnUC-DucwoUura3lHak1mKMm2FOc_nhpuOUnUEmo-H_j3w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMIaWnfiUMz3QXkfcdVWeBhrg1VzrC44kTcaLq70wTBoEgYEJtNY1uXsSbt6YWGYol5CG55ixrJJD77ZkDBQ9xZx8-PiQ3K5g1jZWl_aUtV9ij1fEYhTK6nPx55pQvMPkU-qIK1K1rcvj8I7_qic1NmPQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqF7E7lqqkBLuxXNlTIdh4QselV_rLI_eIjOTTvc8gv-p7mpb3RsZvIFEPhFHDg2CPolVhrbOy0gWRdsrN37zabeAxv5rkZF0EM=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMIaWnfiUMz3QXkfcdVWeBhrg1VzrC44kTcaLq70wTBoEgYEJtNY1uXsSbt6YWGYol5CG55ixrJJD77ZkDBQ9xZx8-PiQ3K5g1jZWl_aUtV9ij1fEYhTK6nPx55pQvMPkU-qIK1K1rcvj8I7_qic1NmPQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMzIUYh-1YDM0Q7VdMrQLR76-YkFlVExhu1yAWaPgi3GvM71PkgQlQAvEoHbMayRc0ba3sHAoTzIrGoRUeup-GmGjz6tsYuvH0a0qqWKjzz_2GDSd8lB5j5cTeKZM29f2Cd0LNE6gs-_WU_Ux_EiX6osQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "신주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "신주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/규카츠/gyukatsu-motomura-shibuya": {
+        "id": "tokyo-gyukatsu-motomura-shibuya",
+        "city": "tokyo",
+        "slug": "gyukatsu-motomura-shibuya",
+        "name": "규카츠 모토무라",
+        "category": "규카츠",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B7%9C%EC%B9%B4%EC%B8%A0%20%EB%AA%A8%ED%86%A0%EB%AC%B4%EB%9D%BC%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B7%9C%EC%B9%B4%EC%B8%A0%20%EB%AA%A8%ED%86%A0%EB%AC%B4%EB%9D%BC%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "규카츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시부야 권역에서 규카츠 일정에 넣기 좋은 규카츠 모토무라입니다. 카드 데이터 기준 가격대는 ¥2,000~3,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMiGtkIar95TD_h2wh_Rc9UzqUzE3t6-vDu00ShcLaHKCkpVnVrYSxn6m0QFQGuE0FGTrQGpYO6nc8qyqVwfd8Wf1ZvqWu-cKsESy-3Cy-EYE-KqcrmKMpfQ0jela4_kxm02hWMUBpQm7PrmQ=s4800-w660",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZM7hxlzymJJb-3d_lUUCwWTKIaZkByRwGdErVdx3hs6dgRiOmaea3KQmIdIFw0ODL1PYm1nHo57tvBmm2d4wv-aQocbBNq9Asq5JFyydnv2GAD6B6SPrwNcnBOuSA3qrPWuY94Q0uoMg1GB8e8=s4800-w1000",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOoxE1bF4DaPrwow3-XxqrHe9LjYpJ3kTtFsL1y2rrAeAbfAKdWSOM9ucIVrplC8OWH2rOEipxD5vr7Se2exxhRUg2jdki0_HdTq3rCbANHfIguFfDkpznBWoe-tFbTlxCPxPK4VGwTb4WZ3EtjPZkG=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOA6ggICAi5IQ_o4Z0qZkFsuCMpilecT6YiitCO3IPVzIumbvGNtE27lAmhsgnFU2Oryqyntlt2lPIyOn-ao18ha71Ls38kEw_35ANDz6PmkTLtUKBW3c2Y12V4rYTWvvkYKTJYTEWj8G51ACsPf_EB=s4800-w680",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPcqVG_PbSrg11125rtBarf1Wm3ixUU-W1qOSp-2956dCvkAhTNhiSReLvEpJKsSxKbfUpPbXurEvP4F1IPTTc0Vu5Q-PcOeW51LGRGdT6MXUBCBSn3wUzW1oBn6ePtTgsFFRURMPH8gb1qyv5PPwes5Q=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZMiGtkIar95TD_h2wh_Rc9UzqUzE3t6-vDu00ShcLaHKCkpVnVrYSxn6m0QFQGuE0FGTrQGpYO6nc8qyqVwfd8Wf1ZvqWu-cKsESy-3Cy-EYE-KqcrmKMpfQ0jela4_kxm02hWMUBpQm7PrmQ=s4800-w660",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPcqVG_PbSrg11125rtBarf1Wm3ixUU-W1qOSp-2956dCvkAhTNhiSReLvEpJKsSxKbfUpPbXurEvP4F1IPTTc0Vu5Q-PcOeW51LGRGdT6MXUBCBSn3wUzW1oBn6ePtTgsFFRURMPH8gb1qyv5PPwes5Q=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMOpqlKOkSkHcIvHcOL9ZAW-feK5CPOtIyQcWaR0f2iMkZPkLlTJGs2zax1Dm_2JGjdleYvYNymvGNvT6nh6mehQG-YMDR3I_qXqCnFg10b3VZPepf6Qi18XjI9bOpHQFDxMiRWn7NReMPhmrXAcx-b=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/규카츠/kyoto-katsugyu-akihabara": {
+        "id": "tokyo-gyukatsu-kyoto-katsugyu-akihabara",
+        "city": "tokyo",
+        "slug": "kyoto-katsugyu-akihabara",
+        "name": "교토 카츠규",
+        "category": "규카츠",
+        "area": "아키하바라",
+        "address": "아키하바라, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B5%90%ED%86%A0%20%EC%B9%B4%EC%B8%A0%EA%B7%9C%20%EC%95%84%ED%82%A4%ED%95%98%EB%B0%94%EB%9D%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B5%90%ED%86%A0%20%EC%B9%B4%EC%B8%A0%EA%B7%9C%20%EC%95%84%ED%82%A4%ED%95%98%EB%B0%94%EB%9D%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아키하바라 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "규카츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 아키하바라 권역에서 규카츠 일정에 넣기 좋은 교토 카츠규입니다. 카드 데이터 기준 가격대는 ¥2,000~3,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPgrkmcf68XBPPsqk1TDY4xRC058YWjyLaD76ZtUXP7FFM2DzUwfPieoOZBAjO95TrvDajtlP8t_o-fMsyEvPNYS5xVnvqafPFVBewdQLlYZxHnVw08hXpLmEKvvdttVU7nRVucfNvvG2FHb-A0ewJ2uQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOlEvPZ1S_jTfl0uau3jCBcEEvhEyJ6_RZsHMwOtNNrasWi3OfIwLN0TPLrBGoGU1IgJqV8ob1pjacqlJrqUhR0G4wA_gioXmidOH35lNPg481uwQZWqLAV_ga6XmLjpPke2vpWYLYN-PWDfEImFXaRLA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOFaUENbSGmZ5FsLzK4Ft7hTwceXHKrewJr4XzmlWnuO-AwPCIRDsSkQRErq33utDCdJRrtoT578IYC8Osu7aDnzw5XYMXDNPdai51AqP6liNoT5gMmhVTA9TwEz_U7I2Y6Ni3RDbAAAcAcjYVNhgry=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOwKSnVDOcKIbUzZN1k-zyzZe4GwDfcJxWrQAR83_tTvZW6v-iKLegyvSuY2R0LEb7jX1USCQdOuQ-Anm1u1jrTj-9XB-7P2fe4L4Fb4h4L9zSzBOB-RAucI7LUh-eyPFe6UktkqxDRuvgWXrfaiYmDZA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPrq31PlQWo5IVWYFfbYpDEhfkkBUGbl2ajCsh5O_2G2aCTFeBEiFv4TSAIcJsuhgAkv9-meyBe-eoCLSVJMpxQereHpSdpzbyRQ80rl_VtwMurgBVNmes9_UjuhrEDJEcFcUdUJ7d3ei4ArE1RjOeHyA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPgrkmcf68XBPPsqk1TDY4xRC058YWjyLaD76ZtUXP7FFM2DzUwfPieoOZBAjO95TrvDajtlP8t_o-fMsyEvPNYS5xVnvqafPFVBewdQLlYZxHnVw08hXpLmEKvvdttVU7nRVucfNvvG2FHb-A0ewJ2uQ=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPrq31PlQWo5IVWYFfbYpDEhfkkBUGbl2ajCsh5O_2G2aCTFeBEiFv4TSAIcJsuhgAkv9-meyBe-eoCLSVJMpxQereHpSdpzbyRQ80rl_VtwMurgBVNmes9_UjuhrEDJEcFcUdUJ7d3ei4ArE1RjOeHyA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZOjh1FVvmOsf6VDi514OyV6oLvsR_pDiZul4l7drjr8XTb1q97-6dRM9MnF6SmuwXcpw0twS_0dFh-xAX4OtHvvQMB-Afecxz08epo-2SpvDLYr3rrQvXlZgSlpiRjL6W0T-NYX-K2zBQWjo08uDxDNSQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아키하바라 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아키하바라 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/규카츠/gyukatsu-motomura-shinjuku": {
+        "id": "tokyo-gyukatsu-motomura-shinjuku",
+        "city": "tokyo",
+        "slug": "gyukatsu-motomura-shinjuku",
+        "name": "모토무라 신주쿠",
+        "category": "규카츠",
+        "area": "신주쿠",
+        "address": "신주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%ED%86%A0%EB%AC%B4%EB%9D%BC%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%AA%A8%ED%86%A0%EB%AC%B4%EB%9D%BC%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "신주쿠 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "규카츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 신주쿠 권역에서 규카츠 일정에 넣기 좋은 모토무라 신주쿠입니다. 카드 데이터 기준 가격대는 ¥2,000~3,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOWWeGIglJ0-_sfQ3i6xyR9wSu8ssDhXaEmWmCTnMMrjR1DWqd8C30Q4ZV8YGiMh2Hg4oV5PzhUpR0GztBeEvyyV5Yjt4fU2uXVYQukoEFsWg8Txo43fhI9--5LLHF8zkfTImAhpUv6vsNt=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN3eVEhKsQwrwX1UFojm0Eyz9z4232I4VnYtZnrnkTG0JtIJmLsggS0Detw-9Pe-eQnVidG3U2RwuclwKe_URRI0Qty6QgAzU8byo0v1GVsoDWFGwamqo4WsLFKdC8dO55YFrg7zKqcbqofUg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPhg4d5fqKFFVoakC3Vz-aPB8_AKfhbBIbrJAhmBnECflBr8a9AdQJ2PHKZpzaSp1LYdxPR2L3--aN88OsgXuKX8-CYFsdVv4u7vnRdfH3Lc0CtgMROZS_iT2qGvuUSxa0STNchmj5bNv_HQ4shgT-m0Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPsp0nU0FUJn7M-9MsE2S9hZi7nFt3SxaSMwVynAAt_ijs4cdYDsupf4FemdwLMY7Oa2HlSb2VQRErA3PKu7t8krgK1767-kOLKz5D187F6pwkoJu9mQf6U8BhCdBbEkkb5NFy3KLwobX1J9lLFebdxmA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPo08-_YV0o_Riik8NUjr2q4sih-pIVunILjvEBMsJFstzvH3oETNMpmj3KFfSKRQx1rdVcMZ-dB9MMpaCk9lqI46naMgXINxu0gU-yhVxLOvjTikbRDs0iKud4VydHmqIZyVQSRDz11AT7S-CcZDDf=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZOWWeGIglJ0-_sfQ3i6xyR9wSu8ssDhXaEmWmCTnMMrjR1DWqd8C30Q4ZV8YGiMh2Hg4oV5PzhUpR0GztBeEvyyV5Yjt4fU2uXVYQukoEFsWg8Txo43fhI9--5LLHF8zkfTImAhpUv6vsNt=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPo08-_YV0o_Riik8NUjr2q4sih-pIVunILjvEBMsJFstzvH3oETNMpmj3KFfSKRQx1rdVcMZ-dB9MMpaCk9lqI46naMgXINxu0gU-yhVxLOvjTikbRDs0iKud4VydHmqIZyVQSRDz11AT7S-CcZDDf=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNQAWH3qdTkd9_LjSxIHsch0OqG63ZT46A7ELmSWhN1U0GYL23MW1VsX5Tx8FETG5Gjp-lttSorhW90RQhHK2zQRXZ_upa-Eo9EfExLtmrPT_CJ5X7wPDT7julM-cGa2OhFK1oHTpNtCk16idKQTrMWHA=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "신주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "신주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/규카츠/kyoto-katsugyu-harajuku": {
+        "id": "tokyo-gyukatsu-kyoto-katsugyu-harajuku",
+        "city": "tokyo",
+        "slug": "kyoto-katsugyu-harajuku",
+        "name": "카츠규 하라주쿠",
+        "category": "규카츠",
+        "area": "하라주쿠",
+        "address": "하라주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EC%B8%A0%EA%B7%9C%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%B9%B4%EC%B8%A0%EA%B7%9C%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "하라주쿠 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "규카츠 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 하라주쿠 권역에서 규카츠 일정에 넣기 좋은 카츠규 하라주쿠입니다. 카드 데이터 기준 가격대는 ¥2,000~3,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMHpcFdoQmQ4jXkF7X5Djc4HslJjBN1wRAKmIC35laH6cjcRKRCf2l4eL0MHAz7Tdl4PkekpTsxwRQ3XYnN-NxGWjXP4WvzjwRhFuV7rqRzrh6BN1Ms4ECwqFDQjE2tNZNFzWgHdtbaoqFpuSQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZM2w61KPgG67KdMXgh3EbwspY2SjdNBTPsd9UEw4G9t-tPTWfqOmEbx59PbW_nA0Ky6xmHHQK8dPd2H2SChAEne7NR05F1xammg7eEDCYt5hj52w_QfwarGq9Di-LS8_kqrwKRwsOkREUlL9zA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPg5vBJvsrEnq61Zi-Gr9-kd1MgQs77sb1zZpgRr7YrSMexxca1u9LYj3YHZkl9P-1e971M1tC_6ueenAO51Q7tsPbA86y6cthBaLbkOa7KnEL6bgp27MpbzMMajQ1RXbpzi_AsjB8VytDcAOlfPDiwWg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPJ8cWKBBiMYhWH7ijxl-Fxf5-q8DbJ9UgHKz6iuPYtcwZCkp3SO3Mg8dpBndcGzQOJWyIOyi45B84KNpX9vhdiK9YXEsSWkLkD7qYPMYbGRGcMAg4zzJVtdpupBLzAXpBLVqCFVbavL13QDmILE8_p=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNgRENfz1lOs_3BsjfLZGr4Y5NGiKUlUaik1kyp_rdG9zdLwgfvqIlhJ5VVr2lozuuozSydvAY4VcTw_NRX-eyB9ER7BBQlLPmHINCbgDkK_0jNQgn2ehqsOimsqa0XawIq8uHg3vII1ctVGLZ9LaN2Qw=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZMHpcFdoQmQ4jXkF7X5Djc4HslJjBN1wRAKmIC35laH6cjcRKRCf2l4eL0MHAz7Tdl4PkekpTsxwRQ3XYnN-NxGWjXP4WvzjwRhFuV7rqRzrh6BN1Ms4ECwqFDQjE2tNZNFzWgHdtbaoqFpuSQ=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNgRENfz1lOs_3BsjfLZGr4Y5NGiKUlUaik1kyp_rdG9zdLwgfvqIlhJ5VVr2lozuuozSydvAY4VcTw_NRX-eyB9ER7BBQlLPmHINCbgDkK_0jNQgn2ehqsOimsqa0XawIq8uHg3vII1ctVGLZ9LaN2Qw=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMK5nxEMOoxv8Co8Zk91fLIHBHdEdZRQnCKU0JGQkpqrlgtNaSgi0ceYie--geJlQIrAKV_9HCHh01XyQfYPI0yxIuq13HQPSWhQ2BRwk38iiYVBlblFSrjOrFijEE_m7AjoRWz09apLr5BsavCK0zzeg=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "하라주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "하라주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/텐동/kaneko-hannosuke-nihonbashi": {
+        "id": "tokyo-tendon-kaneko-hannosuke",
+        "city": "tokyo",
+        "slug": "kaneko-hannosuke-nihonbashi",
+        "name": "카네코 한노스케",
+        "category": "텐동",
+        "area": "니혼바시",
+        "address": "니혼바시, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EB%84%A4%EC%BD%94%20%ED%95%9C%EB%85%B8%EC%8A%A4%EC%BC%80%20%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%B9%B4%EB%84%A4%EC%BD%94%20%ED%95%9C%EB%85%B8%EC%8A%A4%EC%BC%80%20%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "니혼바시 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "텐동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 니혼바시 권역에서 텐동 일정에 넣기 좋은 카네코 한노스케입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP00o7cQxxzskRueOoYDOzbium5kc25okkETXXGyjF4352Wqm-8Gik2kr4UOpCRy1DHMvi35cXdSQDZ_1mlIGgcdBT4qI8Ebh8QWcbvPAXEl-P85m534LFsjd1o6TyzIDJ_yPRFZy-oBAIkAic=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNf5Y05Oii2k3FTVsFOenqKlPmeOuBiFfvceImI389N9dK9FQkz312ept9bmcrPTnkmmsdXCUOrRHeQDEWBIOI4oI6h5bCNXOfdzIc-N7o16qGzEhIhyIF4FBlmtESnVG0EUjXCwepbfzMC6IkZui7HYA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOJxuMKOQRUCmTh8VPIT74LFiAbj1g9r106LdSeIxt2MS0fiFb-iBYn9lFLf0Y9LKPPOd5HiatXjMUmvPkNI6yOlUp0ZiOgmwQwgWgJ_zH0nclQWQlfMdDLFu9LN5tD48cA6NOCKNxGjzIrgPb6EMduhg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN_2K0wcGQ8xCKSOKq5Ho3-yp9la_Nhrf2qWwTDw1WfXvZwqHwEWQggrmxyCN2fiHtXcQwA8D8Eax-9Z_bTiV4e67OUvAicIROIzisfwUC1oFKAnVot7rHH9PeYDFmfRjimgrRDWY1e7m3bE508ULv_Xg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMN3S8jTo8ZYp8wrjXtcRoIEHOibzs7vtlNzrQ4xa-WlnUq8trh4w-W5V7Fiy_pgRelCPtIO3Ia4h7_ofjoMVsLg4hOI-dCO341-ZbC4xahpGW8wHbU_QzjDbNr4hAFDb1GSzkj1kX7yQ4oFCjWezQ3=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZP00o7cQxxzskRueOoYDOzbium5kc25okkETXXGyjF4352Wqm-8Gik2kr4UOpCRy1DHMvi35cXdSQDZ_1mlIGgcdBT4qI8Ebh8QWcbvPAXEl-P85m534LFsjd1o6TyzIDJ_yPRFZy-oBAIkAic=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMN3S8jTo8ZYp8wrjXtcRoIEHOibzs7vtlNzrQ4xa-WlnUq8trh4w-W5V7Fiy_pgRelCPtIO3Ia4h7_ofjoMVsLg4hOI-dCO341-ZbC4xahpGW8wHbU_QzjDbNr4hAFDb1GSzkj1kX7yQ4oFCjWezQ3=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNB3-S-oH36SVD3Gm65zMWsHn2F-MuCU7trjnyEvzAID-BcTZYe02amOH0gP-QrojuzUGKh7lb0JsQDHFpH-Ecb9R-ttrYWGkrk7Lib-36o4T-2GldnBpVKrI2lMCozi6M1Ik1MOYOv4bug5g=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "니혼바시 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "니혼바시 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/텐동/kaneko-hannosuke-tsukiji": {
+        "id": "tokyo-tendon-kaneko-hannosuke-tsukiji",
+        "city": "tokyo",
+        "slug": "kaneko-hannosuke-tsukiji",
+        "name": "한노스케 츠키지",
+        "category": "텐동",
+        "area": "츠키지",
+        "address": "츠키지, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%95%9C%EB%85%B8%EC%8A%A4%EC%BC%80%20%EC%B8%A0%ED%82%A4%EC%A7%80%20%EC%B8%A0%ED%82%A4%EC%A7%80%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%95%9C%EB%85%B8%EC%8A%A4%EC%BC%80%20%EC%B8%A0%ED%82%A4%EC%A7%80%20%EC%B8%A0%ED%82%A4%EC%A7%80%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "츠키지 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "텐동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 츠키지 권역에서 텐동 일정에 넣기 좋은 한노스케 츠키지입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP00o7cQxxzskRueOoYDOzbium5kc25okkETXXGyjF4352Wqm-8Gik2kr4UOpCRy1DHMvi35cXdSQDZ_1mlIGgcdBT4qI8Ebh8QWcbvPAXEl-P85m534LFsjd1o6TyzIDJ_yPRFZy-oBAIkAic=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNf5Y05Oii2k3FTVsFOenqKlPmeOuBiFfvceImI389N9dK9FQkz312ept9bmcrPTnkmmsdXCUOrRHeQDEWBIOI4oI6h5bCNXOfdzIc-N7o16qGzEhIhyIF4FBlmtESnVG0EUjXCwepbfzMC6IkZui7HYA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOJxuMKOQRUCmTh8VPIT74LFiAbj1g9r106LdSeIxt2MS0fiFb-iBYn9lFLf0Y9LKPPOd5HiatXjMUmvPkNI6yOlUp0ZiOgmwQwgWgJ_zH0nclQWQlfMdDLFu9LN5tD48cA6NOCKNxGjzIrgPb6EMduhg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN_2K0wcGQ8xCKSOKq5Ho3-yp9la_Nhrf2qWwTDw1WfXvZwqHwEWQggrmxyCN2fiHtXcQwA8D8Eax-9Z_bTiV4e67OUvAicIROIzisfwUC1oFKAnVot7rHH9PeYDFmfRjimgrRDWY1e7m3bE508ULv_Xg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMN3S8jTo8ZYp8wrjXtcRoIEHOibzs7vtlNzrQ4xa-WlnUq8trh4w-W5V7Fiy_pgRelCPtIO3Ia4h7_ofjoMVsLg4hOI-dCO341-ZbC4xahpGW8wHbU_QzjDbNr4hAFDb1GSzkj1kX7yQ4oFCjWezQ3=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZP00o7cQxxzskRueOoYDOzbium5kc25okkETXXGyjF4352Wqm-8Gik2kr4UOpCRy1DHMvi35cXdSQDZ_1mlIGgcdBT4qI8Ebh8QWcbvPAXEl-P85m534LFsjd1o6TyzIDJ_yPRFZy-oBAIkAic=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMN3S8jTo8ZYp8wrjXtcRoIEHOibzs7vtlNzrQ4xa-WlnUq8trh4w-W5V7Fiy_pgRelCPtIO3Ia4h7_ofjoMVsLg4hOI-dCO341-ZbC4xahpGW8wHbU_QzjDbNr4hAFDb1GSzkj1kX7yQ4oFCjWezQ3=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNB3-S-oH36SVD3Gm65zMWsHn2F-MuCU7trjnyEvzAID-BcTZYe02amOH0gP-QrojuzUGKh7lb0JsQDHFpH-Ecb9R-ttrYWGkrk7Lib-36o4T-2GldnBpVKrI2lMCozi6M1Ik1MOYOv4bug5g=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "츠키지 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "츠키지 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/텐동/tempura-abe": {
+        "id": "tokyo-tendon-tempura-abe",
+        "city": "tokyo",
+        "slug": "tempura-abe",
+        "name": "텐푸라 아베",
+        "category": "텐동",
+        "area": "긴자",
+        "address": "긴자, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%85%90%ED%91%B8%EB%9D%BC%20%EC%95%84%EB%B2%A0%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%85%90%ED%91%B8%EB%9D%BC%20%EC%95%84%EB%B2%A0%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "긴자 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "텐동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 긴자 권역에서 텐동 일정에 넣기 좋은 텐푸라 아베입니다. 카드 데이터 기준 가격대는 ¥1,000~4,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNYtJQHS3EdXxSZ3gHdIaFYGV_fdWKVvlFhSTdoxHacKIu7tIF5925zydb_5DGibH2DV_ldlhNOl7qsVrJbkQK9J-GzUt-6rlUD3WKXbSlWUyPVRqFqk7wSrE-_NxYsByG1lOohuDpLAl6UZQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP4ly_2tcFXa9yTaRURpl17SeYPx_drXKJIP77UakSFuXhtxQ7nlBaEkuT0KhiXHhhdM8T1w5rGKnjZdPC3yXmOQYagn-5vcf912y5dVElmLlaPnZ7SGPwr_g7skEnkcUQ2y96en02FOnoN8YYDcLMi0Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOyDAPw8S4Qf_RYzzBdgk0YsFZMWGxO8Z15BBXE6K9K8fALgKlsC4fxSyJ8cXVjGImL-kJ7elCI9ktBaz2IevGo5-imnOlTAZxax-M48hYdC5GMgQG3ICjzA_BVLC1Fel55JmcnUUdWyXwGuVV-FW8kww=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP8st-Ja8Ct2Z1nxFUd-vf8KipAF4NS-JsmOvj9HabxIbVTaT0v-GRhHO2Gz4KXWb2uTDQSDaa3PcFqCoMnOotFgst7YuS3BVDzCj-1a_B4cQH7Kmedg9A7NUrduPzmbzhCE7VGVBrh6I0Inyo3hPYc=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPrim26ddRPwqlDC6sOsl84rLlq9leyUESPD0m9CRQ9fBjBa6lNxHz0WGy_ZxVCCe7nwOv1ZD3LTYr-sg6ruCHjfu2qC1n1OBKBTINmKMCm7qwI4ffErE9KCtnNXFLwSbbjnvy-wiaD30ObIWfjMA1DlQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNYtJQHS3EdXxSZ3gHdIaFYGV_fdWKVvlFhSTdoxHacKIu7tIF5925zydb_5DGibH2DV_ldlhNOl7qsVrJbkQK9J-GzUt-6rlUD3WKXbSlWUyPVRqFqk7wSrE-_NxYsByG1lOohuDpLAl6UZQ=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPrim26ddRPwqlDC6sOsl84rLlq9leyUESPD0m9CRQ9fBjBa6lNxHz0WGy_ZxVCCe7nwOv1ZD3LTYr-sg6ruCHjfu2qC1n1OBKBTINmKMCm7qwI4ffErE9KCtnNXFLwSbbjnvy-wiaD30ObIWfjMA1DlQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZN89uRAqVxxXoKq-MjvsYQ7Q2PTo46lShD8OLnDdVFZq0WH6hbaBf7jty1udAvte1UswvlCp2su4bTBfbcdeo2rDVsDZ3jm7E7vo-92uqgN4HtNkJkH8EDvV0kgnE2ag6-5u-Fq_XAG3WebhlRIYV_lsA=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "긴자 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "긴자 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/텐동/tendon-tenya-asakusa": {
+        "id": "tokyo-tendon-tenya-asakusa",
+        "city": "tokyo",
+        "slug": "tendon-tenya-asakusa",
+        "name": "텐동 텐야",
+        "category": "텐동",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%85%90%EB%8F%99%20%ED%85%90%EC%95%BC%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%85%90%EB%8F%99%20%ED%85%90%EC%95%BC%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아사쿠사 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "텐동 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 아사쿠사 권역에서 텐동 일정에 넣기 좋은 텐동 텐야입니다. 카드 데이터 기준 가격대는 ¥1,000 이하이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqEknopQJsxKBacCFz2WMp2wOUJNJNYLkHF7yhLKVeT_NCESJ4Xgr-i5KR_Uf6ov2EjUwQi78NDX3uSf8Y6mqwQZxfl-lEs1dwY=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHtgp2NjdWE4EjiedeahSC7iPwk30gxx2rxU14U8PUI16z81Mgzd_KazotCicfNdDn2vJqGMkFxo-saSRxrQ-w1hQK36izj-JU=s4800-w1080",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPn_BX3ITmGSMylGIKdu6N8CeKv7kscZIzLv8tAoj7ipyatvYX15OPSlcuXt7Lmn1GRFFJUSA1f8IzoNFLnctb_8tILYQnxrDnchCa0Pizrp_MMDMFnHlyQVI_r3iFgOdMxCnKppXmPFfalSSWLwPRR=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMKGv19ojuIocNZDnDYFH1ramn09T0yUyhUdqjiYois_p2GbrSqGDFi1DjKTQ1cqmbU1T2GwgF_jQwu2UamEUdbGq-2CHNEVdickF1Ojjnl8HkUGIqJcFR2tXd8cb6wUuygk6eMenkKuUxPoZnl9x3BhQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOx4Mt1Zei0cB6Ig1bNGmihDW5r11iGc6pZc-zJ5DBWl36VyqEUSSJEVDnrTLB-4L_RfLXLBXRa5odBaSRb7lcQfrv2afO0aFaUa4EHn_Un3Ens_mVjOD-xy_0sIPF7vT4odv3pHLHSFaa8XJylw5Tz=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqEknopQJsxKBacCFz2WMp2wOUJNJNYLkHF7yhLKVeT_NCESJ4Xgr-i5KR_Uf6ov2EjUwQi78NDX3uSf8Y6mqwQZxfl-lEs1dwY=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOx4Mt1Zei0cB6Ig1bNGmihDW5r11iGc6pZc-zJ5DBWl36VyqEUSSJEVDnrTLB-4L_RfLXLBXRa5odBaSRb7lcQfrv2afO0aFaUa4EHn_Un3Ens_mVjOD-xy_0sIPF7vT4odv3pHLHSFaa8XJylw5Tz=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPgkKu0mBLMjFn8QutpW3BENT1n3VVsyVCPF3RSbhMlQ-vYvLiv9HwjooCaLYiwl6AnQdBLuHXe2FN6afmian9hErfBcvMVENQ4H80h-Ti8yxRgzlj85zTv338YRdFGjG213z-_b45m9vm1SxA1gBSN=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/와규/imafuku": {
+        "id": "tokyo-wagyu-imafuku",
+        "city": "tokyo",
+        "slug": "imafuku",
+        "name": "이마후쿠",
+        "category": "와규",
+        "area": "시로카네",
+        "address": "시로카네, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%A7%88%ED%9B%84%EC%BF%A0%20%EC%8B%9C%EB%A1%9C%EC%B9%B4%EB%84%A4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%9D%B4%EB%A7%88%ED%9B%84%EC%BF%A0%20%EC%8B%9C%EB%A1%9C%EC%B9%B4%EB%84%A4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시로카네 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "와규 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 시로카네 권역에서 와규 일정에 넣기 좋은 이마후쿠입니다. 카드 데이터 기준 가격대는 ¥10,000~20,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "/images/food/tokyo/wagyu/imafuku/imafuku.png",
+            "/images/food/tokyo/wagyu/imafuku/imafuku.png",
+            "/images/food/tokyo/wagyu/imafuku/imafuku.png",
+            "/images/food/tokyo/wagyu/imafuku/imafuku.png",
+            "/images/food/tokyo/wagyu/imafuku/imafuku.png"
+        ],
+        "mapImages": {
+            "main": "/images/food/tokyo/wagyu/imafuku/imafuku.png",
+            "sub1": "/images/food/tokyo/wagyu/imafuku/imafuku.png",
+            "sub2": "/images/food/tokyo/wagyu/imafuku/imafuku.png"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시로카네 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시로카네 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/와규/yakiniku-jumbo-hanare": {
+        "id": "tokyo-wagyu-yakiniku-jumbo-hanare",
+        "city": "tokyo",
+        "slug": "yakiniku-jumbo-hanare",
+        "name": "야키니쿠 점보 하나레",
+        "category": "와규",
+        "area": "혼고",
+        "address": "혼고, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%ED%82%A4%EB%8B%88%EC%BF%A0%20%EC%A0%90%EB%B3%B4%20%ED%95%98%EB%82%98%EB%A0%88%20%ED%98%BC%EA%B3%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%95%BC%ED%82%A4%EB%8B%88%EC%BF%A0%20%EC%A0%90%EB%B3%B4%20%ED%95%98%EB%82%98%EB%A0%88%20%ED%98%BC%EA%B3%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "혼고 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "와규 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 혼고 권역에서 와규 일정에 넣기 좋은 야키니쿠 점보 하나레입니다. 카드 데이터 기준 가격대는 ¥10,000~20,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN61-RTQbG5NXTG5pzDLkaJJuG9NH8ZuDnHFff0xw54ZXq_rF68VvXbWN9z2Os-ERtzbPcRFJ-AjEh6YphBb-z0wCWV_5auqQ58v4k9z4AfIcZ4vA8efjXfMjU2HnXdkawQV9J5ohHfJzCrahQzG0Y7JA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMY2RqFkvd1HWY_ZuSTKFzyLiil1E9X37o_WCyBgy2ZnkFALEtCDxtDIqT7CjKLu3gVMbbDjoyhfNjfBYdh5li0aAWoT6nUv_DWn5NdN0wo06pIU_P-XIW9IjMCADfWRfZ1xDJqSTlfG7xf=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP2KQHK13NtwPva6oGZaBkA5NANABxmp3AErCY9Oz3lf4pguBNl-63Z0PiTxn-LHGC9f4omUwX1TDI0G9EtzwnG9XiW3ZaCIov-K71kaKq-1GIq7VV4D_-qgiDfdTVuAj1zVNFZWWpI5V-NQ3kucnvTFA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPiqoI9wtD4h8YoNGmumMSclp-I7UMzb8C4LGk29_fodJMr_vAayt4Ht-6fTvbuP8vulAJzbd8d65n31onH83IHh2sbR9t98Bp-Lt-xvdyfdnezQlkFNriawz9V0F1CZHLgpApBbqFcjx5gFI_sJtZxHw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMCxby602pgiq2RnuzQ7WBz7sOR1-Net_oqBVD949OvPcIM0jbNMs8nOzySloixy6jG1msAlpvQWQz8MX6_RnGI0m795_kuI2C7jxl5PFdb8KOp9c-sZJEpKcygDEpFARFzZKYYGf1j37Yovu4sJ5iGGg=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZN61-RTQbG5NXTG5pzDLkaJJuG9NH8ZuDnHFff0xw54ZXq_rF68VvXbWN9z2Os-ERtzbPcRFJ-AjEh6YphBb-z0wCWV_5auqQ58v4k9z4AfIcZ4vA8efjXfMjU2HnXdkawQV9J5ohHfJzCrahQzG0Y7JA=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMCxby602pgiq2RnuzQ7WBz7sOR1-Net_oqBVD949OvPcIM0jbNMs8nOzySloixy6jG1msAlpvQWQz8MX6_RnGI0m795_kuI2C7jxl5PFdb8KOp9c-sZJEpKcygDEpFARFzZKYYGf1j37Yovu4sJ5iGGg=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNs4pQtMlqdRKwgFkA5xaYegmeVZz75W9GWyABwQOKlKSx1_HS-kBSNQtliExr5MxTl0PS9-20ziHGB2rxaenj3khGrL_edRfmW_Ht8kUTUJZG-ctBw-h9e3OGaU5swATKxI06yptqsBFlrDATukq6gaQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "혼고 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "혼고 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/와규/ginza-steak": {
+        "id": "tokyo-wagyu-ginza-steak",
+        "city": "tokyo",
+        "slug": "ginza-steak",
+        "name": "긴자 스테이크",
+        "category": "와규",
+        "area": "긴자",
+        "address": "긴자, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B4%EC%9E%90%20%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B8%B4%EC%9E%90%20%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "긴자 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "와규 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 긴자 권역에서 와규 일정에 넣기 좋은 긴자 스테이크입니다. 카드 데이터 기준 가격대는 ¥8,000~15,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZO2-04bjiHhqlPIgo4X7N4oQSEYMztivGUy9XvskH9-EXl2i7sSO9MAjP_iuiYXgexSK4sEU6JVF9q9tg01GTwxR8h0rUYXEp0PuIhY61dUquaxlUw7vQwqJ4FZlFZL3i_DFftqHg5Ik4UCVw=s4800-w900",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPs7RiTsqXUEZYtLe--6uXNSOx1dpWMYijy2HdkQp1XwMdQbe6dF2VVoKR_QrMA_lzwOyOVfO-iqq9dc3Tuyk-BTJuBw8JDeoaGLjvudUZaJ39Ql1GE3SIqlfpYLowqNoGEdWiOrWt0LEFjDA=s4800-w720",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOcwR_534phsb3NlGGqgRIveEK1aTmwsSszWYEQUzzNSqp88BY5Fz-1o1vNDjqV_acRTxz5xB6aIsmu7rm7pvVXeC7OvQxdW8k8gsLARehyltPei8NObNNKyTere_KnnbqfwTxflo-TwJkUSgh5OkcB=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMtm1ls1r8meOmL7WSngMYcTsHNO5WddbvUqmYE7k5Ru7Lr6ykjlJykOp0YiggraIwZPfUYFFAy4M--XETKccoQK7zjhVbIyjNGn_RApdJhApJaeVKyjZgdwoOwYcxE5_dRufRzU9CX1DDnleU=s4800-w900",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOvZLFPWqnKPoLkTGnerEuQiQ8sz1o0SJR8E7WZDCeDIuRS9X8XkUl3Q7KR_ngfLdCtOTy-Ar8xhiPGMOl2_aK5dvyFMHptPYm4zn1p_L11SOmEXc0LcCB03U5an9EnwJjmqdij5F9WXkAIHof2J-EmLg=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZO2-04bjiHhqlPIgo4X7N4oQSEYMztivGUy9XvskH9-EXl2i7sSO9MAjP_iuiYXgexSK4sEU6JVF9q9tg01GTwxR8h0rUYXEp0PuIhY61dUquaxlUw7vQwqJ4FZlFZL3i_DFftqHg5Ik4UCVw=s4800-w900",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOvZLFPWqnKPoLkTGnerEuQiQ8sz1o0SJR8E7WZDCeDIuRS9X8XkUl3Q7KR_ngfLdCtOTy-Ar8xhiPGMOl2_aK5dvyFMHptPYm4zn1p_L11SOmEXc0LcCB03U5an9EnwJjmqdij5F9WXkAIHof2J-EmLg=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMId2zWtBSKB8bPA1KMt3X13TVOgKEL3U4ucjvzxk7TD5Yr1IB7WzskGbH2d4eur8X2v3aNTRS2n1wGkLGilXI55DjPgc9LYDmGxKESAKGyZSAvzKBF_303WJp2wvKj0Q_kdAYPgW2EYx_HP1TEF0sj=s4800-w720"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "긴자 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "긴자 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/와규/kobe-beef-511": {
+        "id": "tokyo-wagyu-kobe-beef-511",
+        "city": "tokyo",
+        "slug": "kobe-beef-511",
+        "name": "고베 비프 511",
+        "category": "와규",
+        "area": "아카사카",
+        "address": "아카사카, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%B2%A0%20%EB%B9%84%ED%94%84%20511%20%EC%95%84%EC%B9%B4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B3%A0%EB%B2%A0%20%EB%B9%84%ED%94%84%20511%20%EC%95%84%EC%B9%B4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아카사카 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "와규 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카운터석, 테이블석",
+        "description": "도쿄 아카사카 권역에서 와규 일정에 넣기 좋은 고베 비프 511입니다. 카드 데이터 기준 가격대는 ¥10,000~20,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqErFN73hwN06BW6TCdBPW-OL7y0NTSgIzDoF0t9lBrvpUVvExw56csW2v-lRPJQJ9FRC-uavsdcDzL0edF3IGCD7C9fboon7gk=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqGWPtJXM2M3BTVsDmrioS1oOA2B6cFlBf0tfXZDzpGK9FHmfzjB2ByiLwIRKTIWq3NBLNSG5bDRs_zRlodTh730pdHw7B2qDzI=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNxdt_hjHagKubzOKNcocn2YwVvJLguoaIVW7M2NCkEWmSRHVJrbhr00nh3MIzm3JaZ4LCSJjwxGa6HBLfZmN4KjJFl0WHSY46-mkV_CglrELpF9g7i0aR32ds1-zCTG8extLVmIhP_9LlCyseTYppunA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOQ7P3TdkxabbbntscVkIEd4YTL5nXLDAyFUzyC227m9HqVPOdQP4WbQJOgPCtA_TCk3ceRlMRbmbY5hAblOGUEmM-j9w8Td9MUoQvyEYY_UGovO3LcyBpHL1mMO73-nn_WSfoJHH_9bvTmF_LpI5Ra=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqEYLjS5qVtzllaB7NPyaW3kSZi7a6STNoEqbEislOnJYGxgcSS8JCWr5UW0u6X_BpRaBgOzpPQ853twvoP14oJyneO22NDwaEI=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqErFN73hwN06BW6TCdBPW-OL7y0NTSgIzDoF0t9lBrvpUVvExw56csW2v-lRPJQJ9FRC-uavsdcDzL0edF3IGCD7C9fboon7gk=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqEYLjS5qVtzllaB7NPyaW3kSZi7a6STNoEqbEislOnJYGxgcSS8JCWr5UW0u6X_BpRaBgOzpPQ853twvoP14oJyneO22NDwaEI=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqHZPwhx-_mGrMlodT6oPDOWdKK5gzIc1QftkrethWunxhtcnVZGtiNOaj9ZChT_MaiZCq43ZXFvUZbbLj0h2nv7TMMBNxeOPOI=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아카사카 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아카사카 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/카페/베이커리/aoyama-flower-market-tea-house": {
+        "id": "tokyo-cafe-aoyama-flower-market",
+        "city": "tokyo",
+        "slug": "aoyama-flower-market-tea-house",
+        "name": "플라워 마켓 티하우스",
+        "category": "카페/베이커리",
+        "area": "아오야마",
+        "address": "아오야마, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%94%8C%EB%9D%BC%EC%9B%8C%20%EB%A7%88%EC%BC%93%20%ED%8B%B0%ED%95%98%EC%9A%B0%EC%8A%A4%20%EC%95%84%EC%98%A4%EC%95%BC%EB%A7%88%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%94%8C%EB%9D%BC%EC%9B%8C%20%EB%A7%88%EC%BC%93%20%ED%8B%B0%ED%95%98%EC%9A%B0%EC%8A%A4%20%EC%95%84%EC%98%A4%EC%95%BC%EB%A7%88%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아오야마 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "카페/베이커리 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카페 좌석, 테이블석",
+        "description": "도쿄 아오야마 권역에서 카페/베이커리 일정에 넣기 좋은 플라워 마켓 티하우스입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPdHNjIMtVjFylKKTacsHjTubOg2E-mAym9Ita1kAw4C8eUSE6y5OmuLBOQQEjQFNgxHisTegnYzbHKPNvmP_YuDJ6iYEtRtZEoVE2dFDNyhsuxbcciEf8URpiDpqPeHvNEBoVYXUzjqq5_HA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOAzocV313gbVB8ilE1_StYowJyQalJ36OkaQBuWmPuoStJop3tAHSCZ1URcWpVTMuRrPWybxkmxKlA3AP6eZRBCkd7_CE0QNHBs4CASzcl5EwVEKhJiPw2hOIPb6cHjE8TkaWDeZN5DEWRZxm4bhDidg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMCDmDKBkjO_Vk--l1llUlWgodoWzhT3LMIEe66s_cy5ubwkOO33kuVhrNIVPT1IGWWR32VYBvM6jjOSAm6E617UtJl7IgT46o8k_bqet6SAoh7dKcshSJH71oRxPNjubFDBAYU0H0S9y01GyemKVnImg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNTL-gJCbZzMKlc_8P203Lzxp-ayAaQP3ZswHaiKwny524_J4ie2axmZvdjPODlnNGtk8x57I1BokTPIyL4BQ-7aXpaFt84Wu5sPq93yyD3O0j7OU5bswwEPMcivOAhRGAJiDP7QxE9DCjgm5DDlSZC=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPqo6hHKaqkfc1zLcg6dNVG1aIxXf2t4MM2TH9WZNNWSHoakk2LDmgwSCZ8tmBHvWOsE6qyXqY96LqvUQXDHEE8B49H5UhS-zZAlsew2En-vhiLMSYQAPcUWXW22ga3BrS_g8qjaFz_jpUM6RUCuy6Ghw=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPdHNjIMtVjFylKKTacsHjTubOg2E-mAym9Ita1kAw4C8eUSE6y5OmuLBOQQEjQFNgxHisTegnYzbHKPNvmP_YuDJ6iYEtRtZEoVE2dFDNyhsuxbcciEf8URpiDpqPeHvNEBoVYXUzjqq5_HA=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPqo6hHKaqkfc1zLcg6dNVG1aIxXf2t4MM2TH9WZNNWSHoakk2LDmgwSCZ8tmBHvWOsE6qyXqY96LqvUQXDHEE8B49H5UhS-zZAlsew2En-vhiLMSYQAPcUWXW22ga3BrS_g8qjaFz_jpUM6RUCuy6Ghw=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNiTF3565K423Lrr4IUulJVIfVU-xWYKGDNjoeV0psBaKL4F4YvhSLN4jL6E28-YbXK9I2ZbCmfvf8jZ1s-XTJ1wAeHaYkfaCA5ZStGJT-BcZpFVxjvzPAZt7UznrRDnW1RMx8K7eH7LtvN1bodYc1U6g=s4800-w1170"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아오야마 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아오야마 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/카페/베이커리/city-bakery-aoyama": {
+        "id": "tokyo-cafe-city-bakery-aoyama",
+        "city": "tokyo",
+        "slug": "city-bakery-aoyama",
+        "name": "더 시티 베이커리",
+        "category": "카페/베이커리",
+        "area": "아오야마",
+        "address": "아오야마, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%20%EC%8B%9C%ED%8B%B0%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%95%84%EC%98%A4%EC%95%BC%EB%A7%88%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%8D%94%20%EC%8B%9C%ED%8B%B0%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%95%84%EC%98%A4%EC%95%BC%EB%A7%88%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아오야마 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "카페/베이커리 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카페 좌석, 테이블석",
+        "description": "도쿄 아오야마 권역에서 카페/베이커리 일정에 넣기 좋은 더 시티 베이커리입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP2yAKQ1y55YMU9Wed8qUJBOxgnn6taX5DF9xFgmMON5RsqUAh7cB6WcNJGkCxh8ZvS9CeeSs-Yon8gJ154F7D9VpJ5Zhp_yJPeAzhwJ3OfGfzJRS9g6DHISh-NbVKxgfIt0Wt34mtZUJ3M5A=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZM2fjK62aJMt4mgGtIZY-xSb9QMM1h4i_gx1o4YIj-Lyl6HE2k3SAiHgLay-lSSJswbVf-KJkz6EqXkscLJgvH0ksS6lszEMTAtOx342Vn8mAld6fp0OgeEElgiNRCzTlvhGT3DClpnTOHo4bKl0SJSqw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPZFBnoc68XwvrTYo05eEb2TUAFnNS_hhFJYi5_DF9mtnP5aUUDWOrSDU73T2JAr1w-4e7XzelyiXpoCYWkZtH48LoSCwydPJicQ0O_C5iFImP__ruIGefAO6gnn-MrhEqUIPtsWFkpAhatVWUgiPQ0AQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPWaBFpHOUDuEurHlJPg-7a_h9Uhd-Ul6r1Hgi3Ro8_uq7sRFD4J59k0-Ec9r5rmXYBhcKpwT6_8o_j9xl6IDw_xY5RTkp1TNIs0g6ItbLxXTEjrBIHhjzNzzvABxKbTV3EVw3tVyjm9dExRIwHBOStSg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOePzYvF5z6nTCexw39uQgjS6rhpbwtL6h-kGuyLQxw55eTWpc1GnowIZnYS3ERuppRCMmxQkmDuLpjV42gRDgtBThdP3C-LT1fxd8TAiDqPxzfvPshD2zBz-eWGX0B-Y8e9zMBIHCh4x5jPQBjZIqqIg=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZP2yAKQ1y55YMU9Wed8qUJBOxgnn6taX5DF9xFgmMON5RsqUAh7cB6WcNJGkCxh8ZvS9CeeSs-Yon8gJ154F7D9VpJ5Zhp_yJPeAzhwJ3OfGfzJRS9g6DHISh-NbVKxgfIt0Wt34mtZUJ3M5A=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOePzYvF5z6nTCexw39uQgjS6rhpbwtL6h-kGuyLQxw55eTWpc1GnowIZnYS3ERuppRCMmxQkmDuLpjV42gRDgtBThdP3C-LT1fxd8TAiDqPxzfvPshD2zBz-eWGX0B-Y8e9zMBIHCh4x5jPQBjZIqqIg=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZN947QF040jt0XCTgNvte0QZir6ohzoc4QOdf9bFmivqZlEvaIAoTLoHOJKYGzB2H_sQEmqJv2beNpS5VmAJuXUot7xoKDEj_q5K9-1QWzQLIsgulbMP8upIAcbCUKoqrA0LtYhjKUYndcQVvObHXcYYw=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아오야마 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아오야마 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/카페/베이커리/glitch-coffee-ginza": {
+        "id": "tokyo-cafe-glitch-ginza",
+        "city": "tokyo",
+        "slug": "glitch-coffee-ginza",
+        "name": "글리치 커피",
+        "category": "카페/베이커리",
+        "area": "긴자",
+        "address": "긴자, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B8%80%EB%A6%AC%EC%B9%98%20%EC%BB%A4%ED%94%BC%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B8%80%EB%A6%AC%EC%B9%98%20%EC%BB%A4%ED%94%BC%20%EA%B8%B4%EC%9E%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "긴자 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "카페/베이커리 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카페 좌석, 테이블석",
+        "description": "도쿄 긴자 권역에서 카페/베이커리 일정에 넣기 좋은 글리치 커피입니다. 카드 데이터 기준 가격대는 ¥1,000~2,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqGkf1ELjGyyqu9II3gufZHSyw5IyYSBSuxdkgZADVh8jti2F4rp1oSy7dghGD-bigULWBtjvTsdo63UsZh7jjvCGh-peA7_KVc=s4800-w1170",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOsucdDQiXOolDcQIU3IrFqAIjAXXptGoR8GQQbGR6vzAU_PwJdAl2dmsuZeSZIvNPjS0cVtxGAdqbfz4Z0XXgNLF8vSD1PhBXlCQOHl3-F9hN7eZAeBIcdzObIgKNpAs4QWSW1ceZzUOhEtfObSe8cTQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPO94Tb4OmeIOqKjFFLJmRECYza3jrD7wdxt-4dtNtr0xSQ_JlRJEg9LhIuJnRedD8hlvsIHqx7HIyy1Y7DkayXEUqGx5UDvbGbtP3T1pnYTqota4LT3ZWFxbpnMp84rtkr0LqEiHT9x9SoIpqik35jRQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNrJIn3icxuelK74b0rWz-wcJzrOVk9jzf_jYl7AT4_9QWHNjcwey3c6hxcJpKtkNLOvLR4npyVzlaIeXI4t9WRPuh3IK2mzVhZ45STPjr6Q2dsndatqWLB5FqWZPtWUCPWR1WGGP75x_mbJYcQTLn5GA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPCnnsgpe2drcX4USUNx4UqHAwP9l0o72O_vqlP8Oq4BLgYyQ--UmP77VCZandWn1Lmh-onVWKUfqachOFSAJ3aAgdGr5PuFUwOoFbPkM_vEJh6yQc5NsUVCdcKS_30xN5MeI2oQK-b8Wovj8l5b4hQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqGkf1ELjGyyqu9II3gufZHSyw5IyYSBSuxdkgZADVh8jti2F4rp1oSy7dghGD-bigULWBtjvTsdo63UsZh7jjvCGh-peA7_KVc=s4800-w1170",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPCnnsgpe2drcX4USUNx4UqHAwP9l0o72O_vqlP8Oq4BLgYyQ--UmP77VCZandWn1Lmh-onVWKUfqachOFSAJ3aAgdGr5PuFUwOoFbPkM_vEJh6yQc5NsUVCdcKS_30xN5MeI2oQK-b8Wovj8l5b4hQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPOLYLfO9pPjfpdq_Fiu3XKiAqH74f3PGcq6RK4I38Vh02y1zQmRY8U2ZVjOHW-e_boKcDFiC0W_82fBivzvxUAzPFgVRdaujgcQqYnCcYnT6QyhUYHRS8IQfNQ4BWZ1lOApmO-nB8oaN7opw=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "긴자 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "긴자 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 11:00 - 오후 09:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 11:00 - 오후 09:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 11:00 - 오후 10:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 11:00 - 오후 09:00"
+            }
+        ]
+    },
+    "tokyo/카페/베이커리/royal-garden-cafe-aoyama": {
+        "id": "tokyo-cafe-royal-garden-aoyama",
+        "city": "tokyo",
+        "slug": "royal-garden-cafe-aoyama",
+        "name": "로열 가든 카페",
+        "category": "카페/베이커리",
+        "area": "가이엔마에",
+        "address": "가이엔마에, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A1%9C%EC%97%B4%20%EA%B0%80%EB%93%A0%20%EC%B9%B4%ED%8E%98%20%EA%B0%80%EC%9D%B4%EC%97%94%EB%A7%88%EC%97%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%A1%9C%EC%97%B4%20%EA%B0%80%EB%93%A0%20%EC%B9%B4%ED%8E%98%20%EA%B0%80%EC%9D%B4%EC%97%94%EB%A7%88%EC%97%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "방문 전 확인 권장",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "가이엔마에 일정에 넣을 때는 점심 피크보다 오픈 직후나 늦은 오후가 비교적 여유롭습니다.",
+            "카페/베이커리 특성상 대표 메뉴와 세트 메뉴 가격 차이가 있으니 주문 전 메뉴판 사진을 먼저 확인해 보세요.",
+            "도쿄 인기 상권은 대기 줄이 빠르게 생길 수 있어 주변 일정과 30분 정도 여유를 두는 편이 좋습니다."
+        ],
+        "access": "카페 좌석, 테이블석",
+        "description": "도쿄 가이엔마에 권역에서 카페/베이커리 일정에 넣기 좋은 로열 가든 카페입니다. 카드 데이터 기준 가격대는 ¥1,000~3,000이며, 실제 메뉴와 운영 정보는 방문 전 검수하는 것을 권장합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqHok53QdVSoADoEzCmCb2Yzcd7gGgp2ZZ1a2AmlNHlOYFxACQ10xQKpgWMUvzRerkZ021UIca6caMzffiNjGF2fZ09991pXcRU=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNSV-OxghEQRGl2bLSFSMJpgw2exE4ibjpj_xefboknzyMMRN68VVVkTK39oa_U0gG7UamV3p09HcRvMBU9YwLNUcozaMpROqayGz-reAYYy8WzQq4xeSmjOsTPfP3IwK8jK4OP05_e0OGibIQPXiLY=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqFPWEfAsMxanTsdUbbiX-1OwAlZFLkG3J-O8o5T1JGoOm5xdrUYShiqESvgPiTtWByzGnA8yGk_qV9rTcwfgpMa0u_ZHLE9l8w=s4800-w807",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOPEX07h2TbQ0uYkeR_GN4SVbeOzcPPC6VTOTpNxa39qrf_ZCGmKm-jOS3olcfM2pb184HPjubjG1AeQuygLRrtCMUbbeQpJqQwk_vm5i2BaZbRiAta2sIhHmm6sQ4tYv_dwzfKqFHzxgGI6b1e4dc_=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP_JiYQ5YzE3eehwxFRkEygjbqGpoIYIf253l7H94-wgycMYeufvUZRl3Z-qxrwJyWYh0-FNuMV9zZDTysi_f-UZXwkcireNUl_e3uLYCRRan30ncuXEIoU9FWj20tJrL5rCLOqLNbcfgx157JodMcY0A=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqHok53QdVSoADoEzCmCb2Yzcd7gGgp2ZZ1a2AmlNHlOYFxACQ10xQKpgWMUvzRerkZ021UIca6caMzffiNjGF2fZ09991pXcRU=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZP_JiYQ5YzE3eehwxFRkEygjbqGpoIYIf253l7H94-wgycMYeufvUZRl3Z-qxrwJyWYh0-FNuMV9zZDTysi_f-UZXwkcireNUl_e3uLYCRRan30ncuXEIoU9FWj20tJrL5rCLOqLNbcfgx157JodMcY0A=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMC_2Vvk-TuCCCU8gF_PUScAEIc8NedvR_KdSKwAID_Hd3bMRtLnrhCbF8sNSiT3IsVoTRJO6G185l5fiJZ7DerESN6630sWagg1flGOYySmfizTeRE3x4I4qSqA9ElpPqTUASpvmgiu2HLPDQyQRvRqw=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "가이엔마에 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "가이엔마에 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선",
+                "color": "#F39700",
+                "description": "긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다."
+            },
+            {
+                "line": "도쿄메트로 히비야선 / 마루노우치선",
+                "color": "#B5B5AC",
+                "description": "긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다."
             }
         ],
         "hours": [
@@ -6832,14 +9862,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "왕궁 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 왕궁 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -6959,14 +9989,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "왕궁 근처 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 왕궁 근처 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -7086,14 +10116,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "차오프라야 강변 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 차오프라야 강변 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -7213,14 +10243,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -7340,14 +10370,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시내(차웽끄시/촹농시 인근) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시내(차웽끄시/촹농시 인근) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -7467,14 +10497,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "차오프라야/리버사이드 근처 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 차오프라야/리버사이드 근처 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -7594,14 +10624,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "차오프라야 리버사이드 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 차오프라야 리버사이드 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -7721,14 +10751,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "짜뚜짝 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 짜뚜짝 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -7848,14 +10878,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "라차다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 라차다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -7975,14 +11005,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "담넌사두억(근교) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 담넌사두억(근교) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -8102,14 +11132,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "암파와(근교) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 암파와(근교) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -8229,14 +11259,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "아유타야(근교) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 아유타야(근교) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -8356,14 +11386,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "암파와(근교) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 암파와(근교) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -8483,14 +11513,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "깐짜나부리(근교) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 깐짜나부리(근교) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -8610,14 +11640,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -8737,14 +11767,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -8864,14 +11894,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -8991,14 +12021,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "오호리 공원 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 오호리 공원 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -9118,14 +12148,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "모모치 해변 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 모모치 해변 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -9245,14 +12275,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/텐진 인근 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/텐진 인근 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -9372,14 +12402,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "다자이후 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 다자이후 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -9499,14 +12529,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "야나가와 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 야나가와 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -9626,14 +12656,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "이토시마 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 이토시마 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -9753,14 +12783,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -9880,14 +12910,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "다자이후 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 다자이후 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -10007,14 +13037,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -10134,14 +13164,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "오사카성 주변 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 오사카성 주변 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -10261,14 +13291,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐노지 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 텐노지 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -10388,14 +13418,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "스미요시 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 스미요시 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -10515,14 +13545,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -10642,14 +13672,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "우메다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 우메다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 우메다역",
+                "color": "#E5171F",
+                "description": "우메다역과 JR 오사카역을 기준으로 잡으면 쇼핑몰, 전망대, 호텔 접근이 편합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "JR 오사카역을 함께 확인하면 교토, 고베, 간사이공항 방면 환승도 수월합니다."
             }
         ],
         "hours": [
@@ -10769,14 +13799,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신세카이 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신세카이 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -10896,14 +13926,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "나라 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 나라 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -11023,14 +14053,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "교토 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 교토 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -11150,14 +14180,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "고베 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 고베 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -11277,14 +14307,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "미노오 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 미노오 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -11404,14 +14434,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "스이타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 스이타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -11531,14 +14561,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "나카노시마 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 나카노시마 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -11658,14 +14688,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신이구(등산로 접근) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 신이구(등산로 접근) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "타이베이 101/세계무역센터역이나 샹산역을 기준으로 잡으면 신이구 관광 동선이 짧습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시청역, 국부기념관역을 함께 확인하면 쇼핑몰과 호텔 접근이 편합니다."
             }
         ],
         "hours": [
@@ -11785,14 +14815,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신이구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 신이구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "타이베이 101/세계무역센터역이나 샹산역을 기준으로 잡으면 신이구 관광 동선이 짧습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시청역, 국부기념관역을 함께 확인하면 쇼핑몰과 호텔 접근이 편합니다."
             }
         ],
         "hours": [
@@ -11912,14 +14942,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "다다오청/대동구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 다다오청/대동구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -12039,14 +15069,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "완화구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 완화구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -12166,14 +15196,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중정구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중정구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -12293,14 +15323,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "북부/베이토우 인근 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 북부/베이토우 인근 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -12420,14 +15450,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "베이토우구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 베이토우구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -12547,14 +15577,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "양명산 국립공원 인근 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 양명산 국립공원 인근 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -12674,14 +15704,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "루이팡 구(근교) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 루이팡 구(근교) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -12801,14 +15831,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중정구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중정구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -12928,14 +15958,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "송산구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 송산구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -13055,14 +16085,14 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "완화구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 완화구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -13119,6 +16149,895 @@ export const generatedTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
                 "rating": "검수필요",
                 "cancelLabel": "예약 가능",
                 "image": "https://lh3.googleusercontent.com/places/ANXAkqE0uxuK9EoOj_Dpo7yPkGL4hyhmIYZnmogy7OetUzPxl-NEFXkwuyydqL_PtGszxafYuZ35SKVgsBPFLrpAybZRi_ropDdUqME=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/SNS명소/omohills": {
+        "id": "tokyo-sns-omohills",
+        "city": "tokyo",
+        "slug": "omohills",
+        "name": "오모테산도 힐스",
+        "category": "SNS명소",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%AA%A8%ED%85%8C%EC%82%B0%EB%8F%84%20%ED%9E%90%EC%8A%A4%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%98%A4%EB%AA%A8%ED%85%8C%EC%82%B0%EB%8F%84%20%ED%9E%90%EC%8A%A4%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 주변 동선과 묶기 좋은 SNS명소 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "SNS명소 명소, 도보 관광",
+        "description": "도쿄 시부야 권역에서 SNS명소 일정에 넣기 좋은 오모테산도 힐스입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPO4EQ5BzeT0nruWhmKCeGXbmT6-vja0rChmZDrPhvyTTR0ljxcUTQdGhVM3LHwlonKpdwTU_Ooy9elyuZmhiIsexnXPxKxqUrWCCEBfaLtyZrR__coaH9Z6S0DHs4zPdJZrWPa5PK1KbiQ9Ls=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMGOQbTr-6XCStxXzHB1Ug0fsCyyP8zEPPTK5hqhF71-UOFG34Qf5UpbaWdTiC8NY0VED7c5ubPtZqJt482el0EZYqctmuR_EL2iKL29OUUEuY919pYVhqQ6EoZOBBuyDTtoOt1Rg3NxmYqdg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN53wjn2fwMlFQlSKKgDocIgASdI7LZJ67wWo0hSM-V0DScQSo_t_Rj6RoXH5Y4WDDzFKyzYeezc7mUgi8eSPGeQLKbumYX4u2ghsgiKzL8A9ydsA1kwEc-1DN73HyHSb1y8ZrhA7zZQa-bGgORn1YReg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPivq_ka6r-Y4pdCI3FOk8_wyj6TPCHGyourtDR2MSVJBug06GPEsw5_6hFp1Gy44LZzW5yFLlW_BleyMWtlemDqc22pYssBQnysxwJiwsKZbHPYuE3qIgLYIB8ypxcOjeMciNTN7vAAOikA4A=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNfQl7armbaHymwYZGnNsWsHAo8iLI6PWIHOOPs4PxFSwoUKD73t-8KdieUsBu0kPYWAud4TFsqRVD4oltDGQ0FvIWLFVJigrSFrg3gwFnEH06_36QXQ1b6Y64M2fXrFzWXdJWp_0FUgiF9by0=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPO4EQ5BzeT0nruWhmKCeGXbmT6-vja0rChmZDrPhvyTTR0ljxcUTQdGhVM3LHwlonKpdwTU_Ooy9elyuZmhiIsexnXPxKxqUrWCCEBfaLtyZrR__coaH9Z6S0DHs4zPdJZrWPa5PK1KbiQ9Ls=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNfQl7armbaHymwYZGnNsWsHAo8iLI6PWIHOOPs4PxFSwoUKD73t-8KdieUsBu0kPYWAud4TFsqRVD4oltDGQ0FvIWLFVJigrSFrg3gwFnEH06_36QXQ1b6Y64M2fXrFzWXdJWp_0FUgiF9by0=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZOqwzzyJk_sKuXo22rQSTT5N9UCpFdENbIWpIlAZWWpmY6aFPuZl_H8A-hT5b5MDTl16RP6FPO4aNZ_gQlxdoz_BJsEL_u6En8Hv2rjG-FiLG-EakQbYxJUpE_zp15rDNGVZTIf2kIFtLaKCeRGeupr=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-sns-omohills-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "시부야",
+                "title": "오모테산도 힐스 입장권/투어",
+                "price": "₩ 0~",
+                "rating": "4.7",
+                "cancelLabel": "상품 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPO4EQ5BzeT0nruWhmKCeGXbmT6-vja0rChmZDrPhvyTTR0ljxcUTQdGhVM3LHwlonKpdwTU_Ooy9elyuZmhiIsexnXPxKxqUrWCCEBfaLtyZrR__coaH9Z6S0DHs4zPdJZrWPa5PK1KbiQ9Ls=s4800-w1200",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-sns-omohills-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "시부야",
+                "title": "오모테산도 힐스 투어",
+                "price": "₩ 0~",
+                "rating": "4.7",
+                "cancelLabel": "예약 가능",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPO4EQ5BzeT0nruWhmKCeGXbmT6-vja0rChmZDrPhvyTTR0ljxcUTQdGhVM3LHwlonKpdwTU_Ooy9elyuZmhiIsexnXPxKxqUrWCCEBfaLtyZrR__coaH9Z6S0DHs4zPdJZrWPa5PK1KbiQ9Ls=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/SNS명소/shibuya-scramble": {
+        "id": "tokyo-sns-x",
+        "city": "tokyo",
+        "slug": "shibuya-scramble",
+        "name": "시부야 스크램블",
+        "category": "SNS명소",
+        "area": "시부야",
+        "address": "시부야, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%8B%9C%EB%B6%80%EC%95%BC%20%EC%8A%A4%ED%81%AC%EB%9E%A8%EB%B8%94%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%8B%9C%EB%B6%80%EC%95%BC%20%EC%8A%A4%ED%81%AC%EB%9E%A8%EB%B8%94%20%EC%8B%9C%EB%B6%80%EC%95%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "시부야 주변 동선과 묶기 좋은 SNS명소 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "SNS명소 명소, 도보 관광",
+        "description": "도쿄 시부야 권역에서 SNS명소 일정에 넣기 좋은 시부야 스크램블입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOyRhY7jab6r-wxRgwL6Jna2fNelNzkowtFCYKZNDpPfnaQ2_aEbWi4PvMJXlyy5LjLat89QpgXRc294LEZqSUwcqBJtSOp3oagN_lx1NhW3d8pu0hZ6ri7_88rRnIu-q3NQRNE1vx4PQi6y7k=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOFKUpE7-JRQ4opq86xZtgT2tDS8aiep-0y41oztkhW2Mn_nmoaXxe8cw1mG_69_w9pE2U0I79FkGFt6BtLtj8i9v6hQr9OmSNR1wOJTM1x608OZu1vCIn3WJzU_kqhBXyIxvOT8-x5Fb0Cd142ek_VhQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNzRgb1mVVF4quPVbfPiKpCekYtWNS5bAkFRppKtQunaDq8cMm-3C6PvvxyjT3SYHvbnhqhCOGBUNWw6Mql1mD_uakVY-cctT9z2l5FYtwI2A-aNQGTFoW3bkostH_phfxtWpgGpNemSxo79Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPFU4dPJK6BIsD_WtpBgA7CK5Z0NAEhidohzmRhDas-w974q2JE-DNJo2_-eHoTFZy44TKHXf4cMqAHbUmUboGaBWrIqDwI2w-CMh6ZB4sEpEboc9r0hyUPJxI1QtV71mIOq49Ck4zZgSlO=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMNiTSxebrJQ9u4pBY3okPp1Xd0XmkE50rm5548BLJKJeTEef0UFxsHNe41Ao0-6dqBLD-IELdJa4hAP7qP0w2i-xkYPBbnp-OWOQVIe9hPYM9omkQRRa2vqEig6zy5DeYu4Jl6-4u84mqM1yQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZOyRhY7jab6r-wxRgwL6Jna2fNelNzkowtFCYKZNDpPfnaQ2_aEbWi4PvMJXlyy5LjLat89QpgXRc294LEZqSUwcqBJtSOp3oagN_lx1NhW3d8pu0hZ6ri7_88rRnIu-q3NQRNE1vx4PQi6y7k=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMNiTSxebrJQ9u4pBY3okPp1Xd0XmkE50rm5548BLJKJeTEef0UFxsHNe41Ao0-6dqBLD-IELdJa4hAP7qP0w2i-xkYPBbnp-OWOQVIe9hPYM9omkQRRa2vqEig6zy5DeYu4Jl6-4u84mqM1yQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPcFMB2a90kC88EZfqq_B05sXBgvgS-XKy4BROF6JuiTA13vbkCMMU_zg2trjLn0dZXxtk5wLok0NI21fPx06bIeYcCDR4KHHu2cQZhh8p5mmAIYUGQ6EXW39bNlXUUvaEU0KikyuqHtjxZ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "시부야 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "시부야 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선 / 도쿄메트로 긴자선 시부야역",
+                "color": "#9ACD32",
+                "description": "시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다."
+            },
+            {
+                "line": "도쿄메트로 한조몬선 / 후쿠토신선 시부야역",
+                "color": "#8F76D6",
+                "description": "지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-sns-x-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "시부야",
+                "title": "시부야 스크램블 입장권/투어",
+                "price": "₩ 0~",
+                "rating": "4.6",
+                "cancelLabel": "상품 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOyRhY7jab6r-wxRgwL6Jna2fNelNzkowtFCYKZNDpPfnaQ2_aEbWi4PvMJXlyy5LjLat89QpgXRc294LEZqSUwcqBJtSOp3oagN_lx1NhW3d8pu0hZ6ri7_88rRnIu-q3NQRNE1vx4PQi6y7k=s4800-w1200",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-sns-x-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "시부야",
+                "title": "시부야 스크램블 투어",
+                "price": "₩ 0~",
+                "rating": "4.6",
+                "cancelLabel": "예약 가능",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOyRhY7jab6r-wxRgwL6Jna2fNelNzkowtFCYKZNDpPfnaQ2_aEbWi4PvMJXlyy5LjLat89QpgXRc294LEZqSUwcqBJtSOp3oagN_lx1NhW3d8pu0hZ6ri7_88rRnIu-q3NQRNE1vx4PQi6y7k=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/역사/meiji-jingu": {
+        "id": "tokyo-history-meiji-jingu",
+        "city": "tokyo",
+        "slug": "meiji-jingu",
+        "name": "메이지 신궁",
+        "category": "역사",
+        "area": "하라주쿠",
+        "address": "하라주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A9%94%EC%9D%B4%EC%A7%80%20%EC%8B%A0%EA%B6%81%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%A9%94%EC%9D%B4%EC%A7%80%20%EC%8B%A0%EA%B6%81%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "하라주쿠 주변 동선과 묶기 좋은 역사 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "역사 명소, 도보 관광",
+        "description": "도쿄 하라주쿠 권역에서 역사 일정에 넣기 좋은 메이지 신궁입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPd-wGT1s0oXcxKzl17CGfz7aE7inyR9P-FidpQs-7kuCAvuoCO-jZXFjndGb0FaUDkPxvO7f0R_6AekbrZTP1xY_hr74ZtAAHlJW7dB8e6L-fNG3SBkrjQQK87p8vRW7Ka--ao5y0qEiBB-O8=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNyHuaqR1ebG2tgp1kVB8DCrM7K3KncdP4NoHEgJ_UVuArVxnMgbjd8M-RB3OCmPnohq-s2wbxbNLKngnq_U8WOpkqAoffpCSiq8Y6PvEx8p91SHgewuFXYa3YPYgWYNmSIrss7iPH1IrytwL491F49=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPBzhLyxhd_MJqXCedzcdYG-yMFwVo9kFwETUi8DWW4b1vocyNDjdev4e6gSNCidu0FMvN6HLfpsFuPxsQ-gxRikXPTHmnfzYflyxLp8yWqETiBbnyFkL1v6DcE-vOqcJkRR7Jg70KR3eaj-PM=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOKYWHph3FyiEZ1AWAG0lY64PU0HxGpb0UxurnFpQzlLMAsfwKSvwSae2o5X98fm7X5UyUl9tkoJlhD0G1xhi7XfcZ1INizWOxyHzKZJU8WlGs9ax0UVa-We0p_FCExZFvW6oUhK3LYwNrG0g=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPT_gIFC2MGURcXYKA7I-uF1ZxQ1A_DZhJq9MNDGCqyuo_Is2MFuW-mw7fxfC4LxPsWTQNa6uPeL76XAiKPkQdFSBGWq-GIKM-gko9uAdZKgP0vZ7Pb01ZDgWumr5jizEruBtJW9InvKeyttg=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPd-wGT1s0oXcxKzl17CGfz7aE7inyR9P-FidpQs-7kuCAvuoCO-jZXFjndGb0FaUDkPxvO7f0R_6AekbrZTP1xY_hr74ZtAAHlJW7dB8e6L-fNG3SBkrjQQK87p8vRW7Ka--ao5y0qEiBB-O8=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPT_gIFC2MGURcXYKA7I-uF1ZxQ1A_DZhJq9MNDGCqyuo_Is2MFuW-mw7fxfC4LxPsWTQNa6uPeL76XAiKPkQdFSBGWq-GIKM-gko9uAdZKgP0vZ7Pb01ZDgWumr5jizEruBtJW9InvKeyttg=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZOgUONh8DKbewiI0zqrSCRnJd-2T2fRlXEZ8Td9LHt6fUeau5xF4MNNecs4M7JPmSu-7s4LXo1ECuMZNfgNorC_AuCsFSfVJTgqv4epfaYT6f9j6ofmhMhTI-EU-nHx8JVLODEznPIhzFypAYs=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "하라주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "하라주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-history-meiji-jingu-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "하라주쿠",
+                "title": "메이지 신궁 입장권/투어",
+                "price": "₩ 0~",
+                "rating": "4.8",
+                "cancelLabel": "상품 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPd-wGT1s0oXcxKzl17CGfz7aE7inyR9P-FidpQs-7kuCAvuoCO-jZXFjndGb0FaUDkPxvO7f0R_6AekbrZTP1xY_hr74ZtAAHlJW7dB8e6L-fNG3SBkrjQQK87p8vRW7Ka--ao5y0qEiBB-O8=s4800-w1200",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-history-meiji-jingu-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "하라주쿠",
+                "title": "메이지 신궁 투어",
+                "price": "₩ 0~",
+                "rating": "4.8",
+                "cancelLabel": "예약 가능",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPd-wGT1s0oXcxKzl17CGfz7aE7inyR9P-FidpQs-7kuCAvuoCO-jZXFjndGb0FaUDkPxvO7f0R_6AekbrZTP1xY_hr74ZtAAHlJW7dB8e6L-fNG3SBkrjQQK87p8vRW7Ka--ao5y0qEiBB-O8=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/역사/sensoji": {
+        "id": "tokyo-history-sensoji",
+        "city": "tokyo",
+        "slug": "sensoji",
+        "name": "센소지",
+        "category": "역사",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%84%BC%EC%86%8C%EC%A7%80%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%84%BC%EC%86%8C%EC%A7%80%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "아사쿠사 주변 동선과 묶기 좋은 역사 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "역사 명소, 도보 관광",
+        "description": "도쿄 아사쿠사 권역에서 역사 일정에 넣기 좋은 센소지입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNj0KvxwrgfJwNDQIhXSnkUIaF_PV4MM_i8g5K1u4OUp-EvNvfvMiWh2bvhDSl-lufblAq1O5KqMVBnBLV2_ZS91qfg0DTW5URAlDbZg5BbVlQhVOrLXM744QwdOvPRcsNL6ILHYvKEhD27X-w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOMArCNTEG9dSK3opXlVrJHpEKx6qXF1guGKiGy3zaldOWvPQHc_OKbvJYsj17qWgzvCxsyQP0QuFnKl_8q-G4oIANtnzM-qklGOiUEjHScumkJryaZUwFw0dy2vorwpegXwRx9y6n2cS_Wig=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP2YWqctPGdzSNSNxHXeobbf07vfeYWRuuB-ACNGwgD_BQinb5zrsd6GpkUDpm_OrqrEg9SBkQ07daKZ3RdXZihNNK29JmlnXgYFtEZpNJ6UabogqQdsP3-mK-4PF706ZR7cOrKcqlT5twyUx__qDo1LQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP3YGoy0vAv6Qv1ySL3T-0jUj2o15__gLB5DXuPaf9tLh2T5-v3601JU7CNT5wbwrMesSxDZBQJj2NfgyllLN9oRiyv0bDj8Qyr59_ukvwJgdlurygNFOe4Cqwwk6dl5FLkNh5isHACA7pK5TQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNGTblzUP1UeAmmyzBzpAEcCHNil9ajYGnnFXdDXdTGiV6fGsWUh4Tc5LMDbQF2T_AOvRrx-fWtBMBlhi9lXUOqRhfo2kSaGCMroruUQi6TT58940kOnFhYBKIi0QVq72-L1L5eRWzR7eX7DHE=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNj0KvxwrgfJwNDQIhXSnkUIaF_PV4MM_i8g5K1u4OUp-EvNvfvMiWh2bvhDSl-lufblAq1O5KqMVBnBLV2_ZS91qfg0DTW5URAlDbZg5BbVlQhVOrLXM744QwdOvPRcsNL6ILHYvKEhD27X-w=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNGTblzUP1UeAmmyzBzpAEcCHNil9ajYGnnFXdDXdTGiV6fGsWUh4Tc5LMDbQF2T_AOvRrx-fWtBMBlhi9lXUOqRhfo2kSaGCMroruUQi6TT58940kOnFhYBKIi0QVq72-L1L5eRWzR7eX7DHE=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZONLg2DLh81986x4WGL4VgugfgJBlfCyr3n7g3okt0ddj03BGGUzPvXs_24Qk_5yGvY3sJJU2A0W-azW3n9HEhyD5dJEppa_o2_18QQ7_FNsVt9EMn3xz9q0cRhmdO2hXURK7YcHnzSvrcs=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-history-sensoji-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "아사쿠사",
+                "title": "센소지 입장권/투어",
+                "price": "₩ 0~",
+                "rating": "4.7",
+                "cancelLabel": "상품 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNj0KvxwrgfJwNDQIhXSnkUIaF_PV4MM_i8g5K1u4OUp-EvNvfvMiWh2bvhDSl-lufblAq1O5KqMVBnBLV2_ZS91qfg0DTW5URAlDbZg5BbVlQhVOrLXM744QwdOvPRcsNL6ILHYvKEhD27X-w=s4800-w1200",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-history-sensoji-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "아사쿠사",
+                "title": "센소지 투어",
+                "price": "₩ 0~",
+                "rating": "4.7",
+                "cancelLabel": "예약 가능",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNj0KvxwrgfJwNDQIhXSnkUIaF_PV4MM_i8g5K1u4OUp-EvNvfvMiWh2bvhDSl-lufblAq1O5KqMVBnBLV2_ZS91qfg0DTW5URAlDbZg5BbVlQhVOrLXM744QwdOvPRcsNL6ILHYvKEhD27X-w=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/역사/imperial-palace-east-gardens": {
+        "id": "tokyo-history-imperial-palace-east-gardens",
+        "city": "tokyo",
+        "slug": "imperial-palace-east-gardens",
+        "name": "고쿄 히가시교엔",
+        "category": "역사",
+        "area": "마루노우치",
+        "address": "마루노우치, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EC%BF%84%20%ED%9E%88%EA%B0%80%EC%8B%9C%EA%B5%90%EC%97%94%20%EB%A7%88%EB%A3%A8%EB%85%B8%EC%9A%B0%EC%B9%98%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B3%A0%EC%BF%84%20%ED%9E%88%EA%B0%80%EC%8B%9C%EA%B5%90%EC%97%94%20%EB%A7%88%EB%A3%A8%EB%85%B8%EC%9A%B0%EC%B9%98%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "마루노우치 주변 동선과 묶기 좋은 역사 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "역사 명소, 도보 관광",
+        "description": "도쿄 마루노우치 권역에서 역사 일정에 넣기 좋은 고쿄 히가시교엔입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNTFHK87t_LyoJ-z5oCZsmy5K_-CuATiTLm_SAybTu7euhr_x5Xp0XRznEjaiDRmGq7S7KhSKytf3L5D4xtnouK7nWB6LQozOCkQdaxYpM-zRJm_L_0tSQgNJlKHwHw-oczGOjvDcwdArTr9Bc=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPCoZprSgRaCR1vmx5uc0Ay2dFA-XF5tyeDo2yiqALNR2smyYU-YC9Y7F6OHdzuWPJIOr2bhzvB0_ItV0CjImSG2tEHM8kpiK12NDI6wJoljdmPjI58ZAZrIzy-L9YbfBvnJGKnbbUUKge0JfM=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMiiCVHjTbNUYwRbAHRDSBDhkOwDQuWT--E68bckvhEOL8rKimompygWQAk50WO_-4ArZT-U5oGurUWuCRIb9x885djM_8xCvRWsqWeVso5n7R5k3OZ7SAFAe7fm3FOpV2IGmxkKSvZHqhe8Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPjok8w2r2MNo5AxXQUm6UPb8xlmy8YJPzw_A1UsExRWn_gVrR8cLwMy18pfnnruhNYGD6oY5oEhqhGxO5Lb2Q2h0bV0xGfrN1_nuOR9OAozlruTeETpHS42hdvRBPQZEqLv6t858u7eddFOA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOaIaeSmMr3C4zT7zusSIQHZASKrT4ywnRETOtZFGi3R6Rh6ylyP-NPGAwQ5TkWFQ7i-jzoBQeykPURt8I1tM32AglmV1D4EQyij3TUe55CKVVxaSsGma7Mgt52Rg1wOwkNcBbbYjkUS_2xGA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNTFHK87t_LyoJ-z5oCZsmy5K_-CuATiTLm_SAybTu7euhr_x5Xp0XRznEjaiDRmGq7S7KhSKytf3L5D4xtnouK7nWB6LQozOCkQdaxYpM-zRJm_L_0tSQgNJlKHwHw-oczGOjvDcwdArTr9Bc=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOaIaeSmMr3C4zT7zusSIQHZASKrT4ywnRETOtZFGi3R6Rh6ylyP-NPGAwQ5TkWFQ7i-jzoBQeykPURt8I1tM32AglmV1D4EQyij3TUe55CKVVxaSsGma7Mgt52Rg1wOwkNcBbbYjkUS_2xGA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPPunJ6BVHVo7bhDTJTwek2R0I3m6c8fYRvE6ELZtXWwt6AGqqID6R0MqXQS17FvcbVgrAhg_DJnPClV14eM2R3e3i7e1d1_ruuRkMnFD34BE3AlyJZXkRXHK8OJ2BsuW_knlvDMHDW-wuV=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "마루노우치 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "마루노우치 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-history-imperial-palace-east-gardens-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "마루노우치",
+                "title": "고쿄 히가시교엔 입장권/투어",
+                "price": "₩ 0~",
+                "rating": "4.6",
+                "cancelLabel": "상품 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNTFHK87t_LyoJ-z5oCZsmy5K_-CuATiTLm_SAybTu7euhr_x5Xp0XRznEjaiDRmGq7S7KhSKytf3L5D4xtnouK7nWB6LQozOCkQdaxYpM-zRJm_L_0tSQgNJlKHwHw-oczGOjvDcwdArTr9Bc=s4800-w1200",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-history-imperial-palace-east-gardens-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "마루노우치",
+                "title": "고쿄 히가시교엔 투어",
+                "price": "₩ 0~",
+                "rating": "4.6",
+                "cancelLabel": "예약 가능",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNTFHK87t_LyoJ-z5oCZsmy5K_-CuATiTLm_SAybTu7euhr_x5Xp0XRznEjaiDRmGq7S7KhSKytf3L5D4xtnouK7nWB6LQozOCkQdaxYpM-zRJm_L_0tSQgNJlKHwHw-oczGOjvDcwdArTr9Bc=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/소도시/kamakura-enoshima": {
+        "id": "tokyo-smallcity-kamakura-enoshima",
+        "city": "tokyo",
+        "slug": "kamakura-enoshima",
+        "name": "가마쿠라·에노시마",
+        "category": "소도시",
+        "area": "가마쿠라",
+        "address": "가마쿠라, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EB%A7%88%EC%BF%A0%EB%9D%BC%C2%B7%EC%97%90%EB%85%B8%EC%8B%9C%EB%A7%88%20%EA%B0%80%EB%A7%88%EC%BF%A0%EB%9D%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EA%B0%80%EB%A7%88%EC%BF%A0%EB%9D%BC%C2%B7%EC%97%90%EB%85%B8%EC%8B%9C%EB%A7%88%20%EA%B0%80%EB%A7%88%EC%BF%A0%EB%9D%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "가마쿠라 주변 동선과 묶기 좋은 소도시 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "소도시 명소, 도보 관광",
+        "description": "도쿄 가마쿠라 권역에서 소도시 일정에 넣기 좋은 가마쿠라·에노시마입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN2flIQnWB4OsIy17BkUX6x3epSZEJYhqf5NHsO5dRAzim0bPYNMmuyrrxrPDFVNDH-k9_Lnv3Vukto2bgsGZXUVhubuHrzmMbmp8q8lNqAbo0DfqpCERhvRU4zEmZ5SOgQgDlAdIGZrDDcHg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMr8eWeGm7_PWLVvQz_F7uQ1wYpDhlX2h27lO3-CfqIJ_Bz1KaFQ8Um8lI4xH0KzQHHiuGfrxUICvtudkKkRvut4sdLsO9Xfuzph3Yze96ZsZI2uRlVw9NMC1XGje1KmtKYseonjBW7qEHcfZE=s4800-w960",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOMwcR5sd0OBhJF-LWewaz7Loi2Np8WWw3hM69BxYImLHsKK0UUCfEfTtWLF9qzhZbdS3GM9mvculeLtq8xE4BvfaRYQmxFUepudlL9Jjipif-_ixpYVlaPe_w5TGE0IUYPuRwpZt3-7TjHhw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMU0ndvHK1RSHBrhZJXvksksyNcYufHpPQIvGgw-LJVD_TeBtp4MFNWOTCOOMSpqF9FXp7hHODyrPwH9mt8LGqsWI6Dkx8bfhzHZAL7l1FinBG44RtsYxfXZAoNtrTIRQ01xT8lPVnbHSok=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNh9T9kP0TU1Gm1aRl8USjD_dB805YiGzs-dytGHDZdtPvHdUH9pMDs3jfwFRI95xqDmxbegUVnHfUCHFMt-td1T9ReZ01PGdvix1hxENrxKOdFEh1S5M9B77g8Qt0UXLCl5tTsyqsqGIR3s1cNywpY9g=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZN2flIQnWB4OsIy17BkUX6x3epSZEJYhqf5NHsO5dRAzim0bPYNMmuyrrxrPDFVNDH-k9_Lnv3Vukto2bgsGZXUVhubuHrzmMbmp8q8lNqAbo0DfqpCERhvRU4zEmZ5SOgQgDlAdIGZrDDcHg=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNh9T9kP0TU1Gm1aRl8USjD_dB805YiGzs-dytGHDZdtPvHdUH9pMDs3jfwFRI95xqDmxbegUVnHfUCHFMt-td1T9ReZ01PGdvix1hxENrxKOdFEh1S5M9B77g8Qt0UXLCl5tTsyqsqGIR3s1cNywpY9g=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZN0rAp23Nao91qXykxffHA1k_c83fHzGy3837IVM0Q6XL15qiIrPQJXOJWC-luBiICppp6nvs34j_puhY9hROkA33YO_E2QrOB_IVgQuxUcUhudZUtfnML46uhvnTNa4ToRvQe4FuewOmPIyg=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "가마쿠라 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "가마쿠라 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-smallcity-kamakura-enoshima-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "가마쿠라",
+                "title": "가마쿠라·에노시마 입장권/투어",
+                "price": "₩ 0~",
+                "rating": "4.8",
+                "cancelLabel": "상품 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZN2flIQnWB4OsIy17BkUX6x3epSZEJYhqf5NHsO5dRAzim0bPYNMmuyrrxrPDFVNDH-k9_Lnv3Vukto2bgsGZXUVhubuHrzmMbmp8q8lNqAbo0DfqpCERhvRU4zEmZ5SOgQgDlAdIGZrDDcHg=s4800-w1200",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-smallcity-kamakura-enoshima-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "가마쿠라",
+                "title": "가마쿠라·에노시마 투어",
+                "price": "₩ 0~",
+                "rating": "4.8",
+                "cancelLabel": "예약 가능",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZN2flIQnWB4OsIy17BkUX6x3epSZEJYhqf5NHsO5dRAzim0bPYNMmuyrrxrPDFVNDH-k9_Lnv3Vukto2bgsGZXUVhubuHrzmMbmp8q8lNqAbo0DfqpCERhvRU4zEmZ5SOgQgDlAdIGZrDDcHg=s4800-w1200",
+                "href": "https://www.kkday.com/"
+            }
+        ]
+    },
+    "tokyo/소도시/mount-fuji-tour": {
+        "id": "tokyo-smallcity-mount-fuji-tour",
+        "city": "tokyo",
+        "slug": "mount-fuji-tour",
+        "name": "후지산 5합목 투어",
+        "category": "소도시",
+        "area": "후지산",
+        "address": "후지산, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%9B%84%EC%A7%80%EC%82%B0%205%ED%95%A9%EB%AA%A9%20%ED%88%AC%EC%96%B4%20%ED%9B%84%EC%A7%80%EC%82%B0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%9B%84%EC%A7%80%EC%82%B0%205%ED%95%A9%EB%AA%A9%20%ED%88%AC%EC%96%B4%20%ED%9B%84%EC%A7%80%EC%82%B0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "입장 정보 확인",
+        "reservationValue": "Google Map",
+        "reservationNotes": [
+            "후지산 주변 동선과 묶기 좋은 소도시 코스라, 이동 전후 식사 장소를 같이 잡으면 시간이 덜 낭비됩니다.",
+            "사진을 남기려면 오전 이른 시간이나 해 질 무렵이 비교적 덜 붐비고 분위기도 좋습니다.",
+            "도쿄 현지 휴일이나 날씨에 따라 운영 시간이 달라질 수 있으니 출발 전에 지도 정보를 한 번 확인하세요."
+        ],
+        "access": "소도시 명소, 도보 관광",
+        "description": "도쿄 후지산 권역에서 소도시 일정에 넣기 좋은 후지산 5합목 투어입니다. 사진, 산책, 주변 식사 동선과 함께 묶어 검토하기 좋은 후보입니다.",
+        "images": [
+            "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+            "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+            "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+            "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+            "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png"
+        ],
+        "mapImages": {
+            "main": "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+            "sub1": "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+            "sub2": "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "후지산 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "후지산 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "월요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "화요일",
+                "value": "오전 10:00 - 오후 06:00",
+                "isToday": true
+            },
+            {
+                "day": "수요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "목요일",
+                "value": "오전 10:00 - 오후 06:00"
+            },
+            {
+                "day": "금요일",
+                "value": "오전 10:00 - 오후 07:00"
+            },
+            {
+                "day": "토요일",
+                "value": "오전 09:00 - 오후 07:00"
+            },
+            {
+                "day": "일요일",
+                "value": "오전 09:00 - 오후 07:00"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-smallcity-mount-fuji-tour-klook",
+                "option": "tour-booking",
+                "brand": "Klook",
+                "route": "후지산",
+                "title": "후지산 5합목 투어 입장권/투어",
+                "price": "₩ 70,000~",
+                "rating": "4.7",
+                "cancelLabel": "상품 확인",
+                "image": "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
+                "href": "https://www.klook.com/"
+            },
+            {
+                "id": "tokyo-smallcity-mount-fuji-tour-kkday",
+                "option": "tour-booking",
+                "brand": "KKday",
+                "route": "후지산",
+                "title": "후지산 5합목 투어 투어",
+                "price": "₩ 70,000~",
+                "rating": "4.7",
+                "cancelLabel": "예약 가능",
+                "image": "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png",
                 "href": "https://www.kkday.com/"
             }
         ]
@@ -13185,14 +17104,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "차오프라야 리버사이드 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 차오프라야 리버사이드 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -13312,14 +17231,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "차오프라야 리버사이드 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 차오프라야 리버사이드 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -13439,14 +17358,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "사톤 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 사톤 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -13566,14 +17485,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -13693,14 +17612,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "사톤 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 사톤 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -13820,14 +17739,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "프라툼완 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 프라툼완 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -13947,14 +17866,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "카오산 로드/구 시가지 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 카오산 로드/구 시가지 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -14074,14 +17993,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "아리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 아리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 스카이트레인",
+                "color": "#7AC143",
+                "description": "방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다."
             }
         ],
         "hours": [
@@ -14201,14 +18120,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시암 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 시암 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -14328,14 +18247,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "사톤 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 사톤 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 실롬선",
+                "color": "#00843D",
+                "description": "실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "차오프라야 익스프레스 보트",
+                "color": "#1E88E5",
+                "description": "왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다."
             }
         ],
         "hours": [
@@ -14455,14 +18374,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "수쿰윗 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 수쿰윗 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -14582,14 +18501,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "프롬퐁/수쿰윗 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "방콕 프롬퐁/수쿰윗 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "BTS 수쿰윗선",
+                "color": "#7AC143",
+                "description": "시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "MRT 블루라인",
+                "color": "#1E4FA1",
+                "description": "수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다."
             }
         ],
         "hours": [
@@ -14709,14 +18628,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/캐널시티 인근 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/캐널시티 인근 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -14836,14 +18755,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -14963,14 +18882,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -15090,14 +19009,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -15217,14 +19136,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -15344,14 +19263,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진/하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진/하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -15471,14 +19390,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "다자이후/근교 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 다자이후/근교 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -15598,14 +19517,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/텐진 근교 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/텐진 근교 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -15725,14 +19644,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "근교(이토시마 등) 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 근교(이토시마 등) 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 전철 / 버스",
+                "color": "#00A650",
+                "description": "다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요."
             }
         ],
         "hours": [
@@ -15852,14 +19771,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -15979,14 +19898,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "하카타/텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 하카타/텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -16106,14 +20025,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐진 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "후쿠오카 텐진 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "후쿠오카 지하철 공항선",
+                "color": "#E87722",
+                "description": "공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "니시테츠 버스",
+                "color": "#00A650",
+                "description": "야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다."
             }
         ],
         "hours": [
@@ -16233,14 +20152,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -16360,14 +20279,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신사이바시/도톤보리 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신사이바시/도톤보리 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -16487,14 +20406,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "아베노하루카스 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 아베노하루카스 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -16614,14 +20533,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신사이바시/난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신사이바시/난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -16741,14 +20660,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "텐노지/신세카이 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 텐노지/신세카이 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선",
+                "color": "#E5171F",
+                "description": "오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요."
             }
         ],
         "hours": [
@@ -16868,14 +20787,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -16995,14 +20914,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -17122,14 +21041,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "난바/우메다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 난바/우메다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -17249,14 +21168,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "혼마치/난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 혼마치/난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -17376,14 +21295,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "난바 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 난바 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -17503,14 +21422,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신사이바시 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 신사이바시 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 난바역",
+                "color": "#E5171F",
+                "description": "난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "오사카 메트로 사카이스지선 닛폰바시역",
+                "color": "#814721",
+                "description": "구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다."
             }
         ],
         "hours": [
@@ -17630,14 +21549,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "우메다 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "오사카 우메다 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "오사카 메트로 미도스지선 우메다역",
+                "color": "#E5171F",
+                "description": "우메다역과 JR 오사카역을 기준으로 잡으면 쇼핑몰, 전망대, 호텔 접근이 편합니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "JR 오사카 순환선",
+                "color": "#E80000",
+                "description": "JR 오사카역을 함께 확인하면 교토, 고베, 간사이공항 방면 환승도 수월합니다."
             }
         ],
         "hours": [
@@ -17757,14 +21676,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신이구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 신이구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "타이베이 101/세계무역센터역이나 샹산역을 기준으로 잡으면 신이구 관광 동선이 짧습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시청역, 국부기념관역을 함께 확인하면 쇼핑몰과 호텔 접근이 편합니다."
             }
         ],
         "hours": [
@@ -17884,14 +21803,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "신이구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 신이구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "타이베이 101/세계무역센터역이나 샹산역을 기준으로 잡으면 신이구 관광 동선이 짧습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시청역, 국부기념관역을 함께 확인하면 쇼핑몰과 호텔 접근이 편합니다."
             }
         ],
         "hours": [
@@ -18011,14 +21930,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중정구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중정구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -18138,14 +22057,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시먼딩 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 시먼딩 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -18265,14 +22184,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "대안구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 대안구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -18392,14 +22311,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중산구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중산구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -18519,14 +22438,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시먼딩 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 시먼딩 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -18646,14 +22565,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "시먼딩 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 시먼딩 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -18773,14 +22692,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "중정구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 중정구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선 / 쑹산신뎬선",
+                "color": "#E3002C",
+                "description": "중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다."
             }
         ],
         "hours": [
@@ -18900,14 +22819,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "베이토우구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 베이토우구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -19027,14 +22946,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "베이토우구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 베이토우구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -19154,14 +23073,14 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
         ],
         "transitDirections": [
             {
-                "line": "베이토우구 주요 대중교통",
-                "color": "#6B8A59",
-                "description": "타이베이 베이토우구 권역에서 지도 앱으로 최단 동선을 확인하는 것을 권장합니다."
+                "line": "타이베이 MRT 반난선",
+                "color": "#0070BD",
+                "description": "타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다."
             },
             {
-                "line": "택시 / 도보 이동",
-                "color": "#111111",
-                "description": "짐이 많거나 야간 이동이라면 숙소나 현재 위치 기준으로 택시 이동도 함께 비교하세요."
+                "line": "타이베이 MRT 단수이신이선",
+                "color": "#E3002C",
+                "description": "101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다."
             }
         ],
         "hours": [
@@ -19218,6 +23137,2419 @@ export const generatedStayPlaceDetailsById: Record<string, StayPlaceDetail> = {
                 "rating": "검수필요",
                 "cancelLabel": "즉시 확인",
                 "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOsVl9nnD80VBw3xLMcUUrbVgt69Vj2jd0d2gu_VmIb6ohJGigLl5vp6syBs6WqPQkbOpvxtRkURv7yh2uH3mNYPRlJCPV0pxlTVzMCd8K6DsVMpXY15m9AB7_Xov6VL-oP1XnqGeYSGpaeMA=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/hotel/rem": {
+        "id": "tokyo-hotel-rem",
+        "city": "tokyo",
+        "slug": "rem",
+        "name": "렘 도쿄 교바시",
+        "category": "호텔",
+        "area": "도쿄",
+        "address": "도쿄, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A0%98%20%EB%8F%84%EC%BF%84%20%EA%B5%90%EB%B0%94%EC%8B%9C%20%EB%8F%84%EC%BF%84%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%A0%98%20%EB%8F%84%EC%BF%84%20%EA%B5%90%EB%B0%94%EC%8B%9C%20%EB%8F%84%EC%BF%84%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "도쿄 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호텔 객실, 예약 조건별 상이",
+        "description": "도쿄 도쿄 권역에서 호텔 숙소를 찾을 때 검토하기 좋은 렘 도쿄 교바시입니다. 카드 데이터 기준 가격대는 ₩ 251,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMJjkDs8oxjvwgUBN1Sbhcw6d4_-4YuY9Wxan8Ljx2mbfj0FQQSYwP4fxxfg4dpa7EQcMemqN-j9cpv0X2mGH1Uatdbig-JTx-eiHpngLs2CHqvpk0LoWwswgNRnE8xiIIzujQavsQLR1WQ7A=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPIluOfjQcvTDl5etrUc0jKp1CZL9RYSzb-r6ewlNLWFOyIkhkmJD8aaSh56Kqhb6387PFb6dQbMMRgSZQkHHy_6Q5vjs3wvOdc5HYLYb5eTdTxIlCHPw4yIedg4uXqjDEdLnzzneKCUMXerA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOBVXvOFt_21eMQ_Fi65dr15vCcfihjQG2MQ97PhFUTvG7lvA04wHfygBOaUEINpNLPRT9oz1tpHHZXfEvpB1gDL9rmg01PQnlf6MrfT3I37pClj8SCzh_Lbt_OD3CXAw1_YsV-8cNhqAJTJg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZP18-yEt1LiiUHT15nj_CskbUHjhySMLCd2zX5c754psO6jwEQc9A7z11Hi_xOy_pJp_JlSqH_d1KsCOqUryCpToYvTT8B2Fyg-Jl1VBmsm1x2dhjtx7UMBwoNjgjCGsjjIHVdPGb0mRoFD=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPVU7xQLqPnVNA2-pSwBF9tt84pWSno4s6fMlRBYCp14n4pOyFePxBtQsfdlFYUn0eB_Hy-ZdmIRbk41nPiZlgwJM9gxVKt3XU-8KcJefdxZAdcWEziucgYaLgqPQPpG_a5jR6QV--toe4ox1g=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZMJjkDs8oxjvwgUBN1Sbhcw6d4_-4YuY9Wxan8Ljx2mbfj0FQQSYwP4fxxfg4dpa7EQcMemqN-j9cpv0X2mGH1Uatdbig-JTx-eiHpngLs2CHqvpk0LoWwswgNRnE8xiIIzujQavsQLR1WQ7A=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPVU7xQLqPnVNA2-pSwBF9tt84pWSno4s6fMlRBYCp14n4pOyFePxBtQsfdlFYUn0eB_Hy-ZdmIRbk41nPiZlgwJM9gxVKt3XU-8KcJefdxZAdcWEziucgYaLgqPQPpG_a5jR6QV--toe4ox1g=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMPojcjBAuTWs3HbycZmKaVXV0x6g-u1MyNpxSS4GA0tdXaJV8bVwAj7ytTC1diwljRHY3xw0OxwQ8hOXsAHtKk28VSXCNQodsEgn9JaHT67UhBPeSU1Rc95XkEeEG3eeSBDT-nmuhbgwvo7y39PkZig=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "도쿄 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "도쿄 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hotel-rem-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "도쿄",
+                "title": "렘 도쿄 교바시",
+                "price": "₩ 251,000~",
+                "rating": "4.5",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMJjkDs8oxjvwgUBN1Sbhcw6d4_-4YuY9Wxan8Ljx2mbfj0FQQSYwP4fxxfg4dpa7EQcMemqN-j9cpv0X2mGH1Uatdbig-JTx-eiHpngLs2CHqvpk0LoWwswgNRnE8xiIIzujQavsQLR1WQ7A=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hotel-rem-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "도쿄",
+                "title": "렘 도쿄 교바시",
+                "price": "₩ 251,000~",
+                "rating": "4.5",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMJjkDs8oxjvwgUBN1Sbhcw6d4_-4YuY9Wxan8Ljx2mbfj0FQQSYwP4fxxfg4dpa7EQcMemqN-j9cpv0X2mGH1Uatdbig-JTx-eiHpngLs2CHqvpk0LoWwswgNRnE8xiIIzujQavsQLR1WQ7A=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hotel-rem-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "도쿄",
+                "title": "렘 도쿄 교바시",
+                "price": "₩ 251,000~",
+                "rating": "4.5",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMJjkDs8oxjvwgUBN1Sbhcw6d4_-4YuY9Wxan8Ljx2mbfj0FQQSYwP4fxxfg4dpa7EQcMemqN-j9cpv0X2mGH1Uatdbig-JTx-eiHpngLs2CHqvpk0LoWwswgNRnE8xiIIzujQavsQLR1WQ7A=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/hotel/prince": {
+        "id": "tokyo-hotel-prince",
+        "city": "tokyo",
+        "slug": "prince",
+        "name": "프린스 스마트 인 에비스",
+        "category": "호텔",
+        "area": "에비스",
+        "address": "에비스, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%94%84%EB%A6%B0%EC%8A%A4%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%EC%9D%B8%20%EC%97%90%EB%B9%84%EC%8A%A4%20%EC%97%90%EB%B9%84%EC%8A%A4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%94%84%EB%A6%B0%EC%8A%A4%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%EC%9D%B8%20%EC%97%90%EB%B9%84%EC%8A%A4%20%EC%97%90%EB%B9%84%EC%8A%A4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "에비스 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호텔 객실, 예약 조건별 상이",
+        "description": "도쿄 에비스 권역에서 호텔 숙소를 찾을 때 검토하기 좋은 프린스 스마트 인 에비스입니다. 카드 데이터 기준 가격대는 ₩ 320,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqHpQK9EVi-K3JdT5tzaKnYUwDv2kAL9aT0L9R2SYgebCpjbyke1CN6Lykh1b77A_lo0FeP5tTkJ8B7QSRDJ0KrRbGcfxiwVlK0=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqGlcc4eKIMUWCd487TILY1gb_Jx1c4dTHl3_tS6lb4NREPDIZSjZbXdrOIDNA2FIefn8tVUb5vclJ9FSeg3PaAMihRXBjhfKWE=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPlGLrVyuaXxKjwf_wjuapuSlCIeJ75ph0K2tZj9EksPpAjcotKxuunxYuh7y-e2llThPd5uJsKNmGrCDsoM56Vn-W2TlIlFHfBjSFsIFydYS5o0HR-gJ_OVDWLN7S5KycGYo6ntG_bj1Nl=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqGr85i5Rdsijd8epEIzAuHyfjKyIgWyl6oOVQF64tIzR4IUH85foUW6SMzoyZ94HAjmoB3s99Mf7Q6ChmST6yN2rA-tkpHG0G0=s4800-w986",
+            "https://lh3.googleusercontent.com/places/ANXAkqEhL8n4c09nrCipl4Hr94QvBHVWD5jtXMM3UO6V9tPnrLhN7P3x1ZnWZcfgrVAVgJUnq4wdi6eFZVQ-_tkEMGFgn_O1YND4Q7o=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqHpQK9EVi-K3JdT5tzaKnYUwDv2kAL9aT0L9R2SYgebCpjbyke1CN6Lykh1b77A_lo0FeP5tTkJ8B7QSRDJ0KrRbGcfxiwVlK0=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqEhL8n4c09nrCipl4Hr94QvBHVWD5jtXMM3UO6V9tPnrLhN7P3x1ZnWZcfgrVAVgJUnq4wdi6eFZVQ-_tkEMGFgn_O1YND4Q7o=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPxTi1iSdCQnok6g9Qxs02jNHySsOR03wE0k51SV4YMQ3fSB0WydESQmcUNXyBaOmwXlm1j_JW8gUis-poUw7E8b4tMmCN1Waho0QCI_WcOu0JGBMN8MgORrJ2ch84Za3APzQaTrg5VABLB=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "에비스 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "에비스 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hotel-prince-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "에비스",
+                "title": "프린스 스마트 인 에비스",
+                "price": "₩ 320,000~",
+                "rating": "4.7",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqHpQK9EVi-K3JdT5tzaKnYUwDv2kAL9aT0L9R2SYgebCpjbyke1CN6Lykh1b77A_lo0FeP5tTkJ8B7QSRDJ0KrRbGcfxiwVlK0=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hotel-prince-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "에비스",
+                "title": "프린스 스마트 인 에비스",
+                "price": "₩ 320,000~",
+                "rating": "4.7",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqHpQK9EVi-K3JdT5tzaKnYUwDv2kAL9aT0L9R2SYgebCpjbyke1CN6Lykh1b77A_lo0FeP5tTkJ8B7QSRDJ0KrRbGcfxiwVlK0=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hotel-prince-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "에비스",
+                "title": "프린스 스마트 인 에비스",
+                "price": "₩ 320,000~",
+                "rating": "4.7",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqHpQK9EVi-K3JdT5tzaKnYUwDv2kAL9aT0L9R2SYgebCpjbyke1CN6Lykh1b77A_lo0FeP5tTkJ8B7QSRDJ0KrRbGcfxiwVlK0=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/hotel/domine": {
+        "id": "tokyo-hotel-domine",
+        "city": "tokyo",
+        "slug": "domine",
+        "name": "도미인 진구마에",
+        "category": "호텔",
+        "area": "하라주쿠",
+        "address": "하라주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8F%84%EB%AF%B8%EC%9D%B8%20%EC%A7%84%EA%B5%AC%EB%A7%88%EC%97%90%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%8F%84%EB%AF%B8%EC%9D%B8%20%EC%A7%84%EA%B5%AC%EB%A7%88%EC%97%90%20%ED%95%98%EB%9D%BC%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "하라주쿠 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호텔 객실, 예약 조건별 상이",
+        "description": "도쿄 하라주쿠 권역에서 호텔 숙소를 찾을 때 검토하기 좋은 도미인 진구마에입니다. 카드 데이터 기준 가격대는 ₩ 358,900~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqEHzvzqKUXfR3Q2R1PyIsvuv7aL2YI5zXjaLfMr97PbuM8CBJWQ8Zdrh8K2LbEZDS7YntWxg89qJZq6C6SV1LBE2I03_DLTXhg=s4800-w582",
+            "https://lh3.googleusercontent.com/places/ANXAkqEayzTK26XNkT9T1m3ByxNRB8-v7RMNhPH0knNJJaPCaPDXwq6WmagNjCOJebe5R0Xv9rXxvQxMD7GwwkYU05T-Xs_R7OISXw8=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNKrBhBkIEyicsHhKZvQgSsaoHI2Fzho2Tu4_gWjo9U7ix2Wei6fBitqbXzYKnDrDUQpvCuN_qJAH6JVYMPqQw4KCnqYzfl4ioi0Fws7x4SXnxhPzy5DhOs_eKfR1TPNz-mAHneLgBx--y5Jhmb6uDa=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqEVtm2EcWxFnmwplrbSIz3pAGWfZz92vq9v52edkfLbo8444kKUTfs0jSvc55Knn3miP29MUvIe4x8usfRWCVBwHDLRlJLrHj4=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHvyH9A4UihBh_lvQz2nJrtUmX_GTuchDcFBg70D9Gq6DDg_Gg2o7mBDUlR0AiSkcIZ9i58-SuDOdFiAzZvXMK8DRL9NSK-ye0=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqEHzvzqKUXfR3Q2R1PyIsvuv7aL2YI5zXjaLfMr97PbuM8CBJWQ8Zdrh8K2LbEZDS7YntWxg89qJZq6C6SV1LBE2I03_DLTXhg=s4800-w582",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqHvyH9A4UihBh_lvQz2nJrtUmX_GTuchDcFBg70D9Gq6DDg_Gg2o7mBDUlR0AiSkcIZ9i58-SuDOdFiAzZvXMK8DRL9NSK-ye0=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqGFJxTmLIwyITrIMBe2I8Dw2a_-kFSEZqivZIB9GZTgPdSUBRulTv1EyP1uTxRrhvdHHSPevJunEre8kiAygW_CzEyUm5a_8JQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "하라주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "하라주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hotel-domine-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "하라주쿠",
+                "title": "도미인 진구마에",
+                "price": "₩ 358,900~",
+                "rating": "4.5",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqEHzvzqKUXfR3Q2R1PyIsvuv7aL2YI5zXjaLfMr97PbuM8CBJWQ8Zdrh8K2LbEZDS7YntWxg89qJZq6C6SV1LBE2I03_DLTXhg=s4800-w582",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hotel-domine-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "하라주쿠",
+                "title": "도미인 진구마에",
+                "price": "₩ 358,900~",
+                "rating": "4.5",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqEHzvzqKUXfR3Q2R1PyIsvuv7aL2YI5zXjaLfMr97PbuM8CBJWQ8Zdrh8K2LbEZDS7YntWxg89qJZq6C6SV1LBE2I03_DLTXhg=s4800-w582",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hotel-domine-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "하라주쿠",
+                "title": "도미인 진구마에",
+                "price": "₩ 358,900~",
+                "rating": "4.5",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqEHzvzqKUXfR3Q2R1PyIsvuv7aL2YI5zXjaLfMr97PbuM8CBJWQ8Zdrh8K2LbEZDS7YntWxg89qJZq6C6SV1LBE2I03_DLTXhg=s4800-w582",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/호스텔/nui-hostel": {
+        "id": "tokyo-hostel-nui",
+        "city": "tokyo",
+        "slug": "nui-hostel",
+        "name": "Nui. 호스텔",
+        "category": "호스텔",
+        "area": "구라마에",
+        "address": "구라마에, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nui.%20%ED%98%B8%EC%8A%A4%ED%85%94%20%EA%B5%AC%EB%9D%BC%EB%A7%88%EC%97%90%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=Nui.%20%ED%98%B8%EC%8A%A4%ED%85%94%20%EA%B5%AC%EB%9D%BC%EB%A7%88%EC%97%90%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "구라마에 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호스텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호스텔 객실, 예약 조건별 상이",
+        "description": "도쿄 구라마에 권역에서 호스텔 숙소를 찾을 때 검토하기 좋은 Nui. 호스텔입니다. 카드 데이터 기준 가격대는 ₩ 55,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNjBtBUDrkkC-wTCjqFlMd8SHtHC5F_VZRw-DJi62seHUvrl9ZIIOu3Fbsjc2F2v9dD3WxyogzFQKVC1BRKBKbjROnduRpfnkc4YuaF5pCjuyrMlwf2yuT9bPUIl74KAOD7Y2Se3NG25jWhkJY=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPhAoyy3gE2Cedmrtg4N5fXbCGQfuj3sLD5FbIo2L1YU-4dbjI3xIkIlIHtz874OjKkbLYNV7rI93A54Bx-jKOajOC9USId18pkK4sCtjri4Qyu08A9XJxadzSV9u9iSEyDbxMnOmatAtAaRQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOikAE33OO76k_iPfu_59ncRWZ14WeQ891i5DPbyGYW2ZuwU9S75fcIMzMZ3vC-i9tILTTTAlDwrltGvaC419t_q9qhyelB-gqsgPD5imdLAyl-i8Y5V5XL1KsiaImNY_qWUZDilPbKulzA3g=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPGAU3q57mFn2HzghIj4BgtBBtQLUcrXte47ooC8dyD0hp2vIx1PlmzF-J0opwwjhfbxvPvWTQ2SzM1cCgs-1Tt64WZDd4ifenbiv90lvKti7t9nUtUXZFzLCQg0k31yxkhktjoUmuOZ4wG=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPGAU3q57mFn2HzghIj4BgtBBtQLUcrXte47ooC8dyD0hp2vIx1PlmzF-J0opwwjhfbxvPvWTQ2SzM1cCgs-1Tt64WZDd4ifenbiv90lvKti7t9nUtUXZFzLCQg0k31yxkhktjoUmuOZ4wG=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNjrKDHWxj0vcoSDN1Er32nqi3BEtyvmRDqSmlOr3tTxwWEbxtsrrk3KExq7usIcouVi4Cc06G0bgeusl27At-jvu85h9xAlfDnsdDUE0Ds2IIze6NUMzxZ9aCCSYdeVYbCqzcYiEOL4EbCyhA=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "구라마에 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "구라마에 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hostel-nui-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "구라마에",
+                "title": "Nui. 호스텔",
+                "price": "₩ 55,000~",
+                "rating": "4.6",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hostel-nui-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "구라마에",
+                "title": "Nui. 호스텔",
+                "price": "₩ 55,000~",
+                "rating": "4.6",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hostel-nui-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "구라마에",
+                "title": "Nui. 호스텔",
+                "price": "₩ 55,000~",
+                "rating": "4.6",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/호스텔/unplan-shinjuku": {
+        "id": "tokyo-hostel-unplan-shinjuku",
+        "city": "tokyo",
+        "slug": "unplan-shinjuku",
+        "name": "UNPLAN 신주쿠",
+        "category": "호스텔",
+        "area": "신주쿠",
+        "address": "신주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=UNPLAN%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=UNPLAN%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "신주쿠 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호스텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호스텔 객실, 예약 조건별 상이",
+        "description": "도쿄 신주쿠 권역에서 호스텔 숙소를 찾을 때 검토하기 좋은 UNPLAN 신주쿠입니다. 카드 데이터 기준 가격대는 ₩ 62,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNq02RqoBcW66AEK87RjV9SOT6yFlEtta2-dGed82q-1_CQO1yBBxht86bq9OyOUp1jcywh6eLB_41G1IR04pGiuuZZv2wMeUSwZ09xIQ1_5zAEziZ5M9x7L_KoUoLdZG8n-VWc8qQ6IsLwAUw=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNh7kdSkVPVRejq5lUTwSTUM5iu-hLPz87-rUUL3EYrXzNgzOWK3TIUfYnPz2XgyMfF_sPyG0IHyKUmpFQt4YbI-M1v5cJJk7fR_jclohQqz3hT39ITYqayuspM0UW0hZ7ZVBbpQHre2sIXAg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOrjSrJKvJNOcfEAcQuR049WY1YSr30HvJ8Tckk6uymVMEttHXS3gUad5Oco0-pv-eUM5IH8nXC327FkQZAP6gw0cz0EQueNgSVjuTQDhb-88mJpUweHVHdexJX-BXWh7kcEa8nfSI88dVCzQ=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOlLF-QmzYWbeknIqxzgf45kDzMPnL5gVXsIz1ov85vufozLLjROnLoTpxV7TKf9GSUDzpdQiYEJ80pM_SszMt1fPtHRPrXQBDABdexAzYz2w8b6liywTNReCzvfxGqzgeu-0s5RSxgipVnNQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOlLF-QmzYWbeknIqxzgf45kDzMPnL5gVXsIz1ov85vufozLLjROnLoTpxV7TKf9GSUDzpdQiYEJ80pM_SszMt1fPtHRPrXQBDABdexAzYz2w8b6liywTNReCzvfxGqzgeu-0s5RSxgipVnNQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPQuPxFvC8MvRM22ng0cKO2e9dIIYPzqYXqiNgZ8yBxcLxvXGZP581iob-SUj1g_3gMAGQBsro0ZuIP4aEesUiRn3ghsCaib0asoluESj-J_fyAbb3o_dAxlnKT5uwi5AxjbGmT179pzoAtMeU=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "신주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "신주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hostel-unplan-shinjuku-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "신주쿠",
+                "title": "UNPLAN 신주쿠",
+                "price": "₩ 62,000~",
+                "rating": "4.4",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hostel-unplan-shinjuku-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "신주쿠",
+                "title": "UNPLAN 신주쿠",
+                "price": "₩ 62,000~",
+                "rating": "4.4",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hostel-unplan-shinjuku-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "신주쿠",
+                "title": "UNPLAN 신주쿠",
+                "price": "₩ 62,000~",
+                "rating": "4.4",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/호스텔/citan-hostel": {
+        "id": "tokyo-hostel-citan",
+        "city": "tokyo",
+        "slug": "citan-hostel",
+        "name": "CITAN 호스텔",
+        "category": "호스텔",
+        "area": "니혼바시",
+        "address": "니혼바시, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=CITAN%20%ED%98%B8%EC%8A%A4%ED%85%94%20%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=CITAN%20%ED%98%B8%EC%8A%A4%ED%85%94%20%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "니혼바시 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호스텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호스텔 객실, 예약 조건별 상이",
+        "description": "도쿄 니혼바시 권역에서 호스텔 숙소를 찾을 때 검토하기 좋은 CITAN 호스텔입니다. 카드 데이터 기준 가격대는 ₩ 58,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMV727nAeQtSk9GW2kYnrmeM5MaEEpV4BtnLvEzhLp0rtwTFgf0fJtsCMbSN6LAefg-u-2hJeg1vYG1WPQcJ_Xr1wTU-3AMYcpEyM6YiyyUDjZNOPs-SSe473yLi21sWMLlY8G0waUI_o1kmA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMmYIpt15B5nGJ0W8xA1RI9NiGH03lOKaE1yz3gMET-xRtkXfJYKIurPTB-DLzfOkS6mdGGmZOTx2eNvJxzl1r7XlDxYLIpuiAEfk7VvlXtlTKkve7lvszl0EZJqt1wrF5J6WojKw-1SEYRfA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOYkNpI18co-JH6KziAxcngI0Umr3_45cVziiHHlQI1Jx_WcWCAoRPdvXF8sI-5UT6oiuJm5S7LqGnF9S79ooi-mqE0E1lT1yCE8unaLb2PlizGjo0HoE3hbXxKBrvFOkkWzBDqZ_Ct5Aps=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPsggSTy5wjS9hJR9jSlolLNi2YRPAxoVL3STZX87mVHtY1xDaJxEFdqBS48FOcaSlgvk9kWJV_hSsk8OYIBl6FrPpM6W1LbcEWim8RqyRXkBkc-RxRoYO9TPfseBua3cRjoHpa3vhssnWnAA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPsggSTy5wjS9hJR9jSlolLNi2YRPAxoVL3STZX87mVHtY1xDaJxEFdqBS48FOcaSlgvk9kWJV_hSsk8OYIBl6FrPpM6W1LbcEWim8RqyRXkBkc-RxRoYO9TPfseBua3cRjoHpa3vhssnWnAA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZM2z4Xb7eiY4eOGoyHtqxpmru_hMUpC0ke9WBDleFf118gfccKOE4D6fqopkb2ABJuk5LDiTpmjzVE0JcXDAHhgqQ015fLv8XkmdzB4udAZfb9uLQrMzarSCW5cFMfDgIsjcRpRNZtgrg2MAg=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "니혼바시 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "니혼바시 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hostel-citan-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "니혼바시",
+                "title": "CITAN 호스텔",
+                "price": "₩ 58,000~",
+                "rating": "4.5",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hostel-citan-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "니혼바시",
+                "title": "CITAN 호스텔",
+                "price": "₩ 58,000~",
+                "rating": "4.5",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hostel-citan-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "니혼바시",
+                "title": "CITAN 호스텔",
+                "price": "₩ 58,000~",
+                "rating": "4.5",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/호스텔/khaosan-samurai": {
+        "id": "tokyo-hostel-khaosan-samurai",
+        "city": "tokyo",
+        "slug": "khaosan-samurai",
+        "name": "카오산 사무라이",
+        "category": "호스텔",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EC%98%A4%EC%82%B0%20%EC%82%AC%EB%AC%B4%EB%9D%BC%EC%9D%B4%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%B9%B4%EC%98%A4%EC%82%B0%20%EC%82%AC%EB%AC%B4%EB%9D%BC%EC%9D%B4%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "아사쿠사 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "호스텔 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "호스텔 객실, 예약 조건별 상이",
+        "description": "도쿄 아사쿠사 권역에서 호스텔 숙소를 찾을 때 검토하기 좋은 카오산 사무라이입니다. 카드 데이터 기준 가격대는 ₩ 48,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567",
+            "https://lh3.googleusercontent.com/places/ANXAkqFV8IWn0AGK5c5t_SZZ1WqmNunstIyewrN3l2i6A1ZaceHVecsbOtnkMCrCn9Ftk48tVTmvcxFr9zIXge1TXmhBSsC6sVEAs3A=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqF3XSjCKUVejinOOazOtyuUNuxhLjjTC6QSdyNlbUZP54rFl2FXS4zAF23RuDw2Q9d850JphHIPqngG-bdknItqemr9UGVLYV0=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqEZLtpk4B3lOnUKQJyw8NzwfzoH7Q_jRzOojWfrnoNgwaNfFOGwY08Spkfkp83y76EulPkVUF1-NumZFAyglCoBU3KuWw1FWXA=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqGkZt3MZxAQvoKUfAfkm8m1r-4EBPFmYrkuVTsTyq57lYfTE-242m85PmBaCTUq166vbV5qmSjzVKpZeG1y7ZKoWu06YMI3puc=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqGkZt3MZxAQvoKUfAfkm8m1r-4EBPFmYrkuVTsTyq57lYfTE-242m85PmBaCTUq166vbV5qmSjzVKpZeG1y7ZKoWu06YMI3puc=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqGdtkOAVdrueGQdQfCaL3OcLVCWsnOlXtIVvY89Gwm_7ZG4-UCYvDS8yxnIsAe1N_JNmV54qzWqI0emIwiwietb8ORua0hVPxQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-hostel-khaosan-samurai-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "아사쿠사",
+                "title": "카오산 사무라이",
+                "price": "₩ 48,000~",
+                "rating": "4.3",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-hostel-khaosan-samurai-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "아사쿠사",
+                "title": "카오산 사무라이",
+                "price": "₩ 48,000~",
+                "rating": "4.3",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-hostel-khaosan-samurai-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "아사쿠사",
+                "title": "카오산 사무라이",
+                "price": "₩ 48,000~",
+                "rating": "4.3",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/료칸/hoshinoya-tokyo": {
+        "id": "tokyo-ryokan-hoshinoya-tokyo",
+        "city": "tokyo",
+        "slug": "hoshinoya-tokyo",
+        "name": "호시노야 도쿄",
+        "category": "료칸",
+        "area": "오테마치",
+        "address": "오테마치, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EC%8B%9C%EB%85%B8%EC%95%BC%20%EB%8F%84%EC%BF%84%20%EC%98%A4%ED%85%8C%EB%A7%88%EC%B9%98%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%98%B8%EC%8B%9C%EB%85%B8%EC%95%BC%20%EB%8F%84%EC%BF%84%20%EC%98%A4%ED%85%8C%EB%A7%88%EC%B9%98%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "오테마치 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "료칸 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "료칸 객실, 예약 조건별 상이",
+        "description": "도쿄 오테마치 권역에서 료칸 숙소를 찾을 때 검토하기 좋은 호시노야 도쿄입니다. 카드 데이터 기준 가격대는 ₩ 980,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMq2WrrMUwrqw9WC3i4hPQjSXtn2OdW4kOsG_fJYQV05hwaObqZdfgde_LYJXcq4i4Eh9Ij-utYdFVfHPFckVre4HZF5FsU8gMEQ1mvWg0puX7ymNonKR93HOBzwI7B6XIXSRruXqK4jJKbi4g=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNinydzyW_9TjYy8YViRJCPQ96-udnMjnBK9XbMsq9IiaAWLSgrFgqbWJZb8oQBKHhjqwtthKlLlXBla_8ruaIVr6Z9Bv3SGqPfc-VMqf--SUGbaUoX-dcgc6SAFHf2qUnlwKT2_aZKjuiaQZ4=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMAaaHG77Xiasc4Nn6LLn7ZiWUz4QjtY_UQQ_5egoBykiYHdxihvgxTCTd_04S0FbVExsmd4SZTXYPsVq1llEMXhahPzwJa_aFleHKMzxWmFj85LbKk8STHtJc_CWgTJpTXhelRwQD7knw1aMs=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZM3Uqchoy8URAhmzt5QCnKWvzs_BGiJ3SGf9XKx1YOXZk7XXKD2bUdLHTCisdkihfy0T4MoOm7rv7bdNn-z61JHOO9Cb0xQwdTn2Gzf1HOD3ObV1gSOjAdXbxSFVhD8DxstNWL520o-qOkdhg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNFdwnAdwGXfkIK6XVpynHkqjlftECuND56BV7FPBXo6S_rby724A_iyGUZ5EhoKbTydfN42DZYOEC9WmC5obY6ipPJ45XCWq2yHZDLlV6q0iC1n2JC5UTYx9A4IG4oFIa_Cbrxp913ijyxgg=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZMq2WrrMUwrqw9WC3i4hPQjSXtn2OdW4kOsG_fJYQV05hwaObqZdfgde_LYJXcq4i4Eh9Ij-utYdFVfHPFckVre4HZF5FsU8gMEQ1mvWg0puX7ymNonKR93HOBzwI7B6XIXSRruXqK4jJKbi4g=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNFdwnAdwGXfkIK6XVpynHkqjlftECuND56BV7FPBXo6S_rby724A_iyGUZ5EhoKbTydfN42DZYOEC9WmC5obY6ipPJ45XCWq2yHZDLlV6q0iC1n2JC5UTYx9A4IG4oFIa_Cbrxp913ijyxgg=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZPwQEzanSE479pc3DEt0S0SMkFvIN7Qyd4mDKL3408zFxEVeIoaQgFo4ZDtQWKVgrjRnjHEIeOSQG1YBh2Qy1MjC6Zuw7fj-pmbZW_XczQXlBY1eKOInqZpbB-G7bJUqWAHtDyjREJo2470=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "오테마치 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "오테마치 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-ryokan-hoshinoya-tokyo-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "오테마치",
+                "title": "호시노야 도쿄",
+                "price": "₩ 980,000~",
+                "rating": "4.7",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMq2WrrMUwrqw9WC3i4hPQjSXtn2OdW4kOsG_fJYQV05hwaObqZdfgde_LYJXcq4i4Eh9Ij-utYdFVfHPFckVre4HZF5FsU8gMEQ1mvWg0puX7ymNonKR93HOBzwI7B6XIXSRruXqK4jJKbi4g=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-ryokan-hoshinoya-tokyo-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "오테마치",
+                "title": "호시노야 도쿄",
+                "price": "₩ 980,000~",
+                "rating": "4.7",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMq2WrrMUwrqw9WC3i4hPQjSXtn2OdW4kOsG_fJYQV05hwaObqZdfgde_LYJXcq4i4Eh9Ij-utYdFVfHPFckVre4HZF5FsU8gMEQ1mvWg0puX7ymNonKR93HOBzwI7B6XIXSRruXqK4jJKbi4g=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-ryokan-hoshinoya-tokyo-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "오테마치",
+                "title": "호시노야 도쿄",
+                "price": "₩ 980,000~",
+                "rating": "4.7",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMq2WrrMUwrqw9WC3i4hPQjSXtn2OdW4kOsG_fJYQV05hwaObqZdfgde_LYJXcq4i4Eh9Ij-utYdFVfHPFckVre4HZF5FsU8gMEQ1mvWg0puX7ymNonKR93HOBzwI7B6XIXSRruXqK4jJKbi4g=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/료칸/kamogawa-asakusa": {
+        "id": "tokyo-ryokan-kamogawa-asakusa",
+        "city": "tokyo",
+        "slug": "kamogawa-asakusa",
+        "name": "카모가와 료칸",
+        "category": "료칸",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EB%AA%A8%EA%B0%80%EC%99%80%20%EB%A3%8C%EC%B9%B8%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%B9%B4%EB%AA%A8%EA%B0%80%EC%99%80%20%EB%A3%8C%EC%B9%B8%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "아사쿠사 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "료칸 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "료칸 객실, 예약 조건별 상이",
+        "description": "도쿄 아사쿠사 권역에서 료칸 숙소를 찾을 때 검토하기 좋은 카모가와 료칸입니다. 카드 데이터 기준 가격대는 ₩ 180,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqEale-k2qc4HCdkfL5N6BHzPua-aLV_APbe397jraJMWc5m5ah7AbSocxVATyH1PjQTLY1dxN_U1px_7UbYdrR1XcNqDXCf160=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqGGDFoLrNXaIARCrMMqBaZgsVDBbV4QCnHpaVOdAz9_nZbJc4ntJ-mz-9b7pUNtevg3W9H5UvqtYndneLwBmu3-jlmkhw6O2FE=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHpMmAqVc2yCPlDUmU8zye1ZAwqsArJ8CbUOa7A6zioMlntuffJMC2df22nganwo1-hlnYH5QC43JB-rEt8mgLlR8ASSlTHBLs=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNpoZ_Df_sa1_iyGkQh8dD_jw8V5Mbn_ig5rCjMG9KQXTORs9vIj-HbsH1MmHoD279e1MQ7t8JQib9y4LxOfDqGy_ryGlpuz1lR7p_VtNE0FtdnlBOsTYSklQ7qJ4oJ5ByP6mEHiz0p8_PA8Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqEukIDAZDj_mlq8JSYU2ShT5EA3yslBu323kH4BiyesmiXaI_kJR3DmsZm4S_6aBLipBY_wNB-FG3sUgrsg1kq0f7juWV6TV-8=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqEale-k2qc4HCdkfL5N6BHzPua-aLV_APbe397jraJMWc5m5ah7AbSocxVATyH1PjQTLY1dxN_U1px_7UbYdrR1XcNqDXCf160=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqEukIDAZDj_mlq8JSYU2ShT5EA3yslBu323kH4BiyesmiXaI_kJR3DmsZm4S_6aBLipBY_wNB-FG3sUgrsg1kq0f7juWV6TV-8=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqHY_1wspcpb4G52sk3REJX2CIhKclGx6VaitzDp5zUKyAiFyEiIR5unPz-_pazI6LOHP0DvbS20E7UHG2lA38X7oY9h5mniJ9w=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-ryokan-kamogawa-asakusa-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "아사쿠사",
+                "title": "카모가와 료칸",
+                "price": "₩ 180,000~",
+                "rating": "4.5",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqEale-k2qc4HCdkfL5N6BHzPua-aLV_APbe397jraJMWc5m5ah7AbSocxVATyH1PjQTLY1dxN_U1px_7UbYdrR1XcNqDXCf160=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-ryokan-kamogawa-asakusa-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "아사쿠사",
+                "title": "카모가와 료칸",
+                "price": "₩ 180,000~",
+                "rating": "4.5",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqEale-k2qc4HCdkfL5N6BHzPua-aLV_APbe397jraJMWc5m5ah7AbSocxVATyH1PjQTLY1dxN_U1px_7UbYdrR1XcNqDXCf160=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-ryokan-kamogawa-asakusa-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "아사쿠사",
+                "title": "카모가와 료칸",
+                "price": "₩ 180,000~",
+                "rating": "4.5",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqEale-k2qc4HCdkfL5N6BHzPua-aLV_APbe397jraJMWc5m5ah7AbSocxVATyH1PjQTLY1dxN_U1px_7UbYdrR1XcNqDXCf160=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/료칸/sawanoya-ryokan": {
+        "id": "tokyo-ryokan-sawanoya",
+        "city": "tokyo",
+        "slug": "sawanoya-ryokan",
+        "name": "사와노야 료칸",
+        "category": "료칸",
+        "area": "야나카",
+        "address": "야나카, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%82%AC%EC%99%80%EB%85%B8%EC%95%BC%20%EB%A3%8C%EC%B9%B8%20%EC%95%BC%EB%82%98%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%82%AC%EC%99%80%EB%85%B8%EC%95%BC%20%EB%A3%8C%EC%B9%B8%20%EC%95%BC%EB%82%98%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "야나카 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "료칸 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "료칸 객실, 예약 조건별 상이",
+        "description": "도쿄 야나카 권역에서 료칸 숙소를 찾을 때 검토하기 좋은 사와노야 료칸입니다. 카드 데이터 기준 가격대는 ₩ 120,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqGrTXgoq-k7pdpB1rqAeCE5Z3j3hi5ZIOLr7uXgcRBnywUPjcmiLkpSUGJbaJP7lvhyg5g4Qfb4Iokk-E0rLvjeIPNqpv4JAio=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOlolrg0RMe2W8Y28yel6qYPFvoW_2mJPjI-JvOt2zLyAGVT2Nt0c1dYFO6T6pwu06mu03oEekssu6jvjbczgVn2gBDKi8njVbHpX-wy6z8UpJbi6kSgHJHwzt4qJwWgkZfnzNND21MnUKDrHI=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNKtk3mLVSF8rAxetQpbwNToF3h9ygyvwy9WPg0yb4iKhIKIjmYmPY4TCoWfb0HxVbSw7f0aUhqYfnMorA-rOt4mkoaUDgtZZrkIGN25taQb8FUTYw0iXPtWZhiE1J36daim9uOA-WkiVoi40Jae0odGg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMMSVejVhG4U2zbOQdNoMFsGawrHjoLZTzvwMplxKOJPqeWXI-CTV6R4WioxTYDzasWeFEO8-LS-5w7rV61iwFwOL40aqcvjwAZUYZRhurlyd94IXzxnk4jHuKEtL6A8iVgaQc0gqtdi7ki4Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNJa8G_mCo0bia9_dXvR0wwp_CXehXzerkAPgP2ahf16dweTBbMdDdvWeb1C62Szgjx7n_uPFJEgK0N968wzUx4SC0o0vU2B5iHKtP9zZmalie13_lFB2-6VTFkIP_HFmlxmf5SBafXcUrxOA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqGrTXgoq-k7pdpB1rqAeCE5Z3j3hi5ZIOLr7uXgcRBnywUPjcmiLkpSUGJbaJP7lvhyg5g4Qfb4Iokk-E0rLvjeIPNqpv4JAio=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZNJa8G_mCo0bia9_dXvR0wwp_CXehXzerkAPgP2ahf16dweTBbMdDdvWeb1C62Szgjx7n_uPFJEgK0N968wzUx4SC0o0vU2B5iHKtP9zZmalie13_lFB2-6VTFkIP_HFmlxmf5SBafXcUrxOA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZOiTfjqcaJv7OmPr_1dZ_EzFIVXH5RVndr5F5xImIC8xDx8RawBYDArSSp7YEhCHY00qhD3mKEOUQFQcy5PxfdYvgDu_UXefFagm7omL06Gjmuj69gQo7tpvzNyf82aE6e9cwXA-SBuBIO5yA=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "야나카 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "야나카 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-ryokan-sawanoya-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "야나카",
+                "title": "사와노야 료칸",
+                "price": "₩ 120,000~",
+                "rating": "4.7",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqGrTXgoq-k7pdpB1rqAeCE5Z3j3hi5ZIOLr7uXgcRBnywUPjcmiLkpSUGJbaJP7lvhyg5g4Qfb4Iokk-E0rLvjeIPNqpv4JAio=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-ryokan-sawanoya-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "야나카",
+                "title": "사와노야 료칸",
+                "price": "₩ 120,000~",
+                "rating": "4.7",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqGrTXgoq-k7pdpB1rqAeCE5Z3j3hi5ZIOLr7uXgcRBnywUPjcmiLkpSUGJbaJP7lvhyg5g4Qfb4Iokk-E0rLvjeIPNqpv4JAio=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-ryokan-sawanoya-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "야나카",
+                "title": "사와노야 료칸",
+                "price": "₩ 120,000~",
+                "rating": "4.7",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqGrTXgoq-k7pdpB1rqAeCE5Z3j3hi5ZIOLr7uXgcRBnywUPjcmiLkpSUGJbaJP7lvhyg5g4Qfb4Iokk-E0rLvjeIPNqpv4JAio=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/료칸/ryokan-shigetsu": {
+        "id": "tokyo-ryokan-shigetsu",
+        "city": "tokyo",
+        "slug": "ryokan-shigetsu",
+        "name": "료칸 시게츠",
+        "category": "료칸",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A3%8C%EC%B9%B8%20%EC%8B%9C%EA%B2%8C%EC%B8%A0%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%A3%8C%EC%B9%B8%20%EC%8B%9C%EA%B2%8C%EC%B8%A0%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "아사쿠사 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "료칸 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "료칸 객실, 예약 조건별 상이",
+        "description": "도쿄 아사쿠사 권역에서 료칸 숙소를 찾을 때 검토하기 좋은 료칸 시게츠입니다. 카드 데이터 기준 가격대는 ₩ 160,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOe7FkXXSEuTKJ8OO8EGdN0CWN7ZUr3U8sGLrt6bjRudGutrNWmrDW8xB5lWGVXnlSaMpukqWr5PzjQK1ehHrPtnaiD-yiCFlQ9UcjvLzgaInJwrz0TL9hQerVZQFiVyqUZjGU9UzPS_qIN_Wk=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMmYKBE3Fed31JnI3peN7lE97zQhMA_-1mTlkS4bBlIK9HpTu8nOyM3UgR1bgVSOAgjCUH9DzdL3GbScds2Kc0TwGRpSKHg5L0QNpocvsjWlQN5nujVu66BgXZg2CyRbwsuXSLRoHAaGsnn_fJWDlW2=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMJaeLb0xbtVIJYfnK59SUWv6FGQlyMwtGpMoQvDHAvQdkQyphuka8ElsrlGrR2aqKGvMC1XM0_m1nxlnl0pwOtFTv4E63eXD0eMMec8u41gsXaRJ3qVg2xX34uttFnkBxneS-WqKkGt02Xh3VqTZF_hA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPHuF0j7nYStstKIr_6Vcng7CrGhq4mpu29ijampp-p8SBr2ApztWZrXRgTmmVUJw3gGH2luAssvPGgolwgXVrDK7E40yCSnZ8iiaPaNuhCNiAqeTXBnz6AeOK8z1dInQeZiKrDDtTE185rLY9MIULzmQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPHuF0j7nYStstKIr_6Vcng7CrGhq4mpu29ijampp-p8SBr2ApztWZrXRgTmmVUJw3gGH2luAssvPGgolwgXVrDK7E40yCSnZ8iiaPaNuhCNiAqeTXBnz6AeOK8z1dInQeZiKrDDtTE185rLY9MIULzmQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMGiBj9nU_B0g2yDEPj3o558DD5K0U6ReqhEWlWz7RsjFDHZH-ceVmB8ulTF62VQcycvIpKznvBG5qGLqMCihG0POiqlaQNFm7qVb8P8yKlqPcNqe0QhaaH4LHc7rD8Y5H2VS0nh7K6ZFWRxhagH9l9vw=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-ryokan-shigetsu-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "아사쿠사",
+                "title": "료칸 시게츠",
+                "price": "₩ 160,000~",
+                "rating": "4.4",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-ryokan-shigetsu-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "아사쿠사",
+                "title": "료칸 시게츠",
+                "price": "₩ 160,000~",
+                "rating": "4.4",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-ryokan-shigetsu-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "아사쿠사",
+                "title": "료칸 시게츠",
+                "price": "₩ 160,000~",
+                "rating": "4.4",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/캡슐/nine-hours-akasaka": {
+        "id": "tokyo-capsule-nine-hours-akasa",
+        "city": "tokyo",
+        "slug": "nine-hours-akasaka",
+        "name": "나인아워스 아카사카",
+        "category": "캡슐",
+        "area": "아카사카",
+        "address": "아카사카, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%82%98%EC%9D%B8%EC%95%84%EC%9B%8C%EC%8A%A4%20%EC%95%84%EC%B9%B4%EC%82%AC%EC%B9%B4%20%EC%95%84%EC%B9%B4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%82%98%EC%9D%B8%EC%95%84%EC%9B%8C%EC%8A%A4%20%EC%95%84%EC%B9%B4%EC%82%AC%EC%B9%B4%20%EC%95%84%EC%B9%B4%EC%82%AC%EC%B9%B4%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "아카사카 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "캡슐 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "캡슐 객실, 예약 조건별 상이",
+        "description": "도쿄 아카사카 권역에서 캡슐 숙소를 찾을 때 검토하기 좋은 나인아워스 아카사카입니다. 카드 데이터 기준 가격대는 ₩ 45,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOMtR4SQppI6fzUUSfs8yy5Rj_NQ-kvpF9maoU2eshXEaYx-HoShmNfPUSxmuYauqKuX4U0PBND_Fy2G6CXSRbRpdH0sJl-r-_ltp_5DZyzrADllsrR3pxNbH4FtQzgtF66CTpUYEp5MREdfv4=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZN_vgJPWQBDYNu-phJo3SPyLu_iFS2M5Xy7tVkrIM3op8OvoXXhdepKY_R9xZng8g6MPBoPyBBSZ_Q_filQX1HfdMElXNzT0rIStoQBJv2jRD8spaj7sQmyp7C7xaEeCrxzZigrEMAuIltNpg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPvNOTHv7UlBo-GWxWR-KzTEDU1JzOe5s0pfmGwPk5nrT-UgUHyaxgPI26h8OtFYXh-WKOYwFB4pE778olTomgRTlJNIB2_PofSBMmAdmAnOZnWVbiMM9Fb_we8kdBBcCz4o13Hiuc8Jl1hrkY=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPOM5VqtEIrt37aP8jjaFsX_phOU8yyii26Vdkiz1-XtHb5xR7WdMJ2B--JgpvA98Sm5gO3CUURABvrW6QXFLM4NFBqeitXH1Kxbi2A5_f9a6NyXVC2Ukgqv-dy_LChGiR10Mz0Nn34vK5VjA=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPOM5VqtEIrt37aP8jjaFsX_phOU8yyii26Vdkiz1-XtHb5xR7WdMJ2B--JgpvA98Sm5gO3CUURABvrW6QXFLM4NFBqeitXH1Kxbi2A5_f9a6NyXVC2Ukgqv-dy_LChGiR10Mz0Nn34vK5VjA=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZNO-l2k9IE_mZseci26BrY96jGJFz43Qt3gu713cmYWa31pGuIK2VpCjPALS_Rm2vdJAiW8Km-v8SbYHr876jMxeNvCzKqiRZbwV-pHx0jDfqoLqj5ZrcF0rUAWRZKXtCCyD3IG4vQKJ3XeFQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아카사카 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아카사카 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-capsule-nine-hours-akasa-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "아카사카",
+                "title": "나인아워스 아카사카",
+                "price": "₩ 45,000~",
+                "rating": "4.2",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-capsule-nine-hours-akasa-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "아카사카",
+                "title": "나인아워스 아카사카",
+                "price": "₩ 45,000~",
+                "rating": "4.2",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-capsule-nine-hours-akasa-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "아카사카",
+                "title": "나인아워스 아카사카",
+                "price": "₩ 45,000~",
+                "rating": "4.2",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/캡슐/first-cabin-akihabara": {
+        "id": "tokyo-capsule-first-cabin-akihabara",
+        "city": "tokyo",
+        "slug": "first-cabin-akihabara",
+        "name": "퍼스트 캐빈",
+        "category": "캡슐",
+        "area": "아키하바라",
+        "address": "아키하바라, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%8D%BC%EC%8A%A4%ED%8A%B8%20%EC%BA%90%EB%B9%88%20%EC%95%84%ED%82%A4%ED%95%98%EB%B0%94%EB%9D%BC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%8D%BC%EC%8A%A4%ED%8A%B8%20%EC%BA%90%EB%B9%88%20%EC%95%84%ED%82%A4%ED%95%98%EB%B0%94%EB%9D%BC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "아키하바라 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "캡슐 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "캡슐 객실, 예약 조건별 상이",
+        "description": "도쿄 아키하바라 권역에서 캡슐 숙소를 찾을 때 검토하기 좋은 퍼스트 캐빈입니다. 카드 데이터 기준 가격대는 ₩ 65,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+            "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+            "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+            "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+            "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png"
+        ],
+        "mapImages": {
+            "main": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+            "sub1": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+            "sub2": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아키하바라 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아키하바라 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-capsule-first-cabin-akihabara-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "아키하바라",
+                "title": "퍼스트 캐빈",
+                "price": "₩ 65,000~",
+                "rating": "4.1",
+                "cancelLabel": "객실 확인",
+                "image": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-capsule-first-cabin-akihabara-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "아키하바라",
+                "title": "퍼스트 캐빈",
+                "price": "₩ 65,000~",
+                "rating": "4.1",
+                "cancelLabel": "예약 조건 확인",
+                "image": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-capsule-first-cabin-akihabara-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "아키하바라",
+                "title": "퍼스트 캐빈",
+                "price": "₩ 65,000~",
+                "rating": "4.1",
+                "cancelLabel": "즉시 확인",
+                "image": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/캡슐/anshin-oyado-shinjuku": {
+        "id": "tokyo-capsule-anshin-oyado-shinjuku",
+        "city": "tokyo",
+        "slug": "anshin-oyado-shinjuku",
+        "name": "안신 오야도",
+        "category": "캡슐",
+        "area": "신주쿠",
+        "address": "신주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%95%88%EC%8B%A0%20%EC%98%A4%EC%95%BC%EB%8F%84%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%95%88%EC%8B%A0%20%EC%98%A4%EC%95%BC%EB%8F%84%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "신주쿠 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "캡슐 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "캡슐 객실, 예약 조건별 상이",
+        "description": "도쿄 신주쿠 권역에서 캡슐 숙소를 찾을 때 검토하기 좋은 안신 오야도입니다. 카드 데이터 기준 가격대는 ₩ 70,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPNKfkCqTChqK65BgjLqdCBFPwwP-t9gqyZ71RXZpLdgfQqGSJDUYYAN7W6GLm8U41kiNPLE8mvzYxqo4yaTcVIJLbL4Yx1Wwf5fQDcVh4p-Hh-R4LDiaZGNlWLSOHUN6YsFkq1wcKvE0yIww=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqGiZqELJY2uFwr85HayhzLg7AOrymt7A1b2NtxFvO773FEeu9ZrM2jZCdeWU2RL_KKH56zeI8XcTp2QCHE-IfwnE7UcU6P5S-o=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPrzlcaQH_ReEEAqfmojxYageh0AY66yvBpbTOj8tKEsOh95r3KwDq3CqcqApxrVuue14ZIyuTSW8sDuXxLvG69Yz_OmA0sIFU7rh7W4_6YZ2T1y8IPlD0RFO_CWaFVzhgvxVnTW8F-oy94ubh74gNEBA=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHVR4ih29XElD17gVgEdA4oW3KvlikaegHo9zy-XN2f7fdowf_k8FgKkGTcMig4-zceRZ0ejWFifYRvOfEBauv1kyEI_44XZ2U=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqHVR4ih29XElD17gVgEdA4oW3KvlikaegHo9zy-XN2f7fdowf_k8FgKkGTcMig4-zceRZ0ejWFifYRvOfEBauv1kyEI_44XZ2U=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqGUsaXa7tvIrAc_bIw5pKQlCHaAMTTjJeWWBmOJyv1fCei7Gv1k1GdkwbPFR4ADU_N-xfyukNs1M1u-mNBKwz_feFedaLAPopA=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "신주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "신주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-capsule-anshin-oyado-shinjuku-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "신주쿠",
+                "title": "안신 오야도",
+                "price": "₩ 70,000~",
+                "rating": "4.3",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-capsule-anshin-oyado-shinjuku-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "신주쿠",
+                "title": "안신 오야도",
+                "price": "₩ 70,000~",
+                "rating": "4.3",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-capsule-anshin-oyado-shinjuku-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "신주쿠",
+                "title": "안신 오야도",
+                "price": "₩ 70,000~",
+                "rating": "4.3",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/캡슐/rembrandt-cabin-shinjuku": {
+        "id": "tokyo-capsule-rembrandt-shinjuku",
+        "city": "tokyo",
+        "slug": "rembrandt-cabin-shinjuku",
+        "name": "렘브란트 캐빈",
+        "category": "캡슐",
+        "area": "신주쿠",
+        "address": "신주쿠, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EB%A0%98%EB%B8%8C%EB%9E%80%ED%8A%B8%20%EC%BA%90%EB%B9%88%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EB%A0%98%EB%B8%8C%EB%9E%80%ED%8A%B8%20%EC%BA%90%EB%B9%88%20%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "신주쿠 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "캡슐 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "캡슐 객실, 예약 조건별 상이",
+        "description": "도쿄 신주쿠 권역에서 캡슐 숙소를 찾을 때 검토하기 좋은 렘브란트 캐빈입니다. 카드 데이터 기준 가격대는 ₩ 50,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPAbJbjmhWhiCz3NoJHFmBHLkEI6dz5vgdSwslDjplRMDA-aNGHPI_AmPPtzkb6iMoFmiUziXKYqEK0KMA3geN0NeYs0l1erLrsKy43rORTEyWghC4UOJHcWnS16kZHLvR7lgGpBwNSTP36Y4pHhyr9=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNNnUConuLWkKGrfbMfshZ9Nla-gGFJcdTnI-i-pZN0mzK2SneFr1NEDq9c0fozIt8R81n4F3rkbNrpY7f_plwcBfv8TrBXfh-LZmEPQBxiDrxfJk9jqfiIx5cstXUYdtnM_jVEitsCxPEr540=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMZ8WY6sc-ftgD-e-XraHMmz1jKY2Xep6Y-dOBnVQ8QIoPuqxUM1m9d5VKEF6p0SycirmVgol1nw3_dusxE3q5AuSMKslCyjVrKqb9Wmb2Vak_YCcHoGhurJHRv8gnPz16Wu6ucV8mIDm2A=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMz1F2kJggSG-QoZfZGdqVqW9agwqZn5eWrhJ42Xy2ZLqdSjsBR6KkI-jQLvkHfeLU7cJVs6g1JgB7ygp4eXAn9DT9qSvESvN3Gy4j1gxfq-wFOawQV0ljmkSj2VBn-6N56dTABRMjGBk4q_g=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZMz1F2kJggSG-QoZfZGdqVqW9agwqZn5eWrhJ42Xy2ZLqdSjsBR6KkI-jQLvkHfeLU7cJVs6g1JgB7ygp4eXAn9DT9qSvESvN3Gy4j1gxfq-wFOawQV0ljmkSj2VBn-6N56dTABRMjGBk4q_g=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZM6Qie63dwQ-tDWALZPxV0zaPAKz_ac7ahSv_qKaheZFDfPNONfGmIQXCSTNDkC0zQpplfhkETOUcXKw3hj5BqNL6Rp0pMFOEKIZ8GIwQXEiI5KeUVCyeGZ8B6Sl6yzQXtO-Zxns66lRRypqb0u5s7ngQ=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "신주쿠 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "신주쿠 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-capsule-rembrandt-shinjuku-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "신주쿠",
+                "title": "렘브란트 캐빈",
+                "price": "₩ 50,000~",
+                "rating": "4.0",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-capsule-rembrandt-shinjuku-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "신주쿠",
+                "title": "렘브란트 캐빈",
+                "price": "₩ 50,000~",
+                "rating": "4.0",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-capsule-rembrandt-shinjuku-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "신주쿠",
+                "title": "렘브란트 캐빈",
+                "price": "₩ 50,000~",
+                "rating": "4.0",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/민슈쿠/taito-ryokan": {
+        "id": "tokyo-minshuku-taito-ryokan",
+        "city": "tokyo",
+        "slug": "taito-ryokan",
+        "name": "타이토 료칸",
+        "category": "민슈쿠",
+        "area": "아사쿠사",
+        "address": "아사쿠사, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%83%80%EC%9D%B4%ED%86%A0%20%EB%A3%8C%EC%B9%B8%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%83%80%EC%9D%B4%ED%86%A0%20%EB%A3%8C%EC%B9%B8%20%EC%95%84%EC%82%AC%EC%BF%A0%EC%82%AC%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "아사쿠사 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "민슈쿠 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "민슈쿠 객실, 예약 조건별 상이",
+        "description": "도쿄 아사쿠사 권역에서 민슈쿠 숙소를 찾을 때 검토하기 좋은 타이토 료칸입니다. 카드 데이터 기준 가격대는 ₩ 80,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOe7FkXXSEuTKJ8OO8EGdN0CWN7ZUr3U8sGLrt6bjRudGutrNWmrDW8xB5lWGVXnlSaMpukqWr5PzjQK1ehHrPtnaiD-yiCFlQ9UcjvLzgaInJwrz0TL9hQerVZQFiVyqUZjGU9UzPS_qIN_Wk=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMmYKBE3Fed31JnI3peN7lE97zQhMA_-1mTlkS4bBlIK9HpTu8nOyM3UgR1bgVSOAgjCUH9DzdL3GbScds2Kc0TwGRpSKHg5L0QNpocvsjWlQN5nujVu66BgXZg2CyRbwsuXSLRoHAaGsnn_fJWDlW2=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMJaeLb0xbtVIJYfnK59SUWv6FGQlyMwtGpMoQvDHAvQdkQyphuka8ElsrlGrR2aqKGvMC1XM0_m1nxlnl0pwOtFTv4E63eXD0eMMec8u41gsXaRJ3qVg2xX34uttFnkBxneS-WqKkGt02Xh3VqTZF_hA=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPHuF0j7nYStstKIr_6Vcng7CrGhq4mpu29ijampp-p8SBr2ApztWZrXRgTmmVUJw3gGH2luAssvPGgolwgXVrDK7E40yCSnZ8iiaPaNuhCNiAqeTXBnz6AeOK8z1dInQeZiKrDDtTE185rLY9MIULzmQ=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZPHuF0j7nYStstKIr_6Vcng7CrGhq4mpu29ijampp-p8SBr2ApztWZrXRgTmmVUJw3gGH2luAssvPGgolwgXVrDK7E40yCSnZ8iiaPaNuhCNiAqeTXBnz6AeOK8z1dInQeZiKrDDtTE185rLY9MIULzmQ=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMGiBj9nU_B0g2yDEPj3o558DD5K0U6ReqhEWlWz7RsjFDHZH-ceVmB8ulTF62VQcycvIpKznvBG5qGLqMCihG0POiqlaQNFm7qVb8P8yKlqPcNqe0QhaaH4LHc7rD8Y5H2VS0nh7K6ZFWRxhagH9l9vw=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "아사쿠사 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "아사쿠사 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "도쿄메트로 긴자선 아사쿠사역",
+                "color": "#F39700",
+                "description": "아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다."
+            },
+            {
+                "line": "도에이 아사쿠사선",
+                "color": "#E85298",
+                "description": "하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-minshuku-taito-ryokan-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "아사쿠사",
+                "title": "타이토 료칸",
+                "price": "₩ 80,000~",
+                "rating": "4.3",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-minshuku-taito-ryokan-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "아사쿠사",
+                "title": "타이토 료칸",
+                "price": "₩ 80,000~",
+                "rating": "4.3",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-minshuku-taito-ryokan-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "아사쿠사",
+                "title": "타이토 료칸",
+                "price": "₩ 80,000~",
+                "rating": "4.3",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/민슈쿠/andon-ryokan": {
+        "id": "tokyo-minshuku-andon",
+        "city": "tokyo",
+        "slug": "andon-ryokan",
+        "name": "안돈 료칸",
+        "category": "민슈쿠",
+        "area": "미노와",
+        "address": "미노와, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%95%88%EB%8F%88%20%EB%A3%8C%EC%B9%B8%20%EB%AF%B8%EB%85%B8%EC%99%80%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%EC%95%88%EB%8F%88%20%EB%A3%8C%EC%B9%B8%20%EB%AF%B8%EB%85%B8%EC%99%80%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "미노와 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "민슈쿠 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "민슈쿠 객실, 예약 조건별 상이",
+        "description": "도쿄 미노와 권역에서 민슈쿠 숙소를 찾을 때 검토하기 좋은 안돈 료칸입니다. 카드 데이터 기준 가격대는 ₩ 95,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNDYlvHsXkTGidz8vP4AqNjrSrtOKOR_j1ONE1v4EU-bcGgg4zbmqadTgFL7G5fCYSxUzdUSu7GpZ0j-5T-88TQBVHKo4Lt9QSKos9onjLGOmOerteh12itV2i_2ldJeSCw0cRCJ3aMoKcQZhA=s4800-w1080",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZNuKwRbmHRVtPekeZ4-x1AFSysUvPiWey2ELBApB1TVtI4ZE8nwqifQWwIazizUIvgOcuFHE9c-d5OOeZBxCXHtwwMYSN4Dw8ruePers1ysKvccnKaNnBVCiQqmNOi9Z2zc97JO6F_Y2eAPUps=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHkkcXbUsflwka6zRW8TIwDLrNsTt9Aj7doyE8g6F9ZcZ5Frc0eoYello9N_8EWrOPI5UIvQQ6NZBNrHqBVMckdKL6BJUqJNxo=s4800-w1200",
+            "https://lh3.googleusercontent.com/places/ANXAkqHV7jt7ZkB5swZcp3MjbLld1rktpPeZFl2hiozFep51F4G8C_F_K5VEiUPp7C22SnKCyFeLCsOE78HWTSby1S5EtbuWUJpAyeM=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667",
+            "sub1": "https://lh3.googleusercontent.com/places/ANXAkqHV7jt7ZkB5swZcp3MjbLld1rktpPeZFl2hiozFep51F4G8C_F_K5VEiUPp7C22SnKCyFeLCsOE78HWTSby1S5EtbuWUJpAyeM=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/places/ANXAkqEsd2OQS6Nih-Bm446kvXZ_gAwObTxtsnu2jPa1sCQjmHMwWMAfn_jLCGeBpDPWfo7cOsXzQPsFPYQmykvm-KPFEY44FfOxOf0=s4800-w521"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "미노와 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "미노와 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-minshuku-andon-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "미노와",
+                "title": "안돈 료칸",
+                "price": "₩ 95,000~",
+                "rating": "4.4",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-minshuku-andon-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "미노와",
+                "title": "안돈 료칸",
+                "price": "₩ 95,000~",
+                "rating": "4.4",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-minshuku-andon-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "미노와",
+                "title": "안돈 료칸",
+                "price": "₩ 95,000~",
+                "rating": "4.4",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/민슈쿠/homeikan": {
+        "id": "tokyo-minshuku-homeikan",
+        "city": "tokyo",
+        "slug": "homeikan",
+        "name": "호메이칸",
+        "category": "민슈쿠",
+        "area": "혼고",
+        "address": "혼고, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EB%A9%94%EC%9D%B4%EC%B9%B8%20%ED%98%BC%EA%B3%A0%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%98%B8%EB%A9%94%EC%9D%B4%EC%B9%B8%20%ED%98%BC%EA%B3%A0%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "혼고 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "민슈쿠 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "민슈쿠 객실, 예약 조건별 상이",
+        "description": "도쿄 혼고 권역에서 민슈쿠 숙소를 찾을 때 검토하기 좋은 호메이칸입니다. 카드 데이터 기준 가격대는 ₩ 130,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZMMWBEkjvDHotvQPdDZAgvbQfvWDdHxTJ2iLZVglQ9ACMYxWGtGF0A9LOWOIdhIR3kmr-C0_fs-S-H_BH2cXdEXXzZXVPkrpPuuXk_hqddc2pFI37prvwbfmZtCyRKVfCcSovFEatvxK7th4w=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPHB2F_bVrlsUqilpif2TU3YGcJiDv3FgjeZXQoLdAIIdSka12L6iNWidC0nYvPgb-fq7nzGneAg9otTnA4tqqdFxCDb8JR6ogZjHU9nu5silZfSK9IakOcbN_5rBaCeGeVnbLh4cs8oIEHwg=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZPSc-u86yLEW-fWo8ngZWDa9nYFJLNv9O_xWBgFvLvFejlIKPU350ck-gUjLu5so6xcHNB9mkoOmtx5N6bIFwQmXeO9jymjB4nWMcynDIOei0St-4DBm6mYuV8zuZ_EMl_9qstENbxsSbrfGM4=s4800-w1200",
+            "https://lh3.googleusercontent.com/place-photos/AJRVUZOL3-YkbVGFn5aNPGMpCxmb85kjHEYbla0WmtQ0cl4OJg7uRPD5sLyG7DM0ugz84RT4On4-WLzuvY1WlDbHBP8cX0mKKiY9wc8NHazQXOU5iDqonri3TsEAukXEzwF3VtBYtg_SJK_cB_e_=s4800-w1200"
+        ],
+        "mapImages": {
+            "main": "https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200",
+            "sub1": "https://lh3.googleusercontent.com/place-photos/AJRVUZOL3-YkbVGFn5aNPGMpCxmb85kjHEYbla0WmtQ0cl4OJg7uRPD5sLyG7DM0ugz84RT4On4-WLzuvY1WlDbHBP8cX0mKKiY9wc8NHazQXOU5iDqonri3TsEAukXEzwF3VtBYtg_SJK_cB_e_=s4800-w1200",
+            "sub2": "https://lh3.googleusercontent.com/place-photos/AJRVUZMuLhi1mClowDM8Gn34z9bGHlZnn4SnOcv6O6QLUKlM2QjuygqRIjwzVX_Uha9NrSIY4kZOVBxC2Aee0Fov5K4Dzz4bGijlmg5upv0yOBpWgKltxzIl14JMkPlxciV7DhB-Ewb7vh84dA24zg=s4800-w1200"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "혼고 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "혼고 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-minshuku-homeikan-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "혼고",
+                "title": "호메이칸",
+                "price": "₩ 130,000~",
+                "rating": "4.5",
+                "cancelLabel": "객실 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-minshuku-homeikan-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "혼고",
+                "title": "호메이칸",
+                "price": "₩ 130,000~",
+                "rating": "4.5",
+                "cancelLabel": "예약 조건 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-minshuku-homeikan-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "혼고",
+                "title": "호메이칸",
+                "price": "₩ 130,000~",
+                "rating": "4.5",
+                "cancelLabel": "즉시 확인",
+                "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200",
+                "href": "https://kr.trip.com/"
+            }
+        ]
+    },
+    "tokyo/민슈쿠/family-inn-saiko": {
+        "id": "tokyo-minshuku-family-inn-saiko",
+        "city": "tokyo",
+        "slug": "family-inn-saiko",
+        "name": "패밀리 인 사이코",
+        "category": "민슈쿠",
+        "area": "이케부쿠로",
+        "address": "이케부쿠로, 도쿄",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=%ED%8C%A8%EB%B0%80%EB%A6%AC%20%EC%9D%B8%20%EC%82%AC%EC%9D%B4%EC%BD%94%20%EC%9D%B4%EC%BC%80%EB%B6%80%EC%BF%A0%EB%A1%9C%20%EB%8F%84%EC%BF%84",
+        "website": "https://www.google.com/search?q=%ED%8C%A8%EB%B0%80%EB%A6%AC%20%EC%9D%B8%20%EC%82%AC%EC%9D%B4%EC%BD%94%20%EC%9D%B4%EC%BC%80%EB%B6%80%EC%BF%A0%EB%A1%9C%20%EB%8F%84%EC%BF%84",
+        "reservationLabel": "예약 조건 확인",
+        "reservationValue": "숙박 플랫폼",
+        "reservationNotes": [
+            "이케부쿠로 중심 동선을 쓰는 일정이면 체크인 전후 짐 보관 가능 여부를 먼저 확인하는 게 좋습니다.",
+            "민슈쿠 숙소는 객실 타입에 따라 가격과 공간감 차이가 커서 사진과 객실명을 같이 보는 편이 안전합니다.",
+            "도쿄 숙소 예약 전에는 역 출구, 엘리베이터 유무, 심야 이동 동선을 함께 확인해 주세요."
+        ],
+        "access": "민슈쿠 객실, 예약 조건별 상이",
+        "description": "도쿄 이케부쿠로 권역에서 민슈쿠 숙소를 찾을 때 검토하기 좋은 패밀리 인 사이코입니다. 카드 데이터 기준 가격대는 ₩ 110,000~이며, 실제 객실 조건은 예약 전 확인이 필요합니다.",
+        "images": [
+            "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+            "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+            "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+            "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+            "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png"
+        ],
+        "mapImages": {
+            "main": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+            "sub1": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+            "sub2": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png"
+        },
+        "nearbyGroups": [
+            {
+                "title": "가까운 역",
+                "icon": "station",
+                "items": [
+                    "이케부쿠로 인근 역",
+                    "도쿄 주요 이동 동선"
+                ]
+            },
+            {
+                "title": "주변 스팟",
+                "icon": "camera",
+                "items": [
+                    "이케부쿠로 산책 코스",
+                    "도쿄 여행 동선"
+                ]
+            },
+            {
+                "title": "편의시설",
+                "icon": "store",
+                "items": [
+                    "편의점",
+                    "쇼핑/식사 공간"
+                ]
+            }
+        ],
+        "transitDirections": [
+            {
+                "line": "JR 야마노테선",
+                "color": "#9ACD32",
+                "description": "도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다."
+            },
+            {
+                "line": "도쿄메트로 주요 노선",
+                "color": "#6B8A59",
+                "description": "목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요."
+            }
+        ],
+        "hours": [
+            {
+                "day": "체크인",
+                "value": "예약 조건 확인",
+                "isToday": true
+            },
+            {
+                "day": "체크아웃",
+                "value": "예약 조건 확인"
+            },
+            {
+                "day": "프런트",
+                "value": "숙소별 운영시간 확인"
+            },
+            {
+                "day": "조식",
+                "value": "예약 조건 확인"
+            }
+        ],
+        "bookingCards": [
+            {
+                "id": "tokyo-minshuku-family-inn-saiko-agoda",
+                "option": "hotel-booking",
+                "brand": "Agoda",
+                "route": "이케부쿠로",
+                "title": "패밀리 인 사이코",
+                "price": "₩ 110,000~",
+                "rating": "4.6",
+                "cancelLabel": "객실 확인",
+                "image": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+                "href": "https://www.agoda.com/"
+            },
+            {
+                "id": "tokyo-minshuku-family-inn-saiko-booking",
+                "option": "hotel-booking",
+                "brand": "Booking.com",
+                "route": "이케부쿠로",
+                "title": "패밀리 인 사이코",
+                "price": "₩ 110,000~",
+                "rating": "4.6",
+                "cancelLabel": "예약 조건 확인",
+                "image": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
+                "href": "https://www.booking.com/"
+            },
+            {
+                "id": "tokyo-minshuku-family-inn-saiko-trip",
+                "option": "hotel-booking",
+                "brand": "Trip.com",
+                "route": "이케부쿠로",
+                "title": "패밀리 인 사이코",
+                "price": "₩ 110,000~",
+                "rating": "4.6",
+                "cancelLabel": "즉시 확인",
+                "image": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png",
                 "href": "https://kr.trip.com/"
             }
         ]

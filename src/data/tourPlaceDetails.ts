@@ -703,4 +703,15 @@ const baseTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
 export const tourPlaceDetailsById: Record<string, TourPlaceDetail> = {
     ...baseTourPlaceDetailsById,
     ...generatedTourPlaceDetailsById,
+    ...Object.fromEntries(
+        Object.entries(generatedTourPlaceDetailsById)
+            .filter(([key]) => key.startsWith('tokyo/'))
+            .map(([key, detail]) => {
+                const routeKey = key
+                    .replace('tokyo/SNS명소/', 'tokyo/sns/')
+                    .replace('tokyo/역사/', 'tokyo/history/')
+                    .replace('tokyo/소도시/', 'tokyo/smallcity/');
+                return [routeKey, detail];
+            })
+    ),
 };

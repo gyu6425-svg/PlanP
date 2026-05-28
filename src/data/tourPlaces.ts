@@ -123,7 +123,18 @@ function mergeCardsByCategory(
     const mergedCards = { ...baseCards };
 
     Object.entries(generatedCards).forEach(([category, cards]) => {
-        mergedCards[category] = [...(mergedCards[category] ?? []), ...cards];
+        const currentCards = mergedCards[category] ?? [];
+        const currentIds = new Set(currentCards.map((card) => card.id));
+        const currentKeys = new Set(
+            currentCards.map((card) => `${card.city ?? ''}/${card.category}/${card.slug ?? card.name}`)
+        );
+        const nextCards = cards.filter(
+            (card) =>
+                !currentIds.has(card.id) &&
+                !currentKeys.has(`${card.city ?? ''}/${card.category}/${card.slug ?? card.name}`)
+        );
+
+        mergedCards[category] = [...currentCards, ...nextCards];
     });
 
     return mergedCards;

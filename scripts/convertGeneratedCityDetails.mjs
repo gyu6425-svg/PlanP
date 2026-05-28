@@ -136,6 +136,234 @@ function baseNearbyGroups(place, cityName) {
 }
 
 function baseTransitDirections(place, cityName) {
+    const text = `${place.name} ${place.area}`;
+    const includes = (...patterns) => patterns.some((pattern) => text.includes(pattern));
+
+    if (cityName === '도쿄') {
+        if (includes('시부야', '도겐자카')) {
+            return [
+                {
+                    line: 'JR 야마노테선 / 도쿄메트로 긴자선 시부야역',
+                    color: '#9ACD32',
+                    description: '시부야역 하치코 출구나 미야마스자카 방면 출구에서 도보 이동이 가장 무난합니다.',
+                },
+                {
+                    line: '도쿄메트로 한조몬선 / 후쿠토신선 시부야역',
+                    color: '#8F76D6',
+                    description: '지하 통로를 이용하면 비 오는 날에도 시부야 중심가까지 이동하기 편합니다.',
+                },
+            ];
+        }
+
+        if (includes('긴자', '아오야마', '가이엔마에')) {
+            return [
+                {
+                    line: '도쿄메트로 긴자선',
+                    color: '#F39700',
+                    description: '긴자, 아오야마, 가이엔마에 권역은 긴자선 역에서 도보 접근이 가장 직관적입니다.',
+                },
+                {
+                    line: '도쿄메트로 히비야선 / 마루노우치선',
+                    color: '#B5B5AC',
+                    description: '긴자 주변 일정은 히비야선이나 마루노우치선 환승을 함께 확인하면 동선이 짧아집니다.',
+                },
+            ];
+        }
+
+        if (includes('아사쿠사')) {
+            return [
+                {
+                    line: '도쿄메트로 긴자선 아사쿠사역',
+                    color: '#F39700',
+                    description: '아사쿠사역에서 센소지, 카페, 숙소 권역까지 도보 이동이 쉽습니다.',
+                },
+                {
+                    line: '도에이 아사쿠사선',
+                    color: '#E85298',
+                    description: '하네다·나리타 방면 이동과 함께 묶을 때는 도에이 아사쿠사선 연결이 편합니다.',
+                },
+            ];
+        }
+
+        return [
+            {
+                line: 'JR 야마노테선',
+                color: '#9ACD32',
+                description: '도쿄 주요 권역은 야마노테선 역을 기준으로 잡으면 환승과 도보 동선이 단순해집니다.',
+            },
+            {
+                line: '도쿄메트로 주요 노선',
+                color: '#6B8A59',
+                description: '목적지 이름을 지도에 입력해 가장 가까운 도쿄메트로 역 출구를 함께 확인하세요.',
+            },
+        ];
+    }
+
+    if (cityName === '오사카') {
+        if (includes('난바', '도톤보리', '신사이바시', '구로몬', '센니치마에')) {
+            return [
+                {
+                    line: '오사카 메트로 미도스지선 난바역',
+                    color: '#E5171F',
+                    description: '난바역에서 도톤보리, 구로몬시장, 신사이바시 권역까지 도보로 이어가기 좋습니다.',
+                },
+                {
+                    line: '오사카 메트로 사카이스지선 닛폰바시역',
+                    color: '#814721',
+                    description: '구로몬시장이나 도톤보리 동쪽은 닛폰바시역 기준으로 잡으면 걷는 거리가 짧습니다.',
+                },
+            ];
+        }
+
+        if (includes('우메다', '오사카역')) {
+            return [
+                {
+                    line: '오사카 메트로 미도스지선 우메다역',
+                    color: '#E5171F',
+                    description: '우메다역과 JR 오사카역을 기준으로 잡으면 쇼핑몰, 전망대, 호텔 접근이 편합니다.',
+                },
+                {
+                    line: 'JR 오사카 순환선',
+                    color: '#E80000',
+                    description: 'JR 오사카역을 함께 확인하면 교토, 고베, 간사이공항 방면 환승도 수월합니다.',
+                },
+            ];
+        }
+
+        return [
+            {
+                line: '오사카 메트로 미도스지선',
+                color: '#E5171F',
+                description: '오사카 시내 주요 관광지는 미도스지선을 중심으로 동선을 잡으면 이동이 단순합니다.',
+            },
+            {
+                line: 'JR 오사카 순환선',
+                color: '#E80000',
+                description: '성 주변이나 텐노지 방면은 JR 순환선과 지하철 환승을 함께 비교하세요.',
+            },
+        ];
+    }
+
+    if (cityName === '후쿠오카') {
+        if (includes('하카타', '텐진', '나카스', '오호리', '후쿠오카 타워')) {
+            return [
+                {
+                    line: '후쿠오카 지하철 공항선',
+                    color: '#E87722',
+                    description: '공항, 하카타, 텐진, 오호리공원을 한 번에 잇는 노선이라 여행 동선의 기준으로 쓰기 좋습니다.',
+                },
+                {
+                    line: '니시테츠 버스',
+                    color: '#00A650',
+                    description: '야타이, 시장, 해변 쪽은 지하철 역에서 버스를 한 번 더 연결하면 걷는 거리가 줄어듭니다.',
+                },
+            ];
+        }
+
+        return [
+            {
+                line: '후쿠오카 지하철 공항선',
+                color: '#E87722',
+                description: '하카타역이나 텐진역을 기준으로 잡고 버스 환승을 더하면 대부분의 일정이 연결됩니다.',
+            },
+            {
+                line: '니시테츠 전철 / 버스',
+                color: '#00A650',
+                description: '다자이후나 근교 이동은 니시테츠 노선과 버스 시간을 함께 확인하세요.',
+            },
+        ];
+    }
+
+    if (cityName === '타이베이') {
+        if (includes('신이', '타이베이 101', '상산', 'W 타이베이', '그랜드 하얏트')) {
+            return [
+                {
+                    line: '타이베이 MRT 단수이신이선',
+                    color: '#E3002C',
+                    description: '타이베이 101/세계무역센터역이나 샹산역을 기준으로 잡으면 신이구 관광 동선이 짧습니다.',
+                },
+                {
+                    line: '타이베이 MRT 반난선',
+                    color: '#0070BD',
+                    description: '시청역, 국부기념관역을 함께 확인하면 쇼핑몰과 호텔 접근이 편합니다.',
+                },
+            ];
+        }
+
+        if (includes('시먼', '중정', '용산', '룽산', '중정기념당')) {
+            return [
+                {
+                    line: '타이베이 MRT 반난선',
+                    color: '#0070BD',
+                    description: '시먼역과 룽산쓰역을 기준으로 잡으면 시먼딩, 보피랴오, 룽산사 이동이 쉽습니다.',
+                },
+                {
+                    line: '타이베이 MRT 단수이신이선 / 쑹산신뎬선',
+                    color: '#E3002C',
+                    description: '중정기념당역은 두 노선 환승이 가능해 박물관, 광장, 시내 숙소 동선에 좋습니다.',
+                },
+            ];
+        }
+
+        return [
+            {
+                line: '타이베이 MRT 반난선',
+                color: '#0070BD',
+                description: '타이베이 도심 동서 이동은 반난선을 먼저 확인하면 주요 상권 접근이 쉽습니다.',
+            },
+            {
+                line: '타이베이 MRT 단수이신이선',
+                color: '#E3002C',
+                description: '101, 중정기념당, 타이베이역 방향은 단수이신이선 환승을 기준으로 잡으면 편합니다.',
+            },
+        ];
+    }
+
+    if (cityName === '방콕') {
+        if (includes('시암', '수쿰윗', '아속', '통로')) {
+            return [
+                {
+                    line: 'BTS 수쿰윗선',
+                    color: '#7AC143',
+                    description: '시암, 아속, 통로 권역은 BTS 수쿰윗선 역에서 도보나 짧은 택시 이동으로 접근하기 좋습니다.',
+                },
+                {
+                    line: 'MRT 블루라인',
+                    color: '#1E4FA1',
+                    description: '수쿰윗역이나 실롬역 환승을 이용하면 강변, 차이나타운, 구시가지 이동이 쉬워집니다.',
+                },
+            ];
+        }
+
+        if (includes('실롬', '사톤', '루프탑', '리버사이드', '차오프라야')) {
+            return [
+                {
+                    line: 'BTS 실롬선',
+                    color: '#00843D',
+                    description: '실롬, 사톤, 강변 호텔은 BTS 실롬선과 사판탁신 선착장 동선을 함께 보면 좋습니다.',
+                },
+                {
+                    line: '차오프라야 익스프레스 보트',
+                    color: '#1E88E5',
+                    description: '왕궁, 왓포, 왓아룬, 리버사이드 일정은 보트 이동이 도로 정체를 피하기 좋습니다.',
+                },
+            ];
+        }
+
+        return [
+            {
+                line: 'BTS 스카이트레인',
+                color: '#7AC143',
+                description: '방콕 도심 이동은 BTS 역 기준으로 숙소와 관광지를 잡으면 교통 체증 영향을 줄일 수 있습니다.',
+            },
+            {
+                line: 'MRT 블루라인',
+                color: '#1E4FA1',
+                description: '차이나타운, 왕궁 근처, 쇼핑몰 이동은 MRT와 택시를 조합하면 효율적입니다.',
+            },
+        ];
+    }
+
     return [
         {
             line: `${place.area} 주요 대중교통`,

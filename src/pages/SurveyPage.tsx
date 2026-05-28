@@ -156,8 +156,8 @@ export default function SurveyPage() {
                 />
                 <div className="absolute inset-0 bg-black/25" />
 
-                <div className="absolute left-1/2 top-[210px] z-10 flex w-[min(720px,calc(100vw-32px))] -translate-x-1/2 flex-col items-center sm:top-[253px]">
-                    <h1 className="text-center text-[clamp(40px,9vw,72px)] font-[700] leading-[1.05] text-white drop-shadow-[0_4px_8px_rgba(0,0,0,0.35)]">
+                <div className="absolute left-1/2 top-[210px] z-10 flex w-[min(1180px,calc(100vw-32px))] -translate-x-1/2 flex-col items-center sm:top-[253px]">
+                    <h1 className="whitespace-nowrap text-center text-[clamp(34px,5vw,72px)] font-[700] leading-[1.05] text-white drop-shadow-[0_4px_8px_rgba(0,0,0,0.35)]">
                         {surveyTitle}
                     </h1>
                     <p className="mt-[32px] text-center text-[clamp(22px,5vw,32px)] font-[700] leading-tight text-white drop-shadow-[0_3px_6px_rgba(0,0,0,0.35)] sm:mt-[48px]">

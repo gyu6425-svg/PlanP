@@ -24,7 +24,13 @@ export const generatedFoodCategoryOptions = [
     "소롱포·딤섬",
     "국수·면요리",
     "루로우판·대만 덮밥",
-    "버블티·디저트"
+    "버블티·디저트",
+    "우동",
+    "돈코츠",
+    "규카츠",
+    "텐동",
+    "와규",
+    "카페/베이커리"
 ];
 
 export const generatedTourCategoryOptions = [
@@ -56,7 +62,8 @@ export const generatedStayCategoryOptions = [
     "료칸",
     "부티크 / 디자인 호텔",
     "호스텔 / 게스트하우스",
-    "온천리조트·전통형 숙소 (근교)"
+    "온천리조트·전통형 숙소 (근교)",
+    "민슈쿠"
 ];
 
 export const generatedFoodPlaceCardsByCategory: CardsByCategory = {
@@ -548,6 +555,39 @@ export const generatedFoodPlaceCardsByCategory: CardsByCategory = {
             "price": "¥800~1,500",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/places/ANXAkqFDofQnyA09RbQRzS5O6bUuw_HxgqoXRcx3JE1KawZigGAIEQ_ZchyWlMnHrez6hC_Pii7mFa7SJiS7t8hUzjVQ3d-NGN5Qzqo=s4800-w760"
+        },
+        {
+            "id": "tokyo-ramen-motenashi-kuroki",
+            "city": "tokyo",
+            "slug": "motenashi-kuroki",
+            "category": "라멘",
+            "area": "아사쿠사",
+            "name": "모테나시 쿠로키",
+            "price": "¥1,000~2,000",
+            "rating": "4.6",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZObUlMu8sRpPcu3UfwRyxfJxmMqdUEWiCCMhoHdPhAcqGLwrU2fIoyfytkZyz0OdZNRBob770rj4h3n-cebGjtJVCN93mivf5rDxtiXI7V4lungwlR_n_pOvhphmz9sa5FpyXRLydEDzHuk97PwmwmT=s4800-w1200"
+        },
+        {
+            "id": "tokyo-ramen-muginae",
+            "city": "tokyo",
+            "slug": "muginae",
+            "category": "라멘",
+            "area": "오모리",
+            "name": "무기나에",
+            "price": "¥1,000~2,000",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZO5q3xuJsHsjd-2gMaTDYlFBk4AocSi69QWdDsCikwkXfRNhIeQUSdX7ixznkEv-GnefIBYGs8BDxSon696fWWiWY8RmX50Ab4SMBbffGqEVSnWvCTTFCxjqE7NcWucp065dxCM_4Y76mLXbGE8p3PVRA=s4800-w1200"
+        },
+        {
+            "id": "tokyo-ramen-kumon-halal",
+            "city": "tokyo",
+            "slug": "kumon-halal",
+            "category": "라멘",
+            "area": "시부야",
+            "name": "규몬 할랄 라멘",
+            "price": "¥1,000~2,000",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPzVlrf5hp58s6u3r7lSGfzb4lsNQh4F8IVcGwJEusimhpMwDot1-OusNPbbmy1caw4wmSwg48CPt1t03OSKJRnV5xjVg_bFlbvhfT1wSNJP1ohZr0ZNooRmvJrrcAraNXI8lrPrh9x_7_NBQ6pz5vI=s4800-w1200"
         }
     ],
     "스시": [
@@ -583,6 +623,39 @@ export const generatedFoodPlaceCardsByCategory: CardsByCategory = {
             "price": "¥1,000~2,500",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNbkX6zJiAdz-_Ml2s8KXZV7qWc0Oy5NLzTzVTNoL-NMmxk4j0iu_T-c22OlLFfRAOQlCHiy22KlQzfU9lMxMyLSPXjc1GTl2Vnizelt9vSVvfhT9LoE-5trgSYY6P5l4OLeYJpnVuC09JV8A=s4800-w1200"
+        },
+        {
+            "id": "tokyo-sushi-dai",
+            "city": "tokyo",
+            "slug": "sushi-dai",
+            "category": "스시",
+            "area": "도요스",
+            "name": "스시 다이",
+            "price": "¥5,000~8,000",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPGSmaY5shE13PEnZyut7Y8IwhAQyeQkeZo5g2yhgQ3B3kNx1dUzphMw0IRltO8kv-Yj6AWtwDWhkAjpzy1nKtNaZdM5tGojPm6ixGzOS4sSZ3nOGkVbPczLi29mqKLPsZpvvY3_z1IDApOdg=s4800-w1200"
+        },
+        {
+            "id": "tokyo-sushi-nemuro-hanamaru-ginza",
+            "city": "tokyo",
+            "slug": "nemuro-hanamaru-ginza",
+            "category": "스시",
+            "area": "긴자",
+            "name": "네무로 하나마루",
+            "price": "¥2,000~4,000",
+            "rating": "4.1",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqGRTRQbfksPQaJs0emzQ41kfHtsdjXa4WoD9svJlnA3EXXYr3Pb5R0HDceCfUILvO7is3ht70qh4ayJroDdQkMSsRd4D6k9Svw=s4800-w1200"
+        },
+        {
+            "id": "tokyo-sushi-kinka-shibuya",
+            "city": "tokyo",
+            "slug": "kinka-sushi-shibuya",
+            "category": "스시",
+            "area": "시부야",
+            "name": "KINKA 스시 바",
+            "price": "¥3,000~5,000",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqFSNg367g9HjE5GE5I7bA1cxYu7nZG7qwUXPolDSWGPi3mR7RbF-F51y-DLM199PKOKVQyHZL8sJsV9TzW5wFQRlYVAEgHnq80=s4800-w1200"
         }
     ],
     "쿠시카츠": [
@@ -840,6 +913,282 @@ export const generatedFoodPlaceCardsByCategory: CardsByCategory = {
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNqh0J3dS6IPIuEV23zFAyXwK8rncFaTEZoX_x6jXudJO-_8agingVE_ZHALSGeN246Oi_2kgYk5_KlQ57oBB6Qev9NkBsnK3_fV7sFB5o3PhYFGg2pk4S4aShzKBPthYtvQd_X2xLRjAeQfavH8CvgNg=s4800-w1200"
         }
+    ],
+    "우동": [
+        {
+            "id": "tokyo-udon-hanayama-ginza",
+            "city": "tokyo",
+            "slug": "godaime-hanayama-udon-ginza",
+            "category": "우동",
+            "area": "긴자",
+            "name": "하나야마 우동",
+            "price": "¥1,000~2,000",
+            "rating": "4.2",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPNmWbuVCbQlGzFAjbgRCCO5pACxv1Q7RPZ0rCnSmNfinW97UecUGCTwMPhjiRFw2treEjeLOwjbCqGHN6RDvTl_0ugFkYoDs-cms6AIwPEy1gGJi6rsz6iNGbpB3noLpYMUeSwSBp7AJRzTDhr6iqh9w=s4800-w1200"
+        },
+        {
+            "id": "tokyo-udon-shin",
+            "city": "tokyo",
+            "slug": "udon-shin",
+            "category": "우동",
+            "area": "요요기",
+            "name": "우동 신",
+            "price": "¥1,000~2,000",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMaBojNrfaUbxOjDgZdlq7EeNMtkwiOgYUWdm7nnXtpsu9T3sVKxtaGdAfmLlOwi_pGft3oAMid5FYiDq8Uvb4uD3o-FqxLk-bqBu3fNzICp8gjuTFlxyXAsL9AaujnT4Yp0E9Ee1jMYvEq7w=s4800-w1200"
+        },
+        {
+            "id": "tokyo-udon-tsurutontan-shibuya",
+            "city": "tokyo",
+            "slug": "tsurutontan-shibuya",
+            "category": "우동",
+            "area": "시부야",
+            "name": "츠루톤탄",
+            "price": "¥1,000~2,000",
+            "rating": "4.1",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqErrB7m840ykHFBfWro6YaZ2rMRz1zhzxsioaCG-6V1YI9fwqBc_d90gdufuqHsvlesqO9n8xTsLaTZkwXLwh0AAFI1QzLCqxQ=s4800-w720"
+        },
+        {
+            "id": "tokyo-udon-yamashita-honki",
+            "city": "tokyo",
+            "slug": "yamashita-honki-udon",
+            "category": "우동",
+            "area": "도겐자카",
+            "name": "야마시타 혼키 우동",
+            "price": "¥1,000~2,000",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZM3kt2iGncLQiIhChUKhSMRpKVPMbUms6QdoScd01ZUqRKATa85eLUn3a05YS648lZmqCCi9r-PsQeaj5VfxBMC-kncW29NLfim6wKLdTp60t0-LrSbxrwOS_EEh52Irt8m9UD5S8HOMSOeGkh42ARS=s4800-w402"
+        }
+    ],
+    "돈코츠": [
+        {
+            "id": "tokyo-tonkotsu-ichiran-shibuya",
+            "city": "tokyo",
+            "slug": "ichiran-shibuya",
+            "category": "돈코츠",
+            "area": "시부야",
+            "name": "이치란",
+            "price": "¥1,000~2,000",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqFyG_fSBEi3BgwDUW3mIiqkDZRAQL1MhWppVb4YP6qWZajRt8DgZWYEQXyrKBu45u0eP1x8i7AwZdS56JTexfPh7fmlFzThNQ=s4800-w960"
+        },
+        {
+            "id": "tokyo-tonkotsu-ippudo-ginza",
+            "city": "tokyo",
+            "slug": "ippudo-ginza",
+            "category": "돈코츠",
+            "area": "긴자",
+            "name": "잇푸도",
+            "price": "¥1,000~2,000",
+            "rating": "4.2",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZObI9yxSVYORXtNvWAlIMvMg_5qC4b7tV_5dLyuzN4gIPr_aVNXSIZ258Q_3irtaazHcBBuN3023_nk2uyx7PAkTThpcUitr38da_rxzeuH40mKUdIgHXtbRpAtNeetT_3UvmxuIZd4okuqlZ29OKBO=s4800-w1200"
+        },
+        {
+            "id": "tokyo-tonkotsu-ramen-nagi-butao",
+            "city": "tokyo",
+            "slug": "ramen-nagi-butao-shibuya",
+            "category": "돈코츠",
+            "area": "시부야",
+            "name": "라멘 나기 BUTAO",
+            "price": "¥1,000~2,000",
+            "rating": "4.3",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqFTrQ5AERV7zGLT5OBr9ebwoggfgbE7eWbw8MR5YQsyYEbZLTXk6tnMJRkgcrCK0_ZF4z3YPQtQtQ9DO4vZO4u4aKQf0bwiJr8=s4800-w804"
+        },
+        {
+            "id": "tokyo-tonkotsu-hakata-furyu",
+            "city": "tokyo",
+            "slug": "hakata-furyu-shinjuku",
+            "category": "돈코츠",
+            "area": "신주쿠",
+            "name": "하카타 후류",
+            "price": "¥1,000~2,000",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqF7E7lqqkBLuxXNlTIdh4QselV_rLI_eIjOTTvc8gv-p7mpb3RsZvIFEPhFHDg2CPolVhrbOy0gWRdsrN37zabeAxv5rkZF0EM=s4800-w1200"
+        }
+    ],
+    "규카츠": [
+        {
+            "id": "tokyo-gyukatsu-motomura-shibuya",
+            "city": "tokyo",
+            "slug": "gyukatsu-motomura-shibuya",
+            "category": "규카츠",
+            "area": "시부야",
+            "name": "규카츠 모토무라",
+            "price": "¥2,000~3,000",
+            "rating": "4.7",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMiGtkIar95TD_h2wh_Rc9UzqUzE3t6-vDu00ShcLaHKCkpVnVrYSxn6m0QFQGuE0FGTrQGpYO6nc8qyqVwfd8Wf1ZvqWu-cKsESy-3Cy-EYE-KqcrmKMpfQ0jela4_kxm02hWMUBpQm7PrmQ=s4800-w660"
+        },
+        {
+            "id": "tokyo-gyukatsu-kyoto-katsugyu-akihabara",
+            "city": "tokyo",
+            "slug": "kyoto-katsugyu-akihabara",
+            "category": "규카츠",
+            "area": "아키하바라",
+            "name": "교토 카츠규",
+            "price": "¥2,000~3,000",
+            "rating": "4.8",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPgrkmcf68XBPPsqk1TDY4xRC058YWjyLaD76ZtUXP7FFM2DzUwfPieoOZBAjO95TrvDajtlP8t_o-fMsyEvPNYS5xVnvqafPFVBewdQLlYZxHnVw08hXpLmEKvvdttVU7nRVucfNvvG2FHb-A0ewJ2uQ=s4800-w1200"
+        },
+        {
+            "id": "tokyo-gyukatsu-motomura-shinjuku",
+            "city": "tokyo",
+            "slug": "gyukatsu-motomura-shinjuku",
+            "category": "규카츠",
+            "area": "신주쿠",
+            "name": "모토무라 신주쿠",
+            "price": "¥2,000~3,000",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOWWeGIglJ0-_sfQ3i6xyR9wSu8ssDhXaEmWmCTnMMrjR1DWqd8C30Q4ZV8YGiMh2Hg4oV5PzhUpR0GztBeEvyyV5Yjt4fU2uXVYQukoEFsWg8Txo43fhI9--5LLHF8zkfTImAhpUv6vsNt=s4800-w1200"
+        },
+        {
+            "id": "tokyo-gyukatsu-kyoto-katsugyu-harajuku",
+            "city": "tokyo",
+            "slug": "kyoto-katsugyu-harajuku",
+            "category": "규카츠",
+            "area": "하라주쿠",
+            "name": "카츠규 하라주쿠",
+            "price": "¥2,000~3,000",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMHpcFdoQmQ4jXkF7X5Djc4HslJjBN1wRAKmIC35laH6cjcRKRCf2l4eL0MHAz7Tdl4PkekpTsxwRQ3XYnN-NxGWjXP4WvzjwRhFuV7rqRzrh6BN1Ms4ECwqFDQjE2tNZNFzWgHdtbaoqFpuSQ=s4800-w1200"
+        }
+    ],
+    "텐동": [
+        {
+            "id": "tokyo-tendon-kaneko-hannosuke",
+            "city": "tokyo",
+            "slug": "kaneko-hannosuke-nihonbashi",
+            "category": "텐동",
+            "area": "니혼바시",
+            "name": "카네코 한노스케",
+            "price": "¥1,000~2,000",
+            "rating": "4.3",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZP00o7cQxxzskRueOoYDOzbium5kc25okkETXXGyjF4352Wqm-8Gik2kr4UOpCRy1DHMvi35cXdSQDZ_1mlIGgcdBT4qI8Ebh8QWcbvPAXEl-P85m534LFsjd1o6TyzIDJ_yPRFZy-oBAIkAic=s4800-w1200"
+        },
+        {
+            "id": "tokyo-tendon-kaneko-hannosuke-tsukiji",
+            "city": "tokyo",
+            "slug": "kaneko-hannosuke-tsukiji",
+            "category": "텐동",
+            "area": "츠키지",
+            "name": "한노스케 츠키지",
+            "price": "¥1,000~2,000",
+            "rating": "5.0",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZP00o7cQxxzskRueOoYDOzbium5kc25okkETXXGyjF4352Wqm-8Gik2kr4UOpCRy1DHMvi35cXdSQDZ_1mlIGgcdBT4qI8Ebh8QWcbvPAXEl-P85m534LFsjd1o6TyzIDJ_yPRFZy-oBAIkAic=s4800-w1200"
+        },
+        {
+            "id": "tokyo-tendon-tempura-abe",
+            "city": "tokyo",
+            "slug": "tempura-abe",
+            "category": "텐동",
+            "area": "긴자",
+            "name": "텐푸라 아베",
+            "price": "¥1,000~4,000",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNYtJQHS3EdXxSZ3gHdIaFYGV_fdWKVvlFhSTdoxHacKIu7tIF5925zydb_5DGibH2DV_ldlhNOl7qsVrJbkQK9J-GzUt-6rlUD3WKXbSlWUyPVRqFqk7wSrE-_NxYsByG1lOohuDpLAl6UZQ=s4800-w1200"
+        },
+        {
+            "id": "tokyo-tendon-tenya-asakusa",
+            "city": "tokyo",
+            "slug": "tendon-tenya-asakusa",
+            "category": "텐동",
+            "area": "아사쿠사",
+            "name": "텐동 텐야",
+            "price": "¥1,000 이하",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqEknopQJsxKBacCFz2WMp2wOUJNJNYLkHF7yhLKVeT_NCESJ4Xgr-i5KR_Uf6ov2EjUwQi78NDX3uSf8Y6mqwQZxfl-lEs1dwY=s4800-w1200"
+        }
+    ],
+    "와규": [
+        {
+            "id": "tokyo-wagyu-imafuku",
+            "city": "tokyo",
+            "slug": "imafuku",
+            "category": "와규",
+            "area": "시로카네",
+            "name": "이마후쿠",
+            "price": "¥10,000~20,000",
+            "rating": "4.3",
+            "image": "/images/food/tokyo/wagyu/imafuku/imafuku.png"
+        },
+        {
+            "id": "tokyo-wagyu-yakiniku-jumbo-hanare",
+            "city": "tokyo",
+            "slug": "yakiniku-jumbo-hanare",
+            "category": "와규",
+            "area": "혼고",
+            "name": "야키니쿠 점보 하나레",
+            "price": "¥10,000~20,000",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZN61-RTQbG5NXTG5pzDLkaJJuG9NH8ZuDnHFff0xw54ZXq_rF68VvXbWN9z2Os-ERtzbPcRFJ-AjEh6YphBb-z0wCWV_5auqQ58v4k9z4AfIcZ4vA8efjXfMjU2HnXdkawQV9J5ohHfJzCrahQzG0Y7JA=s4800-w1200"
+        },
+        {
+            "id": "tokyo-wagyu-ginza-steak",
+            "city": "tokyo",
+            "slug": "ginza-steak",
+            "category": "와규",
+            "area": "긴자",
+            "name": "긴자 스테이크",
+            "price": "¥8,000~15,000",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZO2-04bjiHhqlPIgo4X7N4oQSEYMztivGUy9XvskH9-EXl2i7sSO9MAjP_iuiYXgexSK4sEU6JVF9q9tg01GTwxR8h0rUYXEp0PuIhY61dUquaxlUw7vQwqJ4FZlFZL3i_DFftqHg5Ik4UCVw=s4800-w900"
+        },
+        {
+            "id": "tokyo-wagyu-kobe-beef-511",
+            "city": "tokyo",
+            "slug": "kobe-beef-511",
+            "category": "와규",
+            "area": "아카사카",
+            "name": "고베 비프 511",
+            "price": "¥10,000~20,000",
+            "rating": "4.6",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqErFN73hwN06BW6TCdBPW-OL7y0NTSgIzDoF0t9lBrvpUVvExw56csW2v-lRPJQJ9FRC-uavsdcDzL0edF3IGCD7C9fboon7gk=s4800-w1200"
+        }
+    ],
+    "카페/베이커리": [
+        {
+            "id": "tokyo-cafe-aoyama-flower-market",
+            "city": "tokyo",
+            "slug": "aoyama-flower-market-tea-house",
+            "category": "카페/베이커리",
+            "area": "아오야마",
+            "name": "플라워 마켓 티하우스",
+            "price": "¥1,000~2,000",
+            "rating": "4.2",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPdHNjIMtVjFylKKTacsHjTubOg2E-mAym9Ita1kAw4C8eUSE6y5OmuLBOQQEjQFNgxHisTegnYzbHKPNvmP_YuDJ6iYEtRtZEoVE2dFDNyhsuxbcciEf8URpiDpqPeHvNEBoVYXUzjqq5_HA=s4800-w1200"
+        },
+        {
+            "id": "tokyo-cafe-city-bakery-aoyama",
+            "city": "tokyo",
+            "slug": "city-bakery-aoyama",
+            "category": "카페/베이커리",
+            "area": "아오야마",
+            "name": "더 시티 베이커리",
+            "price": "¥1,000~2,000",
+            "rating": "4.1",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZP2yAKQ1y55YMU9Wed8qUJBOxgnn6taX5DF9xFgmMON5RsqUAh7cB6WcNJGkCxh8ZvS9CeeSs-Yon8gJ154F7D9VpJ5Zhp_yJPeAzhwJ3OfGfzJRS9g6DHISh-NbVKxgfIt0Wt34mtZUJ3M5A=s4800-w1200"
+        },
+        {
+            "id": "tokyo-cafe-glitch-ginza",
+            "city": "tokyo",
+            "slug": "glitch-coffee-ginza",
+            "category": "카페/베이커리",
+            "area": "긴자",
+            "name": "글리치 커피",
+            "price": "¥1,000~2,000",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqGkf1ELjGyyqu9II3gufZHSyw5IyYSBSuxdkgZADVh8jti2F4rp1oSy7dghGD-bigULWBtjvTsdo63UsZh7jjvCGh-peA7_KVc=s4800-w1170"
+        },
+        {
+            "id": "tokyo-cafe-royal-garden-aoyama",
+            "city": "tokyo",
+            "slug": "royal-garden-cafe-aoyama",
+            "category": "카페/베이커리",
+            "area": "가이엔마에",
+            "name": "로열 가든 카페",
+            "price": "¥1,000~3,000",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqHok53QdVSoADoEzCmCb2Yzcd7gGgp2ZZ1a2AmlNHlOYFxACQ10xQKpgWMUvzRerkZ021UIca6caMzffiNjGF2fZ09991pXcRU=s4800-w1200"
+        }
     ]
 };
 
@@ -956,6 +1305,28 @@ export const generatedTourPlaceCardsByCategory: CardsByCategory = {
             "price": "¥700~1,000",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMFvSxp9UGl1_OdDdTzZ0zDsdnvUhglNVuMaDxMhcKcypSs8FW7zRZahNgfqS--ZyOdMpQbsD9ZD8Tw2vOV_t2LPZ1zPXJGY6gh2MoaCXXAPtmMSxRRaHFjBC8PV9vdbMizlzIkNP86_Rtr5ESLLUzbBg=s4800-w1200"
+        },
+        {
+            "id": "tokyo-sns-omohills",
+            "city": "tokyo",
+            "slug": "omohills",
+            "category": "SNS명소",
+            "area": "시부야",
+            "name": "오모테산도 힐스",
+            "price": "₩ 0~",
+            "rating": "4.7",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPO4EQ5BzeT0nruWhmKCeGXbmT6-vja0rChmZDrPhvyTTR0ljxcUTQdGhVM3LHwlonKpdwTU_Ooy9elyuZmhiIsexnXPxKxqUrWCCEBfaLtyZrR__coaH9Z6S0DHs4zPdJZrWPa5PK1KbiQ9Ls=s4800-w1200"
+        },
+        {
+            "id": "tokyo-sns-x",
+            "city": "tokyo",
+            "slug": "shibuya-scramble",
+            "category": "SNS명소",
+            "area": "시부야",
+            "name": "시부야 스크램블",
+            "price": "₩ 0~",
+            "rating": "4.6",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOyRhY7jab6r-wxRgwL6Jna2fNelNzkowtFCYKZNDpPfnaQ2_aEbWi4PvMJXlyy5LjLat89QpgXRc294LEZqSUwcqBJtSOp3oagN_lx1NhW3d8pu0hZ6ri7_88rRnIu-q3NQRNE1vx4PQi6y7k=s4800-w1200"
         }
     ],
     "시장 & 야시장": [
@@ -1212,6 +1583,39 @@ export const generatedTourPlaceCardsByCategory: CardsByCategory = {
             "price": "무료",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPPPl1MJBybo4l1bhAw5K1r6phOccXiLE8geMbXOoPWXVn3q9YwPAX58wSv1hKHE0Gz1lI5tB5-to-qRCTb5HDZsHlIX1lGsfxsND9F8LIq5EXB_2re5Eg-7b59ruLTFQqDzJhDvKNRs-uB-CY=s4800-w1200"
+        },
+        {
+            "id": "tokyo-history-meiji-jingu",
+            "city": "tokyo",
+            "slug": "meiji-jingu",
+            "category": "역사",
+            "area": "하라주쿠",
+            "name": "메이지 신궁",
+            "price": "₩ 0~",
+            "rating": "4.8",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPd-wGT1s0oXcxKzl17CGfz7aE7inyR9P-FidpQs-7kuCAvuoCO-jZXFjndGb0FaUDkPxvO7f0R_6AekbrZTP1xY_hr74ZtAAHlJW7dB8e6L-fNG3SBkrjQQK87p8vRW7Ka--ao5y0qEiBB-O8=s4800-w1200"
+        },
+        {
+            "id": "tokyo-history-sensoji",
+            "city": "tokyo",
+            "slug": "sensoji",
+            "category": "역사",
+            "area": "아사쿠사",
+            "name": "센소지",
+            "price": "₩ 0~",
+            "rating": "4.7",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNj0KvxwrgfJwNDQIhXSnkUIaF_PV4MM_i8g5K1u4OUp-EvNvfvMiWh2bvhDSl-lufblAq1O5KqMVBnBLV2_ZS91qfg0DTW5URAlDbZg5BbVlQhVOrLXM744QwdOvPRcsNL6ILHYvKEhD27X-w=s4800-w1200"
+        },
+        {
+            "id": "tokyo-history-imperial-palace-east-gardens",
+            "city": "tokyo",
+            "slug": "imperial-palace-east-gardens",
+            "category": "역사",
+            "area": "마루노우치",
+            "name": "고쿄 히가시교엔",
+            "price": "₩ 0~",
+            "rating": "4.6",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNTFHK87t_LyoJ-z5oCZsmy5K_-CuATiTLm_SAybTu7euhr_x5Xp0XRznEjaiDRmGq7S7KhSKytf3L5D4xtnouK7nWB6LQozOCkQdaxYpM-zRJm_L_0tSQgNJlKHwHw-oczGOjvDcwdArTr9Bc=s4800-w1200"
         }
     ],
     "소도시": [
@@ -1247,6 +1651,28 @@ export const generatedTourPlaceCardsByCategory: CardsByCategory = {
             "price": "무료",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOYBF_eyRQq2_eyHgJNtT5VvCT_tGYcOaKjUCvJTt0eBV9lDPMzGsAzbLSZAef4owRBGCKHQ_A95S64ZiCrsrhxPEMTHnG4XsZzn2udMxQaO6bBAwIImPDNSvl4Z0Hc5GgGVE9psd1sbm5-5ko=s4800-w1200"
+        },
+        {
+            "id": "tokyo-smallcity-kamakura-enoshima",
+            "city": "tokyo",
+            "slug": "kamakura-enoshima",
+            "category": "소도시",
+            "area": "가마쿠라",
+            "name": "가마쿠라·에노시마",
+            "price": "₩ 0~",
+            "rating": "4.8",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZN2flIQnWB4OsIy17BkUX6x3epSZEJYhqf5NHsO5dRAzim0bPYNMmuyrrxrPDFVNDH-k9_Lnv3Vukto2bgsGZXUVhubuHrzmMbmp8q8lNqAbo0DfqpCERhvRU4zEmZ5SOgQgDlAdIGZrDDcHg=s4800-w1200"
+        },
+        {
+            "id": "tokyo-smallcity-mount-fuji-tour",
+            "city": "tokyo",
+            "slug": "mount-fuji-tour",
+            "category": "소도시",
+            "area": "후지산",
+            "name": "후지산 5합목 투어",
+            "price": "₩ 70,000~",
+            "rating": "4.7",
+            "image": "/images/tour/tokyo/smallcity/mount_fuji_tour/mount_fuji_tour.png"
         }
     ],
     "자연·공원": [
@@ -1596,6 +2022,50 @@ export const generatedStayPlaceCardsByCategory: CardsByCategory = {
             "price": "¥2,000~5,000",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/places/ANXAkqEcMMr52f4OzFeTLsVhMJkLI-UoOQgMpb_FL6Z1cQWaMzDEJZD_mE0DEPdWWw5JB3IjHqpRNVZFkiuhTz4GhNQnL-a2lKSsQt4=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hostel-nui",
+            "city": "tokyo",
+            "slug": "nui-hostel",
+            "category": "호스텔",
+            "area": "구라마에",
+            "name": "Nui. 호스텔",
+            "price": "₩ 55,000~",
+            "rating": "4.6",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hostel-unplan-shinjuku",
+            "city": "tokyo",
+            "slug": "unplan-shinjuku",
+            "category": "호스텔",
+            "area": "신주쿠",
+            "name": "UNPLAN 신주쿠",
+            "price": "₩ 62,000~",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hostel-citan",
+            "city": "tokyo",
+            "slug": "citan-hostel",
+            "category": "호스텔",
+            "area": "니혼바시",
+            "name": "CITAN 호스텔",
+            "price": "₩ 58,000~",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hostel-khaosan-samurai",
+            "city": "tokyo",
+            "slug": "khaosan-samurai",
+            "category": "호스텔",
+            "area": "아사쿠사",
+            "name": "카오산 사무라이",
+            "price": "₩ 48,000~",
+            "rating": "4.3",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567"
         }
     ],
     "서비스드 아파트": [
@@ -1732,6 +2202,39 @@ export const generatedStayPlaceCardsByCategory: CardsByCategory = {
             "price": "NT$ 4,000~12,000",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/places/ANXAkqEh-gR6kDxfmu_5Z-dmnKx_QMrMiyJpV5Aoe4mzEZvkPRU_U1QeRp8ss1XD5X_uzBmFZWaR3mv7Y2DIOEmiIEL0vixn6fKM8Lg=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hotel-rem",
+            "city": "tokyo",
+            "slug": "rem",
+            "category": "호텔",
+            "area": "도쿄",
+            "name": "렘 도쿄 교바시",
+            "price": "₩ 251,000~",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMJjkDs8oxjvwgUBN1Sbhcw6d4_-4YuY9Wxan8Ljx2mbfj0FQQSYwP4fxxfg4dpa7EQcMemqN-j9cpv0X2mGH1Uatdbig-JTx-eiHpngLs2CHqvpk0LoWwswgNRnE8xiIIzujQavsQLR1WQ7A=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hotel-prince",
+            "city": "tokyo",
+            "slug": "prince",
+            "category": "호텔",
+            "area": "에비스",
+            "name": "프린스 스마트 인 에비스",
+            "price": "₩ 320,000~",
+            "rating": "4.7",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqHpQK9EVi-K3JdT5tzaKnYUwDv2kAL9aT0L9R2SYgebCpjbyke1CN6Lykh1b77A_lo0FeP5tTkJ8B7QSRDJ0KrRbGcfxiwVlK0=s4800-w1200"
+        },
+        {
+            "id": "tokyo-hotel-domine",
+            "city": "tokyo",
+            "slug": "domine",
+            "category": "호텔",
+            "area": "하라주쿠",
+            "name": "도미인 진구마에",
+            "price": "₩ 358,900~",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqEHzvzqKUXfR3Q2R1PyIsvuv7aL2YI5zXjaLfMr97PbuM8CBJWQ8Zdrh8K2LbEZDS7YntWxg89qJZq6C6SV1LBE2I03_DLTXhg=s4800-w582"
         }
     ],
     "료칸/전통숙소": [
@@ -1835,6 +2338,50 @@ export const generatedStayPlaceCardsByCategory: CardsByCategory = {
             "price": "¥4,000~8,000",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/places/ANXAkqFH05B_qkDNJTSZ4Wei2FXNr79Ayzvgb2mnO7oR_dFCYiK2Tw884yMcarSFkMdKtyTRvUbQDEgCOBs3cMYTRXXhCJddgTGrjg0=s4800-w1200"
+        },
+        {
+            "id": "tokyo-capsule-nine-hours-akasa",
+            "city": "tokyo",
+            "slug": "nine-hours-akasaka",
+            "category": "캡슐",
+            "area": "아카사카",
+            "name": "나인아워스 아카사카",
+            "price": "₩ 45,000~",
+            "rating": "4.2",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200"
+        },
+        {
+            "id": "tokyo-capsule-first-cabin-akihabara",
+            "city": "tokyo",
+            "slug": "first-cabin-akihabara",
+            "category": "캡슐",
+            "area": "아키하바라",
+            "name": "퍼스트 캐빈",
+            "price": "₩ 65,000~",
+            "rating": "4.1",
+            "image": "/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png"
+        },
+        {
+            "id": "tokyo-capsule-anshin-oyado-shinjuku",
+            "city": "tokyo",
+            "slug": "anshin-oyado-shinjuku",
+            "category": "캡슐",
+            "area": "신주쿠",
+            "name": "안신 오야도",
+            "price": "₩ 70,000~",
+            "rating": "4.3",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200"
+        },
+        {
+            "id": "tokyo-capsule-rembrandt-shinjuku",
+            "city": "tokyo",
+            "slug": "rembrandt-cabin-shinjuku",
+            "category": "캡슐",
+            "area": "신주쿠",
+            "name": "렘브란트 캐빈",
+            "price": "₩ 50,000~",
+            "rating": "4.0",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200"
         }
     ],
     "료칸": [
@@ -1870,6 +2417,50 @@ export const generatedStayPlaceCardsByCategory: CardsByCategory = {
             "price": "¥7,000~18,000",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/places/ANXAkqHgFV3mJii5qYaU_FNrJMkCiG-fEKJuLqH1SZNR_kU8JEqJiBrSyjA1W9iTfojQv-a-7nDHrHN-AJdWSika3G8gqrWJVN-95DU=s4800-w1200"
+        },
+        {
+            "id": "tokyo-ryokan-hoshinoya-tokyo",
+            "city": "tokyo",
+            "slug": "hoshinoya-tokyo",
+            "category": "료칸",
+            "area": "오테마치",
+            "name": "호시노야 도쿄",
+            "price": "₩ 980,000~",
+            "rating": "4.7",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZMq2WrrMUwrqw9WC3i4hPQjSXtn2OdW4kOsG_fJYQV05hwaObqZdfgde_LYJXcq4i4Eh9Ij-utYdFVfHPFckVre4HZF5FsU8gMEQ1mvWg0puX7ymNonKR93HOBzwI7B6XIXSRruXqK4jJKbi4g=s4800-w1200"
+        },
+        {
+            "id": "tokyo-ryokan-kamogawa-asakusa",
+            "city": "tokyo",
+            "slug": "kamogawa-asakusa",
+            "category": "료칸",
+            "area": "아사쿠사",
+            "name": "카모가와 료칸",
+            "price": "₩ 180,000~",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqEale-k2qc4HCdkfL5N6BHzPua-aLV_APbe397jraJMWc5m5ah7AbSocxVATyH1PjQTLY1dxN_U1px_7UbYdrR1XcNqDXCf160=s4800-w1200"
+        },
+        {
+            "id": "tokyo-ryokan-sawanoya",
+            "city": "tokyo",
+            "slug": "sawanoya-ryokan",
+            "category": "료칸",
+            "area": "야나카",
+            "name": "사와노야 료칸",
+            "price": "₩ 120,000~",
+            "rating": "4.7",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqGrTXgoq-k7pdpB1rqAeCE5Z3j3hi5ZIOLr7uXgcRBnywUPjcmiLkpSUGJbaJP7lvhyg5g4Qfb4Iokk-E0rLvjeIPNqpv4JAio=s4800-w1200"
+        },
+        {
+            "id": "tokyo-ryokan-shigetsu",
+            "city": "tokyo",
+            "slug": "ryokan-shigetsu",
+            "category": "료칸",
+            "area": "아사쿠사",
+            "name": "료칸 시게츠",
+            "price": "₩ 160,000~",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200"
         }
     ],
     "부티크 / 디자인 호텔": [
@@ -1975,6 +2566,52 @@ export const generatedStayPlaceCardsByCategory: CardsByCategory = {
             "price": "NT$ 2,000~8,000",
             "rating": "-",
             "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZOsVl9nnD80VBw3xLMcUUrbVgt69Vj2jd0d2gu_VmIb6ohJGigLl5vp6syBs6WqPQkbOpvxtRkURv7yh2uH3mNYPRlJCPV0pxlTVzMCd8K6DsVMpXY15m9AB7_Xov6VL-oP1XnqGeYSGpaeMA=s4800-w1200"
+        }
+    ],
+    "민슈쿠": [
+        {
+            "id": "tokyo-minshuku-taito-ryokan",
+            "city": "tokyo",
+            "slug": "taito-ryokan",
+            "category": "민슈쿠",
+            "area": "아사쿠사",
+            "name": "타이토 료칸",
+            "price": "₩ 80,000~",
+            "rating": "4.3",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200"
+        },
+        {
+            "id": "tokyo-minshuku-andon",
+            "city": "tokyo",
+            "slug": "andon-ryokan",
+            "category": "민슈쿠",
+            "area": "미노와",
+            "name": "안돈 료칸",
+            "price": "₩ 95,000~",
+            "rating": "4.4",
+            "image": "https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667"
+        },
+        {
+            "id": "tokyo-minshuku-homeikan",
+            "city": "tokyo",
+            "slug": "homeikan",
+            "category": "민슈쿠",
+            "area": "혼고",
+            "name": "호메이칸",
+            "price": "₩ 130,000~",
+            "rating": "4.5",
+            "image": "https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200"
+        },
+        {
+            "id": "tokyo-minshuku-family-inn-saiko",
+            "city": "tokyo",
+            "slug": "family-inn-saiko",
+            "category": "민슈쿠",
+            "area": "이케부쿠로",
+            "name": "패밀리 인 사이코",
+            "price": "₩ 110,000~",
+            "rating": "4.6",
+            "image": "/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png"
         }
     ]
 };
