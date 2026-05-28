@@ -119,7 +119,7 @@ function getProductHref(card: TransportCard) {
 }
 
 function isBookingPlatformCard(option: string) {
-    return option === 'hotel-booking' || option === 'tour-booking';
+    return option === 'hotel-booking' || option === 'tour-booking' || option === '패키지';
 }
 
 export function TransportProductCard({
@@ -134,8 +134,7 @@ export function TransportProductCard({
     const productHref = getProductHref(card);
     const hasProductLink = Boolean(productHref);
     const brandLogoImage = getBrandLogoImage(card.brand);
-    const usesBrandLogoLayout =
-        (Boolean(brandLogoImage) || isBookingPlatformCard(card.option)) && card.option !== '패키지';
+    const usesBrandLogoLayout = Boolean(brandLogoImage) || isBookingPlatformCard(card.option);
 
     const openProduct = () => {
         if (!productHref) {

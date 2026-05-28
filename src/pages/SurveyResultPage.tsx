@@ -62,7 +62,7 @@ export default function SurveyResultPage() {
                 </h1>
 
                 {activeNav === '이동수단' ? (
-                    <TransportResultSection airports={answers.airports} />
+                    <TransportResultSection airports={answers.airports} city={city.slug} />
                 ) : null}
                 {activeNav === '맛집' ? <FoodResultSection city={city.slug} /> : null}
                 {activeNav === '관광' ? <TourResultSection city={city.slug} /> : null}

@@ -107,7 +107,7 @@ export default function HomePage() {
                         <input
                             type="text"
                             aria-label="여행지 검색"
-                            placeholder="가고싶은 여행지를 입력하세요"
+                            placeholder="가고 싶은 여행지를 입력하세요"
                             value={searchKeyword}
                             onChange={(event) => setSearchKeyword(event.target.value)}
                             className="landing-search-input h-[32px] flex-1 bg-transparent outline-none"

@@ -6,7 +6,7 @@ import {
 import {
     createFallbackTransportCard,
     getPackageCardsByTransport,
-    transportCardPresetsByOption,
+    getTransportCardPresets,
 } from '../../data/transportCards';
 import { transportOptionsByAirport } from '../../data/surveyResultData';
 
@@ -21,16 +21,16 @@ function getTransportOptions(airports: string[]) {
     return ['공항철도', '공항버스', '택시', '프라이빗 픽업'];
 }
 
-function getTransportCards(selectedOption: string, airports: string[]): TransportCard[] {
+function getTransportCards(selectedOption: string, airports: string[], city: string): TransportCard[] {
     const baseOptions = selectedOption
         ? [selectedOption]
         : getTransportOptions(airports).slice(0, 2);
 
     return baseOptions.flatMap((option) => {
-        const presets = transportCardPresetsByOption[option];
+        const presets = getTransportCardPresets(option, city);
 
         if (!presets) {
-            return [createFallbackTransportCard(option, airports[0] ?? '공항')];
+            return [createFallbackTransportCard(option, airports[0] ?? '공항', city)];
         }
 
         return presets.map((card) => ({
@@ -40,17 +40,17 @@ function getTransportCards(selectedOption: string, airports: string[]): Transpor
     });
 }
 
-export function TransportResultSection({ airports }: { airports: string[] }) {
+export function TransportResultSection({ airports, city }: { airports: string[]; city: string }) {
     const transportOptions = useMemo(() => getTransportOptions(airports), [airports]);
     const [activeTransport, setActiveTransport] = useState(transportOptions[0] ?? '');
     const [likedCardIds, setLikedCardIds] = useState<string[]>([]);
     const transportCards = useMemo(
-        () => getTransportCards(activeTransport, airports),
-        [activeTransport, airports]
+        () => getTransportCards(activeTransport, airports, city),
+        [activeTransport, airports, city]
     );
     const packageCards = useMemo(
-        () => getPackageCardsByTransport(activeTransport),
-        [activeTransport]
+        () => getPackageCardsByTransport(activeTransport, city),
+        [activeTransport, city]
     );
 
     const handleToggleLike = (card: TransportCard) => {
