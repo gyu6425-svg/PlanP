@@ -1,4 +1,5 @@
 import type { KeyboardEvent } from 'react';
+import { getBookingPolicyDisplay, getProductHref } from '../../lib/favoritePolicy';
 
 export type TransportCard = {
     id: string;
@@ -52,89 +53,24 @@ function getBrandLogoImage(brand: string) {
     return brandLogoByName[brand];
 }
 
-function getPlatformSearchHref(card: TransportCard) {
-    const query = encodeURIComponent(card.title);
-
-    if (card.brand === 'Agoda') {
-        return `https://www.agoda.com/search?text=${query}`;
-    }
-
-    if (card.brand === 'Booking.com') {
-        return `https://www.booking.com/searchresults.html?ss=${query}`;
-    }
-
-    if (card.brand === 'Trip.com') {
-        return `https://kr.trip.com/search?keyword=${query}`;
-    }
-
-    if (card.brand === 'Hotels.com') {
-        return `https://kr.hotels.com/Hotel-Search?destination=${query}`;
-    }
-
-    if (card.brand === 'Klook') {
-        return `https://www.klook.com/ko/search/result/?query=${query}`;
-    }
-
-    if (card.brand === 'KKday') {
-        return `https://www.kkday.com/ko/product/productlist?keyword=${query}`;
-    }
-
-    if (card.brand === '마이리얼트립') {
-        return `https://www.myrealtrip.com/offers?keyword=${query}`;
-    }
-
-    if (card.brand === '하나투어') {
-        return `https://www.hanatour.com/search?keyword=${query}`;
-    }
-
-    return undefined;
-}
-
-function isGenericProviderHref(href: string) {
-    const genericProviderHrefs = [
-        'https://www.agoda.com/',
-        'https://kr.trip.com/',
-        'https://www.trip.com/',
-        'https://kr.hotels.com/',
-        'https://www.booking.com/',
-        'https://www.klook.com/',
-        'https://www.kkday.com/',
-        'https://www.myrealtrip.com/',
-        'https://www.hanatour.com/',
-    ];
-
-    return genericProviderHrefs.includes(href);
-}
-
-function getProductHref(card: TransportCard) {
-    if (!card.href) {
-        return getPlatformSearchHref(card);
-    }
-
-    if (isGenericProviderHref(card.href)) {
-        return getPlatformSearchHref(card) ?? card.href;
-    }
-
-    return card.href;
-}
-
 function isBookingPlatformCard(option: string) {
     return option === 'hotel-booking' || option === 'tour-booking' || option === '패키지';
 }
 
 export function TransportProductCard({
     card,
-    liked,
+    liked = false,
     onToggleLike,
 }: {
     card: TransportCard;
-    liked: boolean;
-    onToggleLike: (card: TransportCard) => void;
+    liked?: boolean;
+    onToggleLike?: (card: TransportCard) => void;
 }) {
     const productHref = getProductHref(card);
     const hasProductLink = Boolean(productHref);
     const brandLogoImage = getBrandLogoImage(card.brand);
     const usesBrandLogoLayout = Boolean(brandLogoImage) || isBookingPlatformCard(card.option);
+    const policyDisplay = getBookingPolicyDisplay(card.cancelLabel);
 
     const openProduct = () => {
         if (!productHref) {
@@ -188,18 +124,20 @@ export function TransportProductCard({
                         </p>
                     </>
                 )}
-                <button
-                    type="button"
-                    aria-label="보관하기"
-                    onClick={(event) => {
-                        event.stopPropagation();
-                        onToggleLike(card);
-                    }}
-                    onKeyDown={(event) => event.stopPropagation()}
-                    className="absolute right-[24px] top-[25px] grid size-[44px] place-items-center"
-                >
-                    <HeartIcon filled={liked} />
-                </button>
+                {onToggleLike ? (
+                    <button
+                        type="button"
+                        aria-label="보관하기"
+                        onClick={(event) => {
+                            event.stopPropagation();
+                            onToggleLike(card);
+                        }}
+                        onKeyDown={(event) => event.stopPropagation()}
+                        className="absolute right-[24px] top-[25px] grid size-[44px] place-items-center"
+                    >
+                        <HeartIcon filled={liked} />
+                    </button>
+                ) : null}
                 <p
                     className={[
                         'absolute bottom-[22px] right-[28px] text-[28px] font-[700] leading-none',
@@ -216,11 +154,16 @@ export function TransportProductCard({
                     {card.title}
                 </h2>
 
-                <div className="mt-auto flex items-center justify-between">
-                    <span className="inline-flex h-[41px] min-w-[87px] items-center justify-center rounded-[50px] bg-[#f2f2f2] px-[12px] text-[18px] font-[400] text-[#777777]">
-                        {card.cancelLabel}
-                    </span>
-                    <span className="inline-flex items-center gap-[5px] text-[18px] font-[500] text-[#6B8A59]">
+                <div className="mt-auto flex items-center justify-between gap-[14px]">
+                    <div className="flex min-w-0 items-center gap-[14px]">
+                        <span className="inline-flex h-[41px] w-[123px] shrink-0 items-center justify-center rounded-[14px] bg-[#F5F5F5] text-[18px] font-[400] leading-none text-[#666666]">
+                            {policyDisplay.chip}
+                        </span>
+                        <span className="truncate text-[14px] font-[400] leading-none text-[#6B8A59]">
+                            {policyDisplay.note}
+                        </span>
+                    </div>
+                    <span className="inline-flex shrink-0 items-center gap-[5px] text-[18px] font-[500] text-[#6B8A59]">
                         <StarIcon />
                         {card.rating}
                     </span>

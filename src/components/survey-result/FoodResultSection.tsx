@@ -54,7 +54,14 @@ export function FoodResultSection({ city }: { city: string }) {
                                 ? routes.foodDetail(card.city, routeCategory, card.slug)
                                 : undefined);
 
-                        return <ResultImageCard key={card.id} card={{ ...card, href }} />;
+                        const cardWithHref = { ...card, href };
+
+                        return (
+                            <ResultImageCard
+                                key={card.id}
+                                card={cardWithHref}
+                            />
+                        );
                     }}
                 />
             </div>

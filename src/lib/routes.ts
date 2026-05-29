@@ -1,5 +1,6 @@
 export const routes = {
     home: () => '/',
+    favorites: () => '/favorites',
     survey: (city: string) => `/${city}/survey`,
     surveyResult: (city: string) => `/${city}/survey/result`,
     foodDetail: (city: string, category: string, slug: string) =>

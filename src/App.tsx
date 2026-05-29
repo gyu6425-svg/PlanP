@@ -8,6 +8,7 @@ const HomePage = lazy(() => import('./pages/HomePage'))
 const ExplorePage = lazy(() => import('./pages/ExplorePage'))
 const LoginPage = lazy(() => import('./pages/LoginPage'))
 const SignupPage = lazy(() => import('./pages/SignupPage'))
+const FavoritesPage = lazy(() => import('./pages/FavoritesPage'))
 const SurveyPage = lazy(() => import('./pages/SurveyPage'))
 const SurveyResultPage = lazy(() => import('./pages/SurveyResultPage'))
 const FoodDetailPage = lazy(() => import('./pages/FoodDetailPage'))
@@ -23,6 +24,7 @@ function App() {
           <Route path="explore" element={<ExplorePage />} />
           <Route path="login" element={<LoginPage />} />
           <Route path="signup" element={<SignupPage />} />
+          <Route path="favorites" element={<FavoritesPage />} />
           <Route path="survey" element={<Navigate to={routes.survey('tokyo')} replace />} />
           <Route path="survey/result" element={<Navigate to={routes.surveyResult('tokyo')} replace />} />
           <Route path="food/:placeId" element={<Navigate to={routes.surveyResult('tokyo')} replace />} />

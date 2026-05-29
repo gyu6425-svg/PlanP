@@ -9,6 +9,7 @@ export const Footer = memo(function Footer() {
     location.pathname === '/' ||
     location.pathname === '/login' ||
     location.pathname === '/signup' ||
+    location.pathname === '/favorites' ||
     location.pathname === '/survey' ||
     location.pathname === '/survey/result' ||
     /^\/[^/]+\/survey(\/result)?$/.test(location.pathname) ||

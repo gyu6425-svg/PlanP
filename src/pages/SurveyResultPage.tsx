@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { EmptyResultSection } from '../components/survey-result/EmptyResultSection';
 import { FoodResultSection } from '../components/survey-result/FoodResultSection';
@@ -13,6 +13,8 @@ import {
 } from '../data/surveyResultData';
 import { getCityBySlug } from '../lib/city';
 import { routes } from '../lib/routes';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { fetchFavoritesThunk } from '../store/slices/favoritesSlice';
 
 function readSurveyAnswers(): SurveyAnswers {
     const rawAnswers = sessionStorage.getItem('planp.surveyAnswers');
@@ -32,6 +34,7 @@ function readSurveyAnswers(): SurveyAnswers {
 }
 
 export default function SurveyResultPage() {
+    const dispatch = useAppDispatch();
     const navigate = useNavigate();
     const { city: citySlug } = useParams();
     const [searchParams] = useSearchParams();
@@ -42,6 +45,13 @@ export default function SurveyResultPage() {
     const initialNav = sectionParam && navItems.includes(sectionParam) ? sectionParam : navItems[0];
     const [activeNav, setActiveNav] = useState(initialNav);
     const activeTitle = sectionTitleByNav[activeNav] ?? `${activeNav} 추천`;
+    const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
+
+    useEffect(() => {
+        if (isAuthenticated) {
+            dispatch(fetchFavoritesThunk());
+        }
+    }, [dispatch, isAuthenticated]);
 
     if (citySlug && city.slug !== citySlug.toLowerCase()) {
         return <Navigate to={routes.surveyResult(city.slug)} replace />;

@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
     TransportProductCard,
     type TransportCard,
@@ -9,6 +10,13 @@ import {
     getTransportCardPresets,
 } from '../../data/transportCards';
 import { transportOptionsByAirport } from '../../data/surveyResultData';
+import { toTransportFavorite } from '../../lib/favoritePolicy';
+import { useAppDispatch, useAppSelector } from '../../store/hooks';
+import {
+    deleteFavoriteThunk,
+    isFavorite,
+    saveFavoriteThunk,
+} from '../../store/slices/favoritesSlice';
 
 function getTransportOptions(airports: string[]) {
     const options = airports.flatMap((airport) => transportOptionsByAirport[airport] ?? []);
@@ -41,9 +49,12 @@ function getTransportCards(selectedOption: string, airports: string[], city: str
 }
 
 export function TransportResultSection({ airports, city }: { airports: string[]; city: string }) {
+    const dispatch = useAppDispatch();
+    const navigate = useNavigate();
+    const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
+    const favorites = useAppSelector((state) => state.favorites.items);
     const transportOptions = useMemo(() => getTransportOptions(airports), [airports]);
     const [activeTransport, setActiveTransport] = useState(transportOptions[0] ?? '');
-    const [likedCardIds, setLikedCardIds] = useState<string[]>([]);
     const transportCards = useMemo(
         () => getTransportCards(activeTransport, airports, city),
         [activeTransport, airports, city]
@@ -53,16 +64,24 @@ export function TransportResultSection({ airports, city }: { airports: string[];
         [activeTransport, city]
     );
 
-    const handleToggleLike = (card: TransportCard) => {
-        setLikedCardIds((current) => {
-            const next = current.includes(card.id)
-                ? current.filter((id) => id !== card.id)
-                : [...current, card.id];
+    const handleToggleLike = useCallback(
+        (card: TransportCard) => {
+            if (!isAuthenticated) {
+                navigate('/login', { state: { from: { pathname: window.location.pathname } } });
+                return;
+            }
 
-            sessionStorage.setItem('planp.likedTransportCards', JSON.stringify(next));
-            return next;
-        });
-    };
+            const favorite = toTransportFavorite(card);
+
+            if (isFavorite(favorites, favorite)) {
+                dispatch(deleteFavoriteThunk({ itemType: favorite.itemType, itemId: favorite.itemId }));
+                return;
+            }
+
+            dispatch(saveFavoriteThunk(favorite));
+        },
+        [dispatch, favorites, isAuthenticated, navigate]
+    );
 
     return (
         <>
@@ -87,7 +106,7 @@ export function TransportResultSection({ airports, city }: { airports: string[];
                     <TransportProductCard
                         key={card.id}
                         card={card}
-                        liked={likedCardIds.includes(card.id)}
+                        liked={isFavorite(favorites, toTransportFavorite(card))}
                         onToggleLike={handleToggleLike}
                     />
                 ))}
@@ -103,7 +122,7 @@ export function TransportResultSection({ airports, city }: { airports: string[];
                             <TransportProductCard
                                 key={card.id}
                                 card={card}
-                                liked={likedCardIds.includes(card.id)}
+                                liked={isFavorite(favorites, toTransportFavorite(card))}
                                 onToggleLike={handleToggleLike}
                             />
                         ))}

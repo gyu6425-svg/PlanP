@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import { login, signup, type AuthUser, type LoginRequest, type SignupRequest } from '../../services/authApi'
 import { tokenStorage } from '../../services/apiClient'
 import { getUserFromJwt, isJwtExpired } from '../../services/jwt'
+import { clearFavorites } from './favoritesSlice'
 
 type AuthState = {
   accessToken: string | null
@@ -78,4 +79,8 @@ const authSlice = createSlice({
 })
 
 export const { logout } = authSlice.actions
+export const logoutAndClearFavorites = () => (dispatch: (action: unknown) => void) => {
+  dispatch(logout())
+  dispatch(clearFavorites())
+}
 export default authSlice.reducer

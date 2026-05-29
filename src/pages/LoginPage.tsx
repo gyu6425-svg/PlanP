@@ -9,6 +9,7 @@ type LocationState = {
     from?: {
         pathname?: string;
     };
+    loginId?: string;
 };
 
 export default function LoginPage() {
@@ -16,23 +17,28 @@ export default function LoginPage() {
     const navigate = useNavigate();
     const location = useLocation();
     const auth = useAppSelector((state) => state.auth);
-    const [loginId, setLoginId] = useState(() => localStorage.getItem(REMEMBERED_LOGIN_ID_KEY) ?? '');
+    const loginState = location.state as LocationState | null;
+    const [loginId, setLoginId] = useState(
+        () => loginState?.loginId ?? localStorage.getItem(REMEMBERED_LOGIN_ID_KEY) ?? ''
+    );
     const [password, setPassword] = useState('');
     const [rememberId, setRememberId] = useState(() => Boolean(localStorage.getItem(REMEMBERED_LOGIN_ID_KEY)));
 
-    const redirectTo = (location.state as LocationState | null)?.from?.pathname ?? '/';
+    const redirectTo = loginState?.from?.pathname ?? '/';
 
     const handleSubmit = useCallback(
         async (event: FormEvent<HTMLFormElement>) => {
             event.preventDefault();
+            const trimmedLoginId = loginId.trim();
+
             if (rememberId) {
-                localStorage.setItem(REMEMBERED_LOGIN_ID_KEY, loginId);
+                localStorage.setItem(REMEMBERED_LOGIN_ID_KEY, trimmedLoginId);
             } else {
                 localStorage.removeItem(REMEMBERED_LOGIN_ID_KEY);
             }
 
             try {
-                await dispatch(loginThunk({ loginId, password })).unwrap();
+                await dispatch(loginThunk({ loginId: trimmedLoginId, password })).unwrap();
                 navigate(redirectTo, { replace: true });
             } catch {
                 // Error message is rendered from auth.error.

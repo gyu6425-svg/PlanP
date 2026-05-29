@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import {
     TransportProductCard,
     type TransportCard,
@@ -6,16 +5,6 @@ import {
 import { CardSlider } from '../cards/CardSlider';
 
 export function BookingPlatformSection({ cards }: { cards: TransportCard[] }) {
-    const [likedCardIds, setLikedCardIds] = useState<string[]>([]);
-
-    const handleToggleLike = (card: TransportCard) => {
-        setLikedCardIds((current) =>
-            current.includes(card.id)
-                ? current.filter((id) => id !== card.id)
-                : [...current, card.id]
-        );
-    };
-
     return (
         <section className="mx-auto mt-[40px] w-[1520px]">
             <CardSlider
@@ -25,8 +14,6 @@ export function BookingPlatformSection({ cards }: { cards: TransportCard[] }) {
                     <TransportProductCard
                         key={card.id}
                         card={card}
-                        liked={likedCardIds.includes(card.id)}
-                        onToggleLike={handleToggleLike}
                     />
                 )}
             />

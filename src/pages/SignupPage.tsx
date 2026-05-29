@@ -33,25 +33,31 @@ export default function SignupPage() {
                 return;
             }
 
-            if (!/^\d{4}$/.test(form.birthYear) || !/^\d{1,2}$/.test(form.birthMonth) || !/^\d{1,2}$/.test(form.birthDay)) {
+            if (
+                !/^\d{4}$/.test(form.birthYear) ||
+                !/^\d{1,2}$/.test(form.birthMonth) ||
+                !/^\d{1,2}$/.test(form.birthDay)
+            ) {
                 setFormError('생년월일을 숫자로 입력해 주세요.');
                 return;
             }
 
             try {
+                const loginId = form.id.trim();
+
                 await dispatch(
                     signupThunk({
-                        loginId: form.id,
+                        loginId,
                         password: form.password,
-                        name: form.name,
-                        birthYear: form.birthYear,
-                        birthMonth: form.birthMonth,
-                        birthDay: form.birthDay,
+                        name: form.name.trim(),
+                        birthYear: form.birthYear.trim(),
+                        birthMonth: form.birthMonth.trim(),
+                        birthDay: form.birthDay.trim(),
                         email: form.email || undefined,
                     })
                 ).unwrap();
 
-                navigate('/login');
+                navigate('/login', { state: { loginId } });
             } catch {
                 // Error message is rendered from auth.error.
             }

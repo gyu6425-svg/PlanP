@@ -1,6 +1,7 @@
 import { DetailHeroGallery } from '../detail/DetailHeroGallery';
 import { DetailInfoPanel } from '../detail/DetailInfoPanel';
 import type { FoodPlaceDetail } from '../../data/foodPlaceDetails';
+import { toDetailFavorite } from '../../lib/favoritePolicy';
 
 export function FoodDetailHeroInfoSection({
     detail,
@@ -16,7 +17,7 @@ export function FoodDetailHeroInfoSection({
                 images={detail.images}
                 onOpenGallery={onOpenGallery}
             />
-            <DetailInfoPanel detail={detail} />
+            <DetailInfoPanel detail={detail} favorite={toDetailFavorite('food', detail)} />
         </section>
     );
 }

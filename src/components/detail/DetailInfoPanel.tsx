@@ -1,4 +1,14 @@
 import { ExternalLink, Heart, MapPin } from 'lucide-react';
+import { useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
+import type { FavoriteInput } from '../../services/favoritesApi';
+import { useAppDispatch, useAppSelector } from '../../store/hooks';
+import {
+    deleteFavoriteThunk,
+    fetchFavoritesThunk,
+    isFavorite,
+    saveFavoriteThunk,
+} from '../../store/slices/favoritesSlice';
 
 export type DetailInfoData = {
     address: string;
@@ -19,12 +29,44 @@ export function DetailInfoPanel({
     detail,
     saveTitle = '음식점 저장하기',
     accessLabel = '좌석',
+    favorite,
 }: {
     detail: DetailInfoData;
     saveTitle?: string;
     accessLabel?: string;
+    favorite?: FavoriteInput;
 }) {
+    const dispatch = useAppDispatch();
+    const navigate = useNavigate();
+    const location = useLocation();
+    const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
+    const favorites = useAppSelector((state) => state.favorites.items);
     const todayLabel = new Intl.DateTimeFormat('ko-KR', { weekday: 'long' }).format(new Date());
+    const liked = favorite ? isFavorite(favorites, favorite) : false;
+
+    useEffect(() => {
+        if (isAuthenticated && favorite) {
+            dispatch(fetchFavoritesThunk());
+        }
+    }, [dispatch, favorite, isAuthenticated]);
+
+    const handleSave = () => {
+        if (!favorite) {
+            return;
+        }
+
+        if (!isAuthenticated) {
+            navigate('/login', { state: { from: location } });
+            return;
+        }
+
+        if (liked) {
+            dispatch(deleteFavoriteThunk({ itemType: favorite.itemType, itemId: favorite.itemId }));
+            return;
+        }
+
+        dispatch(saveFavoriteThunk(favorite));
+    };
 
     return (
         <div className="mt-[30px] grid min-h-[548px] grid-cols-1 overflow-hidden rounded-[35px] border border-[#cfcfcf] bg-[#f5f5f5] lg:grid-cols-[minmax(0,1fr)_393px]">
@@ -76,9 +118,16 @@ export function DetailInfoPanel({
                     </h2>
                     <button
                         type="button"
+                        aria-pressed={liked}
+                        onClick={handleSave}
                         className="mt-[42px] inline-flex h-[64px] w-[335px] items-center justify-center gap-[8px] rounded-full border border-[#6b8a59] bg-white text-[16px] font-[500] text-[#6b8a59]"
                     >
-                        <Heart size={20} strokeWidth={1.8} aria-hidden="true" />
+                        <Heart
+                            size={20}
+                            fill={liked ? '#6b8a59' : 'none'}
+                            strokeWidth={1.8}
+                            aria-hidden="true"
+                        />
                         저장
                     </button>
                 </section>

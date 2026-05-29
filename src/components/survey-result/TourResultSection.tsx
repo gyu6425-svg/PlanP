@@ -53,7 +53,14 @@ export function TourResultSection({ city }: { city: string }) {
                                 ? routes.tourDetail(card.city, card.category, card.slug)
                                 : undefined);
 
-                        return <ResultImageCard key={card.id} card={{ ...card, href }} />;
+                        const cardWithHref = { ...card, href };
+
+                        return (
+                            <ResultImageCard
+                                key={card.id}
+                                card={cardWithHref}
+                            />
+                        );
                     }}
                 />
             </div>
