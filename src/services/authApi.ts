@@ -3,7 +3,7 @@ import { createDemoJwt } from './jwt';
 import { AxiosError } from 'axios';
 
 const DEV_USERS_KEY = 'planp.devUsers';
-const shouldUseMockAuth = import.meta.env.DEV && !import.meta.env.VITE_API_BASE_URL;
+const shouldUseMockAuth = !import.meta.env.VITE_API_BASE_URL;
 
 export type LoginRequest = {
     loginId: string;
@@ -94,7 +94,7 @@ export async function login(request: LoginRequest): Promise<LoginResponse> {
         const { data } = await apiClient.post<LoginResponse>('/auth/login', normalizedRequest);
         return data;
     } catch (error) {
-        throw new Error(getApiErrorMessage(error, '로그인에 실패했습니다.'));
+        throw new Error(getApiErrorMessage(error, '로그인에 실패했습니다.'), { cause: error });
     }
 }
 
@@ -142,6 +142,6 @@ export async function signup(request: SignupRequest): Promise<{ user: AuthUser }
         );
         return data;
     } catch (error) {
-        throw new Error(getApiErrorMessage(error, '회원가입에 실패했습니다.'));
+        throw new Error(getApiErrorMessage(error, '회원가입에 실패했습니다.'), { cause: error });
     }
 }
