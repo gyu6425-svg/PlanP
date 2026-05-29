@@ -13,15 +13,16 @@ type AuthState = {
 
 const storedToken = tokenStorage.get()
 const initialToken = storedToken && !isJwtExpired(storedToken) ? storedToken : null
+const initialUser = initialToken ? getUserFromJwt(initialToken) : null
 
-if (storedToken && !initialToken) {
+if (storedToken && (!initialToken || !initialUser)) {
   tokenStorage.clear()
 }
 
 const initialState: AuthState = {
-  accessToken: initialToken,
-  user: initialToken ? getUserFromJwt(initialToken) : null,
-  status: initialToken ? 'authenticated' : 'idle',
+  accessToken: initialUser ? initialToken : null,
+  user: initialUser,
+  status: initialUser ? 'authenticated' : 'idle',
   error: null,
 }
 

@@ -93,14 +93,15 @@ export const Header = memo(function Header() {
     const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
     const favoriteCount = useAppSelector((state) => state.favorites.items.length);
     const favoritesStatus = useAppSelector((state) => state.favorites.status);
+    const favoritesHasFetched = useAppSelector((state) => state.favorites.hasFetched);
     const previousFavoriteCount = useRef(favoriteCount);
     const [isFavoriteBadgeBouncing, setIsFavoriteBadgeBouncing] = useState(false);
 
     useEffect(() => {
-        if (isAuthenticated && favoritesStatus === 'idle' && favoriteCount === 0) {
+        if (isAuthenticated && favoritesStatus === 'idle' && !favoritesHasFetched) {
             dispatch(fetchFavoritesThunk());
         }
-    }, [dispatch, favoriteCount, favoritesStatus, isAuthenticated]);
+    }, [dispatch, favoritesHasFetched, favoritesStatus, isAuthenticated]);
 
     useEffect(() => {
         if (favoriteCount > previousFavoriteCount.current) {

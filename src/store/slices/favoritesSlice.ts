@@ -12,12 +12,14 @@ type FavoritesState = {
     items: FavoriteItem[];
     status: 'idle' | 'loading' | 'error';
     error: string | null;
+    hasFetched: boolean;
 };
 
 const initialState: FavoritesState = {
     items: [],
     status: 'idle',
     error: null,
+    hasFetched: false,
 };
 
 export const fetchFavoritesThunk = createAsyncThunk('favorites/fetch', getFavorites);
@@ -36,6 +38,7 @@ const favoritesSlice = createSlice({
             state.items = [];
             state.status = 'idle';
             state.error = null;
+            state.hasFetched = false;
         },
     },
     extraReducers: (builder) => {
@@ -47,10 +50,12 @@ const favoritesSlice = createSlice({
             .addCase(fetchFavoritesThunk.fulfilled, (state, action) => {
                 state.status = 'idle';
                 state.items = action.payload;
+                state.hasFetched = true;
             })
             .addCase(fetchFavoritesThunk.rejected, (state, action) => {
                 state.status = 'error';
                 state.error = action.error.message ?? '저장 목록을 불러오지 못했습니다.';
+                state.hasFetched = true;
             })
             .addCase(saveFavoriteThunk.fulfilled, (state, action) => {
                 const favorite = action.payload;
