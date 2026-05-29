@@ -1,4 +1,6 @@
 import type { KeyboardEvent } from 'react';
+import { stayPlaceCardsByCategory } from '../../data/stayPlaces';
+import { tourPlaceCardsByCategory } from '../../data/tourPlaces';
 import { getBookingPolicyDisplay } from '../../lib/favoritePolicy';
 import { routes } from '../../lib/routes';
 import type { FavoriteItem } from '../../services/favoritesApi';
@@ -22,6 +24,39 @@ function getPayloadString(item: FavoriteItem, key: string) {
     return typeof value === 'string' ? value : undefined;
 }
 
+function normalizeCategoryForRoute(category: string) {
+    const routeCategoryByLabel: Record<string, string> = {
+        SNS명소: 'sns',
+        소도시: 'smallcity',
+        호텔: 'hotel',
+        라멘: 'ramen',
+    };
+
+    return routeCategoryByLabel[category] ?? category;
+}
+
+function findSavedPlaceCard(item: FavoriteItem) {
+    const cardsByCategory =
+        item.itemType === 'tour'
+            ? tourPlaceCardsByCategory
+            : item.itemType === 'stay'
+              ? stayPlaceCardsByCategory
+              : undefined;
+
+    if (!cardsByCategory) {
+        return undefined;
+    }
+
+    return Object.values(cardsByCategory)
+        .flat()
+        .find(
+            (card) =>
+                card.id === item.itemId ||
+                card.name === item.title ||
+                (card.slug && item.itemId.endsWith(card.slug))
+        );
+}
+
 function getFavoriteHref(item: FavoriteItem) {
     if (item.itemType === 'food') {
         return (
@@ -31,9 +66,22 @@ function getFavoriteHref(item: FavoriteItem) {
     }
 
     if (item.itemType === 'tour' || item.itemType === 'stay') {
+        const savedCard = findSavedPlaceCard(item);
+        const savedCardRouteCategory = savedCard
+            ? normalizeCategoryForRoute(savedCard.category)
+            : undefined;
+
+        if (savedCard?.city && savedCardRouteCategory && savedCard.slug) {
+            return item.itemType === 'tour'
+                ? routes.tourDetail(savedCard.city, savedCardRouteCategory, savedCard.slug)
+                : routes.stayDetail(savedCard.city, savedCardRouteCategory, savedCard.slug);
+        }
+
         const internalHref = getPayloadString(item, 'internalHref');
         const city = getPayloadString(item, 'city');
-        const routeCategory = getPayloadString(item, 'routeCategory') ?? getPayloadString(item, 'category');
+        const routeCategory = normalizeCategoryForRoute(
+            getPayloadString(item, 'routeCategory') ?? getPayloadString(item, 'category') ?? ''
+        );
         const slug = getPayloadString(item, 'slug');
 
         if (internalHref) {
