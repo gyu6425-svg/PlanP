@@ -22,7 +22,10 @@ export function FavoriteListCard({ item }: { item: FavoriteItem }) {
         typeof item.payload.cancelLabel === 'string'
             ? item.payload.cancelLabel
             : item.policy;
-    const policyDisplay = getBookingPolicyDisplay(payloadCancelLabel);
+    const policyDisplay =
+        item.itemType === 'food'
+            ? { chip: '현장 대기 가능', note: '예약처 확인' }
+            : getBookingPolicyDisplay(payloadCancelLabel);
     const hasHref = Boolean(item.href);
 
     const openHref = () => {
