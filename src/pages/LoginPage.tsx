@@ -1,8 +1,9 @@
 import { useCallback, useState, type FormEvent } from 'react';
-import { Navigate, useLocation, useNavigate } from 'react-router-dom';
-import { Button } from '../components/ui/button';
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { loginThunk } from '../store/slices/authSlice';
+
+const REMEMBERED_LOGIN_ID_KEY = 'planp.rememberedLoginId';
 
 type LocationState = {
     from?: {
@@ -15,18 +16,29 @@ export default function LoginPage() {
     const navigate = useNavigate();
     const location = useLocation();
     const auth = useAppSelector((state) => state.auth);
-    const [email, setEmail] = useState('demo@planp.kr');
-    const [password, setPassword] = useState('planp1234');
+    const [loginId, setLoginId] = useState(() => localStorage.getItem(REMEMBERED_LOGIN_ID_KEY) ?? '');
+    const [password, setPassword] = useState('');
+    const [rememberId, setRememberId] = useState(() => Boolean(localStorage.getItem(REMEMBERED_LOGIN_ID_KEY)));
 
     const redirectTo = (location.state as LocationState | null)?.from?.pathname ?? '/';
 
     const handleSubmit = useCallback(
         async (event: FormEvent<HTMLFormElement>) => {
             event.preventDefault();
-            await dispatch(loginThunk({ email, password })).unwrap();
-            navigate(redirectTo, { replace: true });
+            if (rememberId) {
+                localStorage.setItem(REMEMBERED_LOGIN_ID_KEY, loginId);
+            } else {
+                localStorage.removeItem(REMEMBERED_LOGIN_ID_KEY);
+            }
+
+            try {
+                await dispatch(loginThunk({ loginId, password })).unwrap();
+                navigate(redirectTo, { replace: true });
+            } catch {
+                // Error message is rendered from auth.error.
+            }
         },
-        [dispatch, email, navigate, password, redirectTo]
+        [dispatch, loginId, navigate, password, redirectTo, rememberId]
     );
 
     if (auth.accessToken) {
@@ -34,50 +46,69 @@ export default function LoginPage() {
     }
 
     return (
-        <section className="mx-auto grid min-h-[calc(100svh-137px)] max-w-6xl place-items-center px-4 py-12 sm:px-6">
-            <form
-                onSubmit={handleSubmit}
-                className="w-full max-w-md rounded-lg border border-stone-200 bg-white p-6 shadow-sm"
-            >
-                <h1 className="text-2xl font-black">로그인</h1>
-                <p className="mt-2 text-sm leading-6 text-stone-600">
-                    JWT 토큰 기반 세션 관리를 확인할 수 있는 데모 로그인입니다.
-                </p>
+        <section className="relative min-h-svh bg-[#f5f5f5]">
+            <div className="mx-auto flex min-h-svh w-full max-w-[700px] flex-col items-center pt-[190px]">
+                <h1 className="text-center text-[80px] font-semibold leading-none tracking-normal text-[#333333]">
+                    PlanP 로그인
+                </h1>
 
-                <label className="mt-6 block text-sm font-semibold" htmlFor="email">
-                    이메일
-                </label>
-                <input
-                    id="email"
-                    className="mt-2 h-11 w-full rounded-md border border-stone-300 px-3 outline-none focus:border-emerald-700"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    type="email"
-                    required
-                />
+                <form
+                    onSubmit={handleSubmit}
+                    className="mt-[49px] flex h-[405px] w-[700px] flex-col items-center rounded-[50px] bg-white pt-[70px]"
+                >
+                    <input
+                        id="email"
+                        className="h-[59px] w-[400px] rounded-[12px] border-[0.7px] border-[#999999] px-[15px] text-[20px] font-medium text-[#333333] outline-none placeholder:text-[#999999] focus:border-[#6B8A59]"
+                        value={loginId}
+                        onChange={(event) => setLoginId(event.target.value)}
+                        placeholder="아이디"
+                        type="text"
+                        required
+                    />
 
-                <label className="mt-4 block text-sm font-semibold" htmlFor="password">
-                    비밀번호
-                </label>
-                <input
-                    id="password"
-                    className="mt-2 h-11 w-full rounded-md border border-stone-300 px-3 outline-none focus:border-emerald-700"
-                    value={password}
-                    onChange={(event) => setPassword(event.target.value)}
-                    type="password"
-                    required
-                />
+                    <input
+                        id="password"
+                        className="mt-[5px] h-[59px] w-[400px] rounded-[12px] border-[0.7px] border-[#999999] px-[15px] text-[20px] font-medium text-[#333333] outline-none placeholder:text-[#999999] focus:border-[#6B8A59]"
+                        value={password}
+                        onChange={(event) => setPassword(event.target.value)}
+                        placeholder="비밀번호"
+                        type="password"
+                        required
+                    />
 
-                {auth.error ? (
-                    <p className="mt-4 rounded-md bg-red-50 p-3 text-sm text-red-700">
-                        {auth.error}
-                    </p>
-                ) : null}
+                    <label className="mt-[10px] flex w-[400px] items-center gap-[5px] text-[14px] font-medium text-[#999999]">
+                        <input
+                            checked={rememberId}
+                            onChange={(event) => setRememberId(event.target.checked)}
+                            type="checkbox"
+                            className="h-[17px] w-[17px] rounded-[4px] border-[0.7px] border-[#999999] accent-[#6B8A59]"
+                        />
+                        아이디 저장하기
+                    </label>
 
-                <Button className="mt-6 w-full" disabled={auth.status === 'loading'}>
-                    {auth.status === 'loading' ? '로그인 중' : '로그인'}
-                </Button>
-            </form>
+                    {auth.error ? (
+                        <p className="mt-[10px] w-[400px] rounded-[12px] bg-red-50 px-[14px] py-[8px] text-[14px] font-medium text-red-700">
+                            {auth.error}
+                        </p>
+                    ) : null}
+
+                    <div className="mt-[19px] flex w-[400px] gap-[17px] text-[20px] font-[500]">
+                        <button
+                            type="submit"
+                            className="h-[59px] w-[190px] rounded-[12px] bg-[#6B8A59] text-[20px] font-medium text-white disabled:opacity-70"
+                            disabled={auth.status === 'loading'}
+                        >
+                            {auth.status === 'loading' ? '로그인 중' : '로그인'}
+                        </button>
+                        <Link
+                            to="/signup"
+                            className="grid h-[59px] w-[193px] place-items-center rounded-[12px] bg-[#f2f2f2] text-[20px] font-medium text-[#999999]"
+                        >
+                            회원가입
+                        </Link>
+                    </div>
+                </form>
+            </div>
         </section>
     );
 }

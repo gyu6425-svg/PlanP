@@ -7,6 +7,8 @@ export const Footer = memo(function Footer() {
 
   if (
     location.pathname === '/' ||
+    location.pathname === '/login' ||
+    location.pathname === '/signup' ||
     location.pathname === '/survey' ||
     location.pathname === '/survey/result' ||
     /^\/[^/]+\/survey(\/result)?$/.test(location.pathname) ||

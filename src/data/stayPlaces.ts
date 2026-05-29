@@ -65,7 +65,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: 'Nui. 호스텔',
             price: '₩ 55,000~',
             rating: '4.6',
-            image: '/images/stay/tokyo/hostel/nui_hostel/nui_hostel.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZNVg_Wkjql3qYgwJfIKCsIVvYLd_QY9FiPYoBk8jGX5fBjgJ74B-ZILqRyc-moU9Qs2CMvmgMLRjDRT_98Fq8kSp7MiSl-kuXwrrTNUuVlsQWD_3wWHrdIe_b3cW2an1KbGH3ic8OlDrRKtyQ=s4800-w1200',
         },
         {
             id: 'tokyo-hostel-unplan-shinjuku',
@@ -76,7 +76,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: 'UNPLAN 신주쿠',
             price: '₩ 62,000~',
             rating: '4.4',
-            image: '/images/stay/tokyo/hostel/unplan_shinjuku/unplan_shinjuku.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZNUhl32BWLy0ZJvh8ABvitx-pn_xhMowa8-s10HPb57iWSlfTlOz5gn1NDGsT8ioEu29fkTJ3-wknfV-R5OfTHWftVTq0YGZjYwpD68sjj9TySuCKr4ZZMZbxwRrLfow1ntbnP9RpuVrMWM_4I=s4800-w1200',
         },
         {
             id: 'tokyo-hostel-citan',
@@ -87,7 +87,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: 'CITAN 호스텔',
             price: '₩ 58,000~',
             rating: '4.5',
-            image: '/images/stay/tokyo/hostel/citan_hostel/citan_hostel.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZPlO0hB4kq4NaqL7pzl5qsVYT7UjcyudrPoO2Nn0HWG40iWIjCQsxCNwM7KATD7ATyUloRY8YZhr6FnxKRkDgXAZlU1fAM0qG3LFBFpG0H2reQlTAAU9zp3xRL0M2Pbf80Yv363jWo8JB7SQg=s4800-w1200',
         },
         {
             id: 'tokyo-hostel-khaosan-samurai',
@@ -98,7 +98,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '카오산 사무라이',
             price: '₩ 48,000~',
             rating: '4.3',
-            image: '/images/stay/tokyo/hostel/khaosan_samurai/khaosan_samurai.png',
+            image: 'https://lh3.googleusercontent.com/places/ANXAkqHCi5AcsHoFsM60_fRTA7PFJkw2OOaNjtxxl3vvfM9Jrms5Q_k0UE20z9dU5UZKQPT6qQoxVoFSt60DRKbpKId7A41S-ZTFSZA=s4800-w567',
         },
     ],
     료칸: [
@@ -157,7 +157,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '나인아워스 아카사카',
             price: '₩ 45,000~',
             rating: '4.2',
-            image: '/images/stay/tokyo/capsule/nine_hours_akasaka/nine_hours_akasaka.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZNgd3HmFBRdb_s9w7X7DEmPfjjYSgbOUyyVVt8Qaeg8D1gG8x2eVfmgN4kqFmpUILeSe1MswOkOz9uOaXILsaw4aC28KLQNgGR9s9TTCTieKKzfdilmsa0NC2GmJl5sF6-4dAGAdbnI_G7t20Q=s4800-w1200',
         },
         {
             id: 'tokyo-capsule-first-cabin-akihabara',
@@ -168,7 +168,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '퍼스트 캐빈',
             price: '₩ 65,000~',
             rating: '4.1',
-            image: '/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara.png',
+            image: 'https://lh3.googleusercontent.com/places/ANXAkqEnLOsPlzhGQoQZo2HFSTIhu187E_KUSQJ9qgcLDz3tt40qfhl7vTD5h7ajUUtp8kc8eJI6NG7YZkpxcfIB35BraDGAyg4rcyg=s4800-w1199',
         },
         {
             id: 'tokyo-capsule-anshin-oyado-shinjuku',
@@ -179,7 +179,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '안신 오야도',
             price: '₩ 70,000~',
             rating: '4.3',
-            image: '/images/stay/tokyo/capsule/anshin_oyado_shinjuku/anshin_oyado_shinjuku.png',
+            image: 'https://lh3.googleusercontent.com/places/ANXAkqE3NJeWvchihEA1-_E_Mgwe3Goj2cfxVAPNcmDOq-vlPYOtl_Up1JzKCgYAKriMLMVe3BJp3yg3miGpiYXo2icTD-PMhQE9nNM=s4800-w1200',
         },
         {
             id: 'tokyo-capsule-rembrandt-shinjuku',
@@ -190,7 +190,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '렘브란트 캐빈',
             price: '₩ 50,000~',
             rating: '4.0',
-            image: '/images/stay/tokyo/capsule/rembrandt_cabin_shinjuku/rembrandt_cabin_shinjuku.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZOPU4yb1CHbFVBBLZdT2o8aAZxkxFIyF6D7DCnxqEiX3osXazmHgmB3Kj4YocvxDvorwxXeIKKBpd4i9pCoa3N6M_smELnALl_qelnUXmKoHABRgaTGIFJjxsmJqciVmLexIYar14qvDCuU2yE=s4800-w1200',
         },
     ],
     민슈쿠: [
@@ -203,7 +203,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '타이토 료칸',
             price: '₩ 80,000~',
             rating: '4.3',
-            image: '/images/stay/tokyo/minshuku/taito_ryokan/taito_ryokan.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200',
         },
         {
             id: 'tokyo-minshuku-andon',
@@ -214,7 +214,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '안돈 료칸',
             price: '₩ 95,000~',
             rating: '4.4',
-            image: '/images/stay/tokyo/minshuku/andon_ryokan/andon_ryokan.png',
+            image: 'https://lh3.googleusercontent.com/places/ANXAkqGtkZTVMq1RM2o4Woa7mpGDUA94UCzGUwo7DaTEk0nPmoqbYTJrsVP7Ehmpcw7MmQvPlyj7p5X8ivv7KsX2rmIB1cPcrwYm4p8=s4800-w667',
         },
         {
             id: 'tokyo-minshuku-homeikan',
@@ -225,7 +225,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '호메이칸',
             price: '₩ 130,000~',
             rating: '4.5',
-            image: '/images/stay/tokyo/minshuku/homeikan/homeikan.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZO0AWUYPYzhnFpPu9EPgVff7uucs4JTMK5HmdQZEC1VIX8BPAxwnpciCqmlf39HfWb9kv8FCJ7Z5YhMSnZ6TUoQS1G6mpppyRIpwRg4We6hHdi1XPkiaWWnkFWIYY8d9o8H9PqrfloNgnPHgg=s4800-w1200',
         },
         {
             id: 'tokyo-minshuku-family-inn-saiko',
@@ -236,7 +236,7 @@ const baseStayPlaceCardsByCategory: Record<string, ResultImageCardData[]> = {
             name: '패밀리 인 사이코',
             price: '₩ 110,000~',
             rating: '4.6',
-            image: '/images/stay/tokyo/minshuku/family_inn_saiko/family_inn_saiko.png',
+            image: 'https://lh3.googleusercontent.com/place-photos/AJRVUZNMS0KiimXh74631YrsvqVHRnQDLSJX5fy7O96Sdojc0L458JlqO1hxmXBIPgZWtRHJDkZEYDgDGNyRMBbw1VAdFgYnY0zgrEicdbFr-NeMVJ_Z-ICbhnAXjJJA9o_K6ML9TnNjH4uDOV3q0yxQPes=s4800-w1200',
         },
     ],
 };

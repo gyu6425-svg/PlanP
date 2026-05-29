@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import { login, type AuthUser, type LoginRequest } from '../../services/authApi'
+import { login, signup, type AuthUser, type LoginRequest, type SignupRequest } from '../../services/authApi'
 import { tokenStorage } from '../../services/apiClient'
 import { getUserFromJwt, isJwtExpired } from '../../services/jwt'
 
@@ -29,6 +29,11 @@ export const loginThunk = createAsyncThunk(
   async (payload: LoginRequest) => login(payload),
 )
 
+export const signupThunk = createAsyncThunk(
+  'auth/signup',
+  async (payload: SignupRequest) => signup(payload),
+)
+
 const authSlice = createSlice({
   name: 'auth',
   initialState,
@@ -56,6 +61,18 @@ const authSlice = createSlice({
       .addCase(loginThunk.rejected, (state, action) => {
         state.status = 'error'
         state.error = action.error.message ?? '로그인에 실패했습니다.'
+      })
+      .addCase(signupThunk.pending, (state) => {
+        state.status = 'loading'
+        state.error = null
+      })
+      .addCase(signupThunk.fulfilled, (state) => {
+        state.status = 'idle'
+        state.error = null
+      })
+      .addCase(signupThunk.rejected, (state, action) => {
+        state.status = 'error'
+        state.error = action.error.message ?? '회원가입에 실패했습니다.'
       })
   },
 })

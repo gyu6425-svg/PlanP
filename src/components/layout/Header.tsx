@@ -15,6 +15,8 @@ export const Header = memo(function Header() {
     const location = useLocation();
     const isHeroHeaderPage =
         location.pathname === '/' ||
+        location.pathname === '/login' ||
+        location.pathname === '/signup' ||
         location.pathname === '/survey' ||
         location.pathname === '/survey/result' ||
         /^\/[^/]+\/survey(\/result)?$/.test(location.pathname) ||
@@ -22,11 +24,14 @@ export const Header = memo(function Header() {
         /^\/[^/]+\/stay\//.test(location.pathname) ||
         /^\/[^/]+\/tour\//.test(location.pathname);
     const usesGreenLogo =
+        location.pathname === '/login' ||
+        location.pathname === '/signup' ||
         location.pathname === '/survey/result' ||
         /^\/[^/]+\/survey\/result$/.test(location.pathname) ||
         /^\/[^/]+\/food\//.test(location.pathname) ||
         /^\/[^/]+\/stay\//.test(location.pathname) ||
         /^\/[^/]+\/tour\//.test(location.pathname);
+    const isAuthEntryPage = location.pathname === '/login' || location.pathname === '/signup';
     const logoSrc = usesGreenLogo ? '/images/logo_green.png' : '/images/logo_white.png';
     const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
 
@@ -54,10 +59,10 @@ export const Header = memo(function Header() {
                     </button>
                 ) : (
                     <Link
-                        to="/login"
+                        to={isAuthEntryPage ? '/' : '/login'}
                         className="landing-auth-link grid h-[51px] w-[181px] place-items-center rounded-full bg-[#535250]"
                     >
-                        로그인/회원가입
+                        {isAuthEntryPage ? '여행 떠나기' : '로그인/회원가입'}
                     </Link>
                 )}
             </header>
