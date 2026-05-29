@@ -57,6 +57,20 @@ function getTourHeroImage(category: string, slug: string): string {
 }
 
 function getTourDetailImages(category: string, slug: string): string[] {
+    if (slug === 'mount-fuji-tour') {
+        const imageBase = '/images/tour/tokyo/smallcity/mount_fuji_tour';
+
+        return [
+            `${imageBase}/mount_fuji_tour.png`,
+            `${imageBase}/a3ab9f8aa860ddd6f0dd89290876b19e.jpg`,
+            `${imageBase}/892a227755e5bc3427d0f873fab6cc68.jpg`,
+            `${imageBase}/a2288e4cd6094d549e7437c8c284e856.jpg`,
+            `${imageBase}/37fc520c691c96afb1c25747d89383dd.jpg`,
+            `${imageBase}/511a39715c3aaabe15145fddf5ba0d11.jpg`,
+            `${imageBase}/2c6db7b3f7009e2cb2292f3d826d3bd0.jpg`,
+        ];
+    }
+
     const imageBase = getTourImageBase(category, slug);
     const extraImages = Array.from({ length: 49 }, (_, index) => `${imageBase}_${index + 2}.png`);
     return [`${imageBase}.png`, ...extraImages];

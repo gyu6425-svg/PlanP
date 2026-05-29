@@ -1,6 +1,7 @@
 import type { ResultImageCardData } from '../components/cards/ResultImageCard';
 import type { TransportCard } from '../components/cards/TransportProductCard';
 import type { FavoriteInput, FavoriteItemType } from '../services/favoritesApi';
+import { routes } from './routes';
 
 const platformPolicyByBrand: Record<string, string> = {
     Klook: '상품별 무료 취소 기한 상이, 예약 전 Klook 취소 규정 확인',
@@ -190,9 +191,12 @@ export function toBookingFavorite(
 
 type DetailFavoritePlace = {
     id: string;
+    city?: string;
+    slug?: string;
     name: string;
     category: string;
     area?: string;
+    routeCategory?: string;
     website?: string;
     images?: string[];
     price?: string;
@@ -212,6 +216,18 @@ export function toDetailFavorite(
         detail.price ??
         detail.bookingCards?.find((card) => card.price)?.price ??
         (type === 'food' ? '가격 확인' : '상품 확인');
+    const routeCategory = detail.routeCategory ?? detail.category;
+    const googleMapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+        [detail.name, detail.area, detail.city].filter(Boolean).join(' ')
+    )}`;
+    const internalHref =
+        detail.city && detail.slug
+            ? type === 'tour'
+                ? routes.tourDetail(detail.city, routeCategory, detail.slug)
+                : type === 'stay'
+                  ? routes.stayDetail(detail.city, routeCategory, detail.slug)
+                  : undefined
+            : undefined;
 
     return {
         itemId: detail.id,
@@ -232,8 +248,13 @@ export function toDetailFavorite(
         }),
         image: detail.images?.[0] ?? '',
         brand: detail.category,
-        href: detail.website ?? '',
-        payload: detail,
+        href: type === 'food' ? googleMapsHref : (internalHref ?? detail.website ?? ''),
+        payload: {
+            ...detail,
+            routeCategory,
+            googleMapsHref,
+            internalHref,
+        },
     };
 }
 
