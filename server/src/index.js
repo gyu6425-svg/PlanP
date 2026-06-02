@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import cors from 'cors';
 import express from 'express';
+import { seedAdmin } from './adminSeed.js';
 import { migrate } from './db.js';
 import { adminRouter } from './routes/adminRoutes.js';
 import { authRouter } from './routes/authRoutes.js';
@@ -20,6 +21,10 @@ const allowedOrigins = new Set(
 );
 
 migrate();
+
+if (process.env.SEED_ADMIN_ON_STARTUP === 'true') {
+    await seedAdmin();
+}
 
 app.use(
     cors({
