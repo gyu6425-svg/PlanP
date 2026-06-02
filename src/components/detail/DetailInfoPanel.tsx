@@ -1,6 +1,10 @@
 import { ExternalLink, Heart, MapPin } from 'lucide-react';
 import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import {
+    recordBookingClick,
+    type BookingClickRequest,
+} from '../../services/bookingClicksApi';
 import type { FavoriteInput } from '../../services/favoritesApi';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import {
@@ -30,11 +34,15 @@ export function DetailInfoPanel({
     saveTitle = '음식점 저장하기',
     accessLabel = '좌석',
     favorite,
+    bookingClick,
 }: {
     detail: DetailInfoData;
     saveTitle?: string;
     accessLabel?: string;
     favorite?: FavoriteInput;
+    bookingClick?: Omit<BookingClickRequest, 'href' | 'platform'> & {
+        platform?: string;
+    };
 }) {
     const dispatch = useAppDispatch();
     const navigate = useNavigate();
@@ -68,6 +76,20 @@ export function DetailInfoPanel({
         dispatch(saveFavoriteThunk(favorite));
     };
 
+    const handleWebsiteClick = () => {
+        if (!bookingClick) {
+            return;
+        }
+
+        recordBookingClick({
+            ...bookingClick,
+            platform: bookingClick.platform ?? 'Official',
+            href: detail.website,
+        }).catch((error) => {
+            console.error('Failed to record booking click', error);
+        });
+    };
+
     return (
         <div className="mt-[30px] grid min-h-[548px] grid-cols-1 overflow-hidden rounded-[35px] border border-[#cfcfcf] bg-[#f5f5f5] lg:grid-cols-[minmax(0,1fr)_393px]">
             <section className="min-w-0 px-[32px] py-[34px]">
@@ -82,6 +104,7 @@ export function DetailInfoPanel({
                     href={detail.website}
                     target="_blank"
                     rel="noreferrer"
+                    onClick={handleWebsiteClick}
                     className="mt-[16px] flex min-w-0 items-center gap-[10px] text-[20px] font-[400] text-[#777777] underline underline-offset-2"
                 >
                     <ExternalLink className="shrink-0" size={22} strokeWidth={1.5} aria-hidden="true" />

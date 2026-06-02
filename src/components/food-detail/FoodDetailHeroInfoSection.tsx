@@ -17,7 +17,17 @@ export function FoodDetailHeroInfoSection({
                 images={detail.images}
                 onOpenGallery={onOpenGallery}
             />
-            <DetailInfoPanel detail={detail} favorite={toDetailFavorite('food', detail)} />
+            <DetailInfoPanel
+                detail={detail}
+                favorite={toDetailFavorite('food', detail)}
+                bookingClick={{
+                    cityCode: detail.city,
+                    itemType: 'food',
+                    itemId: detail.id,
+                    itemTitle: detail.name,
+                    sectionLabel: '맛집',
+                }}
+            />
         </section>
     );
 }

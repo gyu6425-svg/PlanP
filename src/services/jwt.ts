@@ -5,6 +5,7 @@ type JwtPayload = {
     email?: string;
     name?: string;
     mpti?: AuthUser['mpti'];
+    role?: AuthUser['role'];
     exp?: number;
 };
 
@@ -64,6 +65,7 @@ export function getUserFromJwt(token: string): AuthUser | null {
         email: payload.email,
         name: payload.name ?? payload.email.split('@')[0],
         mpti: payload.mpti ?? 'P',
+        role: payload.role ?? 'user',
     };
 }
 
@@ -75,6 +77,7 @@ export function createDemoJwt(user: AuthUser) {
         email: user.email,
         name: user.name,
         mpti: user.mpti,
+        role: user.role ?? 'user',
         iat: nowInSeconds,
         exp: nowInSeconds + 60 * 60,
     };

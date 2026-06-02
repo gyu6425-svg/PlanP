@@ -3,6 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout } from './components/layout/AppLayout'
 import { RouteFallback } from './components/layout/RouteFallback'
 import { routes } from './lib/routes'
+import { AdminRoute } from './routes/ProtectedRoute'
 
 const HomePage = lazy(() => import('./pages/HomePage'))
 const ExplorePage = lazy(() => import('./pages/ExplorePage'))
@@ -14,6 +15,7 @@ const SurveyResultPage = lazy(() => import('./pages/SurveyResultPage'))
 const FoodDetailPage = lazy(() => import('./pages/FoodDetailPage'))
 const StayDetailPage = lazy(() => import('./pages/StayDetailPage'))
 const TourDetailPage = lazy(() => import('./pages/TourDetailPage'))
+const AdminPage = lazy(() => import('./pages/AdminPage'))
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
           <Route path="login" element={<LoginPage />} />
           <Route path="signup" element={<SignupPage />} />
           <Route path="favorites" element={<FavoritesPage />} />
+          <Route element={<AdminRoute />}>
+            <Route path="admin" element={<AdminPage />} />
+          </Route>
           <Route path="survey" element={<Navigate to={routes.survey('tokyo')} replace />} />
           <Route path="survey/result" element={<Navigate to={routes.surveyResult('tokyo')} replace />} />
           <Route path="food/:placeId" element={<Navigate to={routes.surveyResult('tokyo')} replace />} />

@@ -22,6 +22,13 @@ export function TourDetailHeroInfoSection({
                 saveTitle="명소 저장하기"
                 accessLabel="공간"
                 favorite={toDetailFavorite('tour', detail)}
+                bookingClick={{
+                    cityCode: detail.city,
+                    itemType: 'tour',
+                    itemId: detail.id,
+                    itemTitle: detail.name,
+                    sectionLabel: '관광',
+                }}
             />
         </section>
     );

@@ -2,6 +2,8 @@ import { memo, useCallback, useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getCityFromKeyword } from '../lib/city';
 import { routes } from '../lib/routes';
+import { getSurveyResult } from '../services/surveyResultsApi';
+import { useAppSelector } from '../store/hooks';
 
 const chips = ['도쿄', '타이베이', '오사카', '후쿠오카'];
 
@@ -52,9 +54,10 @@ const SearchIcon = memo(function SearchIcon() {
 export default function HomePage() {
     const navigate = useNavigate();
     const [searchKeyword, setSearchKeyword] = useState('');
+    const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
 
     const startSurvey = useCallback(
-        (keyword: string) => {
+        async (keyword: string) => {
             const trimmedKeyword = keyword.trim();
 
             if (!trimmedKeyword) {
@@ -65,9 +68,23 @@ export default function HomePage() {
 
             sessionStorage.setItem('planp.searchKeyword', trimmedKeyword);
             sessionStorage.setItem('planp.city', city.slug);
+
+            if (isAuthenticated) {
+                try {
+                    const savedSurveyResult = await getSurveyResult(city.slug);
+
+                    if (savedSurveyResult) {
+                        navigate(`${routes.survey(city.slug)}?restore=1`);
+                        return;
+                    }
+                } catch (error) {
+                    console.error('Failed to load saved survey result', error);
+                }
+            }
+
             navigate(routes.survey(city.slug));
         },
-        [navigate]
+        [isAuthenticated, navigate]
     );
 
     const handleSearch = useCallback(

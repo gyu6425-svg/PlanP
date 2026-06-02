@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import { CardSlider } from '../cards/CardSlider';
 import { ResultImageCard } from '../cards/ResultImageCard';
-import { stayPlaceDetailsById } from '../../data/stayPlaceDetails';
 import { stayCategoryOptions, stayPlaceCardsByCategory } from '../../data/stayPlaces';
 import { routes } from '../../lib/routes';
 
@@ -66,7 +65,7 @@ export function StayResultSection({
                                 : undefined;
                         const href =
                             card.href ??
-                            (card.city && card.slug && detailId && stayPlaceDetailsById[detailId]
+                            (card.city && card.slug && detailId
                                 ? routes.stayDetail(card.city, routeCategory, card.slug)
                                 : undefined);
 

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import { FavoriteListCard } from '../components/favorites/FavoriteListCard';
+import { getRecentViews, type RecentViewItem } from '../services/recentViewsApi';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { fetchFavoritesThunk } from '../store/slices/favoritesSlice';
 
@@ -18,10 +19,16 @@ export default function FavoritesPage() {
     const favorites = useAppSelector((state) => state.favorites.items);
     const status = useAppSelector((state) => state.favorites.status);
     const [activeNav, setActiveNav] = useState<(typeof navItems)[number]>('이동수단');
+    const [recentViews, setRecentViews] = useState<RecentViewItem[]>([]);
 
     useEffect(() => {
         if (isAuthenticated) {
             dispatch(fetchFavoritesThunk());
+            getRecentViews()
+                .then(setRecentViews)
+                .catch((error) => {
+                    console.error('Failed to load recent views', error);
+                });
         }
     }, [dispatch, isAuthenticated]);
 
@@ -40,6 +47,32 @@ export default function FavoritesPage() {
                 <h1 className="text-center text-[80px] font-semibold leading-none tracking-normal text-[#333333]">
                     내가 담은 리스트
                 </h1>
+
+                <div className="mt-[40px] w-[1500px] max-w-full rounded-[50px] bg-white px-[54px] py-[46px]">
+                    <div className="flex items-end justify-between">
+                        <h2 className="text-[34px] font-[700] leading-none text-[#333333]">
+                            최근 본 항목
+                        </h2>
+                        <p className="text-[16px] font-[500] text-[#777777]">
+                            상세 페이지에 들어간 장소가 자동으로 기록됩니다.
+                        </p>
+                    </div>
+
+                    {recentViews.length === 0 ? (
+                        <p className="mt-[36px] text-[20px] font-medium text-[#777777]">
+                            아직 최근 본 항목이 없습니다.
+                        </p>
+                    ) : (
+                        <div className="mt-[36px] flex gap-[20px] overflow-x-auto pb-[8px]">
+                            {recentViews.slice(0, 6).map((item) => (
+                                <FavoriteListCard
+                                    key={`recent-${item.itemType}-${item.itemId}`}
+                                    item={item}
+                                />
+                            ))}
+                        </div>
+                    )}
+                </div>
 
                 <div className="mt-[40px] min-h-[1127px] w-[1500px] max-w-full rounded-[50px] bg-white px-[54px] py-[46px]">
                     <div>

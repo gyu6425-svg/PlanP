@@ -1,7 +1,7 @@
 import type { TransportCard } from '../components/cards/TransportProductCard';
 import type { DetailInfoData } from '../components/detail/DetailInfoPanel';
 import type { DetailLocationData } from '../components/detail/DetailLocationSection';
-import { generatedStayPlaceDetailsById } from './generated/cityPlaceDetails';
+import { loadGeneratedStayPlaceDetails } from './generated/detailLoaders';
 
 export type StayPlaceDetail = DetailInfoData &
     DetailLocationData & {
@@ -637,7 +637,14 @@ const baseStayPlaceDetailsById: Record<string, StayPlaceDetail> = Object.fromEnt
     stayInputs.map(createStayDetail)
 ) as Record<string, StayPlaceDetail>;
 
-export const stayPlaceDetailsById: Record<string, StayPlaceDetail> = {
-    ...baseStayPlaceDetailsById,
-    ...generatedStayPlaceDetailsById,
-};
+export async function getStayPlaceDetailById(id: string): Promise<StayPlaceDetail | undefined> {
+    const baseDetail = baseStayPlaceDetailsById[id];
+
+    if (baseDetail) {
+        return baseDetail;
+    }
+
+    const [city] = id.split('/');
+    const generatedDetails = await loadGeneratedStayPlaceDetails(city);
+    return generatedDetails[id];
+}

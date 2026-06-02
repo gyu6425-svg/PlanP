@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import { CardSlider } from '../cards/CardSlider';
 import { ResultImageCard } from '../cards/ResultImageCard';
-import { tourPlaceDetailsById } from '../../data/tourPlaceDetails';
 import { tourCategoryOptions, tourPlaceCardsByCategory } from '../../data/tourPlaces';
 import { routes } from '../../lib/routes';
 
@@ -49,7 +48,7 @@ export function TourResultSection({ city }: { city: string }) {
                                 : undefined;
                         const href =
                             card.href ??
-                            (card.city && card.slug && detailId && tourPlaceDetailsById[detailId]
+                            (card.city && card.slug && detailId
                                 ? routes.tourDetail(card.city, card.category, card.slug)
                                 : undefined);
 

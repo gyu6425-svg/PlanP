@@ -14,6 +14,7 @@ export function createAccessToken(user) {
       name: user.name,
       email: user.email ?? '',
       mpti: 'P',
+      role: user.role ?? 'user',
     },
     jwtSecret,
     { expiresIn: jwtExpiresIn }
@@ -36,11 +37,37 @@ export function requireAuth(req, res, next) {
   }
 }
 
+export function optionalAuth(req, _res, next) {
+  const authHeader = req.headers.authorization;
+  const token = authHeader?.startsWith('Bearer ') ? authHeader.slice('Bearer '.length) : null;
+
+  if (!token) {
+    return next();
+  }
+
+  try {
+    req.user = jwt.verify(token, jwtSecret);
+  } catch {
+    req.user = null;
+  }
+
+  return next();
+}
+
+export function requireAdmin(req, res, next) {
+  if (req.user?.role !== 'admin') {
+    return res.status(403).json({ message: '관리자 권한이 필요합니다.' });
+  }
+
+  return next();
+}
+
 export function toPublicUser(user) {
   return {
     id: user.id,
     name: user.name,
     email: user.email ?? '',
     mpti: 'P',
+    role: user.role ?? 'user',
   };
 }

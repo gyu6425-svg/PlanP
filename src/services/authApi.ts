@@ -25,6 +25,7 @@ export type AuthUser = {
     name: string;
     email: string;
     mpti: 'P' | 'J';
+    role?: 'user' | 'admin';
 };
 
 export type LoginResponse = {
@@ -82,6 +83,7 @@ export async function login(request: LoginRequest): Promise<LoginResponse> {
             name: userRecord?.name ?? 'P형 여행자',
             email: userRecord?.email ?? `${normalizedRequest.loginId}@planp.local`,
             mpti: 'P',
+            role: normalizedRequest.loginId === 'admin01' ? 'admin' : 'user',
         };
 
         return {
@@ -131,6 +133,7 @@ export async function signup(request: SignupRequest): Promise<{ user: AuthUser }
                 name: userRecord.name,
                 email: userRecord.email ?? '',
                 mpti: 'P',
+                role: 'user',
             },
         };
     }

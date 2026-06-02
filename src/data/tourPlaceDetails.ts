@@ -1,7 +1,7 @@
 import type { TransportCard } from '../components/cards/TransportProductCard';
 import type { DetailInfoData } from '../components/detail/DetailInfoPanel';
 import type { DetailLocationData } from '../components/detail/DetailLocationSection';
-import { generatedTourPlaceDetailsById } from './generated/cityPlaceDetails';
+import { loadGeneratedTourPlaceDetails } from './generated/detailLoaders';
 
 export type TourPlaceDetail = DetailInfoData &
     DetailLocationData & {
@@ -714,18 +714,21 @@ const baseTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
     },
 };
 
-export const tourPlaceDetailsById: Record<string, TourPlaceDetail> = {
-    ...baseTourPlaceDetailsById,
-    ...generatedTourPlaceDetailsById,
-    ...Object.fromEntries(
-        Object.entries(generatedTourPlaceDetailsById)
-            .filter(([key]) => key.startsWith('tokyo/'))
-            .map(([key, detail]) => {
-                const routeKey = key
-                    .replace('tokyo/SNS명소/', 'tokyo/sns/')
-                    .replace('tokyo/역사/', 'tokyo/history/')
-                    .replace('tokyo/소도시/', 'tokyo/smallcity/');
-                return [routeKey, detail];
-            })
-    ),
-};
+function getGeneratedTourDetailKey(id: string) {
+    return id
+        .replace('tokyo/sns/', 'tokyo/SNS명소/')
+        .replace('tokyo/history/', 'tokyo/역사/')
+        .replace('tokyo/smallcity/', 'tokyo/소도시/');
+}
+
+export async function getTourPlaceDetailById(id: string): Promise<TourPlaceDetail | undefined> {
+    const baseDetail = baseTourPlaceDetailsById[id];
+
+    if (baseDetail) {
+        return baseDetail;
+    }
+
+    const [city] = id.split('/');
+    const generatedDetails = await loadGeneratedTourPlaceDetails(city);
+    return generatedDetails[id] ?? generatedDetails[getGeneratedTourDetailKey(id)];
+}

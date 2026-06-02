@@ -22,6 +22,13 @@ export function StayDetailHeroInfoSection({
                 saveTitle="숙소 저장하기"
                 accessLabel="객실"
                 favorite={toDetailFavorite('stay', detail)}
+                bookingClick={{
+                    cityCode: detail.city,
+                    itemType: 'stay',
+                    itemId: detail.id,
+                    itemTitle: detail.name,
+                    sectionLabel: '숙소',
+                }}
             />
         </section>
     );

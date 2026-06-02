@@ -1,4 +1,4 @@
-import { generatedFoodPlaceDetailsById } from './generated/cityPlaceDetails';
+import { loadGeneratedFoodPlaceDetails } from './generated/detailLoaders';
 
 export type FoodPlaceDetail = {
     id: string;
@@ -734,7 +734,14 @@ const baseFoodPlaceDetailsById: Record<string, FoodPlaceDetail> = Object.fromEnt
     detailInputs.map(createFoodDetail)
 ) as Record<string, FoodPlaceDetail>;
 
-export const foodPlaceDetailsById: Record<string, FoodPlaceDetail> = {
-    ...baseFoodPlaceDetailsById,
-    ...generatedFoodPlaceDetailsById,
-};
+export async function getFoodPlaceDetailById(id: string): Promise<FoodPlaceDetail | undefined> {
+    const baseDetail = baseFoodPlaceDetailsById[id];
+
+    if (baseDetail) {
+        return baseDetail;
+    }
+
+    const [city] = id.split('/');
+    const generatedDetails = await loadGeneratedFoodPlaceDetails(city);
+    return generatedDetails[id];
+}

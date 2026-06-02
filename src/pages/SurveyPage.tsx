@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import {
     cityHeroImageBySlug,
     citySurveyTitleBySlug,
@@ -8,6 +8,8 @@ import {
 import { stayCategoryOptions, stayPlaceCardsByCategory } from '../data/stayPlaces';
 import { getCityBySlug } from '../lib/city';
 import { routes } from '../lib/routes';
+import { getSurveyResult, saveSurveyResult } from '../services/surveyResultsApi';
+import { useAppSelector } from '../store/hooks';
 
 type SurveyStep = {
     eyebrow: string;
@@ -73,12 +75,16 @@ function getAirportOptions(destination: string) {
 export default function SurveyPage() {
     const navigate = useNavigate();
     const { city: citySlug } = useParams();
+    const [searchParams] = useSearchParams();
     const city = getCityBySlug(citySlug);
     const destination = city.label;
     const heroImage = cityHeroImageBySlug[city.slug] ?? fallbackCityHeroImage;
     const surveyTitle = citySurveyTitleBySlug[city.slug] ?? `여행의 도시 ${destination}`;
+    const isRestoreMode = searchParams.get('restore') === '1';
     const [stepIndex, setStepIndex] = useState(0);
     const [answers, setAnswers] = useState<Record<number, string[]>>({});
+    const [isRestoring, setIsRestoring] = useState(false);
+    const isAuthenticated = useAppSelector((state) => Boolean(state.auth.accessToken));
 
     const steps = useMemo<SurveyStep[]>(
         () => [
@@ -104,6 +110,34 @@ export default function SurveyPage() {
     const currentStep = steps[stepIndex];
     const selectedOptions = answers[stepIndex] ?? [];
 
+    const handleRestoreSurvey = useCallback(async () => {
+        setIsRestoring(true);
+
+        try {
+            const savedSurveyResult = await getSurveyResult(city.slug);
+
+            if (savedSurveyResult) {
+                sessionStorage.setItem(
+                    'planp.surveyAnswers',
+                    JSON.stringify(savedSurveyResult.answers)
+                );
+                navigate(routes.surveyResult(city.slug));
+                return;
+            }
+        } catch (error) {
+            console.error('Failed to restore survey result', error);
+        } finally {
+            setIsRestoring(false);
+        }
+
+        navigate(routes.survey(city.slug), { replace: true });
+    }, [city.slug, navigate]);
+
+    const handleRestartSurvey = useCallback(() => {
+        sessionStorage.removeItem('planp.surveyAnswers');
+        navigate(routes.survey(city.slug), { replace: true });
+    }, [city.slug, navigate]);
+
     const handleSelect = useCallback(
         (option: string) => {
             setAnswers((current) => ({
@@ -116,7 +150,7 @@ export default function SurveyPage() {
         [stepIndex]
     );
 
-    const handleNext = useCallback(() => {
+    const handleNext = useCallback(async () => {
         if (selectedOptions.length === 0) {
             return;
         }
@@ -139,8 +173,30 @@ export default function SurveyPage() {
         };
 
         sessionStorage.setItem('planp.surveyAnswers', JSON.stringify(surveyAnswers));
+
+        if (isAuthenticated) {
+            try {
+                await saveSurveyResult({
+                    cityCode: city.slug,
+                    answers: surveyAnswers,
+                    resultType: 'P',
+                });
+            } catch (error) {
+                console.error('Failed to save survey result', error);
+            }
+        }
+
         navigate(routes.surveyResult(city.slug));
-    }, [answers, city.slug, destination, navigate, selectedOptions.length, stepIndex, steps.length]);
+    }, [
+        answers,
+        city.slug,
+        destination,
+        isAuthenticated,
+        navigate,
+        selectedOptions.length,
+        stepIndex,
+        steps.length,
+    ]);
 
     const handlePrevious = useCallback(() => {
         setStepIndex((current) => Math.max(current - 1, 0));
@@ -161,14 +217,33 @@ export default function SurveyPage() {
                         {surveyTitle}
                     </h1>
                     <p className="mt-[32px] text-center text-[clamp(22px,5vw,32px)] font-[700] leading-tight text-white drop-shadow-[0_3px_6px_rgba(0,0,0,0.35)] sm:mt-[48px]">
-                        {currentStep.eyebrow}
+                        {isRestoreMode ? '\u00a0' : currentStep.eyebrow}
                     </p>
 
-                    <div className="mt-[26px] flex max-w-[440px] flex-wrap justify-center gap-x-[10px] gap-y-[14px]">
-                        {currentStep.options.map((option) => {
-                            const isSelected = selectedOptions.includes(option);
+                    {isRestoreMode ? (
+                        <div className="mt-[26px] flex max-w-[440px] flex-wrap justify-center gap-x-[10px] gap-y-[14px]">
+                            <button
+                                type="button"
+                                onClick={handleRestoreSurvey}
+                                disabled={isRestoring}
+                                className="survey-chip disabled:cursor-wait disabled:opacity-70"
+                            >
+                                이전 기록 복구
+                            </button>
+                            <button
+                                type="button"
+                                onClick={handleRestartSurvey}
+                                className="survey-chip"
+                            >
+                                새로 작성하기
+                            </button>
+                        </div>
+                    ) : (
+                        <div className="mt-[26px] flex max-w-[440px] flex-wrap justify-center gap-x-[10px] gap-y-[14px]">
+                            {currentStep.options.map((option) => {
+                                const isSelected = selectedOptions.includes(option);
 
-                            return (
+                                return (
                                 <button
                                     key={option}
                                     type="button"
@@ -180,12 +255,14 @@ export default function SurveyPage() {
                                 >
                                     {option}
                                 </button>
-                            );
-                        })}
-                    </div>
+                                );
+                            })}
+                        </div>
+                    )}
 
-                    <div className="mt-[32px] flex gap-[12px]">
-                        {stepIndex > 0 ? (
+                    {!isRestoreMode ? (
+                        <div className="mt-[32px] flex gap-[12px]">
+                            {stepIndex > 0 ? (
                             <button
                                 type="button"
                                 onClick={handlePrevious}
@@ -202,7 +279,8 @@ export default function SurveyPage() {
                         >
                             {currentStep.buttonLabel}
                         </button>
-                    </div>
+                        </div>
+                    ) : null}
                 </div>
             </section>
 

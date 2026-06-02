@@ -108,6 +108,11 @@ export function TransportResultSection({ airports, city }: { airports: string[];
                         card={card}
                         liked={isFavorite(favorites, toTransportFavorite(card))}
                         onToggleLike={handleToggleLike}
+                        bookingClickContext={{
+                            cityCode: city,
+                            itemType: 'transport',
+                            sectionLabel: '이동수단',
+                        }}
                     />
                 ))}
             </div>
@@ -124,6 +129,11 @@ export function TransportResultSection({ airports, city }: { airports: string[];
                                 card={card}
                                 liked={isFavorite(favorites, toTransportFavorite(card))}
                                 onToggleLike={handleToggleLike}
+                                bookingClickContext={{
+                                    cityCode: city,
+                                    itemType: 'transport',
+                                    sectionLabel: '이동수단',
+                                }}
                             />
                         ))}
                     </div>

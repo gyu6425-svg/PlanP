@@ -1,5 +1,10 @@
 import type { KeyboardEvent } from 'react';
 import { getBookingPolicyDisplay, getProductHref } from '../../lib/favoritePolicy';
+import {
+    recordBookingClick,
+    type BookingClickRequest,
+    type BookingItemType,
+} from '../../services/bookingClicksApi';
 
 export type TransportCard = {
     id: string;
@@ -61,10 +66,16 @@ export function TransportProductCard({
     card,
     liked = false,
     onToggleLike,
+    bookingClickContext,
 }: {
     card: TransportCard;
     liked?: boolean;
     onToggleLike?: (card: TransportCard) => void;
+    bookingClickContext?: {
+        cityCode: string;
+        itemType: BookingItemType;
+        sectionLabel?: string;
+    };
 }) {
     const productHref = getProductHref(card);
     const hasProductLink = Boolean(productHref);
@@ -75,6 +86,22 @@ export function TransportProductCard({
     const openProduct = () => {
         if (!productHref) {
             return;
+        }
+
+        if (bookingClickContext) {
+            const bookingClick: BookingClickRequest = {
+                cityCode: bookingClickContext.cityCode,
+                itemType: bookingClickContext.itemType,
+                itemId: card.id,
+                itemTitle: card.title,
+                platform: card.brand,
+                href: productHref,
+                sectionLabel: bookingClickContext.sectionLabel,
+            };
+
+            recordBookingClick(bookingClick).catch((error) => {
+                console.error('Failed to record booking click', error);
+            });
         }
 
         window.open(productHref, '_blank', 'noopener,noreferrer');

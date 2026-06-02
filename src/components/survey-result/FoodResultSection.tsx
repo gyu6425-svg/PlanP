@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import { CardSlider } from '../cards/CardSlider';
 import { ResultImageCard } from '../cards/ResultImageCard';
-import { foodPlaceDetailsById } from '../../data/foodPlaceDetails';
 import { foodCategoryOptions, foodPlaceCardsByCategory } from '../../data/foodPlaces';
 import { routes } from '../../lib/routes';
 
@@ -50,7 +49,7 @@ export function FoodResultSection({ city }: { city: string }) {
                                 : undefined;
                         const href =
                             card.href ??
-                            (card.city && card.slug && detailId && foodPlaceDetailsById[detailId]
+                            (card.city && card.slug && detailId
                                 ? routes.foodDetail(card.city, routeCategory, card.slug)
                                 : undefined);
 
