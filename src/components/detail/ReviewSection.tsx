@@ -61,7 +61,7 @@ export function ReviewSection({
 }
 
 function ReviewCard({ review }: { review: ReviewCardData }) {
-    const loadableImages = useLoadableImages(review.images);
+    const loadableImages = useLoadableImages(review.images, 4);
     const visibleImages = loadableImages.slice(0, 4);
     const hiddenImageCount = Math.max(loadableImages.length - 4, 0);
 
@@ -88,7 +88,13 @@ function ReviewCard({ review }: { review: ReviewCardData }) {
                                 key={`${review.id}-${image}`}
                                 className="relative size-[76px] overflow-hidden rounded-[12px]"
                             >
-                                <img src={image} alt="" className="h-full w-full object-cover" />
+                                <img
+                                    src={image}
+                                    alt=""
+                                    loading="lazy"
+                                    decoding="async"
+                                    className="h-full w-full object-cover"
+                                />
                                 {isLastVisible && hiddenImageCount > 0 ? (
                                     <div className="absolute inset-0 grid place-items-center bg-black/42 text-[20px] font-[700] leading-none text-white">
                                         +{hiddenImageCount}

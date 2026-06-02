@@ -158,6 +158,8 @@ export function FavoriteListCard({ item }: { item: FavoriteItem }) {
                     <img
                         src={media}
                         alt=""
+                        loading="lazy"
+                        decoding="async"
                         className={[
                             'shrink-0 object-contain',
                             logo ? 'h-[58px] w-[210px]' : 'h-[84px] w-[126px] rounded-[14px] object-cover',

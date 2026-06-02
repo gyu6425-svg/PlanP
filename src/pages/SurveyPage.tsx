@@ -208,6 +208,9 @@ export default function SurveyPage() {
                 <img
                     src={heroImage}
                     alt=""
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                     className="absolute inset-0 h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-black/25" />

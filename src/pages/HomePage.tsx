@@ -101,6 +101,9 @@ export default function HomePage() {
                 <img
                     src="/images/landing/landingPage_hero.png"
                     alt=""
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                     className="absolute inset-0 h-full w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-black/5" />
@@ -163,6 +166,8 @@ export default function HomePage() {
                                 <img
                                     src={destination.image}
                                     alt={destination.alt}
+                                    loading="lazy"
+                                    decoding="async"
                                     className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
                                 />
                             </div>

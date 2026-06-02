@@ -10,7 +10,7 @@ export function DetailHeroGallery({
     images: string[];
     onOpenGallery: () => void;
 }) {
-    const loadableImages = useLoadableImages(images);
+    const loadableImages = useLoadableImages(images, 5);
     const mainImage = loadableImages[0];
     const subImages = loadableImages.slice(1, 5);
     const hiddenImageCount = Math.max(loadableImages.length - 5, 0);
@@ -23,6 +23,9 @@ export function DetailHeroGallery({
                 <img
                     src={mainImage}
                     alt=""
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                     className="h-[622px] w-[749px] rounded-l-[50px] object-cover"
                 />
 
@@ -41,7 +44,13 @@ export function DetailHeroGallery({
                                     isBottomRight ? 'rounded-br-[50px]' : '',
                                 ].join(' ')}
                             >
-                                <img src={image} alt="" className="h-full w-full object-cover" />
+                                <img
+                                    src={image}
+                                    alt=""
+                                    loading="lazy"
+                                    decoding="async"
+                                    className="h-full w-full object-cover"
+                                />
                                 {isLastVisible && hiddenImageCount > 0 ? (
                                     <div className="absolute inset-0 bg-black/38">
                                         <span className="absolute inset-0 grid place-items-center text-[34px] font-[700] leading-none text-white">

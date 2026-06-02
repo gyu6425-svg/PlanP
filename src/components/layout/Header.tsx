@@ -137,7 +137,12 @@ export const Header = memo(function Header() {
                     className="grid h-[51px] w-[84px] place-items-center"
                     aria-label="PlanP 홈"
                 >
-                    <img src={logoSrc} alt="PlanP" className="h-[120px] w-[84px] object-contain" />
+                    <img
+                        src={logoSrc}
+                        alt="PlanP"
+                        decoding="async"
+                        className="h-[120px] w-[84px] object-contain"
+                    />
                 </Link>
                 {isAuthenticated ? (
                     <div className="flex items-center gap-[22px]">
@@ -173,6 +178,7 @@ export const Header = memo(function Header() {
                         <img
                             src={logoSrc}
                             alt="PlanP"
+                            decoding="async"
                             className="h-[12px] w-[84px] object-contain"
                         />
                     </span>

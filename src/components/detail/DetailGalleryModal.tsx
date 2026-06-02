@@ -31,6 +31,8 @@ export function DetailGalleryModal({
                             key={`${image}-${index}`}
                             src={image}
                             alt=""
+                            loading={index < 6 ? 'eager' : 'lazy'}
+                            decoding="async"
                             className="h-[250px] w-full rounded-[18px] object-cover"
                         />
                     ))}

@@ -39,12 +39,24 @@ export const ResultImageCard = memo(function ResultImageCard({
         <article className="result-image-card relative shrink-0 overflow-hidden rounded-[50px] transition-transform duration-150 ease-out hover:scale-[1.03]">
             {card.href ? (
                 <Link to={card.href} className="absolute inset-0 z-0" aria-label={`${card.name} 상세 보기`}>
-                    <img src={card.image} alt="" className="h-full w-full object-cover" />
+                    <img
+                        src={card.image}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-cover"
+                    />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/0 to-black/40" />
                 </Link>
             ) : (
                 <>
-                    <img src={card.image} alt="" className="h-full w-full object-cover" />
+                    <img
+                        src={card.image}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-cover"
+                    />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/0 to-black/40" />
                 </>
             )}

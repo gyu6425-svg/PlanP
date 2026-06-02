@@ -1,13 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
-export function useLoadableImages(images: string[]) {
-    const [loadableImages, setLoadableImages] = useState(images.slice(0, 1));
+export function useLoadableImages(images: string[], preloadLimit = images.length) {
+    const initialImages = useMemo(
+        () => (preloadLimit < images.length ? images.slice(0, preloadLimit) : images.slice(0, 1)),
+        [images, preloadLimit]
+    );
+    const [loadableImages, setLoadableImages] = useState(initialImages);
 
     useEffect(() => {
         let isActive = true;
+        const imagesToPreload = images.slice(0, preloadLimit);
 
         Promise.all(
-            images.map(
+            imagesToPreload.map(
                 (src) =>
                     new Promise<string | null>((resolve) => {
                         const image = new Image();
@@ -22,13 +27,17 @@ export function useLoadableImages(images: string[]) {
             }
 
             const loadedImages = results.filter((src): src is string => Boolean(src));
-            setLoadableImages(loadedImages.length > 0 ? loadedImages : images.slice(0, 1));
+            const uncheckedImages =
+                preloadLimit < images.length ? images.slice(preloadLimit) : [];
+            const nextImages =
+                loadedImages.length > 0 ? [...loadedImages, ...uncheckedImages] : initialImages;
+            setLoadableImages(nextImages);
         });
 
         return () => {
             isActive = false;
         };
-    }, [images]);
+    }, [images, initialImages, preloadLimit]);
 
     return loadableImages;
 }

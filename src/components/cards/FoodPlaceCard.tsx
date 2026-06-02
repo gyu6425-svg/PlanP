@@ -22,7 +22,13 @@ function StarIcon() {
 export function FoodPlaceCard({ card }: { card: FoodPlaceCardData }) {
     return (
         <article className="food-place-card relative shrink-0 overflow-hidden rounded-[50px]">
-            <img src={card.image} alt="" className="h-full w-full object-cover" />
+            <img
+                src={card.image}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                className="h-full w-full object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/0 to-black/40" />
 
             <p className="card-image-text-shadow absolute left-[38px] top-[47px] text-[36px] font-[700] leading-none text-white">

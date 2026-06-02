@@ -136,6 +136,8 @@ export function TransportProductCard({
                     <img
                         src={brandLogoImage}
                         alt={`${card.brand} 로고`}
+                        loading="lazy"
+                        decoding="async"
                         className="absolute left-1/2 top-1/2 h-[132px] w-[360px] -translate-x-1/2 -translate-y-1/2 object-contain px-[36px]"
                     />
                 ) : usesBrandLogoLayout ? (
@@ -144,7 +146,13 @@ export function TransportProductCard({
                     </p>
                 ) : (
                     <>
-                        <img src={card.image} alt="" className="h-full w-full object-cover" />
+                        <img
+                            src={card.image}
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            className="h-full w-full object-cover"
+                        />
                         <div className="absolute inset-0 bg-black/10" />
                         <p className="card-image-text-shadow absolute left-[30px] top-[29px] text-[28px] font-[700] leading-none text-white">
                             {card.brand}

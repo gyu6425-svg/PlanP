@@ -51,11 +51,15 @@ export function DetailLocationSection({ detail }: { detail: DetailLocationData }
                             <img
                                 src={detail.mapImages.sub1}
                                 alt=""
+                                loading="lazy"
+                                decoding="async"
                                 className="h-[309px] w-[382px] shrink-0 rounded-tr-[50px] object-cover"
                             />
                             <img
                                 src={detail.mapImages.sub2}
                                 alt=""
+                                loading="lazy"
+                                decoding="async"
                                 className="h-[309px] w-[382px] shrink-0 rounded-br-[50px] object-cover"
                             />
                         </div>
