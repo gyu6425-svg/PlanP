@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const dbPath = process.env.DB_PATH ?? path.resolve(process.cwd(), 'planp.db');
+const dbPath = process.env.DB_PATH ?? path.resolve(process.cwd(), 'data', 'planp.db');
 const dbDir = path.dirname(dbPath);
 
 if (!fs.existsSync(dbDir)) {
