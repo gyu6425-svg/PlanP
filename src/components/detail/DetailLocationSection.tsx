@@ -5,6 +5,10 @@ export type DetailLocationData = {
     name: string;
     address: string;
     mapUrl: string;
+    streetViewPoint?: {
+        lat: number;
+        lng: number;
+    };
     images?: string[];
     streetViewImages?: string[];
     mapImages: {

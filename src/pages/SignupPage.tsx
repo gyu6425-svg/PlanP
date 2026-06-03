@@ -1,5 +1,7 @@
 import { useCallback, useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { signupThunk } from '../store/slices/authSlice';
 
@@ -84,7 +86,7 @@ export default function SignupPage() {
                         <label className={labelClass} htmlFor="signup-id">
                             아이디
                         </label>
-                        <input
+                        <Input
                             id="signup-id"
                             className={`${inputClass} w-[400px]`}
                             value={form.id}
@@ -98,7 +100,7 @@ export default function SignupPage() {
                         <label className={labelClass} htmlFor="signup-password">
                             비밀번호
                         </label>
-                        <input
+                        <Input
                             id="signup-password"
                             className={`${inputClass} w-[400px]`}
                             value={form.password}
@@ -112,7 +114,7 @@ export default function SignupPage() {
                         <label className={labelClass} htmlFor="signup-password-confirm">
                             비밀번호 재확인
                         </label>
-                        <input
+                        <Input
                             id="signup-password-confirm"
                             className={`${inputClass} w-[400px]`}
                             value={form.passwordConfirm}
@@ -126,7 +128,7 @@ export default function SignupPage() {
                         <label className={labelClass} htmlFor="signup-name">
                             이름
                         </label>
-                        <input
+                        <Input
                             id="signup-name"
                             className={`${inputClass} w-[400px]`}
                             value={form.name}
@@ -139,7 +141,7 @@ export default function SignupPage() {
                     <div className="mt-[25px] w-[400px]">
                         <label className={labelClass}>생년월일</label>
                         <div className="flex gap-[11px]">
-                            <input
+                            <Input
                                 aria-label="년"
                                 className={`${inputClass} w-[126px]`}
                                 value={form.birthYear}
@@ -149,7 +151,7 @@ export default function SignupPage() {
                                 maxLength={4}
                                 required
                             />
-                            <input
+                            <Input
                                 aria-label="월"
                                 className={`${inputClass} w-[126px]`}
                                 value={form.birthMonth}
@@ -159,7 +161,7 @@ export default function SignupPage() {
                                 maxLength={2}
                                 required
                             />
-                            <input
+                            <Input
                                 aria-label="일"
                                 className={`${inputClass} w-[126px]`}
                                 value={form.birthDay}
@@ -176,7 +178,7 @@ export default function SignupPage() {
                         <label className={labelClass} htmlFor="signup-email">
                             이메일(선택)
                         </label>
-                        <input
+                        <Input
                             id="signup-email"
                             className={`${inputClass} w-[400px]`}
                             value={form.email}
@@ -192,13 +194,14 @@ export default function SignupPage() {
                     ) : null}
 
                     <div className="font-[500] text-[20px] text-[#555555]">
-                        <button
+                        <Button
+                            variant="secondary"
                             type="submit"
                             className="mt-[25px] h-[59px] w-[400px] rounded-[12px] bg-[#f2f2f2] disabled:opacity-70"
                             disabled={auth.status === 'loading'}
                         >
                             {auth.status === 'loading' ? '가입 중' : '회원가입'}
-                        </button>
+                        </Button>
                     </div>
                 </form>
             </div>

@@ -149,11 +149,11 @@ export function FavoriteListCard({ item }: { item: FavoriteItem }) {
             onClick={hasHref ? openHref : undefined}
             onKeyDown={hasHref ? openHrefFromKeyboard : undefined}
             className={[
-                'flex h-[320px] w-[493px] flex-col rounded-[50px] bg-[#f5f5f5] px-[32px] py-[28px] outline-none transition-transform duration-150 ease-out',
+                'flex h-[330px] w-[493px] flex-col rounded-[50px] bg-[#f5f5f5] px-[32px] py-[28px] outline-none transition-transform duration-150 ease-out',
                 hasHref ? 'cursor-pointer hover:scale-[1.02] focus-visible:ring-2 focus-visible:ring-[#6B8A59] focus-visible:ring-offset-4 focus-visible:ring-offset-white' : '',
             ].join(' ')}
         >
-            <div className="flex h-[84px] items-center justify-between gap-[18px]">
+            <div className="flex h-[96px] items-center justify-between gap-[18px]">
                 {media ? (
                     <img
                         src={media}
@@ -162,16 +162,16 @@ export function FavoriteListCard({ item }: { item: FavoriteItem }) {
                         decoding="async"
                         className={[
                             'shrink-0 object-contain',
-                            logo ? 'h-[58px] w-[210px]' : 'h-[84px] w-[126px] rounded-[14px] object-cover',
+                            logo ? 'h-[62px] w-[210px]' : 'h-[96px] w-[144px] rounded-[16px] object-cover',
                         ].join(' ')}
                     />
                 ) : (
-                    <div className="grid h-[84px] w-[126px] shrink-0 place-items-center rounded-[14px] bg-white text-[18px] font-bold text-[#6B8A59]">
+                    <div className="grid h-[96px] w-[144px] shrink-0 place-items-center rounded-[16px] bg-white text-[18px] font-bold text-[#6B8A59]">
                         {item.categoryLabel}
                     </div>
                 )}
 
-                <p className="max-w-[178px] text-right text-[28px] font-bold leading-[1.05] text-black">
+                <p className="max-w-[168px] text-right text-[28px] font-bold leading-[1.05] text-black">
                     {item.price}
                 </p>
             </div>

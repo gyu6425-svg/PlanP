@@ -25,6 +25,10 @@ type DetailImageRecord = {
     city: string;
     name: string;
     address: string;
+    streetViewPoint?: {
+        lat: number;
+        lng: number;
+    };
     images: string[];
     streetViewImages?: string[];
     mapImages: {

@@ -186,6 +186,10 @@ const baseTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         description:
             '시부야 중심에서 도쿄 도심을 넓게 내려다볼 수 있는 전망 명소로, 일몰과 야경 사진을 남기기 좋은 스팟',
         images: getTourDetailImages('SNS명소', 'shibuya-sky'),
+        streetViewPoint: {
+            lat: 35.6586,
+            lng: 139.7017,
+        },
         mapImages: {
             main: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_main.png`,
             sub1: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_sub1.png`,
@@ -800,7 +804,7 @@ const normalizedBaseTourPlaceDetailsById: Record<string, TourPlaceDetail> = Obje
         id,
         {
             ...detail,
-            streetViewImages: buildLocationStreetViewImages(`${detail.name} ${detail.address}`, [
+            streetViewImages: buildLocationStreetViewImages(detail.streetViewPoint ?? `${detail.name} ${detail.address}`, [
                 detail.images[0],
                 detail.mapImages.main,
                 detail.mapImages.sub1,

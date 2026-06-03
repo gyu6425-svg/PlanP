@@ -21,12 +21,14 @@ export function SmartImage({
         [sourcesKey]
     );
     const [sourceIndex, setSourceIndex] = useState(0);
+    const [hasFailedAll, setHasFailedAll] = useState(false);
 
     useEffect(() => {
         setSourceIndex(0);
+        setHasFailedAll(false);
     }, [normalizedSources]);
 
-    if (normalizedSources.length === 0) {
+    if (normalizedSources.length === 0 || hasFailedAll) {
         return null;
     }
 
@@ -40,7 +42,14 @@ export function SmartImage({
             decoding={decoding}
             fetchPriority={fetchPriority}
             onError={() => {
-                setSourceIndex((current) => Math.min(current + 1, normalizedSources.length - 1));
+                setSourceIndex((current) => {
+                    if (current >= normalizedSources.length - 1) {
+                        setHasFailedAll(true);
+                        return current;
+                    }
+
+                    return current + 1;
+                });
             }}
             className={className}
         />

@@ -5,6 +5,7 @@ import { FoodResultSection } from '../components/survey-result/FoodResultSection
 import { ShoppingComingSoonSection } from '../components/survey-result/ShoppingComingSoonSection';
 import { StayResultSection } from '../components/survey-result/StayResultSection';
 import { SurveyResultHeader } from '../components/survey-result/SurveyResultHeader';
+import { PageState } from '../components/ui/PageState';
 import { TourResultSection } from '../components/survey-result/TourResultSection';
 import { TransportResultSection } from '../components/survey-result/TransportResultSection';
 import {
@@ -127,10 +128,13 @@ export default function SurveyResultPage() {
 
     if (isRestoring || !answers) {
         return (
-            <div className="grid min-h-svh place-items-center bg-[#f5f5f5]">
-                <p className="text-[20px] font-[700] text-[#6b8a59]">
-                    저장된 결과를 불러오는 중입니다.
-                </p>
+            <div className="grid min-h-svh place-items-center bg-[#f5f5f5] px-4">
+                <PageState
+                    variant="loading"
+                    title="저장된 결과를 불러오는 중입니다."
+                    description="이전에 저장한 도시 설문 결과를 확인하고 있습니다."
+                    className="w-full max-w-[720px]"
+                />
             </div>
         );
     }
@@ -163,7 +167,9 @@ export default function SurveyResultPage() {
                 resolvedActiveNav !== '관광' &&
                 resolvedActiveNav !== '숙소' &&
                 resolvedActiveNav !== '쇼핑' ? (
-                    <EmptyResultSection />
+                    <div className="mt-[40px]">
+                        <EmptyResultSection />
+                    </div>
                 ) : null}
             </section>
         </div>

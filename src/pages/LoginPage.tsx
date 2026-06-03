@@ -1,5 +1,7 @@
 import { useCallback, useState, type FormEvent } from 'react';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { loginThunk } from '../store/slices/authSlice';
 
@@ -62,9 +64,9 @@ export default function LoginPage() {
                     onSubmit={handleSubmit}
                     className="mt-[49px] flex h-[405px] w-[700px] flex-col items-center rounded-[50px] bg-white pt-[70px]"
                 >
-                    <input
+                    <Input
                         id="email"
-                        className="h-[59px] w-[400px] rounded-[12px] border-[0.7px] border-[#999999] px-[15px] text-[20px] font-medium text-[#333333] outline-none placeholder:text-[#999999] focus:border-[#6B8A59]"
+                        className="h-[59px] w-[400px] rounded-[12px] text-[20px] font-medium"
                         value={loginId}
                         onChange={(event) => setLoginId(event.target.value)}
                         placeholder="아이디"
@@ -72,9 +74,9 @@ export default function LoginPage() {
                         required
                     />
 
-                    <input
+                    <Input
                         id="password"
-                        className="mt-[5px] h-[59px] w-[400px] rounded-[12px] border-[0.7px] border-[#999999] px-[15px] text-[20px] font-medium text-[#333333] outline-none placeholder:text-[#999999] focus:border-[#6B8A59]"
+                        className="mt-[5px] h-[59px] w-[400px] rounded-[12px] text-[20px] font-medium"
                         value={password}
                         onChange={(event) => setPassword(event.target.value)}
                         placeholder="비밀번호"
@@ -99,13 +101,13 @@ export default function LoginPage() {
                     ) : null}
 
                     <div className="mt-[19px] flex w-[400px] gap-[17px] text-[20px] font-[500]">
-                        <button
+                        <Button
                             type="submit"
-                            className="h-[59px] w-[190px] rounded-[12px] bg-[#6B8A59] text-[20px] font-medium text-white disabled:opacity-70"
+                            className="h-[59px] w-[190px] rounded-[12px] text-[20px] font-medium"
                             disabled={auth.status === 'loading'}
                         >
                             {auth.status === 'loading' ? '로그인 중' : '로그인'}
-                        </button>
+                        </Button>
                         <Link
                             to="/signup"
                             className="grid h-[59px] w-[193px] place-items-center rounded-[12px] bg-[#f2f2f2] text-[20px] font-medium text-[#999999]"
