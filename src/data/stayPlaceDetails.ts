@@ -2,6 +2,7 @@ import type { TransportCard } from '../components/cards/TransportProductCard';
 import type { DetailInfoData } from '../components/detail/DetailInfoPanel';
 import type { DetailLocationData } from '../components/detail/DetailLocationSection';
 import { loadGeneratedStayPlaceDetails } from './generated/detailLoaders';
+import { buildStreetViewImages } from './streetView';
 
 export type StayPlaceDetail = DetailInfoData &
     DetailLocationData & {
@@ -374,6 +375,11 @@ function createStayDetail(input: StayInput): [string, StayPlaceDetail] {
         access: input.access,
         description: input.description,
         images: getStayDetailImages(input),
+        streetViewImages: buildStreetViewImages(`${input.name} ${input.address}`, [
+            `${getStayImageBase(input)}.png`,
+            fallbackMapImages.main,
+            fallbackMapImages.sub1,
+        ]),
         mapImages: fallbackMapImages,
         nearbyGroups: [
             {

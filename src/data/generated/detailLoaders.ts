@@ -4,6 +4,7 @@ import type { StayPlaceDetail } from '../stayPlaceDetails';
 import type { TourPlaceDetail } from '../tourPlaceDetails';
 import { foodPlaceCardsByCategory } from '../foodPlaces';
 import { tourPlaceCardsByCategory } from '../tourPlaces';
+import { buildStreetViewImages } from '../streetView';
 
 const foodDetailModules = import.meta.glob<{
     generatedFoodPlaceDetailsById: Record<string, FoodPlaceDetail>;
@@ -22,7 +23,10 @@ type DetailImageRecord = {
     slug: string;
     category: string;
     city: string;
+    name: string;
+    address: string;
     images: string[];
+    streetViewImages?: string[];
     mapImages: {
         main: string;
         sub1: string;
@@ -111,6 +115,17 @@ function normalizeTokyoDetailImages(
     };
 }
 
+function injectStreetViewImages(detail: DetailImageRecord): DetailImageRecord {
+    return {
+        ...detail,
+        streetViewImages: buildStreetViewImages(`${detail.name} ${detail.address}`, [
+            detail.images[0],
+            detail.mapImages.main,
+            detail.mapImages.sub1,
+        ]),
+    };
+}
+
 const foodCardLookup = buildCardLookup(foodPlaceCardsByCategory);
 const tourCardLookup = buildCardLookup(tourPlaceCardsByCategory);
 
@@ -126,7 +141,9 @@ export async function loadGeneratedFoodPlaceDetails(city: string) {
     return Object.fromEntries(
         Object.entries(details).map(([id, detail]) => [
             id,
-            normalizeTokyoDetailImages(detail as DetailImageRecord, foodCardLookup) as FoodPlaceDetail,
+            injectStreetViewImages(
+                normalizeTokyoDetailImages(detail as DetailImageRecord, foodCardLookup)
+            ) as FoodPlaceDetail,
         ])
     );
 }
@@ -143,7 +160,9 @@ export async function loadGeneratedTourPlaceDetails(city: string) {
     return Object.fromEntries(
         Object.entries(details).map(([id, detail]) => [
             id,
-            normalizeTokyoDetailImages(detail as DetailImageRecord, tourCardLookup) as TourPlaceDetail,
+            injectStreetViewImages(
+                normalizeTokyoDetailImages(detail as DetailImageRecord, tourCardLookup)
+            ) as TourPlaceDetail,
         ])
     );
 }
@@ -151,5 +170,12 @@ export async function loadGeneratedTourPlaceDetails(city: string) {
 export async function loadGeneratedStayPlaceDetails(city: string) {
     const loader = stayDetailModules[`./details/${city}/stayPlaceDetails.ts`];
     const module = loader ? await loader() : undefined;
-    return module?.generatedStayPlaceDetailsById ?? {};
+    const details = module?.generatedStayPlaceDetailsById ?? {};
+
+    return Object.fromEntries(
+        Object.entries(details).map(([id, detail]) => [
+            id,
+            injectStreetViewImages(detail as DetailImageRecord) as StayPlaceDetail,
+        ])
+    );
 }

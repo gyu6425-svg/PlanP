@@ -1,4 +1,5 @@
 import { loadGeneratedFoodPlaceDetails } from './generated/detailLoaders';
+import { buildStreetViewImages } from './streetView';
 
 export type FoodPlaceDetail = {
     id: string;
@@ -55,19 +56,6 @@ const fallbackMapImages = {
     sub1: `${ginzaHachigoImageBase}/foodDetail_ginzahachigo_map_sub1.png`,
     sub2: `${ginzaHachigoImageBase}/foodDetail_ginzahachigo_map_sub2.png`,
 };
-
-const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
-
-function buildStreetViewImages(lat: number, lng: number, fallbackImages: string[]) {
-    if (!googleMapsApiKey) {
-        return fallbackImages;
-    }
-
-    const base = 'https://maps.googleapis.com/maps/api/streetview';
-    const common = `size=640x340&location=${lat},${lng}&fov=80&pitch=0&key=${googleMapsApiKey}`;
-
-    return [`${base}?${common}&heading=0`, `${base}?${common}&heading=90`];
-}
 
 const imageByCategory: Record<string, string> = {
     스시: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1200&q=80',
@@ -410,10 +398,11 @@ function createFoodDetail(input: FoodDetailInput): [string, FoodPlaceDetail] {
         access: input.access ?? '카운터석, 테이블석',
         description: input.description,
         images,
-        streetViewImages:
-            input.slug === 'ichiran-shibuya'
-                ? buildStreetViewImages(35.6591, 139.7006, images)
-                : undefined,
+        streetViewImages: buildStreetViewImages(`${input.name} ${input.address}`, [
+            images[0],
+            fallbackMapImages.main,
+            fallbackMapImages.sub1,
+        ]),
         mapImages: fallbackMapImages,
         nearbyGroups: [
             {

@@ -2,6 +2,7 @@ import type { TransportCard } from '../components/cards/TransportProductCard';
 import type { DetailInfoData } from '../components/detail/DetailInfoPanel';
 import type { DetailLocationData } from '../components/detail/DetailLocationSection';
 import { loadGeneratedTourPlaceDetails } from './generated/detailLoaders';
+import { buildStreetViewImages as buildLocationStreetViewImages } from './streetView';
 
 export type TourPlaceDetail = DetailInfoData &
     DetailLocationData & {
@@ -28,22 +29,6 @@ const fallbackTourImages = {
     mapSub1: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_sub1.png`,
     mapSub2: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_sub2.png`,
 };
-
-const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
-
-function buildStreetViewImages(lat: number, lng: number, fallbackImages: string[]) {
-    if (!googleMapsApiKey) {
-        return fallbackImages;
-    }
-
-    const base = 'https://maps.googleapis.com/maps/api/streetview';
-    const common = `size=640x340&location=${lat},${lng}&fov=80&pitch=0&key=${googleMapsApiKey}`;
-
-    return [
-        `${base}?${common}&heading=0`,
-        `${base}?${common}&heading=90`,
-    ];
-}
 
 const tourCategoryFolderByCategory: Record<string, string> = {
     SNS명소: 'sns',
@@ -201,11 +186,6 @@ const baseTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         description:
             '시부야 중심에서 도쿄 도심을 넓게 내려다볼 수 있는 전망 명소로, 일몰과 야경 사진을 남기기 좋은 스팟',
         images: getTourDetailImages('SNS명소', 'shibuya-sky'),
-        streetViewImages: buildStreetViewImages(35.6586, 139.7017, [
-            fallbackTourImages.mapMain,
-            fallbackTourImages.mapSub1,
-            fallbackTourImages.mapSub2,
-        ]),
         mapImages: {
             main: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_main.png`,
             sub1: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_sub1.png`,
@@ -815,6 +795,20 @@ const baseTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
     },
 };
 
+const normalizedBaseTourPlaceDetailsById: Record<string, TourPlaceDetail> = Object.fromEntries(
+    Object.entries(baseTourPlaceDetailsById).map(([id, detail]) => [
+        id,
+        {
+            ...detail,
+            streetViewImages: buildLocationStreetViewImages(`${detail.name} ${detail.address}`, [
+                detail.images[0],
+                detail.mapImages.main,
+                detail.mapImages.sub1,
+            ]),
+        },
+    ])
+) as Record<string, TourPlaceDetail>;
+
 function getGeneratedTourDetailKey(id: string) {
     return id
         .replace('tokyo/sns/', 'tokyo/SNS명소/')
@@ -823,7 +817,7 @@ function getGeneratedTourDetailKey(id: string) {
 }
 
 export async function getTourPlaceDetailById(id: string): Promise<TourPlaceDetail | undefined> {
-    const baseDetail = baseTourPlaceDetailsById[id];
+    const baseDetail = normalizedBaseTourPlaceDetailsById[id];
 
     if (baseDetail) {
         return baseDetail;
