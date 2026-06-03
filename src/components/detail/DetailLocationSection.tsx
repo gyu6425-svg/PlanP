@@ -1,9 +1,11 @@
 import { Camera, ShoppingBag, Store, TrainFront } from 'lucide-react';
+import { SmartImage } from './SmartImage';
 
 export type DetailLocationData = {
     name: string;
     address: string;
     mapUrl: string;
+    images?: string[];
     mapImages: {
         main: string;
         sub1: string;
@@ -24,6 +26,16 @@ export type DetailLocationData = {
 export function DetailLocationSection({ detail }: { detail: DetailLocationData }) {
     const mapQuery = `${detail.name} ${detail.address}`;
     const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed`;
+    const mapSideImageCandidates = [
+        ...(detail.images ?? []),
+        detail.mapImages.sub1,
+        detail.mapImages.sub2,
+    ].filter((src): src is string => Boolean(src));
+    const distinctMapSideImages = Array.from(new Set(mapSideImageCandidates));
+    const mapSideImages = [
+        distinctMapSideImages[0] ?? detail.mapImages.sub1,
+        distinctMapSideImages[1] ?? distinctMapSideImages[0] ?? detail.mapImages.sub2,
+    ];
 
     return (
         <section className="mx-auto mt-[280px] h-[960px] w-[1920px] rounded-[100px] bg-white">
@@ -48,17 +60,21 @@ export function DetailLocationSection({ detail }: { detail: DetailLocationData }
                             className="h-[636px] w-[677px] shrink-0 rounded-l-[50px] border-0"
                         />
                         <div className="flex shrink-0 flex-col gap-[18px]">
-                            <img
-                                src={detail.mapImages.sub1}
+                            <SmartImage
+                                sources={mapSideImages}
                                 alt=""
-                                loading="lazy"
+                                loading="eager"
                                 decoding="async"
                                 className="h-[309px] w-[382px] shrink-0 rounded-tr-[50px] object-cover"
                             />
-                            <img
-                                src={detail.mapImages.sub2}
+                            <SmartImage
+                                sources={[
+                                    distinctMapSideImages[1] ?? detail.mapImages.sub2,
+                                    distinctMapSideImages[0] ?? detail.mapImages.sub1,
+                                    ...(detail.images ?? []),
+                                ]}
                                 alt=""
-                                loading="lazy"
+                                loading="eager"
                                 decoding="async"
                                 className="h-[309px] w-[382px] shrink-0 rounded-br-[50px] object-cover"
                             />

@@ -15,7 +15,12 @@ export type StayPlaceDetail = DetailInfoData &
         bookingCards: TransportCard[];
     };
 
-const granbellImageBase = '/images/stay/hotel/granbell';
+const granbellImageBase = '/images/stay/tokyo/hotel/granbell/granbell';
+const remImageBase = '/images/stay/tokyo/hotel/rem/rem';
+const princeImageBase = '/images/stay/tokyo/hotel/prince/prince';
+const domineImageBase = '/images/stay/tokyo/hotel/domine/domine';
+const kamogawaImageBase = '/images/stay/tokyo/ryokan/kamogawa_asakusa/kamogawa_asakusa';
+const hoshinoyaImageBase = '/images/stay/tokyo/ryokan/hoshinoya_tokyo/hoshinoya_tokyo';
 
 const fallbackMapImages = {
     main: `${granbellImageBase}/stayDetail_granbell_map_main.png`,
@@ -23,47 +28,74 @@ const fallbackMapImages = {
     sub2: `${granbellImageBase}/stayDetail_granbell_map_sub2.png`,
 };
 
-const stayCategoryFolderByCategory: Record<string, string> = {
-    호텔: 'hotel',
-    호스텔: 'hostel',
-    료칸: 'ryokan',
-    캡슐: 'capsule',
-    민슈쿠: 'minshuku',
-};
-
-const stayImageFolderBySlug: Record<string, string> = {
-    rem: 'rem',
-    prince: 'prince',
-    granbell: 'granbell',
-    domine: 'domine',
-    'nui-hostel': 'nui_hostel',
-    'unplan-shinjuku': 'unplan_shinjuku',
-    'citan-hostel': 'citan_hostel',
-    'khaosan-samurai': 'khaosan_samurai',
-    'hoshinoya-tokyo': 'hoshinoya_tokyo',
-    'kamogawa-asakusa': 'kamogawa_asakusa',
-    'sawanoya-ryokan': 'sawanoya_ryokan',
-    'ryokan-shigetsu': 'ryokan_shigetsu',
-    'nine-hours-akasaka': 'nine_hours_akasaka',
-    'first-cabin-akihabara': 'first_cabin_akihabara',
-    'anshin-oyado-shinjuku': 'anshin_oyado_shinjuku',
-    'rembrandt-cabin-shinjuku': 'rembrandt_cabin_shinjuku',
-    'taito-ryokan': 'taito_ryokan',
-    'andon-ryokan': 'andon_ryokan',
-    homeikan: 'homeikan',
-    'family-inn-saiko': 'family_inn_saiko',
+const stayImageBaseBySlug: Record<string, string> = {
+    rem: remImageBase,
+    prince: princeImageBase,
+    granbell: granbellImageBase,
+    domine: domineImageBase,
+    'nui-hostel': granbellImageBase,
+    'unplan-shinjuku': granbellImageBase,
+    'citan-hostel': granbellImageBase,
+    'khaosan-samurai': kamogawaImageBase,
+    'hoshinoya-tokyo': hoshinoyaImageBase,
+    'kamogawa-asakusa': kamogawaImageBase,
+    'sawanoya-ryokan': kamogawaImageBase,
+    'ryokan-shigetsu': kamogawaImageBase,
+    'nine-hours-akasaka': granbellImageBase,
+    'first-cabin-akihabara': '/images/stay/tokyo/capsule/first_cabin_akihabara/first_cabin_akihabara',
+    'anshin-oyado-shinjuku': granbellImageBase,
+    'rembrandt-cabin-shinjuku': granbellImageBase,
+    'taito-ryokan': kamogawaImageBase,
+    'andon-ryokan': kamogawaImageBase,
+    homeikan: kamogawaImageBase,
+    'family-inn-saiko': granbellImageBase,
 };
 
 function getStayImageBase(input: Pick<StayInput, 'category' | 'slug'>): string {
-    const categoryFolder = stayCategoryFolderByCategory[input.category];
-    const placeFolder = stayImageFolderBySlug[input.slug];
-    return `/images/stay/tokyo/${categoryFolder}/${placeFolder}/${placeFolder}`;
+    return stayImageBaseBySlug[input.slug] ?? granbellImageBase;
 }
 
 function getStayDetailImages(input: Pick<StayInput, 'category' | 'slug'>): string[] {
     const imageBase = getStayImageBase(input);
-    const extraImages = Array.from({ length: 49 }, (_, index) => `${imageBase}_${index + 2}.png`);
-    return [`${imageBase}.png`, ...extraImages];
+
+    if (input.slug === 'granbell') {
+        return [
+            `${imageBase}.png`,
+            `${imageBase}_2.png`,
+            `${imageBase}_3.png`,
+            `${imageBase}_4.png`,
+            `${imageBase}_5.png`,
+            `${imageBase}_6.png`,
+            `${imageBase}_7.png`,
+            `${imageBase}_8.png`,
+            `${imageBase}_9.png`,
+        ];
+    }
+
+    if (input.slug === 'hoshinoya-tokyo') {
+        return [
+            `${imageBase}.png`,
+            '/images/stay/tokyo/ryokan/hoshinoya_tokyo/다운로드.jpeg',
+            '/images/stay/tokyo/ryokan/hoshinoya_tokyo/imgi_35_ANxoTn2BWANXRKDSKO1NIM56Phr6okEMnMDmUsc4186cQfNusKUL_peb9fQsia2CKT2iGCs9HPlD54UuAr-h5UaxrmjowtXQWJ89lM1Zmk0m1FyaEWF7ahMK3ysNtmGAWOrx3gxYi-KebmOCxfot=w600-h450-p-k-no.jpg',
+            '/images/stay/tokyo/ryokan/hoshinoya_tokyo/imgi_36_ANxoTn2L523yl8WxnjYNy6Cb1EApsHhVSJ7PtXW91naYuf0eFubrWBGsGZrHwNj5AMapltwPXbuNPKnLixLc3rxv6n0VxSn-4bRXPULkDvmNdZQxXfRkJLnMvC49TwYNugpeYgJ0ls5jIUFpeD9c=w600-h450-p-k-no.jpg',
+            '/images/stay/tokyo/ryokan/hoshinoya_tokyo/imgi_41_ANxoTn04-MsnyQcof_vGiIzitmP1uHIORFvXreq1Wp5QQdYwYOUrSWOLeoICYZUucKEv9_qt3I90sm-GfnPM_m_xFXUW0z5LtnWm9P_myHrA15yoPfUW663qvD3GJNHCANo9hqVEk89qoA=w600-h450-p-k-no.jpg',
+            '/images/stay/tokyo/ryokan/hoshinoya_tokyo/imgi_42_ANxoTn0mhCT3WpoO95rhd_ihSVfmwP7UR617ZcD4vCY4o0N85do6vVIchHJSdC0I9M8Txk0UroIwQlXjU-Dq0BJgfwZ20v4_LyQqCFSZg4rGLL4LhKczG9-d_Dh9ZIUx0I7y7X5bK-41=w600-h450-p-k-no.jpg',
+        ];
+    }
+
+    if (input.slug === 'kamogawa-asakusa') {
+        return [
+            `${imageBase}.png`,
+            '/images/stay/tokyo/ryokan/kamogawa_asakusa/imgi_18_APNQkAGcaHMsw_bbA8nx_HErcZEk0Ppfsgpb_olfxta40Q84tp6IzkfyjUibljkgu_QjqIO6Cjgj3Dnz1YcpSYuElSMqandSWntWAtiq2vcJl7P8Ojrt54AzdJzCQj8kaM8jf6UecN_B=w203-h360-k-no.jpg',
+            '/images/stay/tokyo/ryokan/kamogawa_asakusa/imgi_19_AF1QipMxIj6HEE8QPCnMnE5hEkGpz1zEDdENnIHLXfOw=w203-h152-k-no.jpg',
+            '/images/stay/tokyo/ryokan/kamogawa_asakusa/imgi_20_AF1QipNTahazggEYxvWNtZmozzjx-qOOTopQfIZ1uOu2=w203-h135-k-no.jpg',
+            '/images/stay/tokyo/ryokan/kamogawa_asakusa/imgi_27_AF1QipMxIj6HEE8QPCnMnE5hEkGpz1zEDdENnIHLXfOw=s771-k-no.jpg',
+            '/images/stay/tokyo/ryokan/kamogawa_asakusa/imgi_31_APNQkAHwj_KVRqVstY8cXQ6Bpxo6IgwDKbSvOp-Y8fjEvVqDoBGZ8J3JjIlq2TBlYbRqOTJe_d6afBPZ8DZ3BOD0F2Pnf2D169_tRLMXtsZfl33wXCOyWX8tP7KWdMzMfnZRyttEnsqB=s773-k-no.jpg',
+            '/images/stay/tokyo/ryokan/kamogawa_asakusa/imgi_33_AF1QipPTz8Kjiov_px6dAEteqp56VyiBWMrlHHf5LILC=s870-k-no.jpg',
+        ];
+    }
+
+    return [`${imageBase}.png`];
 }
 
 const hours = [
@@ -638,13 +670,13 @@ const baseStayPlaceDetailsById: Record<string, StayPlaceDetail> = Object.fromEnt
 ) as Record<string, StayPlaceDetail>;
 
 export async function getStayPlaceDetailById(id: string): Promise<StayPlaceDetail | undefined> {
-    const baseDetail = baseStayPlaceDetailsById[id];
-
-    if (baseDetail) {
-        return baseDetail;
-    }
-
     const [city] = id.split('/');
     const generatedDetails = await loadGeneratedStayPlaceDetails(city);
-    return generatedDetails[id];
+    const generatedDetail = generatedDetails[id];
+
+    if (generatedDetail) {
+        return generatedDetail;
+    }
+
+    return baseStayPlaceDetailsById[id];
 }

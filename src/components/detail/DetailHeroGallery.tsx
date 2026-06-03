@@ -1,5 +1,5 @@
 import { Images } from 'lucide-react';
-import { useLoadableImages } from './useLoadableImages';
+import { SmartImage } from './SmartImage';
 
 export function DetailHeroGallery({
     title,
@@ -10,18 +10,17 @@ export function DetailHeroGallery({
     images: string[];
     onOpenGallery: () => void;
 }) {
-    const loadableImages = useLoadableImages(images, 5);
-    const mainImage = loadableImages[0];
-    const subImages = loadableImages.slice(1, 5);
-    const hiddenImageCount = Math.max(loadableImages.length - 5, 0);
+    const uniqueImages = Array.from(new Set(images));
+    const subImages = uniqueImages.slice(1, 5);
+    const hiddenImageCount = Math.max(uniqueImages.length - 5, 0);
 
     return (
         <>
             <h1 className="text-[48px] font-[700] leading-none text-black">{title}</h1>
 
             <div className="mt-[42px] flex w-[1520px] gap-[8px]">
-                <img
-                    src={mainImage}
+                <SmartImage
+                    sources={uniqueImages}
                     alt=""
                     loading="eager"
                     decoding="async"
@@ -44,10 +43,10 @@ export function DetailHeroGallery({
                                     isBottomRight ? 'rounded-br-[50px]' : '',
                                 ].join(' ')}
                             >
-                                <img
-                                    src={image}
+                                <SmartImage
+                                    sources={[image, ...uniqueImages]}
                                     alt=""
-                                    loading="lazy"
+                                    loading="eager"
                                     decoding="async"
                                     className="h-full w-full object-cover"
                                 />

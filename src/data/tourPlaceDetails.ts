@@ -71,9 +71,89 @@ function getTourDetailImages(category: string, slug: string): string[] {
         ];
     }
 
+    if (slug === 'shibuya-sky') {
+        const imageBase = '/images/tour/tokyo/sns/shibuya_sky/shibuya_sky';
+
+        return [
+            `${imageBase}.png`,
+            `${imageBase}_2.png`,
+            `${imageBase}_3.png`,
+            `${imageBase}_4.png`,
+            `${imageBase}_5.png`,
+            `${imageBase}_6.png`,
+            `${imageBase}_7.png`,
+            `${imageBase}_8.png`,
+            `${imageBase}_9.png`,
+        ];
+    }
+
+    if (slug === 'omotesando-hills') {
+        const imageBase = '/images/tour/tokyo/sns/omotesando_hills';
+
+        return [
+            `${imageBase}/omotesando_hills.png`,
+            `${imageBase}/images.jpeg`,
+            `${imageBase}/images (1).jpeg`,
+            `${imageBase}/images (2).jpeg`,
+            `${imageBase}/images (3).jpeg`,
+            `${imageBase}/images (4).jpeg`,
+        ];
+    }
+
+    if (slug === 'shibuya-scramble') {
+        const imageBase = '/images/tour/tokyo/sns/shibuya_scramble';
+
+        return [
+            `${imageBase}/shibuya_scramble.png`,
+            `${imageBase}/images.jpeg`,
+            `${imageBase}/images (1).jpeg`,
+            `${imageBase}/images (2).jpeg`,
+            `${imageBase}/images (3).jpeg`,
+            `${imageBase}/images (4).jpeg`,
+            `${imageBase}/images (5).jpeg`,
+        ];
+    }
+
+    if (slug === 'meiji-jingu') {
+        const imageBase = '/images/tour/tokyo/history/meiji_jingu';
+
+        return [
+            `${imageBase}/meiji_jingu.png`,
+            `${imageBase}/images.jpeg`,
+            `${imageBase}/images (1).jpeg`,
+            `${imageBase}/images (2).jpeg`,
+            `${imageBase}/images (3).jpeg`,
+            `${imageBase}/images (4).jpeg`,
+            `${imageBase}/images (5).jpeg`,
+            `${imageBase}/images (6).jpeg`,
+        ];
+    }
+
+    if (slug === 'sensoji') {
+        const imageBase = '/images/tour/tokyo/history/sensoji';
+
+        return [
+            `${imageBase}/sensoji.png`,
+            `${imageBase}/images.png`,
+            `${imageBase}/images (2).png`,
+        ];
+    }
+
+    if (slug === 'imperial-palace-east-gardens') {
+        const imageBase = '/images/tour/tokyo/history/imperial_palace_east_gardens';
+
+        return [
+            `${imageBase}/imperial_palace_east_gardens.png`,
+            `${imageBase}/images.jpeg`,
+            `${imageBase}/images (1).jpeg`,
+            `${imageBase}/images (2).jpeg`,
+            `${imageBase}/images (3).jpeg`,
+            `${imageBase}/images (4).jpeg`,
+        ];
+    }
+
     const imageBase = getTourImageBase(category, slug);
-    const extraImages = Array.from({ length: 49 }, (_, index) => `${imageBase}_${index + 2}.png`);
-    return [`${imageBase}.png`, ...extraImages];
+    return [`${imageBase}.png`];
 }
 
 function createFallbackMapImages() {

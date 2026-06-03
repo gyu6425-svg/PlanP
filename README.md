@@ -120,11 +120,11 @@ VITE_API_BASE_URL=http://localhost:4000
 
 ```txt
 PORT=4000
-HOST=127.0.0.1
+HOST=0.0.0.0
 CLIENT_ORIGIN=http://localhost:5173
 JWT_SECRET=replace-this-with-a-long-random-secret
 JWT_EXPIRES_IN=1d
-DB_PATH=./planp.db
+DB_PATH=./data/planp.db
 ```
 
 실제 API 키는 README나 Git 저장소에 포함하지 않습니다.
@@ -155,6 +155,8 @@ npm --prefix server run seed:admin
 ```bash
 ADMIN_LOGIN_ID=admin01 ADMIN_PASSWORD=admin1234 npm --prefix server run seed:admin
 ```
+
+Render 무료 플랜처럼 shell 접근이 어려운 경우에는 `SEED_ADMIN_ON_STARTUP=true`를 잠깐 켠 뒤 한 번 재배포해서 관리자 계정을 갱신할 수 있습니다. 갱신 후에는 값을 `false`로 돌리고 다시 배포하세요.
 
 프론트엔드 실행:
 
@@ -445,11 +447,13 @@ Database: 초기에는 SQLite, 운영 확장 시 PostgreSQL 전환
 배포 시 필요한 작업:
 
 - 프론트 배포 환경변수 `VITE_API_BASE_URL`을 백엔드 URL로 설정
-- 백엔드 환경변수 `JWT_SECRET`, `CLIENT_ORIGIN`, `DB_PATH` 설정
+- 백엔드 환경변수 `JWT_SECRET`, `CLIENT_ORIGIN`, `DB_PATH`, `HOST` 설정
 - 백엔드 CORS origin을 실제 프론트 도메인으로 제한
 - 관리자 계정은 배포 후 `seed:admin` 스크립트로 생성
 - 운영 DB는 SQLite 파일 영속성이 보장되는 환경이 아니면 PostgreSQL로 전환
 - 실제 API 키는 Vercel/백엔드 플랫폼 환경변수에만 저장
+
+Render에서 SQLite를 유지한다면 `DB_PATH`를 persistent disk가 마운트된 경로로 맞추세요. 예를 들면 `/opt/render/project/src/data/planp.db`처럼 앱 내부 경로를 쓰는 편이 안전합니다.
 
 ## Current Limitations
 

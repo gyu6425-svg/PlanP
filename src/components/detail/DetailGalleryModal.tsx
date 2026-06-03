@@ -1,5 +1,5 @@
 import { X } from 'lucide-react';
-import { useLoadableImages } from './useLoadableImages';
+import { SmartImage } from './SmartImage';
 
 export function DetailGalleryModal({
     images,
@@ -8,8 +8,6 @@ export function DetailGalleryModal({
     images: string[];
     onClose: () => void;
 }) {
-    const loadableImages = useLoadableImages(images);
-
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/55 px-[40px] py-[40px]">
             <div className="max-h-full w-[1180px] overflow-y-auto rounded-[32px] bg-white p-[32px]">
@@ -26,10 +24,10 @@ export function DetailGalleryModal({
                 </div>
 
                 <div className="mt-[28px] grid grid-cols-3 gap-[14px]">
-                    {loadableImages.map((image, index) => (
-                        <img
+                    {images.map((image, index) => (
+                        <SmartImage
                             key={`${image}-${index}`}
-                            src={image}
+                            sources={[image, ...images]}
                             alt=""
                             loading={index < 6 ? 'eager' : 'lazy'}
                             decoding="async"

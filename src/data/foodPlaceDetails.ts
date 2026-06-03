@@ -137,8 +137,14 @@ function getFoodDetailImages(
         return [imageByCategory[input.category], ...fallbackImages];
     }
 
-    const extraImages = Array.from({ length: 49 }, (_, index) => `${imageBase}_${index + 2}.png`);
-    return [`${imageBase}.png`, ...extraImages];
+    return [
+        `${imageBase}.png`,
+        `${imageBase}_2.png`,
+        `${imageBase}_3.png`,
+        `${imageBase}_4.png`,
+        `${imageBase}_5.png`,
+        `${imageBase}_6.png`,
+    ];
 }
 
 const hours = [

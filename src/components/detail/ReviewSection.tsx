@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLoadableImages } from './useLoadableImages';
+import { SmartImage } from './SmartImage';
 
 export type ReviewCardData = {
     id: string;
@@ -61,9 +61,8 @@ export function ReviewSection({
 }
 
 function ReviewCard({ review }: { review: ReviewCardData }) {
-    const loadableImages = useLoadableImages(review.images, 4);
-    const visibleImages = loadableImages.slice(0, 4);
-    const hiddenImageCount = Math.max(loadableImages.length - 4, 0);
+    const visibleImages = review.images.slice(0, 4);
+    const hiddenImageCount = Math.max(review.images.length - 4, 0);
 
     return (
         <article className="h-[400px] w-[750px] rounded-[48px] bg-white px-[44px] pb-[30px] pt-[42px]">
@@ -88,10 +87,10 @@ function ReviewCard({ review }: { review: ReviewCardData }) {
                                 key={`${review.id}-${image}`}
                                 className="relative size-[76px] overflow-hidden rounded-[12px]"
                             >
-                                <img
-                                    src={image}
+                                <SmartImage
+                                    sources={[image, ...visibleImages]}
                                     alt=""
-                                    loading="lazy"
+                                    loading="eager"
                                     decoding="async"
                                     className="h-full w-full object-cover"
                                 />
