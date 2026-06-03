@@ -29,6 +29,22 @@ const fallbackTourImages = {
     mapSub2: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_sub2.png`,
 };
 
+const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+
+function buildStreetViewImages(lat: number, lng: number, fallbackImages: string[]) {
+    if (!googleMapsApiKey) {
+        return fallbackImages;
+    }
+
+    const base = 'https://maps.googleapis.com/maps/api/streetview';
+    const common = `size=640x340&location=${lat},${lng}&fov=80&pitch=0&key=${googleMapsApiKey}`;
+
+    return [
+        `${base}?${common}&heading=0`,
+        `${base}?${common}&heading=90`,
+    ];
+}
+
 const tourCategoryFolderByCategory: Record<string, string> = {
     SNS명소: 'sns',
     역사: 'history',
@@ -185,6 +201,11 @@ const baseTourPlaceDetailsById: Record<string, TourPlaceDetail> = {
         description:
             '시부야 중심에서 도쿄 도심을 넓게 내려다볼 수 있는 전망 명소로, 일몰과 야경 사진을 남기기 좋은 스팟',
         images: getTourDetailImages('SNS명소', 'shibuya-sky'),
+        streetViewImages: buildStreetViewImages(35.6586, 139.7017, [
+            fallbackTourImages.mapMain,
+            fallbackTourImages.mapSub1,
+            fallbackTourImages.mapSub2,
+        ]),
         mapImages: {
             main: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_main.png`,
             sub1: `${shibuyaSkyImageBase}/tourDetail_sibuyaSky_map_sub1.png`,

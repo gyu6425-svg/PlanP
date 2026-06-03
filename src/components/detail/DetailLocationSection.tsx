@@ -6,6 +6,7 @@ export type DetailLocationData = {
     address: string;
     mapUrl: string;
     images?: string[];
+    streetViewImages?: string[];
     mapImages: {
         main: string;
         sub1: string;
@@ -26,12 +27,13 @@ export type DetailLocationData = {
 export function DetailLocationSection({ detail }: { detail: DetailLocationData }) {
     const mapQuery = `${detail.name} ${detail.address}`;
     const mapEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed`;
-    const mapSideImageCandidates = [
+    const imageCandidates = [
+        ...(detail.streetViewImages ?? []),
         ...(detail.images ?? []),
         detail.mapImages.sub1,
         detail.mapImages.sub2,
     ].filter((src): src is string => Boolean(src));
-    const distinctMapSideImages = Array.from(new Set(mapSideImageCandidates));
+    const distinctMapSideImages = Array.from(new Set(imageCandidates));
     const mapSideImages = [
         distinctMapSideImages[0] ?? detail.mapImages.sub1,
         distinctMapSideImages[1] ?? distinctMapSideImages[0] ?? detail.mapImages.sub2,
