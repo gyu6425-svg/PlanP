@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import { FavoriteListCard } from '../components/favorites/FavoriteListCard';
 import { PageState } from '../components/ui/PageState';
@@ -54,6 +54,16 @@ export default function FavoritesPage() {
         [recentViews, recentViewsNav]
     );
 
+    const handleRecentViewsNavChange = useCallback(
+        (value: string) => setRecentViewsNav(value as (typeof navItems)[number]),
+        []
+    );
+
+    const handleActiveNavChange = useCallback(
+        (value: string) => setActiveNav(value as (typeof navItems)[number]),
+        []
+    );
+
     if (!isAuthenticated) {
         return <Navigate to="/login" replace state={{ from: { pathname: '/favorites' } }} />;
     }
@@ -77,9 +87,7 @@ export default function FavoritesPage() {
 
                     <Tabs
                         value={recentViewsNav}
-                        onValueChange={(value) =>
-                            setRecentViewsNav(value as (typeof navItems)[number])
-                        }
+                        onValueChange={handleRecentViewsNavChange}
                     >
                         <TabsList className="mt-[28px] h-auto rounded-full bg-[#f3f3f3] p-[6px]">
                             {navItems.map((item) => (
@@ -143,7 +151,7 @@ export default function FavoritesPage() {
 
                     <Tabs
                         value={activeNav}
-                        onValueChange={(value) => setActiveNav(value as (typeof navItems)[number])}
+                        onValueChange={handleActiveNavChange}
                     >
                         <TabsList className="mt-[28px] h-auto rounded-full bg-[#f3f3f3] p-[6px]">
                             {navItems.map((item) => (

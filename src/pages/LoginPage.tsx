@@ -2,6 +2,7 @@ import { useCallback, useState, type FormEvent } from 'react';
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
+import { useToast } from '../components/ui/toast';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { loginThunk } from '../store/slices/authSlice';
 
@@ -19,6 +20,7 @@ export default function LoginPage() {
     const navigate = useNavigate();
     const location = useLocation();
     const auth = useAppSelector((state) => state.auth);
+    const { toast } = useToast();
     const loginState = location.state as LocationState | null;
     const [loginId, setLoginId] = useState(
         () => loginState?.loginId ?? localStorage.getItem(REMEMBERED_LOGIN_ID_KEY) ?? ''
@@ -41,12 +43,16 @@ export default function LoginPage() {
 
             try {
                 await dispatch(loginThunk({ loginId: trimmedLoginId, password })).unwrap();
+                toast({
+                    title: '로그인 완료',
+                    description: '여행 정보를 이어서 확인할 수 있습니다.',
+                });
                 navigate(redirectTo, { replace: true });
             } catch {
                 // Error message is rendered from auth.error.
             }
         },
-        [dispatch, loginId, navigate, password, redirectTo, rememberId]
+        [dispatch, loginId, navigate, password, redirectTo, rememberId, toast]
     );
 
     if (auth.accessToken) {

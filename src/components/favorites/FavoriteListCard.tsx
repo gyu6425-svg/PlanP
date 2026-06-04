@@ -1,4 +1,4 @@
-import type { KeyboardEvent } from 'react';
+import { memo, type KeyboardEvent } from 'react';
 import { stayPlaceCardsByCategory } from '../../data/stayPlaces';
 import { tourPlaceCardsByCategory } from '../../data/tourPlaces';
 import { getBookingPolicyDisplay } from '../../lib/favoritePolicy';
@@ -98,7 +98,7 @@ function getFavoriteHref(item: FavoriteItem) {
     return item.href;
 }
 
-export function FavoriteListCard({ item }: { item: FavoriteItem }) {
+function FavoriteListCardBase({ item }: { item: FavoriteItem }) {
     const logo = brandLogoByName[item.brand];
     const media = logo || item.image;
     const payloadCancelLabel =
@@ -195,3 +195,5 @@ export function FavoriteListCard({ item }: { item: FavoriteItem }) {
         </article>
     );
 }
+
+export const FavoriteListCard = memo(FavoriteListCardBase);

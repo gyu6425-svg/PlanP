@@ -2,6 +2,7 @@ import { useCallback, useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
+import { useToast } from '../components/ui/toast';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { signupThunk } from '../store/slices/authSlice';
 
@@ -9,6 +10,7 @@ export default function SignupPage() {
     const dispatch = useAppDispatch();
     const navigate = useNavigate();
     const auth = useAppSelector((state) => state.auth);
+    const { toast } = useToast();
     const [form, setForm] = useState({
         id: '',
         password: '',
@@ -59,12 +61,16 @@ export default function SignupPage() {
                     })
                 ).unwrap();
 
+                toast({
+                    title: '회원가입 완료',
+                    description: '이제 로그인해서 저장 기능을 사용할 수 있습니다.',
+                });
                 navigate('/login', { state: { loginId } });
             } catch {
                 // Error message is rendered from auth.error.
             }
         },
-        [dispatch, form, navigate]
+        [dispatch, form, navigate, toast]
     );
 
     const inputClass =

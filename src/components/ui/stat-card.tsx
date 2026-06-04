@@ -1,3 +1,5 @@
+import { memo } from 'react';
+
 type StatCardProps = {
     eyebrow: string;
     title: string;
@@ -6,7 +8,7 @@ type StatCardProps = {
     variant?: 'compact' | 'favorites';
 };
 
-export function StatCard({ eyebrow, title, meta, className, variant = 'compact' }: StatCardProps) {
+function StatCardBase({ eyebrow, title, meta, className, variant = 'compact' }: StatCardProps) {
     return (
         <article
             className={[
@@ -46,3 +48,5 @@ export function StatCard({ eyebrow, title, meta, className, variant = 'compact' 
         </article>
     );
 }
+
+export const StatCard = memo(StatCardBase);

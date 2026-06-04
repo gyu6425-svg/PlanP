@@ -3,9 +3,25 @@ import { memo, useCallback, useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { routes } from '../../lib/routes';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
-import { logout } from '../../store/slices/authSlice';
 import { clearFavorites, fetchFavoritesThunk } from '../../store/slices/favoritesSlice';
 import { Button } from '../ui/button';
+import {
+    Dialog,
+    DialogClose,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+} from '../ui/dialog';
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+} from '../ui/dropdown-menu';
+import { logout } from '../../store/slices/authSlice';
+import { useToast } from '../ui/toast';
 
 const navItems = [
     { to: '/', label: '홈' },
@@ -37,13 +53,7 @@ function BasketIcon() {
     );
 }
 
-function FavoritesBasketLink({
-    count,
-    animated,
-}: {
-    count: number;
-    animated: boolean;
-}) {
+function FavoritesBasketLink({ count, animated }: { count: number; animated: boolean }) {
     return (
         <Link
             to={routes.favorites()}
@@ -62,6 +72,73 @@ function FavoritesBasketLink({
                 </span>
             ) : null}
         </Link>
+    );
+}
+
+function UserMenu() {
+    const dispatch = useAppDispatch();
+    const { toast } = useToast();
+    const user = useAppSelector((state) => state.auth.user);
+    const [logoutDialogOpen, setLogoutDialogOpen] = useState(false);
+
+    const handleLogout = useCallback(() => {
+        dispatch(logout());
+        dispatch(clearFavorites());
+        setLogoutDialogOpen(false);
+        toast({
+            title: '로그아웃 완료',
+            description: '보관함과 최근 본 항목은 다시 로그인하면 이어서 볼 수 있습니다.',
+        });
+    }, [dispatch, toast]);
+
+    return (
+        <>
+            <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                    <Button
+                        variant="secondary"
+                        size="sm"
+                        className="border-stone-200 bg-white px-[12px] text-stone-800 shadow-sm hover:bg-stone-100"
+                    >
+                        <UserRound size={16} aria-hidden="true" />
+                        <span className="hidden sm:inline">
+                            {user?.name ? `${user.name} 님` : '내 메뉴'}
+                        </span>
+                    </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-[240px]">
+                    <DropdownMenuItem asChild>
+                        <Link to={routes.favorites()}>보관함</Link>
+                    </DropdownMenuItem>
+                    {user?.role === 'admin' ? (
+                        <DropdownMenuItem asChild>
+                            <Link to="/admin">관리자</Link>
+                        </DropdownMenuItem>
+                    ) : null}
+                    <DropdownMenuItem onClick={() => setLogoutDialogOpen(true)}>
+                        로그아웃
+                    </DropdownMenuItem>
+                </DropdownMenuContent>
+            </DropdownMenu>
+
+            <Dialog open={logoutDialogOpen} onOpenChange={setLogoutDialogOpen}>
+                <DialogContent>
+                    <DialogHeader>
+                        <DialogTitle>로그아웃할까요?</DialogTitle>
+                        <DialogDescription>
+                            현재 계정에서 로그아웃하고 보관함 연동을 종료합니다.
+                        </DialogDescription>
+                    </DialogHeader>
+                    <DialogFooter>
+                        <DialogClose onClick={() => setLogoutDialogOpen(false)}>취소</DialogClose>
+                        <Button onClick={handleLogout}>
+                            <LogOut size={16} aria-hidden="true" />
+                            로그아웃
+                        </Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+        </>
     );
 }
 
@@ -124,11 +201,6 @@ export const Header = memo(function Header() {
         return () => window.clearTimeout(timeoutId);
     }, [isFavoriteBadgeBouncing]);
 
-    const handleLogout = useCallback(() => {
-        dispatch(logout());
-        dispatch(clearFavorites());
-    }, [dispatch]);
-
     if (isHeroHeaderPage) {
         return (
             <header className="absolute left-0 right-0 top-0 z-30 flex items-center justify-between px-[16px] pt-[25px]">
@@ -150,13 +222,7 @@ export const Header = memo(function Header() {
                             count={favoriteCount}
                             animated={isFavoriteBadgeBouncing}
                         />
-                        <button
-                            type="button"
-                            onClick={handleLogout}
-                            className="landing-auth-link grid h-[51px] w-[181px] place-items-center rounded-full bg-[#535250]"
-                        >
-                            로그아웃
-                        </button>
+                        <UserMenu />
                     </div>
                 ) : (
                     <Link
@@ -210,10 +276,7 @@ export const Header = memo(function Header() {
                                 count={favoriteCount}
                                 animated={isFavoriteBadgeBouncing}
                             />
-                            <Button variant="ghost" size="sm" onClick={handleLogout}>
-                                <LogOut size={16} aria-hidden="true" />
-                                로그아웃
-                            </Button>
+                            <UserMenu />
                         </>
                     ) : (
                         <Button asChild size="sm">

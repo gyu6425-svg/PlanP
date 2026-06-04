@@ -4,12 +4,22 @@ PlanP는 여행자가 도시별 교통, 맛집, 관광, 숙소 정보를 한 화
 
 ## Tech Stack
 
-- Frontend: React, TypeScript, Vite, Redux Toolkit, React Router
-- Styling: Tailwind CSS, custom CSS
+- Frontend: React, TypeScript, Vite, Redux Toolkit, React Router v6
+- Styling: Tailwind CSS, shadcn/ui 설계 패턴을 참고한 공통 UI 컴포넌트, custom CSS
 - Backend: Node.js, Express
 - Database: SQLite, better-sqlite3
 - Auth: JWT, bcrypt
-- API Client: Axios
+- API Client: Axios, Fetch API
+
+## Frontend Architecture Highlights
+
+1. Redux Toolkit + React Router v6 조합으로 전역 상태 관리와 SPA 아키텍처를 설계했습니다.
+2. react-virtualized의 `InfiniteLoader`, `List`, `AutoSizer`를 사용해 대용량 리스트 무한 로딩을 구현했습니다.
+3. React.lazy와 Suspense를 활용해 라우트 단위 코드 스플리팅을 적용하고, 사용자 체감 로딩 속도를 개선했습니다.
+4. Tailwind CSS 기반으로 반응형 UI를 구축하고, shadcn/ui의 컴포넌트 설계 패턴을 참고해 `Button`, `Input`, `Select`, `Tabs`, `Table`, `Badge`, `Dialog`, `DropdownMenu`, `Toast` 등 공통 UI 컴포넌트를 직접 정리했습니다.
+5. JWT 인증/인가 처리로 토큰 기반 로그인 세션과 관리자 권한을 분리했습니다.
+6. `React.memo`, `useMemo`, `useCallback`을 전체 컴포넌트에 일괄 적용하지 않고, 보관함 리스트, 통계 카드, 관리자 대시보드, 헤더처럼 반복 렌더링이나 전역 상태 변화의 영향을 받는 구간에 선별 적용했습니다.
+7. Axios와 Fetch API를 함께 사용해 REST API를 연동했습니다.
 
 ## Main Features
 

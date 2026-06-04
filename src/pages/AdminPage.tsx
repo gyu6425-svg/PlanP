@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Download } from 'lucide-react';
 import { Badge } from '../components/ui/badge';
 import { PageState } from '../components/ui/PageState';
@@ -135,6 +135,27 @@ export default function AdminPage() {
 
     const topSelectedCity = stats?.selectedCities[0];
 
+    const handleCityCodeChange = useCallback((value: string) => {
+        setFilters((current) => ({
+            ...current,
+            cityCode: value,
+        }));
+    }, []);
+
+    const handleItemTypeChange = useCallback((value: string) => {
+        setFilters((current) => ({
+            ...current,
+            itemType: value as BookingItemType | '',
+        }));
+    }, []);
+
+    const handleRangeChange = useCallback((value: string) => {
+        setFilters((current) => ({
+            ...current,
+            range: value as Required<AdminStatsFilters>['range'],
+        }));
+    }, []);
+
     function exportCsv() {
         if (!stats) {
             return;
@@ -186,12 +207,7 @@ export default function AdminPage() {
                     <div className="flex flex-wrap justify-end gap-[10px]">
                         <Select
                             value={filters.cityCode}
-                            onChange={(event) =>
-                                setFilters((current) => ({
-                                    ...current,
-                                    cityCode: event.target.value,
-                                }))
-                            }
+                            onChange={(event) => handleCityCodeChange(event.target.value)}
                             className="h-[48px] rounded-full px-[18px] text-[16px] font-[700] text-[#333333]"
                         >
                             <option value="">전체 도시</option>
@@ -203,12 +219,7 @@ export default function AdminPage() {
                         </Select>
                         <Select
                             value={filters.itemType}
-                            onChange={(event) =>
-                                setFilters((current) => ({
-                                    ...current,
-                                    itemType: event.target.value as BookingItemType | '',
-                                }))
-                            }
+                            onChange={(event) => handleItemTypeChange(event.target.value)}
                             className="h-[48px] rounded-full px-[18px] text-[16px] font-[700] text-[#333333]"
                         >
                             <option value="">전체 카테고리</option>
@@ -220,12 +231,7 @@ export default function AdminPage() {
                         </Select>
                         <Select
                             value={filters.range}
-                            onChange={(event) =>
-                                setFilters((current) => ({
-                                    ...current,
-                                    range: event.target.value as Required<AdminStatsFilters>['range'],
-                                }))
-                            }
+                            onChange={(event) => handleRangeChange(event.target.value)}
                             className="h-[48px] rounded-full px-[18px] text-[16px] font-[700] text-[#333333]"
                         >
                             <option value="all">전체 기간</option>
